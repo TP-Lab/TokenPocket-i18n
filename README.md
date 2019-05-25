@@ -7,4 +7,4 @@
 
 In order for TokenPocket to support more languages, we are translating it into multiple languages via Github~
 
-TokenPocket welcomes blockchain enthusiasts, developers, etc. to participate in the translation and school team, thx.
+TokenPocket welcomes blockchain enthusiasts, developers, etc. to participate in the translation and proofreading of texts, thx.
