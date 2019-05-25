@@ -1,0 +1,1706 @@
+<resources>
+    <string name="app_name">TokenPocket</string>
+
+    <string name="str_create_wallet">创建钱包</string>
+    <string name="str_tips">提示信息</string>
+    <string name="str_block">钱包体系</string>
+    <string name="str_choose_block">请选择钱包体系</string>
+    <string name="str_wallet_name">钱包名称</string>
+    <string name="str_input_wallet_name">请输入钱包名称</string>
+    <string name="str_input_pwd">请输入密码,至少8位</string>
+    <string name="str_repeat_pwd">确认密码</string>
+    <string name="str_input_repeat_pwd">确认密码</string>
+    <string name="str_tip_cannull">可不填</string>
+
+    <string name="finish">完成</string>
+    <string name="address_list">通讯录</string>
+    <string name="wallet_address">钱包地址</string>
+    <string name="name">名字</string>
+    <string name="phone_number">手机号码</string>
+    <string name="comment">备注</string>
+
+    <string name="save">保存</string>
+    <string name="confirm">确认</string>
+
+    <string name="please_input_name">请填写名字</string>
+    <string name="please_input_phone_num">请填写电话号码</string>
+
+    <string name="wallet_type">钱包底层</string>
+    <string name="select_wallet_type">选择钱包底层</string>
+    <string name="scan_or_paste_wallet_address">扫描或粘贴钱包地址</string>
+    <string name="please_input_wallet_address">请先输入钱包地址</string>
+    <string name="please_select_wallet_type">请先选择钱包底层</string>
+
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+
+    <string name="ask_to_save_contact">联系人还没保存，确定保存吗</string>
+
+    <!-- createwallet-->
+    <string name="select_block_system">请选择体系</string>
+    <string name="pwd_null_tips">密码不能为空</string>
+    <string name="confirmpwd_null_tips">确认密码不能为空</string>
+    <string name="pwd_not_same_tips">两次密码不同，请重新输入</string>
+    <string name="pwd_too_short_tips">密码长度不能小于8位</string>
+    <string name="service_term_confirm_tips">您尚未阅读并同意服务和隐私条款</string>
+    <string name="create_wallet">创建钱包</string>
+    <string name="creating_wallet">正在创建…</string>
+    <string name="service_term_start">我已经仔细阅读并同意</string>
+    <string name="service_term_end">服务及隐私条款</string>
+    <string name="create_wallet_success">创建钱包成功</string>
+    <string name="createwallet_error">创建钱包错误</string>
+    <string name="createwallet_error_illegal">创建钱包错误，填写信息错误</string>
+
+    <!--error-->
+
+    <!-- share-->
+    <string name="share">分享</string>
+    <string name="wechat">微信</string>
+    <string name="wechat_moments">朋友圈</string>
+    <string name="qq">QQ好友</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_cancel">取消分享</string>
+    <string name="please_install_wechat">请先安装微信</string>
+    <string name="open_token_pocket_to_scan">打开 TokenPocket [扫一扫]</string>
+
+    <string name="wrong_phone_format">手机号码格式不正确</string>
+    <string name="wrong_email_format">邮箱格式不正确</string>
+    <string name="wrong_wallet_address">钱包地址格式不正确</string>
+
+    <string name="public_key">公钥</string>
+    <string name="private_key">私钥</string>
+
+    <string name="wrong_eos_public_key">%1$s公钥不正确</string>
+
+    <string name="amount">金额</string>
+    <string name="input_amount">请输入金额</string>
+
+    <string name="select">选择</string>
+
+    <!-- 错误信息-->
+    <string name="pwd_error">密码错误</string>
+    <string name="swt_sequence_error">swt 交易错误：非法的序列</string>
+    <string name="swt_funds_error">没有足够的资金</string>
+    <string name="swtsigned_error">swt 签名错误</string>
+    <string name="transaction_error">交易错误</string>
+
+    <string name="about_us">关于我们</string>
+    <string name="current_version">当前版本: %1$s</string>
+    <string name="use_protocol">使用协议</string>
+    <string name="privacy_clause">隐私条款</string>
+    <string name="the_latest_version">已经是最新版本</string>
+    <string name="data_exception">数据异常</string>
+    <string name="data_exception_">数据异常: %1$s</string>
+    <string name="backup_wallet">备份钱包</string>
+    <string name="backup_private_key_title">立即备份你的私钥</string>
+    <string name="backup_private_key_content">备份钱包:抄写私钥，并保存在安全的地方。千万不要保存在网络上。然后尝试转入转出小额资产开始使用。</string>
+    <string name="backup_memorizing_words_title">立即备份你的助记词</string>
+    <string name="backup_memorizing_words_content">备份钱包:抄写助记词，并保存在安全的地方。千万不要保存在网络上。然后尝试转入转出小额资产开始使用。</string>
+    <string name="switch_account">切换账号</string>
+    <string name="help">帮助</string>
+    <string name="private_key_input_error">私钥输入错误,请确认</string>
+    <string name="memorizing_words_order_error">助记词顺序错误,请确认</string>
+    <string name="confirm_backup_info">确认备份信息</string>
+    <string name="confirm_wallet_private_key">确认你的钱包私钥</string>
+    <string name="confirm_wallet_private_key_content">请按抄写的私钥填入输入框，确认你备份的私钥正确</string>
+    <string name="confirm_wallet_memorizing_words">确认你的钱包助记词</string>
+    <string name="confirm_wallet_memorizing_words_content">请按抄写的顺序点击助记词，确认你的备份助记词正确</string>
+    <string name="import_wallet">导入钱包</string>
+    <string name="manager_wallet">管理钱包</string>
+    <string name="delete_success">删除成功</string>
+    <string name="edit_quotation">编辑行情</string>
+    <string name="old_password_cannot_empty">旧密码不能为空</string>
+    <string name="new_password_cannot_empty">新密码不能为空</string>
+    <string name="new_password_confirm_cannot_empty">新密码确认不能为空</string>
+    <string name="different_password_for_two_input">两次输入的新密码不同，请确认</string>
+    <string name="password_length_cannot_less_than_8">密码长度不能少于8位</string>
+    <string name="new_password_cannot_same_as_old">新旧密码不能一样，请重新填写</string>
+    <string name="wrong_old_password">旧密码错误，请重新输入旧密码</string>
+    <string name="update_password">更改密码</string>
+    <string name="wallet_address_has_copied">钱包地址已经复制到剪贴板</string>
+    <string name="wrong_password">密码错误</string>
+    <string name="wallet_name_cannot_empty">钱包名不能为空</string>
+    <string name="ok">OK</string>
+    <string name="wallet_not_backup">钱包未备份，删除钱包将导致钱包无法找回</string>
+    <string name="continue_to_delete">继续删除</string>
+    <string name="message_center">消息中心</string>
+    <string name="backup_private_key">备份私钥</string>
+    <string name="verify_error_check_private_key">验证错误，请确认私钥输入是否正确</string>
+    <string name="network_disconnect_please_check">网络未连接，请检查</string>
+    <string name="receivables">收款</string>
+    <string name="please_enter_correct_number">请输入正确数目</string>
+    <string name="fail_to_generate_receipt_code_and_check">生成收款码错误, 请检查</string>
+    <string name="fail_to_generate_receipt_code">生成收款码错误</string>
+    <string name="transfer_accounts">转账</string>
+    <string name="submit_transfer_request_success">转账请求提交成功</string>
+    <string name="please_select_token">请选择代币</string>
+    <string name="enter_paste_wallet_address">输入或粘贴钱包地址</string>
+    <string name="receipt_address_cannot_same_transfer_address">收款钱包地址不能和转款钱包地址相同</string>
+    <string name="enter_correct_number_of_out">输入正确的转出数量</string>
+    <string name="the_transfer_being">正在转账…</string>
+    <string name="next_step">下一步</string>
+    <string name="total_assets">总资产</string>
+    <string name="my_assets">我的资产(%1$s)</string>
+    <string name="wallet">钱包</string>
+    <string name="unknown">未知</string>
+    <string name="wrong_params">参数非法</string>
+    <string name="transaction_details">交易详情</string>
+    <string name="transaction_success">转账成功</string>
+    <string name="transaction_packing">打包中</string>
+    <string name="transaction_fail">转账失败</string>
+    <string name="unknown_status">状态未知</string>
+    <string name="receipt_address_copied">收款地址已经复制到剪贴板</string>
+    <string name="query_transaction">交易查询</string>
+    <string name="private_key_copied">私钥已经复制到剪贴板</string>
+    <string name="quotation">行情</string>
+    <string name="helper_center">帮助中心</string>
+    <string name="scan_error">无法识别的二维码,请升级最新版本APP重新扫描</string>
+    <string name="no_wallet_create_import">当前没有%1$s钱包，请创建或导入钱包，再扫描</string>
+    <string name="prompt">提示</string>
+    <string name="input_wallet_name">请输入钱包名称</string>
+    <string name="private_key_cannot_empty">私钥不能为空</string>
+    <string name="wrong_private_key_format">私钥格式错误</string>
+    <string name="not_read_agree_privacy">您尚未阅读并同意服务和隐私条款</string>
+    <string name="wallet_existed">%1$s 钱包已经存在,不需要导入</string>
+    <string name="fail_to_import_wallet">导入钱包失败</string>
+    <string name="receipt_code">收款码</string>
+    <string name="user_server_protocol">用户服务协议</string>
+    <string name="go_to_setting">去设置</string>
+    <string name="need_permissions_">需要以下权限：</string>
+    <string name="sd_card">SD卡</string>
+    <string name="phone_state">手机状态</string>
+    <string name="wallet_safe_backup_wallet">为了您的钱包安全，请备份钱包</string>
+    <string name="backup_immediately">立即备份</string>
+    <string name="scan">扫一扫</string>
+    <string name="scanning">正在扫描…</string>
+    <string name="token_pocket_desc">TokenPocket是一款移动端轻钱包APP，它旨在为普通用户提供一款安全放心，简单好用，功能强大的数字资产钱包应用</string>
+    <string name="detect_new_version">检测新版本</string>
+    <string name="copyright_token_pocket">Copyright 2018 TokenPocket Team</string>
+    <string name="copy_down_memorizing_word">抄下你的钱包助记词</string>
+    <string name="memorizing_word_use_and_copy_down">助记词用于恢复钱包和重置钱包密码，将它准确的抄写在纸上，并存放在只有你知道的安全的地方。</string>
+    <string name="password">钱包密码</string>
+    <string name="repeat_password">重复密码</string>
+    <string name="password_tips">密码提示信息(可不填)</string>
+    <string name="current_password">当前密码</string>
+    <string name="new_password">新密码</string>
+    <string name="repeat_new_password">重复新密码</string>
+    <string name="export_private_key">导出私钥</string>
+    <string name="delete_wallet">删除钱包</string>
+    <string name="backup_memorizing_words">备份助记词</string>
+    <string name="input_wallet_private_key">请输入钱包私钥，验证备份的私钥是否正确</string>
+    <string name="search_token_contract_hint">输入token名字或者合约地址搜索</string>
+    <string name="popular_recommendation">热门推荐</string>
+    <string name="transfer_amount">转账金额</string>
+    <string name="cost_of_miner">矿工费用</string>
+    <string name="slow">慢</string>
+    <string name="fast">快</string>
+    <string name="payer">发款方</string>
+    <string name="payee">收款方</string>
+    <string name="trade_number">交易号</string>
+    <string name="block_number">区块号</string>
+    <string name="trading_time">交易时间</string>
+    <string name="asset">资产</string>
+    <string name="latest_price">最新价</string>
+    <string name="rise_and_fall">涨跌幅</string>
+    <string name="no_current_market">当前暂无行情</string>
+    <string name="add_market_quotation">添加行情</string>
+    <string name="overview_of_assets">资产总览</string>
+    <string name="transaction_record">交易记录</string>
+    <string name="contact">联系人</string>
+    <string name="express_private_key">明文私钥</string>
+    <string name="wallet_name">钱包名字</string>
+    <string name="what_is_private_key">什么是私钥</string>
+    <string name="copy_receipt_address">复制收款地址</string>
+    <string name="memorizing_words_with_space">助记词，用空格分隔</string>
+    <string name="select_format">选择格式</string>
+    <string name="order_detail">订单详情</string>
+    <string name="confirm_payment">确认支付</string>
+    <string name="private_key_warn">安全警告，私钥导出后请妥善保管，不要泄露，一旦泄露，可能导致资产损失</string>
+    <string name="copy_private_key">复制私钥</string>
+    <string name="setting_cost_of_miner">矿工费用设置</string>
+    <string name="recommend">推荐</string>
+    <string name="update_hint">升级提示</string>
+    <string name="new_version_is_detected">检测到新版本,安装包大小为：%1$s, %2$s</string>
+    <string name="upgrade_now">立即升级</string>
+    <string name="empty">空空如也~</string>
+    <string name="non_backup">未备份</string>
+    <string name="add">添加</string>
+    <string name="discover">发现</string>
+    <string name="me">我的</string>
+    <string name="all_wallet">全部钱包</string>
+    <string name="amount_collected">收款金额</string>
+    <string name="set_amount_collected">请设置收款金额</string>
+
+    <string name="version_log">版本日志</string>
+
+    <string name="copy_paste_scan_keystore">直接复制粘贴以太坊钱包 Keystore 文件内容至输入框。或者通过生产 Keystore 内容的二维码，扫描录入</string>
+    <string name="keystore_content_hint">Keystore 文本内容</string>
+    <string name="keystore_password">Keystore 密码</string>
+    <string name="what_is_keystore">什么是 Keystore ?</string>
+    <string name="keystore_cannot_empty">Keystore 不能为空</string>
+    <string name="export_keystore">导出 Keystore</string>
+    <string name="keystore_file">Keystore 文件</string>
+    <string name="qr_code">二维码</string>
+    <string name="only_scan">仅供直接扫描</string>
+    <string name="qr_code_forbid">二维码禁止保存、截图、以及拍照。仅供用户在安全环境下直接扫描来方便地导入钱包</string>
+    <string name="use_in_safe">在安全环境下使用</string>
+    <string name="use_in_safe_content">请在确保四周无人及无摄像头的情况下使用。二维码一旦被他人获取将造成无可挽回的资产损失。</string>
+    <string name="confirm_no_people_camera">已确认周围无人及摄像头</string>
+    <string name="show_qr_code">显示二维码</string>
+    <string name="hide_qr_code">隐藏二维码</string>
+    <string name="offline_save">离线保存</string>
+    <string name="offline_save_content">请复制粘贴 Keystore 文件到安全、离线的地方保存。切勿保存至邮箱、记事本、网盘、聊天工具等，非常危险</string>
+    <string name="not_use_network_tran">请勿使用网络传输</string>
+    <string name="not_use_network_tran_content">请勿通过网络工具传输 Keystore 文件，一旦被黑客获取将造成不可挽回的资产损失。建议离线设备通过扫二维码方式传输</string>
+    <string name="password_safe_storage">密码保险箱保存</string>
+    <string name="password_safe_storage_content">如需在线保存，则建议使用安全等级更高的 1Password 等密码保管软件保存 Keystore.</string>
+    <string name="copy_keystore">复制 Keystore</string>
+    <string name="copied">已复制</string>
+    <string name="no_screenshot">请勿截图</string>
+    <string name="dialog_no_people_camera">请确保四周无人且无任何摄像头！勿用截图或拍照的方式保存 Keystore 文件或对应二维码</string>
+    <string name="i_got_it">我知道了</string>
+    <string name="export_keystore_error">导出keystore错误</string>
+
+    <string name="select_wallet_transaction">选择钱包转账</string>
+    <string name="wallet_number_limit">钱包个数超过上限</string>
+
+
+    <!-- transaction -->
+    <string name="buy">买入</string>
+    <string name="sell">卖出</string>
+    <string name="price">价格</string>
+    <string name="current_delegation">当前委托</string>
+    <string name="filter">筛选</string>
+    <string name="deal">成交</string>
+
+    <string name="high">高</string>
+    <string name="low">低</string>
+    <string name="h_24">24H</string>
+    <string name="cny">≈%1$sCNY</string>
+
+    <string name="one_hour">1小时</string>
+    <string name="one_day">1天</string>
+    <string name="one_week">1周</string>
+    <string name="one_month">1月</string>
+
+    <string name="chart_buy">买</string>
+    <string name="chart_sell">卖</string>
+    <string name="chart_depth">深度</string>
+    <string name="chart_deal">成交</string>
+    <string name="chart_intro">简介</string>
+
+    <string name="deal_time">时间</string>
+    <string name="deal_direction">方向</string>
+    <string name="deal_price">价格(USDT)</string>
+    <string name="deal_amount">数量(ETC)</string>
+    <string name="depth_bid">买盘</string>
+    <string name="depth_selling">卖盘</string>
+
+    <string name="chart_ma5_">MA5: %1$s</string>
+    <string name="chart_ma10_">MA10: %1$s</string>
+    <string name="chart_ma30_">MA30: %1$s</string>
+    <string name="chart_volume_">成交量: %1$s</string>
+
+    <string name="settings">系统设置</string>
+    <string name="gesture_password">应用锁</string>
+    <string name="draw_unlock_pattern">绘制解锁图案</string>
+    <string name="repaint">重新绘制</string>
+    <string name="gesture_wrong">至少连接四个点，请重新输入</string>
+    <string name="draw_unlock_pattern_again">再次绘制解锁图案</string>
+    <string name="draw_unlock_pattern_different">两次绘制的图案不一样，请重新输入</string>
+    <string name="gesture_setting_success">手势登录设置成功</string>
+    <string name="confirm_close_gesture">确认关闭手势登录</string>
+    <string name="gesture_closed">手势登录已关闭</string>
+    <string name="please_input_gesture_password">请输入手势密码</string>
+    <string name="wrong_gesture_input_again">手势密码错误，请重新输入</string>
+    <string name="use_wallet_password_to_login">使用钱包密码登录</string>
+    <string name="use_gesture_password_to_login">使用手势密码登录</string>
+    <string name="please_input_wallet_password">请输入钱包密码</string>
+
+    <string name="click_again_to_exit">再次点击退出</string>
+    <string name="language">语言</string>
+
+    <string name="download_tips">下载提示</string>
+    <string name="download_progress">下载进度：</string>
+    <string name="install">安装</string>
+    <string name="recommended_upgrade">推荐升级</string>
+    <string name="strongly_recommended_upgrade">强烈推荐升级</string>
+    <string name="can_be_upgraded_later">稍后升级</string>
+
+
+    <string name="tx_info">类型</string>
+    <string name="to">转入地址</string>
+    <string name="from">转出地址</string>
+    <string name="gas">矿工费</string>
+    <string name="contract_amount">数量</string>
+
+    <string name="token_info_title">合约地址</string>
+    <string name="copy">复制</string>
+
+    <string name="ask_install_app_permission">安装应用需要打开未知来源权限，请去设置中开启权限</string>
+    <string name="upgrade_content">更新内容：</string>
+
+    <string name="eos_account_name">账号名称</string>
+    <string name="eos_short_account_hint">账号为1~12位字符</string>
+
+    <string name="transfer_to_account">转入账号</string>
+    <string name="payment_account">付款账号</string>
+    <string name="copy_receipt_account">复制收款账号</string>
+
+    <string name="vote">投票</string>
+    <string name="vote_title">%1$s 投票</string>
+    <string name="voted">已投</string>
+    <string name="delegate_symbol">抵押(%1$s)</string>
+    <string name="refunding_symbol">赎回中(%1$s)</string>
+    <string name="delegate">抵押</string>
+    <string name="refund">赎回</string>
+    <string name="input_delegate_amount">请输入抵押金额</string>
+    <string name="input_undelegate_amount">请输入赎回金额</string>
+
+    <string name="delegate_successfully">抵押成功</string>
+    <string name="delegate_failure">抵押失败</string>
+    <string name="undelegate_successfully">赎回成功</string>
+    <string name="undelegate_failure">赎回失败</string>
+
+    <string name="please_select_first">请先选择</string>
+    <string name="vote_30_at_most">最多投票30个</string>
+    <string name="vote_success">投票成功</string>
+    <string name="vote_failed">投票失败，请重试</string>
+    <string name="super_producer">排名</string>
+    <string name="super_proxy">超级代理</string>
+
+    <string name="apply_proxy_success">代理信息提交成功，将在几分钟内生效</string>
+    <string name="apply_proxy_fail">申请代理失败</string>
+    <string name="set_delegated_votes">设置委托票数</string>
+    <string name="proxy_name">名称</string>
+    <string name="input_proxy_name">请输入您的代理名称</string>
+    <string name="proxy_account">账号</string>
+    <string name="input_proxy_official_address">请输入您的官网地址</string>
+    <string name="submit_application">提交申请</string>
+    <string name="more_contact_us">更多内容联系我们</string>
+    <string name="website">网站</string>
+    <string name="un_vote">取消投票</string>
+    <string name="no_available_email_app">没有可用的邮箱应用</string>
+    <string name="un_vote_success">取消投票成功</string>
+    <string name="un_vote_failed">取消投票失败，请重试</string>
+
+    <string name="eos_rule_vote">投票规则</string>
+
+    <string name="search_transaction_tips">操作超时，请前往浏览器查询转账状态</string>
+    <string name="fail_to_get_account">获取账号名称失败</string>
+    <string name="cannot_transfer_to_self">不能给自己转账</string>
+
+    <string name="area_and_weight">区域：%1$s | 权重：%2$s</string>
+    <string name="no_vote_to_delegate">当前没有可投票数，需要先抵押，确定前往抵押吗？</string>
+    <string name="go_to_delegate">前往抵押</string>
+    <string name="eos_main_net_not_enough">主网总量抵押不足15%，还不可以取消抵押</string>
+
+    <string name="pwd_tips">不少于8个字符，建议大小写数字混合</string>
+
+    <string name="create_wallet_tip_zero">· 我已经仔细阅读并同意</string>
+    <string name="create_wallet_tip_one">· 密码用于保护私钥和交易授权，强度非常重要</string>
+    <string name="create_wallet_tip_two">· TokenPocket不存储密码，也无法帮您找回，请务必牢记</string>
+
+    <string name="password_weak">弱</string>
+    <string name="password_normal">一般</string>
+    <string name="password_good">好</string>
+    <string name="password_perfect">很好</string>
+    <string name="mnemmoic_error">助记词错误</string>
+
+    <string name="canceling">取消中</string>
+
+    <string name="cancel_proxy_fail">注销代理失败</string>
+
+    <!-- EOS错误信息 -->
+    <string name="eos_producer_vote_unique_sorted">生产者投票必须是唯一的和排序的</string>
+    <string name="eos_user_must_stake_before_vote">投票前需抵押</string>
+    <string name="eos_proxy_not_allowed_proxy">注册为代理的帐户不允许使用代理</string>
+    <string name="eos_action_has_no_effect">无效的操作</string>
+    <string name="eos_no_balance_found">没有余额</string>
+    <string name="eos_overdrawn_balance">余额不足</string>
+    <string name="eos_to_account_not_exist">目标账号不存在</string>
+    <string name="eos_unable_find_key">无法找到代币</string>
+    <string name="eos_name_not_normalized">账号名称不符合规范</string>
+    <string name="eos_account_already_existed">账号名称已经存在</string>
+    <string name="eos_stake_no_resource">您的账号资源(计算/网络)不足，请前往资源管理页面获取</string>
+    <string name="eos_stake_cpu_no_resource">您的账号计算资源不足，请前往资源管理页面获取</string>
+    <string name="eos_stake_net_no_resource">您的账号网络资源不足，请前往资源管理页面获取</string>
+    <string name="eos_no_ram_to_buy">您的账号内存不足，请前往资源管理页面获取</string>
+    <string name="eos_have_no_signatures">交易声明了权限，但没有签名</string>
+    <string name="unsatisfied_authorization">权限不匹配</string>
+    <string name="transaction_unable_complete_deadline">交易未完成，请检查资源是否充足</string>
+    <!-- EOS错误信息 -->
+
+    <string name="resource_manage">资源管理</string>
+    <string name="buy_ram_symbol">购买内存(%1$s)</string>
+    <string name="sell_ram_symbol">出售内存(%1$s)</string>
+    <string name="input_buy_amount">请输入购买金额</string>
+    <string name="input_sell_amount">请输入出售金额</string>
+    <string name="buy_successfully">已提交，等待区块确认</string>
+    <string name="buy_failure">提交失败</string>
+    <string name="sell_successfully">已提交，等待区块确认</string>
+    <string name="sell_failure">提交失败</string>
+
+    <string name="balance_">余额: %1$s</string>
+    <string name="go_to_for_more_details">前往%1$s查询详细信息</string>
+    <string name="success">操作成功</string>
+
+    <string name="search_name_or_account">请输入名称或账号名</string>
+    <string name="home_delegated_amount">已抵押 %1$s</string>
+    <string name="area_">区域: %1$s</string>
+    <string name="tips">温馨提示</string>
+    <string name="account_name_not_exist">账号名不存在</string>
+    <string name="contact_us">联系我们</string>
+    <string name="eos_transfer_to_address_invalid">账号名无效，请检查</string>
+
+    <string name="create_wallet_retry">创建钱包失败，请重试</string>
+    <string name="retry">重试</string>
+
+    <string name="not_sufficient_funds">余额不足</string>
+    <string name="insufficient_memory">内存不足</string>
+
+    <string name="no_account_name">没有账号名称</string>
+    <string name="already_imported">已导入</string>
+
+    <string name="please_select_wallet">请选择钱包</string>
+    <string name="checking">检查中…</string>
+
+    <string name="eos_creator">创建者</string>
+    <string name="please_select_creator">请选择创建者</string>
+    <string name="owner_public_key_tip">所有者公钥(默认当前公钥)</string>
+    <string name="input_owner_key_scan">请输入所有者公钥或扫一扫</string>
+    <string name="advanced_mode">高级模式</string>
+    <string name="manager_public_key">管理者公钥</string>
+    <string name="input_manager_key_scan">请输入管理者公钥或扫一扫</string>
+    <string name="allocation_ram_bytes">分配内存(字节)</string>
+    <string name="eos_cpu_delegate_symbol">CPU抵押(%1$s)</string>
+    <string name="eos_net_delegate_symbol">网络抵押(%1$s)</string>
+    <string name="simple_mode">简单模式</string>
+    <string name="register_now">立即注册</string>
+    <string name="ram">内存</string>
+    <string name="bytes">字节</string>
+    <string name="please_allocation_ram">请分配内存</string>
+    <string name="please_delegate_cpu">请抵押CPU</string>
+    <string name="please_delegate_net">请抵押NET</string>
+    <string name="create_account">创建账号</string>
+    <string name="owner_key">拥有者公钥</string>
+    <string name="manager_key">管理者公钥</string>
+    <string name="allocation_ram">分配内存</string>
+    <string name="eos_cpu_delegate">CPU抵押</string>
+    <string name="eos_net_delegate">NET抵押</string>
+    <string name="eos_create_account_success">创建账号成功</string>
+    <string name="eos_create_account_fail">创建账号失败</string>
+    <string name="creating">创建中…</string>
+
+    <string name="dapp_relief_title">您所访问的页面将跳至第三方DApp "%1$s"</string>
+    <string name="dapp_relief_content">提示：您所访问的页面将跳转至第三方DApp "%1$s".您在第三方DApp上的使用行为将适用该第三方DApp的"用户协议"和"隐私政策"，有"%1$s"直接并单独向您承担责任.</string>
+
+    <string name="buyram">买入内存</string>
+    <string name="sellram">卖出内存</string>
+    <string name="copy_success">%1$s 已复制</string>
+    <string name="copy_fail">复制 %1$s 失败，请重试</string>
+
+    <string name="album">相册</string>
+    <string name="permission_manage">权限管理</string>
+
+    <string name="what_owner_permission">什么是拥有者(Owner)权限</string>
+    <string name="owner_permission_desc">Owner代表了对账号的所有权，可以管理Active和其它角色</string>
+    <string name="what_active_permission">什么是管理者(Active)权限</string>
+    <string name="active_permission_desc">Active 用于日常使用，比如转账、投票等</string>
+    <string name="what_weight">什么是权重阈值？</string>
+    <string name="weight_desc">权重阈值是对使用该权限的最低权重要求。</string>
+    <string name="input_modify_public_key">请输入变更的公钥</string>
+    <string name="modify_owner_permission">变更拥有者权限</string>
+    <string name="modify_active_permission">变更管理者权限</string>
+    <string name="modify_account_success">变更成功</string>
+    <string name="modify_account">变更账号</string>
+    <string name="modify_authority">变更的权限</string>
+    <string name="new_public_key">新的公钥</string>
+    <string name="eos_owner">拥有者</string>
+    <string name="eos_active">管理者</string>
+
+    <string name="eos_token_info">eos代币</string>
+
+    <string name="proxy_title">代理介绍</string>
+
+    <string name="contact_way">联系方式</string>
+
+    <string name="transfer_precision_limit">%1$s转账只支持%2$s位小数</string>
+
+    <string name="countdown_refund">立即取回</string>
+    <string name="refunding">正在赎回</string>
+    <string name="refund_success">赎回成功</string>
+    <string name="refund_fail">赎回失败</string>
+
+    <string name="notice_title_warning">温馨提示</string>
+    <string name="notice_account_permission_tips">・在进行权限变更时，请一定要确保对方公钥的正确。\n・变更时，先从小的权限开始变更，如Active -> Owner。\n・变更前，请确保资产已做好妥善处理！</string>
+    <string name="not_eos_base_wallet_and_switch">当前钱包不是EOS/ENU钱包，请切换到EOS/ENU钱包</string>
+    <string name="create_eos_token">创建eos代币</string>
+
+    <string name="mine">个人中心</string>
+
+    <string name="more">更多</string>
+
+    <string name="pretty_assistant">靓号助手</string>
+
+    <!-- 这个不要做翻译 -->
+    <string name="memo">Memo</string>
+
+    <string name="eos_key_generate">密钥生成器</string>
+    <string name="go_to_use">去使用</string>
+    <string name="eos_tips_of_use_private_key">温馨提示：使用密钥前请备份私钥</string>
+    <string name="eos_generate_key_success">私钥已生成</string>
+    <string name="eos_generate_key_fail">生成私钥失败</string>
+    <string name="eos_confirm_backup_private_key">确认已备份了私钥？</string>
+
+    <string name="cpu">计算</string>
+    <string name="net">网络</string>
+
+    <string name="to_self">自己</string>
+    <string name="to_others">他人</string>
+    <string name="receiver_label">接收账号</string>
+    <string name="lease">租借</string>
+    <string name="receiver_transfer">过户</string>
+
+    <string name="invalid_private_key">无效的私钥地址，请确认是否抄写正确</string>
+    <string name="resource">资源</string>
+
+
+    <string name="create_eos_account">创建%1$s账号</string>
+    <string name="bidname_title">加价竞拍</string>
+    <string name="do_bidname">出价竞拍</string>
+    <string name="price_higer_tips">出价必须高于当前价格10%</string>
+    <string name="bid_price">竞拍价格</string>
+    <string name="bid_name">竞拍名</string>
+
+
+    <string name="add_contact">新建联系人</string>
+    <string name="remarks_options">备注(可选)</string>
+    <string name="please_input_remarks">请输入备注</string>
+    <string name="add_wallet_address">添加钱包地址</string>
+    <string name="edit_contact">编辑联系人</string>
+    <string name="confirm_delete_">确定删除 %1$s 吗?</string>
+    <string name="saved">已保存</string>
+    <string name="select_address">请选择地址</string>
+    <string name="select_account">请选择账号</string>
+    <string name="contact_has_no_address">该联系人没有钱包地址</string>
+    <string name="contact_has_no_match_address">该联系人没有对应的钱包地址</string>
+
+    <string name="check_private_key">私钥校验</string>
+    <string name="eos_check_account">根据公钥检测账号</string>
+    <string name="generate_public_key_first">请生成公钥</string>
+    <string name="eos_no_account_name_tips">当前私钥没有账号名，是否进入检测页面进行检测</string>
+
+    <string name="my_bid">我的竞拍</string>
+    <string name="bid_ranking">竞价排名</string>
+    <string name="input_short_bid">输入竞拍短名</string>
+    <string name="bid_auction">加价竞拍</string>
+    <string name="eos_bid_account_name">账号名</string>
+    <string name="highest_bidder">竞价者</string>
+    <string name="bidding_information">竞价信息</string>
+
+    <string name="ram_transaction">内存交易</string>
+    <string name="in_the_transaction">交易中</string>
+    <string name="eos_ram_open">今开</string>
+    <string name="eos_ram_amount">总资金</string>
+    <string name="eos_ram_rate">内存占比</string>
+    <string name="record_of_sale">买卖记录</string>
+    <string name="large_single_record">大单记录</string>
+    <string name="large_holder">持量大户</string>
+    <string name="inflow_outflow">成交资金分布</string>
+    <string name="eos_ram_sales_tips"><![CDATA[小单  %1$s     中单 %2$s     大单  %3$s]]></string>
+    <string name="input_eos_amount">输入EOS额度</string>
+    <string name="input_sell_ram">输入内存额度</string>
+    <string name="eos_symbol">EOS</string>
+    <string name="buying">正在买入</string>
+    <string name="selling">正在卖出</string>
+    <string name="waiting">请稍等</string>
+    <string name="ram_transaction_record">内存成交记录</string>
+    <string name="ram_my_record">我的记录</string>
+
+    <string name="rammark_pie_deals">成交分布</string>
+    <string name="rammark_pie_in">流入:</string>
+    <string name="rammark_pie_out">流出:</string>
+
+    <string name="rammark_pie_big">大单</string>
+    <string name="rammark_pie_med">中单</string>
+    <string name="rammark_pie_small">小单</string>
+
+    <string name="ram_left_tip">请至少保证账号内存剩余1KB,否则可能导致账号其他操作因资源不足失败</string>
+    <string name="buy_ram_precision_error">输入数目最多只能4位小数</string>
+
+    <string name="too_few">输入数量太少</string>
+    <string name="byte_no_dot">内存卖出只能是整数</string>
+    <string name="create_account_consume_eos">本次创建账号花费 ≈ %1$s %2$s</string>
+
+    <string name="eos_create_tip">创建%1$s账号需要消耗%2$s,请您找拥有%3$s余额的可信账号帮你支付本次创建费用</string>
+    <string name="eos_owner_authority">拥有者权限</string>
+    <string name="eos_active_authority">管理者权限</string>
+    <string name="eos_delete_order">删除订单</string>
+    <string name="eos_request_create">请朋友创建</string>
+    <string name="eos_unfinished_order">当前有未完成的%1$s订单，是否前往激活</string>
+    <string name="eos_delete_unfinished_order">确定删除该未完成的%1$s订单？</string>
+    <string name="eos_order_deleted">订单已删除</string>
+
+    <string name="eos_account_not_exit">账号不存在</string>
+    <string name="eos_multi_owner_active">多个私钥拥有该账号的owner权限和active权限，风险极大。</string>
+    <string name="eos_multi_owner">多个私钥拥有该账号的owner权限，风险极大。</string>
+    <string name="eos_multi_active">多个私钥拥有该账号的active权限，风险极大。</string>
+    <string name="eos_only_owner">您只拥有该账号的owner权限，风险极大。</string>
+    <string name="eos_only_active">您只拥有该账号的active权限，风险极大。</string>
+    <string name="eos_account_have_exit">账号被他人抢注，请删除订单后重新生成订单</string>
+    <string name="eos_active_account">激活账号</string>
+
+    <string name="eos_confirm_account">如果您确认该账号下所有权限是您自己的密钥无误，可自行用私钥导入钱包</string>
+    <string name="eos_resource_tips">买卖操作会消耗资源，请及时留意您的内存计算网络资源是否充足，我们建议网络和计算资源分别至少抵押0.5个EOS，如果您的资源不足，会导致您的交易被区块回滚。</string>
+    <string name="check_eos_account_course">点击查看教程>></string>
+    <string name="help_create_eos_account">如何通过朋友帮忙注册EOS账号</string>
+
+    <string name="help_create_account_fail">状态未知，您可以点击查看按钮查看账号创建区块确认结果</string>
+    <string name="query">去查看</string>
+
+    <string name="sms_warn">短信预警</string>
+    <string name="ram_warn">内存预警</string>
+    <string name="ram_warn_type_tips">TokenPocket 价格预警分为两种形式：</string>
+    <string name="ram_price_warn">价格预警</string>
+    <string name="price_warn_desc">・价格预警分为上限价格和下限价格。\n・当价格到达某个位置时，系统会发出警报，同一个价格每次最多警报4次，每日推送短信12条为上限。\n・最多可以同时设置3条价格预警。</string>
+    <string name="top_account_warn">大户跟踪预警</string>
+    <string name="top_account_desc">・大户跟踪行为分为买入跟踪和卖出跟踪。\n・当买入和卖出达到设定值或超过设定值时，会进行短信推送，每个设定值每日最多警报4次，每次推送短信条数为12条。\n・最多可以同时设置3条大户预警。</string>
+    <string name="ram_warn_tips">注：由于不同地区网络环境存在一定偏差，本服务仅限于跟踪，不适用于实施挂单。本服务属于 TokenPocket 增值服务，服务花费为 %1$s EOS，有效期一个月，最终解释权归 TokenPocket 所有，一旦订阅无法退款。</string>
+    <string name="open_now">立即开通</string>
+    <string name="phone_num">手机号码</string>
+    <string name="sms_warn_dialog_tips">预警仅做价格警报，由于网络环境存在一定偏差，不适用于实时挂单。</string>
+    <string name="cost">费用</string>
+    <string name="price_warn_order_preview">价格预警订单预览</string>
+    <string name="sms_warn_open_success">已成功开通短信预警功能</string>
+    <string name="sms_warn_open_fail">开通短信预警失败</string>
+    <string name="sms_renew">续费</string>
+    <string name="add_warn">添加预警</string>
+    <string name="current_price">当前价格</string>
+    <string name="current_price_rate">当前涨跌幅</string>
+
+    <string name="top_account_name">大户账号</string>
+    <string name="warn_amount">预警数目</string>
+    <string name="price_top">价格上限</string>
+    <string name="price_low">价格下限</string>
+    <string name="warning_num">预警数量</string>
+    <string name="warning_direction">流动方向</string>
+    <string name="warning_buy">买入</string>
+    <string name="warning_sell">卖出</string>
+    <string name="submit_success">提交成功</string>
+    <string name="input_warn_num">请输入预警数量</string>
+    <string name="price_top_unit">价格上限 (EOS/KB)</string>
+    <string name="price_low_unit">价格下限 (EOS/KB)</string>
+    <string name="input_warn_price">请输入价格</string>
+    <string name="price_top_small_than_low">价格上限不能低于价格下限</string>
+    <string name="confirm_delete_warn_info">确定删除当前预警信息吗？</string>
+    <string name="deleting">删除中</string>
+    <string name="fail_to_delete">删除失败</string>
+    <string name="update_success">已更新</string>
+    <string name="warning_service_deadline">预警服务到期时间: %1$s</string>
+
+    <string name="contract_create_eos_tips_start">通过交易所提币并备注或钱包转账并备注的方式向以下地址转入</string>
+    <string name="contract_create_eos_tips_middle">2个%1$s</string>
+    <string name="contract_create_eos_tips_end">完成账号创建。其中0.2 %1$s 用来抵押计算和网络资源，剩余部分会帮用户购买等值内存。</string>
+    <string name="contract_create_eos_tips_two">目前明确支持该方式的交易所有OTCBTC、Gate.io、币安、Bitfinex。请不要使用其他交易所提币！钱包方面只要支持转账备注都可以。</string>
+    <string name="transfer_to_account_necessary">转入账号(必填)</string>
+    <string name="steps">操作流程:</string>
+    <string name="memo_necessary">转入备注(必填)</string>
+    <string name="notice">注明</string>
+    <string name="notice_content">该创建方式是使用 %1$s 部署的智能合约进行创建，在创建过程中不涉及人工操作。如由于用户操作不当导致资产损失，TP无法帮助用户找回。</string>
+    <string name="exchange_create_delete_order">删除订单</string>
+    <string name="type_title_exchange">交易所提币/钱包转账创建</string>
+    <string name="create_way">创建方式</string>
+
+    <string name="no_refund">暂无赎回</string>
+
+    <string name="eos_account_create_state_create">账号创建中..</string>
+    <string name="eos_account_create_state_required">账号状态确认中..</string>
+    <string name="eos_account_create_state_safe">账号安全检测中..</string>
+    <string name="eos_account_create_wrong_owner">Owner不正确</string>
+    <string name="eos_account_create_wrong_active">Active不正确</string>
+    <string name="eos_transfer_memo_tips">当前转账账号是交易所账号，请确保Memo是否正确。</string>
+
+    <!-- action类型-->
+    <string name="transfer">转账</string>
+    <string name="delegatebw">抵押</string>
+    <string name="undelegatebw">赎回</string>
+    <string name="update_auth">更新权限</string>
+    <string name="new_account">创建账号 </string>
+    <string name="vote_producer">投票 </string>
+    <string name="fail">操作失败</string>
+    <string name="action_details">Action详情</string>
+
+    <!-- 和IOS同步key -->
+    <string name="setting_color_switch">红涨绿跌</string>
+    <string name="invite_code_title">您的专属邀请码</string>
+    <string name="invite_now">立即邀请</string>
+    <string name="invitation_record">你已经邀请 %1$s 位好友，获得 %2$s 积分</string>
+    <string name="invite_rule">活动规则：</string>
+    <string name="invite_rules_desc">1、活动期间，绑定手机号即可获得100积分；邀请用户下载，推荐人和被邀请人均可获得100积分；多邀请多得，上不封顶。\n2、每位用户只能被邀请一次，输入邀请码确认邀请关系；\n3、积分可在后期按一定规则进行糖果兑换。\n4、手机号与邀请码一一对应。\n5、更多积分兑换方式请持续关注TokenPocket官方公众号。\n6、活动最终解释权归TokenPocket所有。</string>
+    <string name="invite_friends">邀请好友</string>
+    <string name="title_gain_bonus">领取奖励</string>
+    <string name="invite_code_where_input">邀请码可在邀请页面输入</string>
+    <string name="invite_code_scan_download">扫码下载</string>
+    <string name="invite_inviter_desc_title">请输入邀请码，赢积分</string>
+    <string name="invite_inviter_code_pl">请输入邀请码</string>
+    <string name="invite_inviter_detail">邀请码填写后不可修改，填写完成后邀请人和被邀请人均可获得积分</string>
+    <string name="invite_code_empty">邀请码不能为空</string>
+    <string name="submitting">提交中</string>
+    <string name="invite_code_error">邀请码不正确，请输入正确邀请码</string>
+    <string name="invite_code_mine">我的专属邀请码</string>
+    <string name="invite_get_code">获取邀请码</string>
+    <string name="invite_bind_phone_get">绑定手机，立即获取积分</string>
+    <string name="invite_bind_phone_desc">绑定手机号，获取邀请码</string>
+    <string name="invite_bind_phone_detail">手机号与邀请码一一对应，可以通过修改手机号更改邀请码。</string>
+
+    <string name="take_bonus_success">已成功领取奖励</string>
+    <string name="bonus_has_token">奖励已领取，请勿重复领取</string>
+
+    <string name="no_wallet">没有%1$s钱包</string>
+
+    <string name="bind_phone_tips">领取奖励前必须绑定手机</string>
+
+    <string name="threshold">%1$s(阈值:%2$s)</string>
+    <string name="owner">拥有者</string>
+    <string name="active">管理者</string>
+    <string name="permission_weight">权重:%1$s</string>
+
+    <string name="delete_permission_key_tips">确认从权限中移除该key</string>
+    <string name="delete_permission_account_tips">确认从权限中移除该账号</string>
+
+    <string name="add_owner_tips">添加拥有者权限</string>
+    <string name="add_active_tips">添加管理者权限</string>
+
+    <string name="add_authority">添加权限</string>
+
+    <string name="notice_account_add_permission_tips">・在进行权限添加时，请一定要确保对方公钥的正确。\n・添加时，先从小的权限开始添加，如Active -> Owner。\n・添加前，请确保资产已做好妥善处理！</string>
+    <string name="add_permission_hint">请输入需要添加的公钥</string>
+    <string name="modify_auth_label">修改 %1s 权限</string>
+
+    <string name="search">搜索</string>
+    <string name="eos_ram_trade_panel">交易面板</string>
+
+
+    <string name="debug_mode_open_tip">快速点击8次图标进入开发者模式</string>
+    <string name="debug_mode_opened">您已进入开发者模式</string>
+    <string name="debug_mode_closed">您已关闭开发者模式</string>
+    <string name="debug_mode">开发者模式</string>
+
+    <string name="eos_developer_mode_desc">开发者模式是提供给开发者用来开发和调试基于钱包的DApp，开发者模式开启后，可在发现页面添加自定义URL进行调试。\n该模式仅限于开发者调试测试使用，请不要添加任何不信任的地址，由于自定义URL或第三方DApp导致的财产损失，由用户自行承担。</string>
+    <string name="eos_developer_mode_check">我已明确开发者模式的用途以及责任。</string>
+
+    <string name="use_contract_create_account">使用合约创建账号</string>
+
+    <string name="nodes_setting">节点设置</string>
+    <string name="add_custom_node">添加自定义节点</string>
+    <string name="default_node">推荐节点</string>
+    <string name="custom_node">自定义节点</string>
+    <string name="input_dapp_address">输入DApp地址</string>
+    <string name="invalid_url">无效的 URL</string>
+    <string name="reset">重置</string>
+
+    <string name="vote_desc_proxy">＊ 代理投票会使社区生态更为健康\n＊ 代理者代表委托人进行集中投票。委托人可在任何时候进行代理取消。</string>
+    <string name="vote_desc_producer">＊ 在进行投票前，用户需要进行%1$s抵押换取投票权。\n＊ 用户可以在需要的时候取消抵押，并将于72小时后赎回抵押的%2$s。</string>
+    <string name="contract_create_enu_tips_two">目前该方式支持交易所以及有备注功能的钱包转账</string>
+    <string name="auth_error_tips">当前账号的权限已经变更，请确认账号权限是否正常</string>
+    <string name="goto_check_permission">前往查看</string>
+
+    <string name="cover">覆盖</string>
+    <string name="vote_add">新增</string>
+    <string name="vote_again_tips">检测到当前账号已投过票，点击"覆盖"，则会覆盖之前的投票；点击"新增"，则是新增投票。</string>
+    <string name="vote_him">投他</string>
+    <string name="vote_proxy_staked">代理抵押</string>
+    <string name="vote_proxy_staked_voters">代理抵押(%1$s 人)</string>
+    <string name="detail">更多 »</string>
+    <string name="voted_producers">已投节点</string>
+    <string name="voted_producers_">已投节点(%1$s)</string>
+    <string name="philosophy">理念</string>
+    <string name="background">自我介绍</string>
+    <string name="vote_telegram">电报</string>
+    <string name="proxy_staked_voters_tips">代理抵押: %1$s,  票数: %2$s</string>
+    <string name="producers_voting">节点投票</string>
+    <string name="staked_manager"><![CDATA[抵押管理 >]]></string>
+    <string name="proxy_manager"><![CDATA[代理管理 >]]></string>
+    <string name="vote_staked_">抵押:</string>
+    <string name="vote_staked_proxy_">代理抵押:</string>
+    <string name="partner">合作伙伴</string>
+    <string name="proxies_voting">代理投票</string>
+    <string name="proxy_wechat">微信</string>
+    <string name="proxy_twitter">Twitter</string>
+    <string name="proxy_steemit">Steemit</string>
+    <string name="proxy_cannot_vote_for_proxy">代理不可投代理</string>
+    <string name="click_to_add_logo">点击添加Logo</string>
+    <string name="uploading">上传中</string>
+
+    <string name="proxy_official_website">官网地址</string>
+    <string name="proxy_slogan">口号</string>
+    <string name="input_proxy_slogan">输入口号</string>
+    <string name="proxy_telegram">电报(选填)</string>
+    <string name="input_proxy_telegram">请输入电报名称</string>
+    <string name="proxy_steemit_option">Steemit(选填)</string>
+    <string name="input_steemit_address">请输入steemit地址</string>
+    <string name="proxy_twitter_option">Twitter(选填)</string>
+    <string name="input_twitter_address">请输入Twitter</string>
+    <string name="proxy_wechat_option">微信(选填)</string>
+    <string name="input_wechat_address">请输入微信</string>
+    <string name="proxy_philosophy_option">理念</string>
+    <string name="input_proxy_philosophy">请输入理念</string>
+    <string name="proxy_background_option">自我介绍</string>
+    <string name="input_proxy_background">请输入自我介绍</string>
+    <string name="please_add_logo">请添加logo</string>
+
+    <string name="proxy_name_max_length">名称不能超过64个字符</string>
+    <string name="proxy_slogan_max_length">口号不能超过64个字符</string>
+    <string name="proxy_website_max_length">官网地址不能超过256个字符</string>
+    <string name="proxy_telegram_max_length">TelegramT不能超过64个字符</string>
+    <string name="proxy_steemit_max_length">Steemit不能超过64个字符</string>
+    <string name="proxy_twitter_max_length">Twitter不能超过64个字符</string>
+    <string name="proxy_wechat_max_length">微信不能超过64个字符</string>
+    <string name="proxy_philosophy_max_length">理念不能超过1024个字符</string>
+    <string name="proxy_background_max_length">自我介绍不能超过1024个字符</string>
+    <string name="new_flash_source">来源：%1$s</string>
+    <string name="news_flash">快讯</string>
+    <string name="contact_remark_fill_tips">打开右侧，转账等操作将默认填写该备注</string>
+
+    <string name="proxy_item_staked_voters">抵押: %1$s %2$s , 票数: %3$s </string>
+    <string name="proxy_register_fee_tips">申请代理过程中，需要消耗至少1kb的ram,是否继续</string>
+    <string name="browser_refresh">刷新</string>
+    <string name="browser_copy">复制URL</string>
+    <string name="browser_share">分享</string>
+    <string name="browser_open">浏览器打开</string>
+
+    <string name="currency_unit">货币单位</string>
+    <string name="refresh">刷新</string>
+
+    <string name="multiple">多选</string>
+    <string name="unstake_resource">赎回资源</string>
+
+    <string name="stake_total_num">抵押人数：%1$s</string>
+    <string name="stake_total_cpu">抵押Cpu：%1$s  %2$s</string>
+    <string name="stake_total_net">抵押Net：%1$s  %2$s</string>
+    <string name="unstake_preview">赎回预览</string>
+    <string name="stake_preview_cpu_net">计算: %1$s ,  网络:%2$s </string>
+    <string name="multi_unstake">赎回抵押(%1$s)</string>
+    <string name="multi_unstake_empty">请先勾选</string>
+
+    <string name="cpu_net">CPU/NET</string>
+    <string name="delegate_list">租借列表</string>
+    <string name="buy_ram">购买内存</string>
+    <string name="sell_ram">出售内存</string>
+    <string name="buy_switch_label">购买</string>
+    <string name="sell_switch_label">出售</string>
+    <string name="cpu_delegate">计算抵押</string>
+    <string name="net_delegate">网络抵押</string>
+    <string name="cpu_refund">计算赎回</string>
+    <string name="net_refund">网络赎回</string>
+
+    <string name="input_token_amount">输入%1$s数量</string>
+    <string name="reclaimable_amount">可赎回: %1$s</string>
+
+    <string name="confirming">确认中</string>
+    <string name="iq_transfer_tips">IQ智能合约会收取1/1000转账手续费，与钱包无关，请知悉</string>
+    <string name="select_wallet">选择钱包</string>
+    <string name="dapp_select_wallet_content">当前DApp只支持%1$s</string>
+
+    <string name="input_sell_ram_kb">输入内存额度(KB)</string>
+    <string name="retrieve_account">取回账号</string>
+
+    <string name="please_home_page_create_account">请到首页扫码创建账号</string>
+    <string name="loading">加载中…</string>
+    <string name="refund_account">取回账号: %1$s</string>
+    <string name="refund_delegate">赎回抵押</string>
+    <string name="multi_refund_total">赎回账号数: %1$s , CPU: %2$s , NET: %3$s</string>
+
+    <string name="account">账号</string>
+    <string name="auth_title">授权</string>
+    <!--授权登陆-->
+    <string name="auth_account_info">DApp需要您授权钱包账号信息</string>
+    <string name="auth_permission">授权后该应用将获得以下权限:</string>
+    <string name="trust_dapp">获取您的钱包账号信任</string>
+    <string name="auth_not_share_pk">注意：账号授权不会向DApp提供您的私钥</string>
+    <string name="auth_account">授权账号:</string>
+    <string name="change_wallet">更换</string>
+    <string name="auth">立即授权</string>
+    <string name="auth_login">授权登陆</string>
+
+    <string name="please_create_import_wallet_first">请先创建或导入钱包</string>
+    <string name="order_pay">订单支付</string>
+    <string name="confirm_pay">确认支付</string>
+    <string name="pay_account">付款账号</string>
+    <string name="receive_account">收款账号</string>
+    <string name="order_id">订单编号</string>
+    <string name="token_contract">代币合约</string>
+    <string name="pay_memo">Memo</string>
+    <string name="unknown_data">未知数据，请升级APP后重试</string>
+    <string name="data_expired">数据已过期</string>
+
+    <string name="contract_security_tips">权限操作风险</string>
+
+
+    <string name="dapp_browser">DApp 浏览器</string>
+
+    <string name="import_account">导入账号</string>
+    <string name="choose_account">选择账号</string>
+    <string name="wallet_import_fail">钱包%s导入失败</string>
+
+    <string name="account_balance">账号余额</string>
+    <string name="set_time">设置定时交易</string>
+    <string name="contract_tips">收款账号为合约账号，合约内容可以修改，请注意风险</string>
+    <string name="account_not_exist">账号不存在</string>
+    <string name="wallet_balance">钱包余额</string>
+    <string name="receive_address">收款地址</string>
+    <string name="execute_contract">执行合约</string>
+    <string name="choose_time">选择交易时间</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="time_day">日</string>
+    <string name="time_hour">时</string>
+    <string name="time_min">分</string>
+    <string name="time_sec">秒</string>
+    <string name="time_error">交易时间不能早于当前时间</string>
+    <string name="time_tips">定时交易可能由于网络原因存在一定偏差,请在确认使用该功能前进行足够的网络验证以确保交易时间的正确性。请注意，定时交易暂不支持取消</string>
+
+    <string name="point_content">・%1$s</string>
+    <string name="search_enter_dapp">搜索DApp或输入链接进入玩耍</string>
+    <string name="my_dapps">我的DApps</string>
+    <string name="cancel_favor">取消收藏</string>
+    <string name="favor">收藏</string>
+    <string name="collected">已收藏</string>
+    <string name="collection_cancelled">已取消收藏</string>
+    <string name="popular_searches">热门搜索</string>
+    <string name="history_record">历史记录</string>
+
+    <string name="my_favor">我的收藏</string>
+    <string name="confirm_delete">确定删除吗？</string>
+    <string name="ask_opt">请求执行以下操作</string>
+    <string name="opt_list">操作列表</string>
+    <string name="opt_details">查看操作详情</string>
+    <string name="execute">确认执行</string>
+    <string name="do_opt_account">执行账号名</string>
+    <string name="transfer_receive_account">收款账号</string>
+    <string name="clear_time">清除时间</string>
+
+    <string name="default_dapp_desc">快来TokenPocket玩%s</string>
+    <string name="go_to_dapp">前往DApp:</string>
+    <string name="whitelist">白名单</string>
+
+    <string name="dapp_whitelist">DApp白名单</string>
+    <string name="select_all">全选</string>
+    <string name="cancel_all_selection">取消全选</string>
+    <string name="cancel_contract">取消合约</string>
+    <string name="action_count">操作(%1$d)</string>
+
+    <string name="sign_request">签名请求</string>
+    <string name="properties">属性</string>
+    <string name="contract">合约</string>
+    <string name="add_whitelist_tips">你想把这个合约操作加入白名单吗</string>
+    <string name="add_whitelist_tips_content">您可以将此操作列入白名单，下次就不必再次授权。勾选属性旁边的单选按钮意味着您允许此操作的该属性可以更改，仅当其他属性发生变化才不会被列入白名单</string>
+
+    <string name="open_whitelist">输入密码启用白名单</string>
+    <string name="open_whitelist_tips">白名单授权仅在DApp运行期间一定时间内有效，退出DApp，或者退出App都会导致授权失效，下次使用白名单需要输入密码以启用白名。</string>
+    <string name="white_list_title">白名单列表</string>
+
+    <string name="time_error_too_long">延时时长不能大于3888000秒(45天)</string>
+    <string name="edit">编辑</string>
+    <string name="deleted">已删除</string>
+    <string name="cancelled">已取消</string>
+
+    <string name="server_support_by">此服务由 %1$s 提供</string>
+
+    <string name="forget_password_">忘记密码？</string>
+    <string name="reset_password">重置密码</string>
+    <string name="set_password">设置密码</string>
+    <string name="public_key_not_match">公钥不匹配</string>
+    <string name="account_not_match">账号名不匹配</string>
+    <string name="password_reset_successfully">已成功重置密码</string>
+
+    <string name="observe">观察</string>
+    <string name="observe_mode">观察模式</string>
+    <string name="observe_wallet_import_tips">观察钱包不需要导入私钥，只导入账号名或公钥，进行日常查看账号、交易记录和接收通知。</string>
+    <string name="invalid_public_key">无效的公钥地址，请确认是否抄写正确</string>
+    <string name="observe_not_support">观察钱包不支持该操作</string>
+
+    <string name="observe_wallet">观察钱包</string>
+    <string name="observe_transfer_tips">当前是观察钱包，请确认是否要往此钱包转账</string>
+
+    <string name="wrong_node_url">节点链接错误，请检查节点是否有误</string>
+
+    <string name="eos_public_key_no_account_name_tips">当前公钥没有账号名，请检查公钥是否输入正确</string>
+    <string name="add_wallet">添加钱包</string>
+    <string name="wallet_empty_tips">你的钱包空空如也</string>
+
+    <string name="useful_before_exit_app">退出钱包前授权有效</string>
+
+    <string name="skip_ads">跳过 %1$s</string>
+    <string name="import_observe_eos_tips">请输入账号名或者公钥</string>
+    <string name="any_value">任意值</string>
+    <string name="input_pwd">输入密码</string>
+    <string name="open_fingerprint">开启指纹支付</string>
+    <string name="close_fingerprint">关闭指纹支付</string>
+    <string name="input_fingerprint">验证指纹</string>
+    <string name="fingerprint_fail">指纹验证失败</string>
+    <string name="fingerprint_payment">指纹支付</string>
+    <string name="verify_pwd">验证密码</string>
+
+    <string name="friend_create">好友创建</string>
+    <string name="friend_create_desc">好友扫码支付创建账户</string>
+    <string name="activation_code_create">激活码创建</string>
+    <string name="activation_code_desc">通过支付宝，微信购买激活码创建</string>
+    <string name="contract_create">转账创建</string>
+    <string name="contract_desc">往固定账户转账进行账户创建</string>
+    <string name="do_you_have_account">你是否有账号？</string>
+    <string name="have_account">我有账号</string>
+    <string name="not_have_account">我没有账号</string>
+    <string name="input_activation_code">请输入激活码</string>
+    <string name="account_creation_submitted">帐户已创建并提交到主网,请在主网确认后（约3分钟）再进行交易，以确保创建成功</string>
+
+    <string name="do_you_have_wallet">你是否有钱包？</string>
+    <string name="not_have_wallet">我没有钱包</string>
+    <string name="have_wallet">我有钱包</string>
+
+    <string name="current_account_tag">当前账号</string>
+
+    <string name="current_wallet_tag">当前钱包</string>
+    <string name="create_wallet_tips">免费创建钱包</string>
+
+    <string name="forbid_screenshot">请勿截图</string>
+    <string name="bakup_tipsone">如果有人获取了你的%1$s将直接获取你的资产</string>
+    <string name="bakup_tipstwo">请抄下%1$s并存放在安全的地方</string>
+
+    <string name="pk">私钥</string>
+    <string name="words">助记词</string>
+
+    <string name="creation_active_code">激活码创建账号</string>
+    <string name="start_using">开始使用</string>
+    <string name="my_active_code">我的激活码</string>
+
+    <string name="input_receive_account">输入接收账号</string>
+
+    <string name="add_perm">新增</string>
+    <string name="modify_perm">变更</string>
+    <string name="input_new_publickey">请输入新的公钥或账号</string>
+
+    <string name="action_inwhitelist_tips">该操作已经在白名单，不需要再次输入密码</string>
+    <string name="open_advance_tips">打开高级设置，下次进行该操作时，无需进行弹窗确认直接执行，开启后用户可前往右上角中关闭</string>
+    <string name="whitelist_advance_tips">当前操作已经加入了白名单，并且设置了免确认操作，授权后，操作会立即执行，是否继续？</string>
+    <string name="enable_whitelist">DApp白名单功能</string>
+    <string name="closed">已关闭</string>
+
+    <string name="advance_setting">高级设置</string>
+    <string name="close">关闭</string>
+
+    <string name="refund_day_hour_min">距结束：%1$s天 %2$s时 %3$s分</string>
+
+    <string name="no_write_storage_tips">请先开启读写权限</string>
+
+    <string name="facebook">Facebook</string>
+
+    <string name="eos_no_any_permission">您没有该账号的任何权限，是否删除？</string>
+    <string name="resource_helper">资源小插件</string>
+    <string name="click_refresh">点我刷新</string>
+
+
+    <string name="tool_list">工具列表</string>
+
+    <string name="total_delegate">总抵押</string>
+    <string name="self_delegate_">自身抵押: %1$s</string>
+    <string name="other_delegate_">他人抵押: %1$s</string>
+    <string name="cpu_">CPU: %1$s</string>
+    <string name="net_">NET: %1$s</string>
+    <string name="cpu_price">价格: %1$s %2$s/ms/天</string>
+    <string name="net_price">价格: %1$s %2$s/KB/天</string>
+    <string name="ram_price">价格: %1$s %2$s/KB</string>
+    <string name="remain_">剩余: %1$s</string>
+
+
+    <string name="ram_trend">内存趋势</string>
+    <string name="my_remain_">我的剩余: %1$s</string>
+    <string name="cpu_rent_tips">选择服务商，获取更多CPU资源</string>
+    <string name="fixed_display">固定展示</string>
+    <string name="view_more">查看更多</string>
+
+    <string name="no_wallet_select">没有选中任何账号</string>
+    <string name="progressing">正在处理 %1$s</string>
+    <string name="asset_collect_finish">归置操作完成</string>
+    <string name="asset_collect_title">资产归置</string>
+    <string name="asset_input_account">归入账号</string>
+    <string name="asset_output_account">转出账号</string>
+    <string name="start_asset_collect">开始归置</string>
+
+    <string name="drag_sort_tips">(按住拖动调整排序)</string>
+
+    <string name="show_recource">展示资源插件</string>
+    <string name="applock_verify_success">验证成功</string>
+    <string name="applock_fingerprint_error">指纹验证失败，请使用钱包密码解锁</string>
+    <string name="fingerprint_error_gesture">指纹验证失败，是否使用图案锁</string>
+    <string name="try_it_later">稍后再试</string>
+
+    <string name="publickey">钱包公钥</string>
+    <string name="no_remind">不再提醒</string>
+
+    <string name="transfer_all">转出全部</string>
+    <string name="no_pwd_tips">本次操作不需要再次输入密码</string>
+
+    <string name="transfer_dir">直接转账</string>
+    <string name="transfer_contact">通讯录转账</string>
+    <string name="transfer_scan">扫码转账</string>
+    <string name="transfer_record_title">转账历史</string>
+
+    <string name="no_pwd_exit_app">退出App前不需要再次输入密码</string>
+
+    <string name="must_stake_before_vote">请先抵押再投票</string>
+
+    <string name="token_details">项目详情 ></string>
+    <string name="tidy_asset_page_title">资产归置</string>
+    <string name="no_pwd_content">勾选了此选项，则退出App前，执行操作不需要再次输入密码</string>
+
+    <string name="more_tools">更多工具</string>
+    <string name="query_details">查询详细信息</string>
+
+    <string name="dapp_details">DApp详情</string>
+
+    <string name="precsion_error">精度错误</string>
+
+    <string name="pwd_custom_title">输入%1$s密码</string>
+    <string name="asset_tidy_tips">将选中钱包的%1$s转入%2$s</string>
+    <string name="home_resource_desc">RAM CPU NET</string>
+    <string name="home_vote_desc">BP和代理管理</string>
+    <string name="home_permission_desc">增/删/改/查 账号权限</string>
+    <string name="on_more_page_tips">当前已处于更多页面</string>
+    <string name="rent">租赁</string>
+
+    <string name="data_">数据</string>
+    <string name="network_unavailable">网络不可用，请检查网络或稍后重试</string>
+
+    <string name="push_notification">推送通知</string>
+    <string name="receive_push_notification">接收推送通知</string>
+    <string name="push_transfer">转账通知</string>
+    <string name="push_transfer_normal">普通钱包转账通知</string>
+    <string name="push_transfer_observe">观察钱包转账通知</string>
+    <string name="developer_mode">开发者模式</string>
+    <string name="open_screen_rotation">打开横竖屏旋转</string>
+    <string name="add_market_tokens">添加代币行情</string>
+
+    <string name="visitor_mode">访客模式</string>
+    <string name="preview_fixed_account">使用固定账户进行预览</string>
+    <string name="eos_beginner_tutorial">EOS新手教程</string>
+    <string name="entered_visitor_mode">已进入访客模式</string>
+    <string name="visitor_wallet">访客钱包</string>
+    <string name="visitor_transfer_tips">当前是访客钱包，请确认是否要往此钱包转账</string>
+    <string name="visitor_not_support">访客钱包不支持该操作</string>
+    <string name="visitor">访客</string>
+
+    <string name="cold_wallet">冷钱包</string>
+    <string name="publickey_title">请选择公钥</string>
+    <string name="observe_wallet_scan_tips">在导入钱包界面，扫码导入该冷钱包对应的观察钱包</string>
+    <string name="online">当前设备已连接网络</string>
+    <string name="coldwallet_help_tips">冷钱包小知识</string>
+    <string name="coldwallet_help_tips_one">冷钱包也称离线钱包，用户将私钥存储在冷钱包，不会和互联网接触，有效保证资产安全</string>
+    <string name="coldwallet_help_tips_two">冷热钱包使用二维码通信，私钥永不触网，能有效防止黑客窃取</string>
+    <string name="use_coldwallet_scan_sign">使用对应的冷钱包扫码签名</string>
+    <string name="sign_fail">签名失败</string>
+    <string name="sign_info">签名信息</string>
+    <string name="use_observewallet_scan">使用对应的观察钱包扫码完成操作</string>
+    <string name="scan_sign">扫码签名</string>
+    <string name="restart_app_tips">重新打开TokenPocket</string>
+    <string name="repair_tips">执行App整理操作，该操作不会影响数据</string>
+    <string name="memo_tips">该memo是根据记录自动填充,请确认是否正确</string>
+    <string name="operation_cancel">操作取消</string>
+    <string name="cold_wallet_onlinewarn">当前设备已连接网络，确认导入冷钱包?</string>
+    <string name="use_cold_wallet_scan">请使用冷钱包扫描签名二维码</string>
+
+    <string name="search_token_hint">搜索代币名称/合约/项目名称</string>
+
+    <string name="token_price">当前价格:</string>
+    <string name="fingerprint_setting">指纹设置</string>
+    <string name="close_persist_fingerprint">请先关闭永久指纹</string>
+    <string name="persist_fingerprint">永久指纹</string>
+    <string name="temp_fingerprint">临时指纹</string>
+    <string name="persist_title">永久免密注意事项</string>
+    <string name="persist_des">永久免密使用了设备生物识别技术进行确认是否为了设备拥有者，并且使用生物特性进行加密存储，除了设备拥有者，没有任何人可以取出密码。</string>
+    <string name="persist_fingerprint_1">使用永久免密，请您确保以下注意事项:</string>
+    <string name="persist_fingerprint_2">请勿在root设备使用该功能</string>
+    <string name="persist_fingerprint_3">请勿在自己手机添加他人指纹或面部识别</string>
+    <string name="persist_fingerprint_4">请勿将手机开启密码告诉他人</string>
+    <string name="persist_fingerprint_5">请勿将手机交给他人</string>
+    <string name="exchange_list">交易所列表</string>
+    <string name="go_to_trade">去交易</string>
+
+    <string name="all_assets">全部资产</string>
+    <string name="non_zero_assets">非零资产</string>
+
+    <string name="opened">已开启</string>
+    <string name="unopened">未开启</string>
+    <string name="permanently_open">永久开启</string>
+
+    <string name="token_exchange_support_content">当前代币只支持 %1$s</string>
+
+    <string name="persist_fingerprint_6">增加或删除手机指纹后App需要重新开启指纹支付</string>
+
+
+    <string name="sign_not_share_pk">注意：信息签名不会向DApp提供您的私钥</string>
+    <string name="sign_account">签名账号:</string>
+    <string name="start_sign">签名</string>
+    <string name="sign_message">信息签名</string>
+    <string name="sign_content">签名内容>></string>
+    <string name="sign_content_title">签名内容</string>
+
+    <string name="send">发送</string>
+    <string name="input_content_first">请先输入内容</string>
+    <string name="im_album">相册</string>
+    <string name="im_camera">拍摄</string>
+    <string name="im_transfer">转账</string>
+    <string name="main_tag_chat">聊天</string>
+    <string name="create_group">创建群聊</string>
+    <string name="tp_red_desc">TP红包</string>
+    <string name="im_open">開</string>
+    <string name="see_detail">查看详情</string>
+    <string name="best_luck">手气最佳</string>
+    <string name="please_input_amount">请输入金额</string>
+    <string name="send_num">数量</string>
+
+    <string name="group_member_tip">%1$s 成员</string>
+    <string name="amount_too_small">金额太小了</string>
+
+    <string name="red_packet_received_num">已领取%1$s/%2$s</string>
+    <string name="red_packet_received_amount">%1$s/%2$s %3$s</string>
+    <string name="tag_news">资讯</string>
+    <string name="red_packet_not_exit">红包不存在</string>
+    <string name="red_packet_time_out">红包已经过期</string>
+    <string name="red_packet_receive_by_other">红包已被领完，再接再厉</string>
+
+    <!-- 创建群组-->
+    <string name="create_fail">创建失败：%1$s</string>
+    <string name="team_name_hint">设置群名称（最多20个字符)</string>
+    <string name="team_desc">群简介</string>
+    <string name="team_desc_hint">对群进行简单介绍（最多可以输入250字)</string>
+    <string name="create_now">立即创建</string>
+
+    <!-- team -->
+    <string name="team_need_authentication">需要身份验证</string>
+    <string name="team_allow_anyone_join">允许任何人加入</string>
+    <string name="team_not_allow_anyone_join">不允许任何人申请加入</string>
+    <string name="team_manager">管理员</string>
+    <string name="team_owner">群主</string>
+    <string name="team_name">群名称</string>
+    <string name="create_team">创建群</string>
+    <string name="transfer_team">转让群</string>
+    <string name="team_qrcode">群二维码</string>
+    <string name="team_member_count">群人数</string>
+    <string name="mute_team_notifications">消息免打扰</string>
+    <string name="join_verify">加群验证</string>
+    <string name="report">举报</string>
+    <string name="exit_team">退出群聊</string>
+    <string name="join_team">加入群聊</string>
+    <string name="team_info">群聊信息</string>
+    <!-- 消息搜索 -->
+
+    <!-- contact入口-->
+    <string name="follow_user">我的关注</string>
+    <string name="my_team">我的群组</string>
+    <string name="recommend_team">推荐群聊</string>
+
+    <!--用户信息-->
+    <string name="nickname">昵称</string>
+    <string name="subscribe">关注</string>
+    <string name="unsubscribe">取消关注</string>
+    <string name="im_account">账号:%1$s</string>
+    <string name="user_not_exist">获取用户信息失败</string>
+    <string name="user_dapp_title">他在玩的dapp</string>
+    <string name="creator_cannot_exit">你是群主，无法退出群聊</string>
+    <string name="team_name_empty_tips">群名称不能为空</string>
+    <string name="search_follow">搜索我的关注</string>
+    <string name="search_team">搜索我的群组</string>
+    <string name="team_members">群成员列表(%1$d)</string>
+    <string name="chat">聊天</string>
+    <string name="apply_join_success">申请成功</string>
+    <string name="use_tp_scan">用TP钱包扫码加入群聊</string>
+    <string name="share_qrcode">分享二维码</string>
+    <string name="save_info">保存</string>
+    <string name="info_empty">信息不能为空</string>
+    <string name="mute_user_message">消息免打扰</string>
+    <string name="user_details">详情</string>
+    <string name="follow_list">我的关注</string>
+    <string name="confirm_count">确定(%1$d)</string>
+    <string name="auth_tips">聊天与您账号紧密关联，第一次使用前，需要您进行身份验证</string>
+    <string name="start_auth">开始验证</string>
+    <string name="please_auth">请先在钱包的聊天页面进行授权登录</string>
+    <string name="join_chat">进入聊天</string>
+
+    <string name="recent_red_content">[TP红包] %1$s</string>
+    <string name="red_packet_chain_wrong">当前红包属于%1$s底层红包，您无法领取</string>
+    <string name="received_red_packet_tip">%1$s 领取了红包</string>
+    <string name="im_pin">置顶</string>
+    <string name="im_unpin">取消置顶</string>
+    <string name="im_unknown_message">[未知消息]</string>
+    <string name="team_message_update">[群消息更新]</string>
+    <string name="p2p_message_update">[会话消息更新]</string>
+    <string name="red_packet_receive_finish_tip">红包已被领完</string>
+    <string name="claim_red_packet_fail">抢红包失败</string>
+
+
+    <string name="bos_sync_title">BOS一键账号同步</string>
+    <string name="no_eos_wallet">没有Eos账号</string>
+    <string name="sync_result">"操作完成,成功同步%1$d个钱包</string>
+    <string name="sync_des_header">BOS账号映射时间为2019年1月1日，09:50UTC+0, 区块高度为35072000，因此非此前创建的账号将无法在BOS上找到对应的账号</string>
+    <string name="sync_rule_title">映射规则：</string>
+    <string name="sync_rule_one">对于非多签账号，EOS主网账号每 20.0000 EOS可以获得 1.0000 BOS，每个EOS账号最少可以获得0.5000 BOS</string>
+    <string name="sync_rule_two">对于多签账号，账户余额的映射规则和非多签账号一致，并且对账号的权限进行了同步映射</string>
+    <string name="sync_rule_three">BOS账号根据EOS主网账号随机生成</string>
+    <string name="sync_rule_four">BOS账号的资源分配，RAM：0.3000 BOS，CPU：0.1000 BOS，NET：0.1000 BOS</string>
+    <string name="start_sync">开始同步</string>
+
+    <string name="bos_sync_tips">根据Eos账号同步Bos账号</string>
+    <string name="bos_fans">BOS社区爱好者</string>
+
+    <string name="receiving_account_not_own">接收账号不能是自己</string>
+
+    <string name="sync_progress">已完成%1$d个账号</string>
+
+    <string name="no_follow_user">没有关注用户</string>
+    <string name="follow_user_error">数据加载失败</string>
+
+    <string name="kick_memeber">踢人</string>
+    <string name="team_name_member">%1$s(%2$d)</string>
+    <string name="userinfo_title">用户资料</string>
+    <string name="authing">授权…</string>
+    <string name="report_one">色情暴力</string>
+    <string name="report_two">违反法律</string>
+    <string name="report_three">其他</string>
+    <string name="report_success">举报成功</string>
+    <string name="need_join_team">是否确定加入该群组？</string>
+    <string name="confirm_join">确认加入</string>
+    <string name="team_member_total_count">%1$d 人</string>
+
+    <string name="red_packet_amount_each">单个金额</string>
+    <string name="chat_message_notification">聊天消息通知</string>
+    <string name="receive_chat_notification">接收聊天消息通知</string>
+    <string name="vibrate">震动</string>
+    <string name="ring">声音</string>
+    <string name="yesterday">昨天</string>
+    <string name="save_picture">保存图片</string>
+    <string name="identify_code">识别二维码</string>
+    <string name="red_packet_num_too_large">红包数量太大了</string>
+    <string name="send_red_packet_not_support">当前底层不支持发红包</string>
+
+    <string name="im_kickout_tips">您的聊天账号在别的设备登陆，请确认账号安全</string>
+
+    <string name="im_red_packet">红包</string>
+    <string name="send_red_packet">发红包</string>
+    <string name="red_pa​​cket_total_amount">总金额</string>
+    <string name="red_pa​​cket_hint">恭喜发财，大吉大利</string>
+    <string name="enter_red_pa​​cket_num">请输入红包个数</string>
+    <string name="red_packet_fighting">拼手气红包</string>
+    <string name="red_packet_fighting_switch">切换到拼手气红包</string>
+    <string name="red_packet_normal">普通红包</string>
+    <string name="red_packet_normal_switch">切换到普通红包</string>
+
+    <string name="red_packet_rain_blessing">恭喜發財</string>
+    <string name="red_packet_rain_next">下一波</string>
+    <string name="remaining_min">%1$d 分钟</string>
+    <string name="remaining_second">%1$d 秒</string>
+    <string name="red_packet_preparing">红包正在准备中</string>
+    <string name="get_packet_rain_fail">获取红包信息失败</string>
+
+    <string name="pic_saved_success">图片已保存到文件管理tp目录下</string>
+
+    <string name="clear_message">清空消息</string>
+    <string name="apply_join_team_">申请加入群:%1$s</string>
+    <string name="agree">同意</string>
+    <string name="agreeed">已同意</string>
+    <string name="decline">拒绝</string>
+    <string name="declined">已拒绝</string>
+
+    <string name="wallet_not_support_im">当前钱包暂时不支持聊天功能</string>
+
+    <string name="reference">引用</string>
+    <string name="revoke">撤回</string>
+    <string name="revoke_time_out">消息已超过限定的时间，无法撤回</string>
+    <string name="you_revoke_message">你撤回了一条消息</string>
+    <string name="other_revoke_message">对方撤回了一条消息</string>
+    <string name="someone_revoke_message">%1$s 撤回了一条消息</string>
+    <string name="someone_at_me_tip">[有人\@我]</string>
+    <string name="at_all">所有人</string>
+
+    <string name="apply_join_team_success">加群申请已提交，等待群主验证通过</string>
+    <string name="team_full">群满了</string>
+    <string name="res_invalid">申请已失效</string>
+    <string name="tp_chat">TPChat</string>
+    <string name="add_team_managers">添加群管理</string>
+    <string name="team_manager_title">群管理员</string>
+    <string name="manager_count_limit">最多设置五个管理员</string>
+    <string name="manager_permission_title">群管理员有以下权限</string>
+    <string name="manager_permission_one">1. 打开入群验证</string>
+    <string name="manager_permission_two">2. 同意或拒绝新成员入群</string>
+    <string name="manager_permission_three">3. 主动添加或移除成员</string>
+    <string name="manager_title">管理员列表(左滑可删除)</string>
+    <string name="add_managers">添加管理员</string>
+    <string name="in_team">用户已经在群里</string>
+
+    <string name="add_manager_title">添加管理员(%1$d)</string>
+    <string name="at_title">\@人</string>
+    <string name="forward">转发</string>
+    <string name="message_forwarded">消息已转发</string>
+    <string name="multi_chains">多底层</string>
+    <string name="message_link_tip">[链接] %1$s</string>
+
+    <string name="share_to">分享到</string>
+    <string name="forward_to">发送到</string>
+    <string name="change_wallet_to">请先切换到%1$s钱包</string>
+    <string name="kick_out">踢出群聊</string>
+    <string name="transfer_team_tips">是否确认将群主转让给%1$s</string>
+
+    <string name="create_team_tips">你创建了群: %1$s</string>
+
+    <string name="draft">[草稿]</string>
+
+    <string name="gas_delegate_symbol">iGAS 抵押(%1$s)</string>
+
+    <string name="remain_gas">剩余:%1$s</string>
+
+    <string name="refund_list">赎回列表</string>
+    <string name="gas_delegate_label">iGAS 抵押</string>
+    <string name="gas_refund_label">iGAS 赎回</string>
+    <string name="min_ram">至少保留500 Byte Ram</string>
+    <string name="iost_short_account_hint">账号为5~11位字符</string>
+    <string name="refund_amount_title">赎回数量</string>
+    <string name="refund_time_title">赎回时间</string>
+
+    <string name="import_way">导入方式</string>
+    <string name="create_phone_email_title">手机号/邮箱创建</string>
+    <string name="create_phone_email_desc">通过手机号/邮箱注册账户</string>
+    <string name="import_phone_email_title">手机号/邮箱登陆</string>
+    <string name="import_phone_email_desc">通过手机号/邮箱认证的方式，进行账户登陆</string>
+    <string name="import_pk_title">私钥导入</string>
+    <string name="import_pk_desc">通过输入明文私钥或扫描二维码进行导入</string>
+    <string name="import_observe_title">观察钱包</string>
+    <string name="import_observe_desc">无需导入私钥，输入账号或者对应公钥即可导入</string>
+    <string name="import_cold_title">冷钱包</string>
+    <string name="import_cold_desc">离线导入并保持与网络隔绝，确保私钥永不触网</string>
+    <string name="import_mnemonic_title">助记词导入</string>
+    <string name="import_mnemonic_desc">通过输入助记词或扫描二维码进行导入</string>
+    <string name="import_keystore_title">Keystore导入</string>
+    <string name="import_keystore_desc">输入keystore文件内容或扫描二维码进行导入</string>
+
+    <string name="log_in">登录</string>
+    <string name="register">注册</string>
+    <string name="input_phone_num_hint">请输入手机号码</string>
+    <string name="input_email_hint">请输入邮箱</string>
+    <string name="get_captcha">获取验证码</string>
+    <string name="input_captcha_hint">请输入验证码</string>
+    <string name="phone_register_terms">注册即同意 %1$s 与 %2$s</string>
+    <string name="your_account_title">您的账户</string>
+    <string name="your_phone_title">您的手机号码</string>
+    <string name="your_email_title">您的邮箱</string>
+    <string name="create_code_register">激活码注册</string>
+    <string name="click_to_get">点击前往获取</string>
+    <string name="activate_now">立即激活</string>
+    <string name="payment_contact_tips">支付问题，请联系我们</string>
+    <string name="about_phone_email_wallet">关于手机号/邮箱钱包</string>
+
+    <string name="select_country_region">选择国家和地区</string>
+    <string name="use_email">使用邮箱</string>
+    <string name="use_phone">使用手机号码</string>
+    <string name="countdown_">%1$s 秒</string>
+    <string name="captcha_send">验证码已发送</string>
+    <string name="captcha_used">验证码已过期/不正确，请重新获取</string>
+    <string name="pay_complete_creation">付费完成创建</string>
+    <string name="update_auth_tip">登录操作会替换旧公钥，此前的私钥都将被重置，确定登录吗？</string>
+
+    <string name="iost_polling_timeout">查询超时，请前往浏览器确认结果</string>
+    <string name="min_iost_delegate">至少抵押1个IOST</string>
+
+    <string name="captcha">验证码</string>
+    <string name="link">链接</string>
+
+    <string name="tp_recover_permission">TP恢复权</string>
+
+    <string name="what_tp_permission">什么是TP恢复权限?</string>
+    <string name="tp_permission_desc">手机号注册用户会拥有TP恢复权限，TP恢复权限属于owner权限，可在用户忘记或丢失私钥的情况下，通过手机认证的方式进行私钥恢复。\n如果用户将该权限删除或使得该权限的权重阈值低于owner权限阈值，TP将无法帮助用户进行私钥恢复。 使用手机号登录或恢复账号，都会进行旧公钥替换，新公钥均由用户本地上传。</string>
+    <string name="igas_title">iGAS</string>
+    <string name="iram_title">iRAM</string>
+    <string name="buy_iram">购买iRAM</string>
+    <string name="sell_iram">出售iRAM</string>
+    <string name="input_sell_iram_kb">输入iRAM额度(KB)</string>
+
+    <string name="iost_resource_tips">买卖操作会消耗资源，请及时留意您的iGAS和iRAM资源是否充足</string>
+
+    <string name="contract_action">合约操作</string>
+
+    <string name="delete_tp_permission_tips_not_backup">您尚未备份私钥，删除该权限前，请您先进行备份</string>
+    <string name="delete_tp_permission_tips">如果您删除该权限，TP将无法根据手机/邮箱认证的方式，帮助您进行私钥恢复，确定删除吗？</string>
+    <string name="account_permission_wrong">账户权限不正确</string>
+
+    <string name="message_transfer_tip">[转账] %1$s</string>
+    <string name="tp_transfer_desc">TP转账</string>
+    <string name="message_transfer_send">转账给%1$s</string>
+    <string name="message_transfer_receive">收到转账</string>
+
+    <string name="team_symbol_setting_title">展示资产设置</string>
+    <string name="show_team_token">展示资产</string>
+    <string name="click_goto_setting">点击前往设置</string>
+
+    <string name="add_members">添加群成员</string>
+    <string name="team_members_title">群成员列表</string>
+
+    <string name="unvote">撤票</string>
+    <string name="input_amount_tips">请输入数目</string>
+    <string name="vote_available">可投 %1$s</string>
+    <string name="unvote_available">可撤票 %1$s</string>
+    <string name="bp_rank_title">节点排名</string>
+    <string name="voted_bp_count">已投节点: %1$d</string>
+    <string name="bonus_withdraw">领取奖励（%1$s %2$s）</string>
+    <string name="fail_to_get_account_info">获取账号信息失败</string>
+    <string name="frozen_balance">冻结金额 %1$s</string>
+
+    <string name="set_account_name">设置账号名称(%1$s)</string>
+    <string name="set_wallet_name">设置钱包名称(%1$s)</string>
+    <string name="account_name_null_tips">账户名称不能为空</string>
+    <string name="account_length_insufficient">账户长度不足</string>
+    <string name="account_available">该账户可用</string>
+    <string name="account_not_available">该账户不可用</string>
+    <string name="password_label">密码不少于8位数</string>
+    <string name="know_following_things">我熟知以下事项:</string>
+    <string name="pwd_week">弱</string>
+    <string name="pwd_medium">中</string>
+    <string name="pwd_strong">强</string>
+    <string name="activation_code_error">激活码错误</string>
+    <string name="activation_code_inconsistent">激活码与底层不一致</string>
+
+    <string name="account_length_hint_iost">5–11位的账户名称</string>
+    <string name="account_length_hint_eos">12位的账户名称</string>
+    <string name="account_length_hint_eos_short">3–12位的账户名称</string>
+
+    <string name="no_match_token_tips">没有找到相应的代币？点此提交收录申请。</string>
+    <string name="submit">提交</string>
+
+    <string name="use_fingerprint_unlock">使用指纹验证解锁</string>
+    <string name="activation_code_invalid">无效的激活码</string>
+
+    <string name="activation_code_used">激活码已被使用</string>
+    <string name="activation_code_unpay">激活码未被支付</string>
+    <string name="calculate_ram_fail">计算内存数量失败</string>
+    <string name="update_status_fail">更新状态失败</string>
+
+    <string name="vote_rank">No. %1$d</string>
+    <string name="votes_">%1$s 票</string>
+    <string name="create_block_node">出块节点</string>
+    <string name="partner_node">合伙人节点</string>
+
+    <string name="add_account">添加账号</string>
+
+    <string name="team_id_empty">群ID为空</string>
+    <string name="team_id_">群ID: %1$s</string>
+    <string name="login_im_first">请先在钱包的聊天页面进行授权登录</string>
+
+    <string name="no_system_browser">找不到可用的浏览器</string>
+
+    <string name="tp_code">TP口令</string>
+    <string name="tp_command_copied">TP口令已复制，快去分享吧~</string>
+    <string name="tp_code_text">%1$s复制整段文本 %2$s 后到TokenPocket打开【TP口令】</string>
+    <string name="tp_code_copied_hint">检查到您复制了TP口令</string>
+    <string name="tp_code_open_now">立即打开</string>
+
+    <string name="tidy_asset_cancel">操作已取消</string>
+    <string name="fail_to_get_teaminfo">获取群信息失败</string>
+    <string name="fail_to_startchat">进入聊天失败</string>
+    <string name="blockchain_error">底层信息错误</string>
+    <string name="session_type_error">类型错误</string>
+
+    <string name="scan_qrcode">扫描二维码</string>
+    <string name="old_version">返回旧版</string>
+
+    <string name="random_name">随机账号</string>
+    <string name="random_name_generated">随机账号已生成</string>
+    <string name="no_text_paste">没有可粘贴的文本</string>
+    <string name="filter_paste_hint">不符字符已被过滤</string>
+    <string name="middle">中</string>
+
+    <string name="unplege_too_much">可赎回数目不足</string>
+    <string name="iost_time_error">时间错误，是否跳转到设置页面</string>
+
+    <string name="node_speed">节点速度</string>
+    <string name="eos_authority_source_hint">数据来源: EOSAuthority</string>
+
+    <string name="node_existed_hint">节点已经存在，请勿重复添加</string>
+    <string name="article">文章</string>
+
+    <string name="current_blockchain">当前底层</string>
+    <string name="click_to_switch">点击切换</string>
+    <string name="error">出错了</string>
+
+    <string name="selected_bp">已选节点: %1$d</string>
+    <string name="voted_proxy">已投代理: %1$s</string>
+
+    <string name="vote_proxy_btn">投他</string>
+    <string name="selected">已选</string>
+
+    <string name="be_proxy">成为代理</string>
+    <string name="memo_too_large">memo太长</string>
+    <string name="invalid_amount">数目错误</string>
+    <string name="ram_amount_error">最小交易ram单位为10 bytes</string>
+    <string name="sell_ram_not_enough">可卖内存数目不足</string>
+    <string name="iost_stake_no_resource">您的账号资源(iGAS)不足，请前往资源管理页面获取</string>
+    <string name="invalid_account">账号错误</string>
+    <string name="refunding_">赎回中</string>
+    <string name="frozen_balance_">冻结金额</string>
+    <string name="switch_webview">切换浏览器</string>
+    <string name="clear_transfer_record">清除本地转账历史记录</string>
+
+    <string name="vote_title_">%1$s投票</string>
+
+    <string name="third_parties_create">第三方</string>
+    <string name="third_parties_desc">使用第三方服务创建账号</string>
+    <string name="join_now">立即加入</string>
+
+    <string name="tp_code_join_team_prefix_hint">【加入群聊: %1$s】</string>
+    <string name="team_share">群分享</string>
+    <string name="save_local">保存本地</string>
+    <string name="generate_join_group_code">生成加群口令</string>
+
+    <string name="batch_creation">批量创建</string>
+    <string name="new_account_">新账号</string>
+    <string name="batch_random">批量随机</string>
+    <string name="add_">添加</string>
+    <string name="new_account_publickey">新账号公钥</string>
+    <string name="key_generator">私钥生成器</string>
+    <string name="resource_setting">资源配置</string>
+    <string name="key_tips_1">新注册账号公钥与%1$s一致，可以</string>
+    <string name="click_here">点击此处</string>
+    <string name="modify">修改</string>
+    <string name="consume_token">预计花费</string>
+    <string name="resource_tips_1">新注册账号资源分配情况为 RAM 4 KB，CPU 0.05 %1$s，NET 0.01 %2$s，可以</string>
+    <string name="reset_default_publickey">返回默认公钥</string>
+    <string name="reset_default_resource">返回默认资源配置</string>
+    <string name="start_create">开始创建</string>
+    <string name="account_useful">表示账号可用</string>
+    <string name="account_unuseful">表示账号不可用</string>
+    <string name="setting_pwd_for_account">为账号设置密码</string>
+    <string name="import_pwd_tips">*创建完后，会使用该密码导入账号</string>
+    <string name="account_hint">输入您的账号或（点击左边生成随机账号）</string>
+    <string name="account_count">创建账号数</string>
+    <string name="confirm_and_close">确认并关闭</string>
+    <string name="custom_account">自定义账号</string>
+    <string name="random_batch_account">随机批量账号</string>
+    <string name="batch_import_tips">创建成功后是否自动导入账号？</string>
+    <string name="account_upgrade">账号升级</string>
+    <string name="account_upgrade_title">您已备份成功，我们将在此页面帮助您将伙伴账号升级为个人账号</string>
+    <string name="account_upgrade_title_tips">升级前，请您仔细阅读一下注意事项 ：</string>
+    <string name="account_upgrade_tips_one">本次升级将移除TP的恢复权限，移除后，您无法再次使用手机号进行该账号登录</string>
+    <string name="account_upgrade_tips_two">移除TP恢复权限后，您仅可以使用您刚刚备份的私钥进行账号导入，请您务必确认私钥已经保存好</string>
+    <string name="account_upgrade_tips_three">如果您本次没有进行账号升级，则下次使用手机号登录后，您刚备份的私钥将失效。</string>
+    <string name="read_tips">我已仔细阅读以上内容，并了解账号升级相关事宜</string>
+    <string name="remind_nexttime">下次再说</string>
+    <string name="partner_account_upgrade_tips">由于您当前的资产额度超过 %1$d %2$s，TP钱包建议您从伙伴账号升级到个人账号。</string>
+    <string name="transfer_risk">该合约操作包含转账，金额为 %1$s 请注意风险</string>
+    <string name="no_confirm_before_exit">退出钱包前此合约操作不再需要手动确认</string>
+    <string name="search_node_account">搜索节点或账号</string>
+    <string name="create_success_">创建成功(%1$d)</string>
+    <string name="create_fail_">创建失败(%1$d)</string>
+
+    <string name="block_chain_not_support">当前底层不支持该操作</string>
+
+    <string name="tap_here">点击此处</string>
+    <string name="to_modify">修改</string>
+</resources>

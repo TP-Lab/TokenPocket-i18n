@@ -1,0 +1,1955 @@
+<resources>
+    <string name="app_name">TokenPocket</string>
+
+    <string name="str_create_wallet">財布を作る</string>
+    <string name="str_tips">プロンプト</string>
+    <string name="str_block">システム</string>
+    <string name="str_choose_block">システムを選択してください</string>
+    <string name="str_wallet_name">ウォレット名</string>
+    <string name="str_input_wallet_name">ウォレットの名前を入力してください</string>
+    <string name="str_input_pwd">パスワードを8桁以上入力してください</string>
+    <string name="str_repeat_pwd">パスワードを確認する</string>
+    <string name="str_input_repeat_pwd">パスワードを確認する</string>
+    <string name="str_tip_cannull">記入できません</string>
+
+    <string name="finish">完了</string>
+    <string name="address_list">アドレス帳</string>
+    <string name="wallet_address">ウォレットの住所</string>
+    <string name="name">名前</string>
+    <string name="phone_number">携帯電話番号</string>
+    <string name="comment">備考</string>
+
+    <string name="save">保存する</string>
+    <string name="confirm">確認</string>
+
+    <string name="please_input_name">名前を記入してください</string>
+    <string name="please_input_phone_num">電話番号を記入してください</string>
+
+    <string name="wallet_type">ウォレットボトム</string>
+    <string name="select_wallet_type">財布の底を選ぶ</string>
+    <string name="scan_or_paste_wallet_address">財布のアドレスをスキャンしますか</string>
+    <string name="please_input_wallet_address">先に財布の住所を入力してください</string>
+    <string name="please_select_wallet_type">先に財布の底を選んでください</string>
+
+    <string name="cancel">取り消す</string>
+    <string name="delete">削除</string>
+
+    <string name="ask_to_save_contact">連絡先はまだ保存されていません。</string>
+
+    <!-- createwallet-->
+    <string name="select_block_system">システムを選択してください</string>
+    <string name="pwd_null_tips">パスワードは空になってはいけません</string>
+    <string name="confirmpwd_null_tips">パスワードを確認することはできません</string>
+    <string name="pwd_not_same_tips">2回のパスワードが異なりますので、再入力してください</string>
+    <string name="pwd_too_short_tips">パスワードの長さは8位未満ではありません</string>
+    <string name="service_term_confirm_tips">あなたはまだ読んでいないサービスとプライバシーの条項に同意していません</string>
+    <string name="create_wallet">財布を作る</string>
+    <string name="creating_wallet">作成中…</string>
+    <string name="service_term_start">私はよく読んで同意しました。</string>
+    <string name="service_term_end">サービス及びプライバシーの条項</string>
+    <string name="create_wallet_success">財布の作成に成功</string>
+    <string name="createwallet_error">財布の誤りをつくる</string>
+    <string name="createwallet_error_illegal">財布の誤りを作成し、情報の誤りを記入します。</string>
+
+    <!--error-->
+
+    <!-- share-->
+    <string name="share">分かち合う</string>
+    <string name="wechat">wechat</string>
+    <string name="wechat_moments">友人の輪</string>
+    <string name="qq">QQ友達</string>
+    <string name="share_success">成功を分かち合う</string>
+    <string name="share_cancel">共有を取り消す</string>
+    <string name="please_install_wechat">先にマイクロメッセージをインストールしてください</string>
+    <string name="open_token_pocket_to_scan">TokenPocketを開く[スキャン]</string>
+
+    <string name="wrong_phone_format">電話番号の形式が正しくありません</string>
+    <string name="wrong_email_format">メールボックスの形式が正しくありません</string>
+    <string name="wrong_wallet_address">ウォレットの住所の形式が正しくありません</string>
+
+    <string name="public_key">公開鍵</string>
+    <string name="private_key">秘密鍵</string>
+
+    <string name="wrong_eos_public_key">%1$s公開鍵が間違っています</string>
+
+    <string name="amount">金額</string>
+    <string name="input_amount">金額を入力してください</string>
+
+    <string name="select">選択する</string>
+
+    <!-- 错误信息-->
+    <string name="pwd_error">間違ったパスワード</string>
+    <string name="swt_sequence_error">Swtトランザクションエラー：不正なシーケンス</string>
+    <string name="swt_funds_error">お金が足りません</string>
+    <string name="swtsigned_error">Swt署名エラー</string>
+    <string name="transaction_error">交易错误</string>
+
+    <string name="about_us">私たちについて</string>
+    <string name="current_version">現在のバージョン：%1$s</string>
+    <string name="use_protocol">使用契約</string>
+    <string name="privacy_clause">プライバシーポリシー</string>
+    <string name="the_latest_version">すでに最新バージョン</string>
+    <string name="data_exception">異常データ</string>
+    <string name="data_exception_">データ例外：%1$s</string>
+    <string name="backup_wallet">バックアップウォレット</string>
+    <string name="backup_private_key_title">今あなたの秘密鍵をバックアップする</string>
+    <string name="backup_private_key_content">バックアップウォレット：秘密鍵をコピーして安全な場所に保管してください。 ウェブに保存しないでください。 次に、小さな資産の出入りを試みて、使用を開始してください。</string>
+    <string name="backup_memorizing_words_title">今すぐあなたのニーモニックをバックアップしてください</string>
+    <string name="backup_memorizing_words_content">バックアップウォレット：ニーモニックをコピーして安全な場所に保管してください。 ウェブに保存しないでください。 次に、小さな資産の出入りを試みて、使用を開始してください。</string>
+    <string name="switch_account">アカウントを切り替える</string>
+    <string name="help">ヘルプ</string>
+    <string name="private_key_input_error">秘密鍵の入力エラー、確認してください</string>
+    <string name="memorizing_words_order_error">ニーモニックの順序が間違っていることを確認してください</string>
+    <string name="confirm_backup_info">バックアップ情報を確認する</string>
+    <string name="confirm_wallet_private_key">ウォレットの秘密鍵を確認する</string>
+    <string name="confirm_wallet_private_key_content">プライベートキーをコピーして入力ボックスに入力して、バックアップ秘密鍵が正しいことを確認してください。</string>
+    <string name="confirm_wallet_memorizing_words">ウォレットのニーモニックを確認する</string>
+    <string name="confirm_wallet_memorizing_words_content">ニーモニックをコピー順にクリックして、バックアップニーモニックが正しいことを確認してください。</string>
+    <string name="import_wallet">財布を導入する</string>
+    <string name="manager_wallet">管理財布</string>
+    <string name="delete_success">正常に削除されました</string>
+    <string name="edit_quotation">市場を編集する</string>
+    <string name="old_password_cannot_empty">古いパスワードは空にできません</string>
+    <string name="new_password_cannot_empty">新しいパスワードは空にできません</string>
+    <string name="new_password_confirm_cannot_empty">新しいパスワード確認は空にできません</string>
+    <string name="different_password_for_two_input">新しいパスワードが2回入力された場合は違うので、確認してください</string>
+    <string name="password_length_cannot_less_than_8">パスワードの長さは8桁を超えることはできません</string>
+    <string name="new_password_cannot_same_as_old">古いパスワードと新しいパスワードを同じにすることはできません。再入力してください</string>
+    <string name="wrong_old_password">古いパスワードが間違っている、古いパスワードを再入力してください</string>
+    <string name="update_password">パスワードを変更する</string>
+    <string name="wallet_address_has_copied">ウォレットアドレスがクリップボードにコピーされました</string>
+    <string name="wrong_password">間違ったパスワード</string>
+    <string name="wallet_name_cannot_empty">ウォレット名は空欄にできません</string>
+    <string name="ok">OK</string>
+    <string name="wallet_not_backup">ウォレットはバックアップされません。ウォレットを削除すると、ウォレットを取得できなくなります。</string>
+    <string name="continue_to_delete">削除を続ける</string>
+    <string name="message_center">メッセージセンター</string>
+    <string name="backup_private_key">バックアップ秘密鍵</string>
+    <string name="verify_error_check_private_key">確認エラーです。秘密鍵の入力が正しいことを確認してください</string>
+    <string name="network_disconnect_please_check">ネットワークが接続されていません。確認してください</string>
+    <string name="receivables">領収書</string>
+    <string name="please_enter_correct_number">正しい番号を入力してください</string>
+    <string name="fail_to_generate_receipt_code_and_check">支払いコードエラーが発生しましたら、確認してください</string>
+    <string name="fail_to_generate_receipt_code">支払いコードエラーを生成する</string>
+    <string name="transfer_accounts">転送</string>
+    <string name="submit_transfer_request_success">転送リクエストが正常に送信されました</string>
+    <string name="please_select_token">トークンを選択してください</string>
+    <string name="enter_paste_wallet_address">ウォレットの住所を入力または貼り付けます</string>
+    <string name="receipt_address_cannot_same_transfer_address">受信ウォレットアドレスは、貨幣転送ウォレットアドレスと同じにすることはできません</string>
+    <string name="enter_correct_number_of_out">正しい転送回数を入力してください</string>
+    <string name="the_transfer_being">転送中…</string>
+    <string name="next_step">次のステップ</string>
+    <string name="total_assets">総資産</string>
+    <string name="my_assets">私の資産(%1$s)</string>
+    <string name="wallet">ウォレット</string>
+    <string name="unknown">不明</string>
+    <string name="wrong_params">不正なパラメータ</string>
+    <string name="transaction_details">取引の詳細</string>
+    <string name="transaction_success">転送の成功</string>
+    <string name="transaction_packing">詰め物</string>
+    <string name="transaction_fail">転送に失敗しました</string>
+    <string name="unknown_status">不明なステータス</string>
+    <string name="receipt_address_copied">支払い先住所がクリップボードにコピーされました</string>
+    <string name="query_transaction">取引照会</string>
+    <string name="private_key_copied">秘密鍵がクリップボードにコピーされました</string>
+    <string name="quotation">相場</string>
+    <string name="helper_center">ヘルプセンター</string>
+    <string name="scan_error">認識されないQRコード、認識できないQRコードを再スキャンするには、APPの最新バージョンをアップグレードしてください。再スキャンするには、APPの最新バージョンをアップグレードしてください</string>
+    <string name="no_wallet_create_import">現在、%1$sのウォレットはありません。ウォレットを作成またはインポートしてからもう一度スキャンしてください</string>
+    <string name="prompt">プロンプト</string>
+    <string name="input_wallet_name">ウォレットの名前を入力してください</string>
+    <string name="private_key_cannot_empty">秘密鍵は空ではありません</string>
+    <string name="wrong_private_key_format">秘密鍵形式のエラー</string>
+    <string name="not_read_agree_privacy">あなたは、サービスおよびプライバシーポリシーを読んで同意していない</string>
+    <string name="wallet_existed">%1$s ウォレットはすでに存在し、インポートする必要はありません</string>
+    <string name="fail_to_import_wallet">ウォレットをインポートできませんでした</string>
+    <string name="receipt_code">コレクションコード</string>
+    <string name="user_server_protocol">ユーザーサービス契約</string>
+    <string name="go_to_setting">セットに行く</string>
+    <string name="need_permissions_">次の権限が必要です</string>
+    <string name="sd_card">SDカード</string>
+    <string name="phone_state">電話ステータス</string>
+    <string name="wallet_safe_backup_wallet">あなたの財布のセキュリティのために、あなたの財布をバックアップしてください</string>
+    <string name="backup_immediately">今すぐバックアップ</string>
+    <string name="scan">掃引</string>
+    <string name="scanning">スキャン…</string>
+    <string name="token_pocket_desc">TokenPocketは、安全で安全で使いやすいパワフルなデジタルアセットウォレットアプリを平均的なユーザーに提供するために設計されたモバイルライトウォレットアプリです。</string>
+    <string name="detect_new_version">新しいバージョンを検出する</string>
+    <string name="copyright_token_pocket">Copyright 2018 TokenPocket Team</string>
+    <string name="copy_down_memorizing_word">ウォレットのニーモニックをコピーする</string>
+    <string name="memorizing_word_use_and_copy_down">ニーモニックは、ウォレットを復元し、ウォレットのパスワードをリセットし、紙に正確にコピーし、わかっている安全な場所に保管するために使用されます。</string>
+    <string name="password">パスワード</string>
+    <string name="repeat_password">パスワードの確認</string>
+    <string name="password_tips">ヒント（塗りつぶしてはいけない）</string>
+    <string name="current_password">現在のパスワード</string>
+    <string name="new_password">新しいパスワード</string>
+    <string name="repeat_new_password">新しいパスワードを繰り返します</string>
+    <string name="export_private_key">秘密鍵のエクスポート</string>
+    <string name="delete_wallet">ウォレットを削除</string>
+    <string name="backup_memorizing_words">バックアップニーモニック</string>
+    <string name="input_wallet_private_key">ウォレットの秘密鍵を入力して、バックアップ秘密鍵が正しいことを確認してください。</string>
+    <string name="search_token_contract_hint">tokenの名前または契約先の住所を入力してください</string>
+    <string name="popular_recommendation">人気のあるおすすめ</string>
+    <string name="transfer_amount">振込額</string>
+    <string name="cost_of_miner">マイナーコスト</string>
+    <string name="slow">遅い</string>
+    <string name="fast">速い</string>
+    <string name="payer">送信側</string>
+    <string name="payee">受取人</string>
+    <string name="trade_number">取引番号</string>
+    <string name="block_number">ブロック番号</string>
+    <string name="trading_time">取引時間</string>
+    <string name="asset">資産</string>
+    <string name="latest_price">最新価格</string>
+    <string name="rise_and_fall">浮き沈み</string>
+    <string name="no_current_market">現在市場はありません</string>
+    <string name="add_market_quotation">マーケットを追加</string>
+    <string name="overview_of_assets">資産の概要</string>
+    <string name="transaction_record">取引記録</string>
+    <string name="contact">連絡先</string>
+    <string name="express_private_key">プレーンテキストの秘密鍵</string>
+    <string name="wallet_name">ウォレット名</string>
+    <string name="what_is_private_key">秘密鍵とは何ですか</string>
+    <string name="copy_receipt_address">支払い先住所をコピーする</string>
+    <string name="memorizing_words_with_space">ニーモニック、スペースで区切る</string>
+    <string name="select_format">フォーマットを選択</string>
+    <string name="order_detail">注文の詳細</string>
+    <string name="confirm_payment">支払いを確認する</string>
+    <string name="private_key_warn">セキュリティ警告は、秘密鍵をエクスポートしてから安全に保管してください。また、漏洩した場合は漏えいする可能性があります。</string>
+    <string name="copy_private_key">秘密鍵をコピーする</string>
+    <string name="setting_cost_of_miner">マイナー料金設定</string>
+    <string name="recommend">おすすめ</string>
+    <string name="update_hint">アップグレードプロンプト</string>
+    <string name="new_version_is_detected">新しいバージョンが検出されました。パッケージのサイズは %1$s、%2$s</string>
+    <string name="upgrade_now">今すぐアップグレードする</string>
+    <string name="empty">空で空の〜</string>
+    <string name="non_backup">バックアップされていない</string>
+    <string name="add">追加</string>
+    <string name="discover">発見する</string>
+    <string name="me">私</string>
+    <string name="all_wallet">すべての財布</string>
+    <string name="amount_collected">回収額</string>
+    <string name="set_amount_collected">お支払い金額を設定してください</string>
+
+    <string name="version_log">バージョンログ</string>
+
+    <string name="copy_paste_scan_keystore">エテリアルウォレット Keystore ファイルの内容をコピーして入力ボックスに直接貼り付けます。 または、Keystore コンテンツのQRコードを入力して、エントリをスキャンします</string>
+    <string name="keystore_content_hint">Keystore テキストコンテンツ</string>
+    <string name="keystore_password">Keystore のパスワード</string>
+    <string name="what_is_keystore">Keystore とは何ですか？</string>
+    <string name="keystore_cannot_empty">Keystore は空にできません</string>
+    <string name="export_keystore">輸出 Keystore</string>
+    <string name="keystore_file">Keystore ファイル</string>
+    <string name="qr_code">QRコード</string>
+    <string name="only_scan">ダイレクトスキャンのみ</string>
+    <string name="qr_code_forbid">QRコードは保存したり、スクリーンショットを撮ったり、写真を撮ることは禁じられています。 ユーザーだけが安全な環境で直接スキャンしてウォレットを簡単にインポートできます</string>
+    <string name="use_in_safe">安全な環境での使用</string>
+    <string name="use_in_safe_content">あなたが誰もカメラなしに囲まれている場合は、それを使用してください。 他の人がQRコードを取得すると、それは修復不可能な資産の損失を引き起こします。</string>
+    <string name="confirm_no_people_camera">誰もカメラを使わずに確認</string>
+    <string name="show_qr_code">QRコードを表示する</string>
+    <string name="hide_qr_code">QRコードを隠す</string>
+    <string name="offline_save">オフラインで保存</string>
+    <string name="offline_save_content">Keystore ファイルをコピーして安全なオフラインの場所に貼り付けてください。 電子メール、メモ帳、ウェブ、チャットなどに保存しないでください。非常に危険です</string>
+    <string name="not_use_network_tran">ネットワーク伝送を使用しない</string>
+    <string name="not_use_network_tran_content">Keystore ファイルをWebツール経由で転送しないでください。ハッカーによって取得されると、修復不能な資産損害が発生します。 オフラインデバイスはQRコードをスキャンして送信することをお勧めします。</string>
+    <string name="password_safe_storage">パスワードセーフセーブ</string>
+    <string name="password_safe_storage_content">オンラインで保存する必要がある場合は、セキュリティレベルの高い1Passwordなどのパスワード保存ソフトウェアで Keystore を保存することをお勧めします。</string>
+    <string name="copy_keystore">コピー Keystore</string>
+    <string name="copied">コピーされた</string>
+    <string name="no_screenshot">スクリーンショットを撮らないでください</string>
+    <string name="dialog_no_people_camera">周囲に人がいなくてカメラがないことを確認してください！ Keystore ファイルまたは対応するQRコードをスクリーンショットや写真とともに保存しないでください。</string>
+    <string name="i_got_it">私は知っている</string>
+    <string name="export_keystore_error">Keystore エラーのエクスポート</string>
+
+    <string name="select_wallet_transaction">ウォレットの転送を選択</string>
+    <string name="wallet_number_limit">財布の数が上限を超えています</string>
+
+
+    <!-- transaction -->
+    <string name="buy">買う</string>
+    <string name="sell">売る</string>
+    <string name="price">価格</string>
+    <string name="current_delegation">現在の手数料</string>
+    <string name="filter">スクリーニング</string>
+    <string name="deal">取引</string>
+
+    <string name="high">高い</string>
+    <string name="low">低い</string>
+    <string name="h_24">24H</string>
+    <string name="cny">≈%1$sCNY</string>
+
+    <string name="one_hour">1時間</string>
+    <string name="one_day">1日</string>
+    <string name="one_week">1週間</string>
+    <string name="one_month">1月</string>
+
+    <string name="chart_buy">買う</string>
+    <string name="chart_sell">売る</string>
+    <string name="chart_depth">深さ</string>
+    <string name="chart_deal">取引</string>
+    <string name="chart_intro">はじめに</string>
+
+    <string name="deal_time">時間</string>
+    <string name="deal_direction">方向</string>
+    <string name="deal_price">価格(USDT)</string>
+    <string name="deal_amount">数量(ETC)</string>
+    <string name="depth_bid">買う</string>
+    <string name="depth_selling">販売</string>
+
+    <string name="chart_ma5_">MA5: %1$s</string>
+    <string name="chart_ma10_">MA10: %1$s</string>
+    <string name="chart_ma30_">MA30: %1$s</string>
+    <string name="chart_volume_">ボリューム: %1$s</string>
+
+    <string name="settings">システム設定</string>
+    <string name="gesture_password">ジェスチャーのパスワード</string>
+    <string name="draw_unlock_pattern">ロック解除パターンの描画</string>
+    <string name="repaint">再描画</string>
+    <string name="gesture_wrong">最低4つのポイントを接続し、再入力してください</string>
+    <string name="draw_unlock_pattern_again">ロック解除パターンをもう一度描く</string>
+    <string name="draw_unlock_pattern_different">2回描かれたパターンが違うので、再入力してください</string>
+    <string name="gesture_setting_success">ジェスチャーのログイン設定が成功しました</string>
+    <string name="confirm_close_gesture">ジェスチャーログインを閉じる</string>
+    <string name="gesture_closed">ジェスチャーログインはオフです</string>
+    <string name="please_input_gesture_password">ジェスチャーのパスワードを入力してください</string>
+    <string name="wrong_gesture_input_again">ジェスチャーのパスワードが間違っている、再入力してください</string>
+    <string name="use_wallet_password_to_login">ウォレットのパスワードでサインインする</string>
+    <string name="use_gesture_password_to_login">ジェスチャーパスワードでサインインする</string>
+    <string name="please_input_wallet_password">ウォレットのパスワードを入力してください</string>
+
+    <string name="click_again_to_exit">もう一度クリックすると終了します。</string>
+    <string name="language">言語</string>
+
+    <string name="download_tips">ダウンロードのヒント</string>
+    <string name="download_progress">ダウンロードの進捗状況：</string>
+    <string name="install">インストール</string>
+    <string name="recommended_upgrade">推奨アップグレード</string>
+    <string name="strongly_recommended_upgrade">強く推奨されるアップグレード</string>
+    <string name="can_be_upgraded_later">後でアップグレードする</string>
+
+
+    <string name="tx_info">タイプ</string>
+    <string name="to">振込先住所</string>
+    <string name="from">振込先住所</string>
+    <string name="gas">マイナー料金</string>
+    <string name="contract_amount">数量</string>
+
+    <string name="token_info_title">契約住所</string>
+    <string name="copy">コピー</string>
+
+    <string name="ask_install_app_permission">アプリをインストールするには、未知のソースのアクセス許可を開く必要があります。設定にアクセスしてアクセス許可を開きます。</string>
+    <string name="upgrade_content">コンテンツを更新する：</string>
+
+    <string name="eos_account_name">アカウント名</string>
+    <string name="eos_short_account_hint">アカウント番号は1〜12文字です</string>
+
+    <string name="transfer_to_account">アカウントに転送</string>
+    <string name="payment_account">支払いアカウント</string>
+    <string name="copy_receipt_account">コレクションアカウントをコピーする</string>
+
+    <string name="vote">投票する</string>
+    <string name="vote_title">投票 %1$s</string>
+    <string name="voted">投げた</string>
+    <string name="delegate_symbol">住宅ローン(%1$s)</string>
+    <string name="refunding_symbol">償還(%1$s)</string>
+    <string name="delegate">住宅ローン</string>
+    <string name="refund">償還</string>
+    <string name="input_delegate_amount">住宅ローン金額を入力してください</string>
+    <string name="input_undelegate_amount">償還金額を入力してください</string>
+
+    <string name="delegate_successfully">住宅ローンの成功</string>
+    <string name="delegate_failure">抵当不良</string>
+    <string name="undelegate_successfully">償還の成功</string>
+    <string name="undelegate_failure">償還の失敗</string>
+
+    <string name="please_select_first">最初に選択してください</string>
+    <string name="vote_30_at_most">30まで投票する</string>
+    <string name="vote_success">成功票</string>
+    <string name="vote_failed">投票に失敗しました。もう一度お試しください</string>
+    <string name="super_producer">BP</string>
+    <string name="super_proxy">エージェント</string>
+
+    <string name="apply_proxy_success">エージェント情報が正常に送信されました，数分で有効になります</string>
+    <string name="apply_proxy_fail">アプリケーションの代表者が失敗した</string>
+    <string name="set_delegated_votes">注文数を設定する</string>
+    <string name="proxy_name">名前</string>
+    <string name="input_proxy_name">代理店の名前を入力してください</string>
+    <string name="proxy_account">アカウント</string>
+    <string name="input_proxy_official_address">あなたの公式サイトアドレスを入力してください</string>
+    <string name="submit_application">アプリケーションを提出する</string>
+    <string name="more_contact_us">より多くの内容お問い合わせ</string>
+    <string name="website">ウェブサイト</string>
+    <string name="un_vote">投票を取り消す</string>
+    <string name="no_available_email_app">利用可能なメールボックスアプリケーションはありません</string>
+    <string name="un_vote_success">投票を取り消す</string>
+    <string name="un_vote_failed">投票をキャンセルできませんでした。もう一度お試しください</string>
+
+    <string name="eos_rule_vote">投票ルール</string>
+
+    <string name="search_transaction_tips">操作がタイムアウトした場合は、ブラウザに移動して転送ステータスを確認してください</string>
+    <string name="fail_to_get_account">アカウント名の取得に失敗しました</string>
+    <string name="cannot_transfer_to_self">自分に送金できない</string>
+
+    <string name="area_and_weight">エリア：%1$s |重量：%2$s</string>
+    <string name="no_vote_to_delegate">現在のところ、投票可能な番号はありません。最初に抵当権を取得し、抵当権に進むことを決定する必要がありますか？</string>
+    <string name="go_to_delegate">住宅ローンに行く</string>
+    <string name="eos_main_net_not_enough">メインネットワークの総住宅ローンは15％未満であり、モーゲージをキャンセルすることはできません。</string>
+
+    <string name="pwd_tips">8文字以上で、大文字と小文字を混在させることをお勧めします</string>
+
+    <string name="create_wallet_tip_zero">· 私は読んで同意しました</string>
+    <string name="create_wallet_tip_one">· パスワードは秘密鍵とトランザクション認証を保護するために使用され、強度は非常に重要です</string>
+    <string name="create_wallet_tip_two">· TokenPocketにはパスワードが保存されておらず、また戻ってくることもありません</string>
+
+    <string name="password_weak">弱い</string>
+    <string name="password_normal">一般</string>
+    <string name="password_good">良い</string>
+    <string name="password_perfect">とても良い</string>
+    <string name="mnemmoic_error">ニーモニックエラー</string>
+
+    <string name="canceling">キャンセル</string>
+
+    <string name="cancel_proxy_fail">ログアウトエージェントが失敗しました</string>
+
+    <!-- EOS错误信息 -->
+    <string name="eos_producer_vote_unique_sorted">プロデューサー投票はユニークでソートされている必要があります</string>
+    <string name="eos_user_must_stake_before_vote">投票前の住宅ローン</string>
+    <string name="eos_proxy_not_allowed_proxy">エージェントとして登録されたアカウントはエージェントを使用できません</string>
+    <string name="eos_action_has_no_effect">無効な操作</string>
+    <string name="eos_no_balance_found">残高なし</string>
+    <string name="eos_overdrawn_balance">不十分なバランス</string>
+    <string name="eos_to_account_not_exist">ターゲットアカウントが存在しません</string>
+    <string name="eos_unable_find_key">トークンを見つけることができません</string>
+    <string name="eos_name_not_normalized">アカウント名が仕様を満たしていません</string>
+    <string name="eos_account_already_existed">アカウント名は既に存在します</string>
+    <string name="eos_stake_no_resource">あなたのアカウントリソース（計算/ネットワーク）は不十分です。</string>
+    <string name="eos_stake_cpu_no_resource">アカウント計算リソースが不足しています。リソース管理にアクセスしてください</string>
+    <string name="eos_stake_net_no_resource">あなたのアカウントにはネットワークリソースが不足しています。</string>
+    <string name="eos_no_ram_to_buy">アカウントのメモリが不足しています。リソース管理にアクセスしてください</string>
+    <string name="eos_have_no_signatures">トランザクションは権限を宣言しますが、署名はありません</string>
+    <string name="unsatisfied_authorization">許可が一致しません</string>
+    <string name="transaction_unable_complete_deadline">トランザクションが完了していない場合は、リソースが十分であるかどうかを確認してください</string>
+    <!-- EOS错误信息 -->
+
+    <string name="resource_manage">リソース管理</string>
+    <string name="buy_ram_symbol">メモリを買う(%1$s)</string>
+    <string name="sell_ram_symbol">メモリの販売(%1$s)</string>
+    <string name="input_buy_amount">購入金額を入力してください</string>
+    <string name="input_sell_amount">売上金額を入力してください</string>
+    <string name="buy_successfully">提出、ブロック確認待ち</string>
+    <string name="buy_failure">送信に失敗しました</string>
+    <string name="sell_successfully">提出、ブロック確認待ち</string>
+    <string name="sell_failure">送信に失敗しました</string>
+
+    <string name="balance_">残高：%1$s</string>
+    <string name="go_to_for_more_details">詳細は%1$sに移動してください</string>
+    <string name="success">成功した操作</string>
+
+    <string name="search_name_or_account">名前またはアカウント名を入力してください</string>
+    <string name="home_delegated_amount">住宅ローン %1$s</string>
+    <string name="area_">エリア： %1$s</string>
+    <string name="tips">プロンプト</string>
+    <string name="account_name_not_exist">アカウント名が存在しません</string>
+    <string name="contact_us">お問い合わせ</string>
+    <string name="eos_transfer_to_address_invalid">アカウント名が無効です。確認してください</string>
+
+    <string name="create_wallet_retry">ウォレットを作成できませんでした。もう一度お試しください</string>
+    <string name="retry">再試行</string>
+
+    <string name="not_sufficient_funds">不十分なバランス</string>
+    <string name="insufficient_memory">メモリ不足</string>
+
+    <string name="no_account_name">アカウント名なし</string>
+    <string name="already_imported">輸入された</string>
+
+    <string name="please_select_wallet">ウォレットを選んでください</string>
+    <string name="checking">チェック…</string>
+
+    <string name="eos_creator">クリエイター</string>
+    <string name="please_select_creator">作成者を選択してください</string>
+    <string name="owner_public_key_tip">所有者公開鍵（デフォルトの現在の公開鍵）</string>
+    <string name="input_owner_key_scan">オーナーの公開キーまたはスワイプを入力してください</string>
+    <string name="advanced_mode">詳細モード</string>
+    <string name="manager_public_key">マネージャの公開鍵</string>
+    <string name="input_manager_key_scan">マネージャの公開鍵を入力するか、それを掃除してください</string>
+    <string name="allocation_ram_bytes">メモリの割り当て(Bytes)</string>
+    <string name="eos_cpu_delegate_symbol">CPUの住宅ローン(%1$s)</string>
+    <string name="eos_net_delegate_symbol">ネットワーク住宅ローン(%1$s)</string>
+    <string name="simple_mode">シンプルモード</string>
+    <string name="register_now">今すぐ登録する</string>
+    <string name="ram">メモリ</string>
+    <string name="bytes">バイト</string>
+    <string name="please_allocation_ram">メモリを割り当ててください</string>
+    <string name="please_delegate_cpu">CPUを借りてください</string>
+    <string name="please_delegate_net">住宅ローンNET</string>
+    <string name="create_account">アカウントを作成する</string>
+    <string name="owner_key">所有者公開鍵</string>
+    <string name="manager_key">マネージャの公開鍵</string>
+    <string name="allocation_ram">メモリの割り当て</string>
+    <string name="eos_cpu_delegate">CPUの住宅ローン</string>
+    <string name="eos_net_delegate">NETの住宅ローン</string>
+    <string name="eos_create_account_success">アカウントを正常に作成する</string>
+    <string name="eos_create_account_fail">アカウントの作成に失敗しました</string>
+    <string name="creating">作成する…</string>
+
+    <string name="dapp_relief_title">訪問したページはサードパーティのDAppにジャンプします "%1$s"</string>
+    <string name="dapp_relief_content">ヒント：訪問したページは、サードパーティのDAPP "%1$s" にジャンプします。サードパーティのDAppでの使用は、サードパーティのDAppの "ユーザ契約"と "プライバシーポリシー"に適用されます。 %1$s "はあなたに直接かつ個別に責任があります。</string>
+
+    <string name="buyram">メモリを買う</string>
+    <string name="sellram">メモリを売る</string>
+    <string name="copy_success">%1$s コピーされた</string>
+    <string name="copy_fail">%1$s をコピーできませんでした。もう一度お試しください</string>
+
+    <string name="album">アルバム</string>
+    <string name="permission_manage">権利管理</string>
+
+    <string name="what_owner_permission">所有者（Owner）権限とは</string>
+    <string name="owner_permission_desc">Ownerはアカウントの所有権を表し、Activeやその他の役割を管理できます</string>
+    <string name="what_active_permission">管理者（Active）権限とは</string>
+    <string name="active_permission_desc">Activeは、転送、投票などの毎日の使用に使用されます</string>
+    <string name="what_weight">重量閾値は何ですか？</string>
+    <string name="weight_desc">重量閾値は、この許可を使用するための最小重量要件です</string>
+    <string name="input_modify_public_key">変更された公開鍵を入力してください</string>
+    <string name="modify_owner_permission">所有者権限を変更する</string>
+    <string name="modify_active_permission">マネージャ権限を変更する</string>
+    <string name="modify_account_success">成功した変更</string>
+    <string name="modify_account">アカウントを変更する</string>
+    <string name="modify_authority">権限を変更する</string>
+    <string name="new_public_key">新しい公開鍵</string>
+    <string name="eos_owner">所有者</string>
+    <string name="eos_active">マネージャー</string>
+
+    <string name="eos_token_info">EOSトークン</string>
+
+    <string name="proxy_title">エージェント紹介</string>
+
+    <string name="contact_way">連絡先情報</string>
+
+    <string name="transfer_precision_limit">%1$sの転送では%2$sの小数しかサポートしていません</string>
+
+    <string name="countdown_refund">払い戻し</string>
+    <string name="refunding">払い戻された</string>
+    <string name="refund_success">払い戻されました</string>
+    <string name="refund_fail">戻り値の失敗</string>
+
+    <string name="notice_title_warning">ヒント</string>
+    <string name="notice_account_permission_tips">・権限を変更する場合は、相手の公開鍵が正しいことを確認してください。 \n・変更するときは、Active - > Owner のような小さい権限で開始してください。 \n・変更する前に、資産が適切に処理されていることを確認してください！</string>
+    <string name="not_eos_base_wallet_and_switch">現在のウォレットはEOS/ENUウォレットではありません。EOS/ENUウォレットに切り替えてください</string>
+    <string name="create_eos_token">EOSトークンを作成する</string>
+
+    <string name="mine">パーソナルセンター</string>
+
+    <string name="more">もっと</string>
+
+    <string name="pretty_assistant">ニックネームアシスタント</string>
+
+    <!-- 这个不要做翻译 -->
+    <string name="memo">Memo</string>
+
+    <string name="eos_key_generate">キージェネレータ</string>
+    <string name="go_to_use">使用する</string>
+    <string name="eos_tips_of_use_private_key">ヒント：キーを使用する前に秘密鍵をバックアップする</string>
+    <string name="eos_generate_key_success">秘密鍵が生成されました</string>
+    <string name="eos_generate_key_fail">秘密鍵の生成に失敗しました</string>
+    <string name="eos_confirm_backup_private_key">秘密鍵がバックアップされていることを確認しますか？</string>
+
+    <string name="cpu">CPU</string>
+    <string name="net">NET</string>
+
+    <string name="to_self">自分</string>
+    <string name="to_others">その他</string>
+    <string name="receiver_label">受信者</string>
+    <string name="lease">賃貸</string>
+    <string name="receiver_transfer">転送</string>
+
+    <string name="invalid_private_key">プライベートキーのアドレスが無効です。コピーが正しいかどうかを確認してください。</string>
+    <string name="resource">リソース</string>
+
+
+    <string name="create_eos_account">%1$sアカウントを作成する</string>
+    <string name="bidname_title">入札単価を引き上げる</string>
+    <string name="do_bidname">入札オークション</string>
+    <string name="price_higer_tips">入札額は現在の価格よりも10％高くする必要があります</string>
+    <string name="bid_price">オークション価格</string>
+    <string name="bid_name">オークション名</string>
+
+
+    <string name="add_contact">新しい連絡先</string>
+    <string name="remarks_options">備考（オプション）</string>
+    <string name="please_input_remarks">メモを入力してください</string>
+    <string name="add_wallet_address">ウォレットアドレスを追加する</string>
+    <string name="edit_contact">連絡先を編集</string>
+    <string name="confirm_delete_">%1$s を削除してもよろしいですか？</string>
+    <string name="saved">保存された</string>
+    <string name="select_address">アドレスを選択してください</string>
+    <string name="select_account">アカウントを選択してください</string>
+    <string name="contact_has_no_address">連絡先にはウォレットアドレスがありません</string>
+    <string name="contact_has_no_match_address">連絡先には対応するウォレットアドレスがありません</string>
+
+    <string name="check_private_key">秘密鍵チェック</string>
+    <string name="eos_check_account">公開鍵に基づいてアカウントをチェックする</string>
+    <string name="generate_public_key_first">公開鍵を生成してください</string>
+    <string name="eos_no_account_name_tips">現在の秘密鍵にはアカウント名はなく、検出用の検出ページに入るかどうかが決まります</string>
+
+    <string name="my_bid">私のオークション</string>
+    <string name="bid_ranking">オークションランキング</string>
+    <string name="input_short_bid">オークションの短い名前を入力してください</string>
+    <string name="bid_auction">入札単価を引き上げる</string>
+    <string name="eos_bid_account_name">アカウント名</string>
+    <string name="highest_bidder">入札者</string>
+    <string name="bidding_information">入札情報</string>
+
+    <string name="ram_transaction">メモリトランザクション</string>
+    <string name="in_the_transaction">取引で</string>
+    <string name="eos_ram_open">今日開く</string>
+    <string name="eos_ram_amount">総資金</string>
+    <string name="eos_ram_rate">記憶比</string>
+    <string name="record_of_sale">取引履歴</string>
+    <string name="large_single_record">大きなシングルレコード</string>
+    <string name="large_holder">保有者ランキング</string>
+    <string name="inflow_outflow">取引ファンドの分配</string>
+    <string name="eos_ram_sales_tips"><![CDATA[小さな注文  %1$s     中位 %2$s     ビッグシングル  %3$s]]></string>
+    <string name="input_eos_amount">EOSクォータを入力</string>
+    <string name="input_sell_ram">入力メモリ</string>
+    <string name="eos_symbol">EOS</string>
+    <string name="buying">買い</string>
+    <string name="selling">販売</string>
+    <string name="waiting">しばらくお待ちください</string>
+    <string name="ram_transaction_record">メモリトランザクションレコード</string>
+    <string name="ram_my_record">注文履歴</string>
+
+    <string name="rammark_pie_deals">取引の分配</string>
+    <string name="rammark_pie_in">流入:</string>
+    <string name="rammark_pie_out">流出:</string>
+
+    <string name="rammark_pie_big">大量</string>
+    <string name="rammark_pie_med">中量</string>
+    <string name="rammark_pie_small">少量</string>
+
+    <string name="ram_left_tip">少なくとも1KBのアカウントメモリが残っていることを確認してください。そうしないと、リソース不足のためアカウントの他の操作が失敗することがあります。</string>
+    <string name="buy_ram_precision_error">入力数は小数点以下4桁までしか入力できません</string>
+
+    <string name="too_few">入力が少なすぎます</string>
+    <string name="byte_no_dot">メモリの売り上げは整数にしかなりません</string>
+    <string name="create_account_consume_eos">このアカウントは作成されました %1$s %2$s</string>
+
+    <string name="eos_create_tip">%1$sアカウントを作成するには、%2$sが必要です。この作成のお支払いに役立つ%3$s残高を持つ信頼できるアカウントを見つけてください。</string>
+    <string name="eos_owner_authority">所有者の許可</string>
+    <string name="eos_active_authority">管理者権限</string>
+    <string name="eos_delete_order">注文を削除する</string>
+    <string name="eos_request_create">友達作成</string>
+    <string name="eos_unfinished_order">現在、%1$sの優れた注文があります</string>
+    <string name="eos_delete_unfinished_order">この未処理の%1$s注文を削除してもよろしいですか？</string>
+    <string name="eos_order_deleted">注文を削除しました</string>
+
+    <string name="eos_account_not_exit">アカウントが存在しません</string>
+    <string name="eos_multi_owner_active">複数の秘密鍵には、アカウントのための ownerとactive権限がありますが、これは非常に危険です。</string>
+    <string name="eos_multi_owner">複数の秘密鍵はアカウントに対してowner特権を持ち、非常に危険です。</string>
+    <string name="eos_multi_active">複数の秘密鍵にはアカウントのactive権限があり、非常に危険です。</string>
+    <string name="eos_only_owner">あなたはこのアカウントのowner権限しか持っていませんが、これは非常に危険です。</string>
+    <string name="eos_only_active">あなたはこのアカウントのactive許可のみを持っていますが、これは非常に危険です。</string>
+    <string name="eos_account_have_exit">アカウントが他の人によって占拠されている場合は、注文を削除して注文を再生成してください。</string>
+    <string name="eos_active_account">アクティブにする</string>
+
+    <string name="eos_confirm_account">このアカウントのすべての権限が正しいことを確認したら、秘密鍵でウォレットをインポートしてください。</string>
+    <string name="eos_resource_tips">あなたのメモリコンピューティングネットワークリソースに注意してください。ネットワークとコンピューティングリソースが0.5 EOS以上であることをお勧めします。リソースが不足していると、トランザクションがブロックでロールバックされます。</string>
+    <string name="check_eos_account_course">チェックをクリック >></string>
+    <string name="help_create_eos_account">EOSアカウントを友人に登録する方法</string>
+
+    <string name="help_create_account_fail">ステータスは不明です。表示ボタンをクリックすると、アカウント作成ブロックの確認結果が表示されます。</string>
+    <string name="query">Goチェック</string>
+
+    <string name="sms_warn">SMSアラート</string>
+    <string name="ram_warn">メモリ警告</string>
+    <string name="ram_warn_type_tips">TokenPocket価格アラートは2つの形式に分かれています。</string>
+    <string name="ram_price_warn">価格警告</string>
+    <string name="price_warn_desc">・価格警告は上限と下限に分かれています。 \n・価格が特定の場所に達すると、システムはアラームを発します。同じ価格は一度に4回まで警告され、1日あたり12メッセージが上限としてプッシュされます。 \n・3つまでの価格警告を同時に設定することができます。</string>
+    <string name="top_account_warn">大規模な家計追跡警告</string>
+    <string name="top_account_desc">・大規模家計の追跡行動は、買いトラッキングと売り上げトラッキングに分かれています。 \n・売買が設定値に達するか設定値を超えると、メッセージがプッシュされます。各設定値は1日あたり最大4回警告され、プッシュメッセージの数は毎回12回になります。 \n・同時に3つまでの大規模早期警告を設定することができます。</string>
+    <string name="ram_warn_tips">注：地域ごとに異なるネットワーク環境があるため、このサービスは追跡に限定されており、保留中の注文の実装には適用されません。 このサービスはTokenPocket付加価値サービスに属し、1ヶ月間有効なサービス費用は %1$sEOSであり、最終的な通訳権はTokenPocketに属します（一度購読を払い戻すことはできません）。</string>
+    <string name="open_now">すぐに開く</string>
+    <string name="phone_num">携帯電話番号</string>
+    <string name="sms_warn_dialog_tips">警告は価格アラームとしてのみ使用されます。ネットワーク環境の偏差により、リアルタイム保留オーダーには適用されません。</string>
+    <string name="cost">コスト</string>
+    <string name="price_warn_order_preview">価格アラート注文のプレビュー</string>
+    <string name="sms_warn_open_success">SMSアラート機能が正常に起動しました</string>
+    <string name="sms_warn_open_fail">SMSアラートに失敗しました</string>
+    <string name="sms_renew">更新手数料</string>
+    <string name="add_warn">警告を追加する</string>
+    <string name="current_price">現在の価格</string>
+    <string name="current_price_rate">現在の価格変動</string>
+
+    <string name="top_account_name">大口座</string>
+    <string name="warn_amount">警告の数</string>
+    <string name="price_top">価格上限</string>
+    <string name="price_low">価格フロア</string>
+    <string name="warning_num">警告の数</string>
+    <string name="warning_direction">流れ方向</string>
+    <string name="warning_buy">買う</string>
+    <string name="warning_sell">売る</string>
+    <string name="submit_success">提出済み</string>
+    <string name="input_warn_num">アラート数を入力してください</string>
+    <string name="price_top_unit">価格上限 (EOS/KB)</string>
+    <string name="price_low_unit">価格フロア (EOS/KB)</string>
+    <string name="input_warn_price">価格を入力してください</string>
+    <string name="price_top_small_than_low">価格の上限は価格の下限よりも低くできません</string>
+    <string name="confirm_delete_warn_info">現在のアラート情報を削除してもよろしいですか？</string>
+    <string name="deleting">削除済み</string>
+    <string name="fail_to_delete">削除に失敗しました</string>
+    <string name="update_success">更新された</string>
+    <string name="warning_service_deadline">早期警告サービスの有効期限： %1$s</string>
+
+    <string name="contract_create_eos_tips_start">交換のコイン、メモ、または財布の振り込みと発言を使用して、次の住所に転送する</string>
+    <string name="contract_create_eos_tips_middle">2 %1$s</string>
+    <string name="contract_create_eos_tips_end">アカウントの作成を完了します。 このうち、0.2 %1$sはモーゲージ・コンピューティングとネットワーク・リソースに使用され、残りはユーザーが同等のメモリを購入するのに役立ちます。</string>
+    <string name="contract_create_eos_tips_two">現在、このような取引は、OTCBTC、Gate.io、Coin Security、Bitfinexによって明示的にサポートされています。 コインを引き出すために他の取引所を使用しないでください！ ウォレット内の転送メモをサポートしている限り。</string>
+    <string name="transfer_to_account_necessary">アカウントに転送する（必須）</string>
+    <string name="steps">操作プロセス：</string>
+    <string name="memo_necessary">メモに転送する（必須）</string>
+    <string name="notice">指示する</string>
+    <string name="notice_content">この作成方法は、%1$sチームによって導入されたスマートコントラクトを使用して作成され、作成プロセス中に手動操作を必要としません。 ユーザーの不適切な操作のために資産が失われた場合、TPはユーザーがそれを取り出すのを助けることができません。</string>
+    <string name="exchange_create_delete_order">注文を削除する</string>
+    <string name="type_title_exchange">交換コイン/ウォレット転送の作成</string>
+    <string name="create_way">作成方法の選択</string>
+
+    <string name="no_refund">償還なし</string>
+
+    <string name="eos_account_create_state_create">アカウントの作成..</string>
+    <string name="eos_account_create_state_required">アカウントステータスの確認..</string>
+    <string name="eos_account_create_state_safe">アカウントのセキュリティの検出..</string>
+    <string name="eos_account_create_wrong_owner">onwerが間違っています</string>
+    <string name="eos_account_create_wrong_active">activeが間違っている</string>
+    <string name="eos_transfer_memo_tips">現在の振替口座は交換口座ですので、メモが正しいことを確認してください。</string>
+
+    <!-- action类型-->
+    <string name="transfer">転送</string>
+    <string name="delegatebw">住宅ローン</string>
+    <string name="undelegatebw">償還</string>
+    <string name="update_auth">権限を更新する</string>
+    <string name="new_account">アカウントを作成する</string>
+    <string name="vote_producer">投票する</string>
+    <string name="fail">操作が失敗しました</string>
+    <string name="action_details">アクションの詳細</string>
+
+    <!-- 和IOS同步key -->
+    <string name="setting_color_switch">チャート変動のカラー設定</string>
+    <string name="invite_code_title">ド→ゲストコード</string>
+    <string name="invite_now">今すぐ招待</string>
+    <string name="invitation_record">既に%1$S人の友達を招待して%2$sポイントを獲得しています</string>
+    <string name="invite_rule">アクティビティルール：</string>
+    <string name="invite_rules_desc">1.活動中、100のボーナスを獲得する電話番号をバインドし、招待者と招待者のそれぞれが100のボーナスを得る。あなたが招待するほど、獲得する利益は増える。\n2.各ユーザーは一度招待することができ、ウォレットのインポートや作成中に招待状を確認することができます。\n3.ボーナスはルールに従ってキャンディーに交換できます。\n4.Incodeコードを電話番号にバインドします。\n5.（https://t.me/tokenPocket_en）を使用して、交換規則に従ってください。\n6.TokenPocketによって予約されているすべての権利</string>
+    <string name="invite_friends">友達を招待する</string>
+    <string name="title_gain_bonus">報酬を受け取る</string>
+    <string name="invite_code_where_input">招待コードは招待ページに入力できます</string>
+    <string name="invite_code_scan_download">スキャンコードのダウンロード</string>
+    <string name="invite_inviter_desc_title">ポイントに勝つために招待コードを入力してください</string>
+    <string name="invite_inviter_code_pl">招待状を入力してください</string>
+    <string name="invite_inviter_detail">招待コードは、記入後に変更することはできません。招待コードの完了後、招待者と招待者の両方がポイントを取得できます</string>
+    <string name="invite_code_empty">招待状を空にすることはできません</string>
+    <string name="submitting">提出する</string>
+    <string name="invite_code_error">招待コードが間違っています。正しい招待コードを入力してください</string>
+    <string name="invite_code_mine">私の排他的招待コード</string>
+    <string name="invite_get_code">招待コードを取得する</string>
+    <string name="invite_bind_phone_get">携帯電話をバインドしてポイントをすぐに獲得する</string>
+    <string name="invite_bind_phone_desc">電話番号をバインドして招待コードを取得する</string>
+    <string name="invite_bind_phone_detail">携帯電話番号は、招待コードに1つずつ対応し、携帯電話番号を変更することで招待コードを変更することができる。</string>
+
+    <string name="take_bonus_success">成功した報酬を受け取った</string>
+    <string name="bonus_has_token">報酬を受け取った、繰り返しはしないでください</string>
+
+    <string name="no_wallet">%1$s￥ウォレットなし</string>
+
+
+    <string name="bind_phone_tips">あなたは報酬を受け取る前にあなたの電話を縛る必要があります。</string>
+
+    <string name="threshold">%1$s(閾値:%2$s)</string>
+    <string name="owner">所有者</string>
+    <string name="active">マネージャー</string>
+    <string name="permission_weight">重量:%1$s</string>
+
+    <string name="delete_permission_key_tips">アクセス許可からKeyの削除を確認する</string>
+    <string name="delete_permission_account_tips">権限からアカウントを削除することを確認する</string>
+
+    <string name="add_owner_tips">所有者権限を追加する</string>
+    <string name="add_active_tips">マネージャ権限を追加する</string>
+
+    <string name="add_authority">権限を追加する</string>
+
+    <string name="notice_account_add_permission_tips">・権限を追加するときは、相手の公開鍵が正しいことを確認してください。 \n・追加するときは、Active - > Owner のような小さい権限で開始してください。 \n・追加する前に、資産が適切に処理されていることを確認してください！</string>
+    <string name="add_permission_hint">追加する必要がある公開鍵を入力してください</string>
+    <string name="modify_auth_label">%1$sのアクセス許可を変更する</string>
+
+    <string name="search">検索</string>
+    <string name="eos_ram_trade_panel">取引パネル</string>
+
+
+    <string name="debug_mode_open_tip">アイコンをすばやく8回クリックしてデベロッパーモードに入る</string>
+    <string name="debug_mode_opened">開発者モードに入った</string>
+    <string name="debug_mode_closed">あなたは開発者モードをオフにしました</string>
+    <string name="debug_mode">開発者モード</string>
+
+    <string name="eos_developer_mode_desc">開発者モードは、ウォレットベースのDAppを開発およびデバッグするために開発者に提供されます。開発者モードが有効になると、デバッグのためにカスタムページをディスカバリページに追加できます。 \nこのモードは開発者のテスト用のデバッグに限定されていますが、信頼できないアドレスを追加しないでください。カスタムURLまたはサードパーティのDAppが原因で財産の損失が発生した場合は、</string>
+    <string name="eos_developer_mode_check">私は開発者モデルの目的と責任を特定しました。</string>
+
+    <string name="use_contract_create_account">契約のあるアカウントを作成する</string>
+
+    <string name="nodes_setting">ノードの設定</string>
+    <string name="add_custom_node">カスタマイズノードを追加</string>
+    <string name="default_node">デフォルトノード</string>
+    <string name="custom_node">カスタムノード</string>
+    <string name="input_dapp_address">入力DAppアドレス</string>
+    <string name="invalid_url">無効なURL</string>
+    <string name="reset">リセット</string>
+
+    <string name="vote_desc_proxy">＊ 委任状の投票により、コミュニティは生態学的に健康になります\n＊ 代理人は、プリンシパルのために集中投票を行います。プリンシパルはいつでもエージェントをキャンセルできます。</string>
+    <string name="vote_desc_producer">＊ 投票前に、%1$s抵当権を議決権に交換する必要があります。\n＊ ユーザーは必要に応じてモーゲージをキャンセルすることができ、モーゲージ%2$sを72時間で償還します。</string>
+    <string name="contract_create_enu_tips_two">現在のところ、このメソッドは、ノートとの交換およびウォレット転送をサポートしています</string>
+    <string name="auth_error_tips">現在のアカウントの権限が変更されました。アカウントの権限が正常かどうか確認してください。</string>
+    <string name="goto_check_permission">ビューに移動</string>
+
+    <string name="cover">カバー</string>
+    <string name="vote_add">追加</string>
+    <string name="vote_again_tips">現在のアカウントが投票されたことが検出されます。[上書き]をクリックすると前の投票が上書きされ、[追加]をクリックすると投票が追加されます。</string>
+    <string name="vote_him">投票する</string>
+    <string name="vote_proxy_staked">住宅ローン</string>
+    <string name="vote_proxy_staked_voters">住宅ローン(%1$s 人々)</string>
+    <string name="detail">もっと »</string>
+    <string name="voted_producers">キャストノード</string>
+    <string name="voted_producers_">已投节点(%1$s)</string>
+    <string name="philosophy">アイデア</string>
+    <string name="background">自己紹介</string>
+    <string name="vote_telegram">電信</string>
+    <string name="proxy_staked_voters_tips">エージェントモーゲージ: %1$s,  投票数: %2$s</string>
+    <string name="producers_voting">ノードの投票</string>
+    <string name="staked_manager"><![CDATA[住宅ローン管理 >]]></string>
+    <string name="proxy_manager"><![CDATA[エージェント管理 >]]></string>
+    <string name="vote_staked_">住宅ローン:</string>
+    <string name="vote_staked_proxy_">エージェント:</string>
+    <string name="partner">パートナー</string>
+    <string name="proxies_voting">代理投票</string>
+    <string name="proxy_wechat">WeChat</string>
+    <string name="proxy_twitter">Twitter</string>
+    <string name="proxy_steemit">Steemit</string>
+    <string name="proxy_cannot_vote_for_proxy">エージェントはエージェントに投票できません</string>
+    <string name="click_to_add_logo">クリックして logo を追加</string>
+    <string name="uploading">アップロード中</string>
+
+    <string name="proxy_official_website">ウェブサイト</string>
+    <string name="proxy_slogan">スローガン</string>
+    <string name="input_proxy_slogan">入力スローガン</string>
+    <string name="proxy_telegram">Telegram(オプション)</string>
+    <string name="input_proxy_telegram">電報を入力してください</string>
+    <string name="proxy_steemit_option">Steemit(オプション)</string>
+    <string name="input_steemit_address">steemitに入力してください</string>
+    <string name="proxy_twitter_option">Twitter(オプション)</string>
+    <string name="input_twitter_address">Twitterに入力してください</string>
+    <string name="proxy_wechat_option">WeChat(オプション)</string>
+    <string name="input_wechat_address">WeChatに入力してください</string>
+    <string name="proxy_philosophy_option">アイデア</string>
+    <string name="input_proxy_philosophy">アイデアを入力してください</string>
+    <string name="proxy_background_option">自己紹介</string>
+    <string name="input_proxy_background">あなた自身の紹介を入力してください</string>
+    <string name="please_add_logo">ロゴを追加してください</string>
+
+    <string name="proxy_name_max_length">名前は64文字を超えることはできません</string>
+    <string name="proxy_slogan_max_length">スローガンは64文字を超えることはできません</string>
+    <string name="proxy_website_max_length">公式のウェブサイトのアドレスは256文字を超えることはできません</string>
+    <string name="proxy_telegram_max_length">TelegramTは64文字を超えることはできません</string>
+    <string name="proxy_steemit_max_length">Steemitは64文字を超えることはできません</string>
+    <string name="proxy_twitter_max_length">Twitterは64文字を超えることはできません</string>
+    <string name="proxy_wechat_max_length">WeChatは64文字を超えることはできません</string>
+    <string name="proxy_philosophy_max_length">アイデアは1,024文字を超えることはできません</string>
+    <string name="proxy_background_max_length">自己紹介は1,024文字を超えることはできません</string>
+    <string name="new_flash_source">ソース：%1$s</string>
+    <string name="news_flash">速報</string>
+    <string name="contact_remark_fill_tips">右側を開き、転送やその他の操作がデフォルトでノートに記入されます</string>
+
+    <string name="proxy_item_staked_voters">住宅ローン: %1$s %2$s , 投票数: %3$s </string>
+    <string name="proxy_register_fee_tips">エージェントの申請プロセスでは、継続するかどうかにかかわらず、少なくとも1kbのRAMを消費する必要があります</string>
+    <string name="browser_refresh">リフレッシュ</string>
+    <string name="browser_copy">コピー url</string>
+    <string name="browser_share">シェア</string>
+    <string name="browser_open">ブラウザが開いている</string>
+
+    <string name="currency_unit">通貨単位</string>
+    <string name="refresh">リフレッシュ</string>
+
+    <string name="multiple">複数選択</string>
+    <string name="unstake_resource">リソースの交換</string>
+
+    <string name="stake_total_num">人数：%1$s</string>
+    <string name="stake_total_cpu">CPU：%1$s  %2$s</string>
+    <string name="stake_total_net">NET：%1$s  %2$s</string>
+    <string name="unstake_preview">償還プレビュー</string>
+    <string name="stake_preview_cpu_net">CPU: %1$s ,  NET:%2$s </string>
+    <string name="multi_unstake">償還(%1$s)</string>
+    <string name="multi_unstake_empty">最初にチェックしてください</string>
+
+    <string name="cpu_net">CPU/NET</string>
+    <string name="delegate_list">レンタルリスト</string>
+    <string name="buy_ram">メモリを購入する</string>
+    <string name="sell_ram">メモリの販売</string>
+    <string name="buy_switch_label">購入</string>
+    <string name="sell_switch_label">販売のため</string>
+    <string name="cpu_delegate">住宅ローンの計算</string>
+    <string name="net_delegate">ネットワーク住宅ローン</string>
+    <string name="cpu_refund">償還の計算</string>
+    <string name="net_refund">ネットワーク償還</string>
+
+    <string name="input_token_amount">%1$sの数を入力してください</string>
+    <string name="reclaimable_amount">償還可能: %1$s</string>
+
+    <string name="iq_transfer_tips">IQスマートコントラストは実行されるたびに1/1000の送金手数料を請求します。これはウォレットに関係ありません。ご注意ください。</string>
+    <string name="select_wallet">ウォレットを選択</string>
+    <string name="dapp_select_wallet_content">現在のDAppはサポートしています %1$s</string>
+    <string name="confirming">確認</string>
+
+    <string name="input_sell_ram_kb">入力メモリ(KB)</string>
+    <string name="retrieve_account">アカウントの取得</string>
+
+    <string name="please_home_page_create_account">アカウントを作成するにはホームページにアクセスしてください</string>
+    <string name="loading">読み込み中…</string>
+    <string name="refund_account">アカウントの取得: %1$s</string>
+    <string name="refund_delegate">償還住宅ローン</string>
+    <string name="multi_refund_total">償還数: %1$s , CPU: %2$s , NET: %3$s</string>
+
+    <string name="account">口座番号</string>
+    <string name="auth_title">承認</string>
+    <string name="auth_account_info">認可されたウォレットアカウント情報が必要です</string>
+    <string name="auth_permission">承認後、アプリは次の権限を取得します:</string>
+    <string name="trust_dapp">ウォレットアカウントの信頼を得る</string>
+    <string name="auth_not_share_pk">注：アカウントの承認はDAppに秘密鍵を提供しません。</string>
+    <string name="auth_account">承認されたアカウント：</string>
+    <string name="change_wallet">置換</string>
+    <string name="auth">確認</string>
+    <string name="auth_login">承認されたログイン</string>
+
+    <string name="please_create_import_wallet_first">最初にウォレットを作成またはインポートしてください</string>
+    <string name="order_pay">注文の支払い</string>
+    <string name="confirm_pay">支払いを確認する</string>
+    <string name="pay_account">支払いアカウント</string>
+    <string name="receive_account">コレクションアカウント</string>
+    <string name="order_id">注文番号</string>
+    <string name="token_contract">トークン契約</string>
+    <string name="pay_memo">Memo</string>
+    <string name="unknown_data">不明なデータです。アプリをアップグレードしてもう一度お試しください</string>
+    <string name="data_expired">データが失効しました</string>
+
+    <string name="contract_security_tips">許可操作のリスク</string>
+
+
+    <string name="dapp_browser">DAppブラウザ</string>
+    string
+
+    <string name="import_account">アカウントをインポートする</string>
+    <string name="choose_account">アカウントを選択</string>
+
+    <string name="wallet_import_fail">ウォレット%sインポートに失敗しました</string>
+
+    <string name="account_balance">口座残高</string>
+    <string name="set_time">定期的な取引を設定する</string>
+    <string name="contract_tips">支払いアカウントは契約アカウントです、契約内容は変更することができます、リスクに注意してください</string>
+    <string name="account_not_exist">アカウントが存在しません</string>
+    <string name="wallet_balance">ウォレットの残高</string>
+    <string name="receive_address">コレクションアドレス</string>
+
+    <string name="point_content">・%1$s</string>
+    <string name="search_enter_dapp">DAppを検索し、リンクに入る</string>
+    <string name="my_dapps">私のDApps</string>
+    <string name="cancel_favor">キャンセル</string>
+    <string name="favor">コレクション</string>
+    <string name="collected">お気に入り</string>
+    <string name="collection_cancelled">コレクションのキャンセル</string>
+    <string name="popular_searches">人気のある検索</string>
+    <string name="history_record">歴史</string>
+    <string name="execute_contract">実行契約</string>
+
+    <string name="choose_time">取引時間の選択</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="time_day">日</string>
+    <string name="time_hour">時間</string>
+    <string name="time_min">分</string>
+    <string name="time_sec">二番目</string>
+    <string name="time_error">取引時間は現在の時間よりも早くすることはできません</string>
+    <string name="time_tips">タイムアウトした取引はネットワーク上の理由により偏っている可能性があります。この機能を使用する前に、十分なネットワーク確認を行って正しい取引時間を確保してください。予定されている取引は現時点でのキャンセルをサポートしていませんのでご注意ください。予定されている取引は現時点でのキャンセルをサポートしていませんのでご注意ください。</string>
+
+    <string name="my_favor">私のコレクション</string>
+    <string name="confirm_delete">削除してもよろしいですか？</string>
+
+    <string name="ask_opt">次のことを依頼する</string>
+    <string name="opt_list">操作リスト</string>
+    <string name="opt_details">操作の詳細を表示する</string>
+    <string name="execute">実行を確認する</string>
+    <string name="do_opt_account">実行アカウント名</string>
+    <string name="transfer_receive_account">コレクションアカウント</string>
+    <string name="clear_time">クリアタイム</string>
+
+    <string name="default_dapp_desc">TokenPocketで開く %s</string>
+    <string name="go_to_dapp">に行くDApp:</string>
+
+
+    <string name="dapp_whitelist">DAppホワイトリスト</string>
+    <string name="select_all">すべて選択</string>
+    <string name="cancel_all_selection">すべての選択をキャンセル</string>
+    <string name="cancel_contract">契約を解除する</string>
+
+    <string name="action_count">操作(%1$d)</string>
+
+    <string name="sign_request">署名リクエスト</string>
+    <string name="properties">属性</string>
+    <string name="contract">契約</string>
+    <string name="add_whitelist_tips">この契約操作をホワイトリストに追加しますか?</string>
+    <string name="add_whitelist_tips_content">このアクションをホワイトリストに登録することができ、次回は承認する必要はありません。 アトリビュートの横にあるラジオボタンをチェックすると、
+        このアクションを許可するプロパティは変更でき、他のプロパティが変更された場合にのみホワイトリストにはなりません。</string>
+
+    <string name="open_whitelist">ホワイトリストを有効にするためのパスワードを入力してください</string>
+    <string name="open_whitelist_tips">DAppを終了するか、またはアプリケーションを終了すると、承認が無効になります。次にホワイトリストを使用する場合は、ホワイトネームを有効にするためにパスワードを入力する必要があります。</string>
+    <string name="white_list_title">ホワイトリスト</string>
+
+    <string name="time_error_too_long">遅延時間は3888000秒（45日）を超えることはできません。</string>
+
+    <string name="whitelist">ホワイトリスト</string>
+    <string name="edit">編集</string>
+    <string name="deleted">削除済み</string>
+    <string name="cancelled">キャンセルされた</string>
+
+    <string name="server_support_by">このサービスは %1$s によって提供されています</string>
+
+    <string name="forget_password_">パスワードを忘れましたか？</string>
+    <string name="reset_password">パスワードをリセットする</string>
+    <string name="set_password">パスワードを設定する</string>
+    <string name="public_key_not_match">公開鍵が一致しません</string>
+    <string name="account_not_match">アカウント名が一致しません</string>
+    <string name="password_reset_successfully">パスワードがリセットされました</string>
+
+    <string name="observe">観測</string>
+    <string name="observe_mode">観測モード</string>
+    <string name="observe_wallet_import_tips">ウォレットを監視するには、秘密鍵のインポートは必要ありません。アカウント名または公開鍵をインポートし、アカウント、トランザクションレコード、および受信通知を毎日表示します。</string>
+    <string name="invalid_public_key">無効な公開鍵アドレス、コピーが正しいかどうかを確認してください</string>
+    <string name="observe_not_support">ウォレットを観察してもこの操作はサポートされません</string>
+
+    <string name="observe_wallet">観測ウォレット</string>
+    <string name="observe_transfer_tips">現在、ウォレットを見て、このウォレットにお金を移すかどうか確認してください。</string>
+
+    <string name="wrong_node_url">ノードリンクエラーです。ノードが間違っているかどうかを確認してください</string>
+
+
+    <string name="eos_public_key_no_account_name_tips">現在の公開鍵にはアカウント名がありません。公開鍵が正しく入力されているかどうかを確認してください。</string>
+    <string name="add_wallet">ウォレットを追加</string>
+    <string name="wallet_empty_tips">財布なし</string>
+
+    <string name="useful_before_exit_app">承認は、ウォレットを終了する前に有効です</string>
+
+    <string name="skip_ads">スキップ %1$s</string>
+
+    <string name="import_observe_eos_tips">アカウント名または公開鍵を入力してください</string>
+    <string name="any_value">任意の値</string>
+
+    <string name="friend_create">友達作成</string>
+    <string name="friend_create_desc">アカウントを作成するためのフレンドスキャンコード</string>
+    <string name="activation_code_create">アクティベーションコードの作成</string>
+    <string name="activation_code_desc">Alipayによって作成された、WeChat購入アクティベーションコード</string>
+    <string name="contract_create">転送作成</string>
+    <string name="contract_desc">アカウント作成のために固定アカウントに転送する</string>
+    <string name="do_you_have_account">アカウントがありますか？</string>
+    <string name="have_account">アカウントを持っている</string>
+    <string name="not_have_account">アカウントなし</string>
+    <string name="input_activation_code">取得する</string>
+    <string name="account_creation_submitted">アカウントの作成が完了しましたら、メインネットワークが確認された後（約3分）取引が成功したことを確認してください。</string>
+
+    <string name="input_pwd">パスワードを入力</string>
+    <string name="open_fingerprint">指紋の支払いを開く</string>
+    <string name="close_fingerprint">指紋の支払いを閉じる</string>
+    <string name="input_fingerprint">指紋を確認する</string>
+    <string name="fingerprint_fail">指紋の確認に失敗しました</string>
+    <string name="fingerprint_payment">指紋の支払い</string>
+
+    <string name="verify_pwd">パスワードを確認する</string>
+
+    <string name="do_you_have_wallet">あなたは財布を持っていますか？</string>
+    <string name="not_have_wallet">私は財布を持っていない</string>
+    <string name="have_wallet">私は財布を持っている</string>
+
+    <string name="current_account_tag">当座預金</string>
+
+    <string name="current_wallet_tag">現在の財布</string>
+    <string name="create_wallet_tips">ウォレットを無料で作成する</string>
+
+    <string name="forbid_screenshot">スクリーンショットを撮らないでください</string>
+    <string name="bakup_tipsone">誰かがあなたを取得した場合%1$s彼はあなたの資産を得ることができます</string>
+    <string name="bakup_tipstwo">コピーしてください%1$s安全な場所に保管してください</string>
+
+    <string name="pk">秘密鍵</string>
+    <string name="words">ニーモニック</string>
+
+    <string name="creation_active_code">アクティベーションコードの作成</string>
+    <string name="start_using">使用を開始する</string>
+    <string name="my_active_code">私のアクティベーションコード</string>
+
+    <string name="input_receive_account">受信アカウントを入力</string>
+
+    <string name="add_perm">増加する</string>
+    <string name="modify_perm">変更</string>
+    <string name="input_new_publickey">新しい公開鍵またはアカウント番号を入力してください</string>
+
+    <string name="action_inwhitelist_tips">操作はすでにホワイトリストにあり、パスワードを再入力する必要はありません。</string>
+    <string name="open_advance_tips">高度な設定を開くと、次回にこの操作を行うとポップアップウィンドウを確認して直接実行する必要はなく、オンにすると右上に移動して閉じることができます。</string>
+    <string name="whitelist_advance_tips">現在の操作がホワイトリストに追加され、確認のない操作が設定されます。承認後、操作はすぐに実行されます。</string>
+    <string name="enable_whitelist">DAppホワイトリスト機能</string>
+    <string name="closed">クローズド</string>
+
+    <string name="advance_setting">詳細設定</string>
+    <string name="close">閉じる</string>
+
+    <string name="refund_day_hour_min">エンド:%1$sD %2$sH %3$sM</string>
+
+    <string name="no_write_storage_tips">まず、読み取りと書き込みのアクセス許可を有効にしてください。</string>
+
+    <string name="facebook">Facebook</string>
+
+    <string name="eos_no_any_permission">あなたはこのアカウントの権利を持っていません、それを削除しますか？</string>
+    <string name="resource_helper">リソースペンダント</string>
+    <string name="click_refresh">更新をクリック</string>
+
+    <string name="tool_list">ツールリスト</string>
+
+    <string name="total_delegate">総住宅ローン</string>
+    <string name="self_delegate_">自己: %1$s</string>
+    <string name="other_delegate_">その他: %1$s</string>
+    <string name="cpu_">CPU: %1$s</string>
+    <string name="net_">NET: %1$s</string>
+    <string name="cpu_price">計算価格： %1$s %2$s/ms/日</string>
+    <string name="net_price">計算価格： %1$s %2$s/KB/日</string>
+    <string name="ram_price">計算価格: %1$s %2$s/KB</string>
+    <string name="remain_">残っている: %1$s</string>
+
+    <string name="ram_trend">メモリトレンド</string>
+    <string name="my_remain_">私の余剰: %1$s</string>
+    <string name="cpu_rent_tips">CPUリソースを増やすにはサービスプロバイダを選択してください</string>
+    <string name="fixed_display">固定表示</string>
+    <string name="no_wallet_select">選択したアカウントがありません</string>
+    <string name="progressing">処理 $%1s</string>
+    <string name="asset_collect_finish">操作が完了しました</string>
+    <string name="asset_collect_title">資産の収集</string>
+    <string name="asset_input_account">アカウントに属している</string>
+    <string name="asset_output_account">アカウントを転送する</string>
+    <string name="start_asset_collect">操作を開始する</string>
+    <string name="view_more">もっと見る</string>string
+    <string name="drag_sort_tips">(押し続けて並べ替える)</string>
+
+    <string name="show_recource">リソースペンダントを表示する</string>
+    <string name="applock_verify_success">検証の成功</string>
+    <string name="applock_fingerprint_error">指紋認証に失敗しました。ウォレットのパスワードを使用してロックを解除してください</string>
+    <string name="fingerprint_error_gesture">指紋認証に失敗しました。パターンロックを使用するかどうか</string>
+    <string name="try_it_later">後でやり直してください</string>
+
+    <string name="publickey">ウォレットの公開鍵</string>
+    <string name="no_remind">もう思い出さない</string>
+
+    <string name="transfer_all">すべてを転送</string>
+    <string name="no_pwd_tips">この操作では、再度パスワードを入力する必要はありません。</string>
+
+    <string name="transfer_dir">直接転送</string>
+    <string name="transfer_contact">アドレス帳転送</string>
+    <string name="transfer_scan">スキャンコード転送</string>
+    <string name="transfer_record_title">転送履歴</string>
+
+    <string name="no_pwd_exit_app">出口App前にパスワードを入力する必要はありません</string>
+
+    <string name="must_stake_before_vote">住宅ローンをもう一度投票してください</string>
+
+    <string name="token_details">プロジェクトの詳細 ></string>
+    <string name="tidy_asset_page_title">Token 仕上げ</string>
+
+    <string name="no_pwd_content">このオプションを選択すると、アプリケーションを終了する前にパスワードを再入力する必要はありません。</string>
+
+    <string name="more_tools">その他のツール</string>
+    <string name="query_details">クエリの詳細</string>
+
+    <string name="dapp_details">DApp詳細</string>
+
+    <string name="precsion_error">精度エラー</string>
+
+    <string name="pwd_custom_title">入力%1$sパスワード</string>
+
+    <string name="asset_tidy_tips">ウォレットを選択します%1$s転送%2$s</string>
+    <string name="home_resource_desc">RAM CPU NET</string>
+    <string name="home_vote_desc">BPとエージェント管理</string>
+    <string name="home_permission_desc">アカウントのアクセス許可</string>
+    <string name="on_more_page_tips">現在のページ数</string>
+    <string name="rent">リース</string>
+
+    <string name="data_">データ</string>
+    <string name="network_unavailable">ネットワークは利用できません。ネットワークを確認するか、後でやり直してください</string>
+
+    <string name="push_notification">プッシュ通知</string>
+    <string name="receive_push_notification">プッシュ通知を受け取る</string>
+    <string name="push_transfer">転送通知</string>
+    <string name="push_transfer_normal">普通の財布の譲渡通知</string>
+    <string name="push_transfer_observe">ウォレットの移動通知を観察する</string>
+    <string name="developer_mode">開発者モード</string>
+    <string name="open_screen_rotation">水平と垂直の画面回転を開く</string>
+
+    <string name="add_market_tokens">トークンを追加</string>
+
+    <string name="visitor_mode">ゲストモード</string>
+    <string name="preview_fixed_account">固定アカウントでのプレビュー</string>
+    <string name="eos_beginner_tutorial">EOS初心者チュートリアル</string>
+    <string name="entered_visitor_mode">ゲストモードに入った</string>
+    <string name="visitor_wallet">訪問者の財布</string>
+    <string name="visitor_transfer_tips">現在は訪問者の財布です。あなたはこの財布にお金を送金するかどうか確認してください</string>
+    <string name="visitor_not_support">ゲストウォレットはこの操作をサポートしていません</string>
+    <string name="visitor">ビジター</string>
+
+    <string name="cold_wallet">コールドウォレット</string>
+    <string name="publickey_title">公開鍵を選択してください</string>
+    <string name="observe_wallet_scan_tips">インポート・ウォレット・インタフェースでは、コードをスキャンして、コールド・ウォレットに対応するウォレットをインポートします。</string>
+    <string name="online">現在のデバイスがネットワークに接続されている</string>
+    <string name="coldwallet_help_tips">コールドウォレットの知識</string>
+    <string name="coldwallet_help_tips_one">コールドウォレットは、オフラインウォレットとも呼ばれ、プライベートキーをコールドウォレットに格納し、インターネットに接続して資産のセキュリティを確保します。</string>
+    <string name="coldwallet_help_tips_two">ホットウォーレスとコールドウォレットはQRコードを使用して通信するため、秘密鍵は決してネットには触れません。これにより、ハッカーの盗難を効果的に防止できます。</string>
+    <string name="use_coldwallet_scan_sign">対応するコールドウォレットのスキャンコード署名</string>を使用します。
+    <string name="sign_fail">署名に失敗しました</string>
+    <string name="sign_info">署名情報</string>
+    <string name="use_observewallet_scan">対応するウォレット・スキャン・コードを使用して操作を完了します。</string>
+    <string name="scan_sign">コード署名をスキャンする</string>
+    <string name="restart_app_tips">トークンポケットを開く</string>
+    <string name="repair_tips">アプリケーションのグルーミング操作を実行します。この操作はデータには影響しません</string>
+    <string name="memo_tips">メモはレコードに基づいて自動的に入力されますが、正しいことを確認してください</string>
+    <string name="operation_cancel">操作のキャンセル</string>
+    <string name="cold_wallet_onlinewarn">現在のデバイスがネットワークに接続されています。コールドウォレットのインポートを確認しますか？</string>
+    <string name="use_cold_wallet_scan">コールドウォレットを使用して署名QRコードをスキャンしてください</string>
+
+    <string name="search_token_hint">トークン/コントラクト/アイテムを検索する</string>
+
+    <string name="token_price">現在の価格：</string>
+    <string name="fingerprint_setting">指紋設定</string>
+    <string name="close_persist_fingerprint">最初に永久指紋をオフにしてください</string>
+    <string name="persist_fingerprint">永久指紋</string>
+    <string name="temp_fingerprint">一時的な指紋</string>
+    <string name="persist_title">恒久的な守秘義務</string>
+    <string name="persist_des">デバイスのバイオメトリックテクノロジを恒久的かつ機密的に使用してそれがデバイスの所有者用であるかどうかを確認し、バイオメトリックを暗号化されたストレージに使用します。</string>
+    <string name="persist_fingerprint_1">恒久的な守秘義務を使用して、次の点を確認してください:</string>
+    <string name="persist_fingerprint_2">この機能をルートデバイスで使用しないでください</string>
+    <string name="persist_fingerprint_3">他の人の指紋や顔認識を携帯電話に追加しないでください</string>
+    <string name="persist_fingerprint_4">誰かにあなたの電話のパスワードを教えてはいけない</string>
+    <string name="persist_fingerprint_5">自分の携帯電話を他の人に渡さないでください</string>
+    <string name="exchange_list">交換リスト</string>
+    <string name="go_to_trade">取引</string>
+
+    <string name="all_assets">すべての資産</string>
+    <string name="non_zero_assets">ゼロ以外の資産</string>
+
+    <string name="opened">開いた</string>
+    <string name="unopened">開かない</string>
+    <string name="permanently_open">常時オープン</string>
+
+    <string name="token_exchange_support_content">現在のトークンは %1$s のみをサポートしています</string>
+
+    <string name="persist_fingerprint_6">電話の指紋を追加または削除した後、アプリは指紋の支払いを再開する必要があります</string>
+
+    <string name="sign_not_share_pk">注意：情報の署名により、秘密鍵がDAppに提供されることはありません</string>
+    <string name="sign_account">署名付きアカウント：</string>
+    <string name="start_sign">署名</string>
+    <string name="sign_message">情報の署名</string>
+    <string name="sign_content">署名付きコンテンツ>> </string>
+    <string name="sign_content_title">署名付きコンテンツ</string>
+
+    <string name="send">送信</string>
+        
+    <string name="input_content_first">内容を入力してください。</string>
+        
+    <string name="im_album">アルバム</string>
+        
+    <string name="im_camera">撃つ</string>
+        
+    <string name="im_transfer">転送</string>
+        
+    <string name="main_tag_chat">チャット</string>
+        
+    <string name="create_group">グループチャットを作成する</string>
+        
+    <string name="tp_red_desc"> TP封筒</string>
+        
+    <string name="im_open">開く</string>
+        
+    <string name="see_detail">詳細の表示</string>
+        
+    <string name="best_luck">頑張ってください</string>
+        
+    <string name="please_input_amount">金額を入力してください</string>
+        
+    <string name="send_num">数量</string>
+        
+    <string name="group_member_tip">%1$sメンバー</string>
+        
+    <string name="amount_too_small">金額が少なすぎる</string>
+
+    <string name="red_packet_received_num">が%1$s / %2$sを受け取りました</string>
+        
+    <string name="red_packet_received_amount">%1$s / %2$s %3$s </string>
+        
+    <string name="tag_news">情報</string>
+        
+    <string name="red_packet_not_exit">赤い封筒が存在しません</string>
+        
+    <string name="red_packet_time_out">赤い封筒の有効期限が切れています</string>
+        
+    <string name="red_packet_receive_by_other">赤い封筒を受け取りました。引き続き努力してください。</string>
+
+    <!-- 创建群组-->
+    <string name="create_fail">作成に失敗しました：%1$s </string>
+        
+    <string name="team_name_hint">グループ名を設定します（最大20文字まで）</string>
+        
+    <string name="team_desc">グループの紹介</string>
+        
+    <string name="team_desc_hint">グループの概要（最大250語まで）</string>
+        
+    <string name="create_now">今すぐ作成</string>
+
+    <!-- team -->
+    <string name="team_need_authentication">認証が必要です</string>
+        
+    <string name="team_allow_anyone_join">だれでも参加を許可する</string>
+        
+    <string name="team_not_allow_anyone_join">だれも参加を申請することはできません</string><![CDATA[
+        
+
+        
+        
+
+        
+        
+
+        
+
+        
+        
+
+        
+
+        
+        
+
+        
+
+        
+        
+
+        
+    ]]>
+    <string name="team_manager">管理者</string>
+        
+    <string name="team_owner">グループの所有者</string><![CDATA[
+        
+        
+
+        
+
+        
+
+        
+        
+
+        
+        
+
+        
+    ]]><string name="team_name">グループ名</string><![CDATA[
+        
+        
+
+        
+
+        
+
+        
+        
+
+        
+
+        
+
+        
+        
+    ]]><string name="create_team">グループを作成する</string><![CDATA[
+        
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+
+        
+        
+
+        
+
+        
+        
+    ]]><string name="transfer_team">転送グループ</string><![CDATA[
+        
+        
+
+        
+        
+
+        
+        
+
+        
+
+        
+        
+
+        
+
+        
+        
+
+        
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+
+        
+        
+
+        
+    ]]>
+    <string name="team_qrcode">グループQRコード</string>
+        
+    <string name="team_member_count">グループサイズ</string>
+        
+    <string name="mute_team_notifications">メッセージが邪魔にならない</string>
+        
+    <string name="join_verify">プラスグループの確認</string>
+        
+    <string name="report">レポート</string>
+        
+    <string name="exit_team">グループチャットを終了する</string>
+        
+    <string name="join_team">グループチャットに参加する</string>
+        
+    <string name="team_info">グループチャット情報</string>
+    <!-- 消息搜索 -->
+
+    <!-- contact入口-->
+    <string name="follow_user">私の懸念</string>
+        
+    <string name="my_team">私のグループ</string><![CDATA[
+        
+        
+    ]]>
+    <string name="recommend_team">おすすめのグループチャット</string>
+
+    <!--用户信息-->
+    <string name="nickname">ニックネーム</string>
+        
+    <string name="subscribe">フォローする</string>
+        
+    <string name="unsubscribe">フォロー解除</string>
+        
+    <string name="im_account">アカウント：%1$s </string>
+        
+    <string name="user_not_exist">ユーザー情報の取得に失敗しました</string>
+        
+    <string name="user_dapp_title">彼が遊んでいる子犬</string>
+        
+    <string name="creator_cannot_exit">あなたは所有者であり、グループチャットを離れることはできません</string>
+        
+    <string name="team_name_empty_tips">グループ名は空にできません</string><![CDATA[
+        
+        
+    ]]>
+    <string name="search_follow">私の注意を検索します</string>
+        
+    <string name="search_team">自分のグループを検索</string>
+        
+    <string name="team_members">グループメンバーリスト(%1$d)</string>
+        
+    <string name="chat">チャット</string>
+        
+    <string name="apply_join_success">アプリケーションの成功</string>
+        
+    <string name="use_tp_scan"> TPウォレットでグループチャットを追加する</string>
+        
+    <string name="share_qrcode"> QRコードの共有</string>
+        
+    <string name="save_info">保存</string>
+        
+    <string name="info_empty">情報を空にすることはできません</string>
+        
+    <string name="mute_user_message">メッセージが邪魔にならない</string>
+        
+    <string name="user_details">詳細</string>
+    <string name="follow_list">私の懸念</string>
+        
+    <string name="confirm_count"> OK（%1$d）</string>
+        
+    <string name="auth_tips">チャットはあなたのアカウントと密接に関係しています。最初の使用の前に認証を受ける必要があります。</string>
+        
+    <string name="start_auth">検証を開始します</string>
+        
+    <string name="please_auth">最初にWalletのチャットページでログインを承認してください</string>
+        
+    <string name="join_chat">チャットに入る</string>
+
+    <string name="recent_red_content"> [TPの赤い封筒]%1$s </string>
+        
+    <string name="red_packet_chain_wrong">現在の赤い封筒は%1$sの元の赤い封筒に属しています。受け取ることはできません</string>
+        
+    <string name="received_red_packet_tip">%1$s が赤い封筒を受け取りました</string>
+        
+    <string name="im_pin">トップ</string>
+        
+    <string name="im_unpin">固定解除</string>
+        
+    <string name="im_unknown_message"> [不明なメッセージ] </string>
+        
+    <string name="team_message_update"> [グループメッセージの更新] </string>
+        
+    <string name="p2p_message_update"> [セッションメッセージの更新] </string>
+        
+    <string name="red_packet_receive_finish_tip">赤い封筒を受け取りました</string>
+        
+    <string name="claim_red_packet_fail">申し立てに失敗しました</string>
+
+    <string name="bos_sync_title"> BOSワンクリックアカウント同期</string>
+    <string name="no_eos_wallet"> Eosアカウントがない</string>
+    <string name="sync_result"> "操作が完了しました。%1$d ウォレットの同期に成功しました</string>
+    <string name="sync_des_header">BOSアカウントのマッピング時間は2019年1月1日、09：50UTC + 0、ブロックの高さは35072000です。そのため、以前に作成されたアカウントはBOSで対応するアカウントを見つけることができません。</string>
+    <string name="sync_rule_title">マッピング規則：</string>
+    <string name="sync_rule_one">署名なしのアカウントの場合、EOSメインネットワークアカウントは20.0000 EOSあたり1.0000 BOSを取得でき、各EOSアカウントは最低0.5000 BOSを取得できます。</string>
+    <string name="sync_rule_two">マルチサインアカウントの場合、アカウント残高のマッピングルールはマルチサイン非アカウントと一致し、アカウントの権限は同期的にマッピングされます。</string>
+    <string name="sync_rule_three"> BOSアカウントはEOSのメインネットワークアカウントに従ってランダムに生成されます</string>
+    <string name="sync_rule_four"> BOSアカウントのリソース割り当て、RAM：0.3000 BOS、CPU：0.1000 BOS、NET：0.1000 BOS </string>
+    <string name="start_sync">同期を開始します。</string>
+
+    <string name="bos_sync_tips"> Eosアカウントに従ってBosアカウントを同期</string>
+    <string name="bos_fans"> BOSコミュニティ愛好家</string>
+
+    <string name="receiving_account_not_own">アカウントを受け取ることはあなた自身のものではありえません</string>
+
+    <string name="sync_progress">％1$d個のアカウントが完成しました</string>
+
+    <string name="no_follow_user">ユーザーの注意を引かない</string>
+        
+    <string name="follow_user_error">データの読み込みに失敗しました</string><![CDATA[
+
+        
+
+        
+        
+    ]]>
+    <string name="kick_memeber">人々を蹴る</string>
+        
+    <string name="team_name_member">%1$s(%2$d）</string>
+        
+    <string name="userinfo_title">ユーザープロフィール</string>
+        
+    <string name="authing">認証… </string>
+        
+    <string name="report_one">ポルノの暴力</string>
+        
+    <string name="report_two">法律違反</string>
+        
+    <string name="report_three">その他</string>
+        
+    <string name="report_success">報告の成功</string>
+        
+    <string name="need_join_team">本当にグループに参加しますか？ </string>
+        
+    <string name="confirm_join">参加の確認</string>
+        
+    <string name="team_member_total_count">%1$d 人</string>
+
+        
+    <string name="red_packet_amount_each">単価</string>
+        
+    <string name="chat_message_notification">チャットメッセージの通知</string>
+        
+    <string name="receive_chat_notification">チャットメッセージの通知を受信する</string>
+        
+    <string name="vibrate">振動</string>
+        
+    <string name="ring">音声</string>
+        
+    <string name="yesterday">昨日</string>
+        
+    <string name="save_picture">写真の保存</string>
+        
+    <string name="identify_code"> QRコードを認識する</string>
+        
+    <string name="red_packet_num_too_large">赤のパケット数が多すぎます</string>
+        
+    <string name="send_red_packet_not_support">現在の基盤レイヤはレッドパケットをサポートしていません</string>
+
+        
+    <string name="im_kickout_tips">あなたのチャットアカウントは別の端末にログインしています。アカウントのセキュリティを確認してください。</string>
+
+    <string name="im_red_packet">赤い封筒</string>
+    <string name="send_red_packet">赤い封筒</string>
+    <string name="red_pa​​cket_total_amount">合計金額</string>
+    <string name="red_pa​​cket_hint">幸運、幸運をおめでとうございます</string>
+    <string name="enter_red_pa​​cket_num">赤のパケット数を入力してください</string>
+    <string name="red_packet_fighting">赤いパケットのスペルチェック</string>
+    <string name="red_packet_fighting_switch">赤い封筒に切り替える</string>
+    <string name="red_packet_normal">普通の赤い封筒</string>
+    <string name="red_packet_normal_switch">通常の赤い封筒に切り替える</string>
+
+    <string name="red_packet_rain_blessing">恭喜發財</string>
+    <string name="red_packet_rain_next">次の波</string>
+    <string name="remaining_min">%1$d min</string>
+    <string name="remaining_second">%1$d s</string>
+    <string name="red_packet_preparing">赤い封筒は準備中です</string>
+    <string name="get_packet_rain_fail">赤い封筒情報を取得できませんでした</string>
+
+    <string name="pic_saved_success">画像はファイル管理のtpディレクトリに保存されています</string><![CDATA[
+
+
+        
+        
+    ]]>
+    <string name="clear_message">メッセージを消去</string>
+        
+    <string name="apply_join_team_">グループへの参加を申請します：%1$s </string>
+        
+    <string name="agree">同意する</string>
+        
+    <string name="agreeed">同意しました</string>
+        
+    <string name="decline">拒否</string>
+        
+    <string name="declined">拒否</string>
+
+    <string name="wallet_not_support_im">現在のウォレットは一時的にチャット機能をサポートしていません</string>
+
+    <string name="reference">参照</string>
+    <string name="revoke">撤回</string>
+    <string name="revoke_time_out">メッセージが制限を超えたため取り消すことができません</string>
+    <string name="you_revoke_message">メッセージを撤回しました</string>
+    <string name="other_revoke_message">相手方がメッセージを取り下げた</string>
+    <string name="someone_revoke_message">%1$s メッセージを撤回</string>
+    <string name="someone_at_me_tip">[誰か\@我]</string>
+    <string name="at_all">みんな</string>
+
+    <string name="apply_join_team_success">グループの申請が送信され、グループの所有者が確認に合格するのを待ちます。</string>
+    <string name="team_full">人でいっぱい</string>
+    <string name="res_invalid">アプリケーションは期限切れです</string>
+    <string name="tp_chat">TPChat</string>
+    <string name="add_team_managers">グループ管理を追加する</string>
+    <string name="team_manager_title">グループ管理者</string>
+    <string name="manager_count_limit">5人までの管理者を設定する</string>
+    <string name="manager_permission_title">グループ管理者は以下の権限を持ちます。</string>
+    <string name="manager_permission_one">1. グループ検証に公開</string>
+    <string name="manager_permission_two">2. グループへの新規メンバーの同意または却下</string>
+    <string name="manager_permission_three">3. 積極的にメンバーを追加または削除する</string>
+    <string name="manager_title">管理者リスト（削除するには左にスライド）</string>
+    <string name="add_managers">管理者を追加</string>
+    <string name="in_team">ユーザーは既にグループに属しています</string>
+
+    <string name="add_manager_title">追加する(%1$d)</string>
+    <string name="at_title">\@だれか</string>
+    <string name="forward">進む</string>
+    <string name="message_forwarded">メッセージは転送されました</string>
+    <string name="multi_chains">マルチボトム</string>
+    <string name="message_link_tip">[リンク] %1$s</string>
+
+    <string name="share_to">に共有する</string>
+    <string name="forward_to">に送る</string>
+    <string name="change_wallet_to">最初に%1$s財布に切り替えてください</string>
+    <string name="kick_out">グループチャットを開始する</string>
+    <string name="transfer_team_tips">への所有者の譲渡を確認するかどうか %1$s</string>
+
+    <string name="create_team_tips">グループを作成しました: %1$s</string>
+
+    <string name="draft">[ドラフト]</string>
+
+    <string name="gas_delegate_symbol">iGAS 住宅ローン（%1$s）</string>
+
+    <string name="remain_gas">残り:%1$s</string>
+
+    <string name="refund_list">特典交換リスト</string>
+    <string name="gas_delegate_label">iGAS ガス住宅ローン</string>
+    <string name="gas_refund_label">iGAS ガス償還</string>
+    <string name="min_ram">500 Bytes 以上のRamを保持</string>
+    <string name="iost_short_account_hint">アカウント番号は5〜11文字です</string>
+    <string name="refund_amount_title">引き換え額</string>
+    <string name="refund_time_title">引き換え時間</string>
+
+    <string name="import_way">インポート方法</string>
+    <string name="create_phone_email_title">電話番号/メールボックスの作成</string>
+    <string name="create_phone_email_desc">電話番号/ Eメールでアカウントを登録する</string>
+    <string name="import_phone_email_title">携帯電話番号/メールログイン</string>
+    <string name="import_phone_email_desc">電話番号/メール認証によるアカウントログイン</string>
+    <string name="import_pk_title">秘密鍵のインポート</string>
+    <string name="import_pk_desc">プレーンテキストの秘密鍵を入力するかQRコードをスキャンしてインポートします。</string>
+    <string name="import_observe_title">財布を観察する</string>
+    <string name="import_observe_desc">秘密鍵をインポートする必要はありません。インポートするアカウント番号または対応する公開鍵を入力してください。</string>
+    <string name="import_cold_title">コールドウォレット</string>
+    <string name="import_cold_desc">プライベートキーがネットワークにアクセスしないようにするために、ネットワークからインポートおよびインポートします。</string>
+    <string name="import_mnemonic_title">ニーモニックインポート</string>
+    <string name="import_mnemonic_desc">ニーモニックを入力するかQRコードをスキャンしてインポートします。</string>
+    <string name="import_keystore_title">Keystore 輸入</string>
+    <string name="import_keystore_desc">キーストアファイルの内容を入力するか、インポートのためにQRコードをスキャンします</string>
+
+    <string name="log_in">ログイン</string>
+    <string name="register">登録</string>
+    <string name="input_phone_num_hint">あなたの携帯電話番号を入力してください。</string>
+    <string name="input_email_hint">メールアドレスを入力してください</string>
+    <string name="get_captcha">確認コードを取得します。</string>
+    <string name="input_captcha_hint">確認コードを入力してください。</string>
+    <string name="phone_register_terms">登録は%1$sと%2$sを一致させます</string>
+    <string name="your_account_title">あなたのアカウント</string>
+    <string name="your_phone_title">あなたの携帯電話番号</string>
+    <string name="your_email_title">あなたのメールボックス</string>
+    <string name="create_code_register">アクティベーションコードの登録</string>
+    <string name="click_to_get">クリックして取得</string>
+    <string name="activate_now">今すぐアクティベート</string>
+    <string name="payment_contact_tips">支払いに関する問題、お問い合わせください</string>
+    <string name="about_phone_email_wallet">携帯電話番号/メールボックス財布について</string>
+
+    <string name="select_country_region">国と地域の選択</string>
+    <string name="use_email">メールボックスを使用する</string>
+    <string name="use_phone">携帯電話番号を使用する</string>
+    <string name="countdown_">%1$s秒</string>
+    <string name="captcha_send">確認コードが送信されました</string>
+    <string name="captcha_used">確認コードの有効期限が切れているか正しくありません。</string>
+    <string name="pay_complete_creation">支払い完了の作成</string>
+    <string name="update_auth_tip">ログイン操作によって古い公開鍵が置き換えられ、以前の秘密鍵がリセットされます。ログインしてよろしいですか</string>
+
+    <string name="iost_polling_timeout">クエリタイムアウト、結果を確認するためにブラウザにアクセスしてください。</string>
+    <string name="min_iost_delegate">最低1 IOST </string>
+
+    <string name="captcha">確認コード</string>
+    <string name="link">リンク</string>
+
+    <string name="tp_recover_permission">TPリカバリ許可</string>
+
+    <string name="what_tp_permission">TPリカバリ許可とは?</string>
+    <string name="tp_permission_desc">携帯電話番号の登録ユーザはＴＰ回復権を持ち、ＴＰ回復権は所有者権限に属し、秘密鍵を忘れたり紛失したりした場合には、携帯電話認証によって秘密鍵を回復することができる。 \ nユーザーが特権を削除するか、特権の特権しきい値を所有者特権しきい値より低くした場合、TPはユーザーが秘密キーの回復を実行するのを助けません。 携帯電話番号を使用してログインまたはアカウントの復元を行うと、古い公開鍵が置き換えられ、新しい公開鍵がユーザーによってローカルにアップロードされます。</string>
+    <string name="igas_title">iGAS</string>
+    <string name="iram_title">iRAM</string>
+    <string name="buy_iram">購入するiRAM</string>
+    <string name="sell_iram">売り出し中iRAM</string>
+    <string name="input_sell_iram_kb">入力 iRAM 数量 (KB)</string>
+    <string name="iost_resource_tips">売買の操作はリソースを消費します。iGASとiRAMのリソースに十分注意してください</string>
+    <string name="contract_action">契約操作</string>
+
+    <string name="delete_tp_permission_tips_not_backup">秘密鍵をバックアップしていません。この権限を削除する前に、秘密鍵を削除してください。</string>
+    <string name="delete_tp_permission_tips">この許可を削除した場合、モバイル認証やメール認証の方法によっては、TPはあなたの秘密鍵を回復する手助けをすることができなくなります。</string>
+    <string name="account_permission_wrong">アカウントの権限が正しくありません</string>
+
+    <string name="message_transfer_tip">[転送する] %1$s</string>
+    <string name="tp_transfer_desc">TP転送</string>
+    <string name="message_transfer_send">%1$sに転送</string>
+    <string name="message_transfer_receive">転送を受信しました</string>
+
+    <string name="team_symbol_setting_title">アセット設定を表示する</string>
+    <string name="show_team_token">アセットの表示</string>
+    <string name="click_goto_setting">クリックして設定に移動します。</string>
+
+    <string name="add_members">グループメンバーを追加する</string>
+    <string name="team_members_title">グループメンバーリスト</string>
+
+    <string name="unvote">撤退</string>
+    <string name="input_amount_tips">番号を入力してください。</string>
+    <string name="vote_available">は%1$sをキャストできます</string>
+    <string name="unvote_available">格納式%1$s </string>
+    <string name="bp_rank_title">ノードのランク付け</string>
+    <string name="voted_bp_count">キャストノード：%1$d </string>
+    <string name="bonus_withdraw">報酬を受け取る（%1$s %2$s）</string>
+    <string name="fail_to_get_account_info">アカウント情報の取得に失敗しました</string>
+    <string name="frozen_balance">凍結額%1$s </string>
+
+    <string name="set_account_name">アカウント名を設定(%1$s)</string>
+    <string name="set_wallet_name">ウォレット名を設定(%1$s)</string>
+    <string name="account_name_null_tips">アカウント名は空にできません</string>
+    <string name="account_length_insufficient">アカウントの長さが足りません</string>
+    <string name="account_available">このアカウントは利用可能です</string>
+    <string name="account_not_available">このアカウントは利用できません</string>
+    <string name="password_label">パスワードは8桁以上</string>
+    <string name="know_following_things">私は以下に精通しています。</string>
+    <string name="pwd_week">弱い</string>
+    <string name="pwd_medium">普通</string>
+    <string name="pwd_strong">強い</string>
+    <string name="activation_code_error">アクティベーションコードエラー</string>
+    <string name="activation_code_inconsistent">アクティベーションコードが基本と一致しません</string>
+
+    <string name="account_length_hint_iost">5〜11のアカウント名</string>
+    <string name="account_length_hint_eos">12桁のアカウント名</string>
+    <string name="account_length_hint_eos_short">3〜12のアカウント名</string>
+
+    <string name="no_match_token_tips">対応するトークンが見つかりませんでしたか？ 申請書を提出するにはここをクリックしてください。</string>
+    <string name="submit">提出する</string>
+
+    <string name="use_fingerprint_unlock">指紋認証を使用してロックを解除する</string>
+    <string name="activation_code_invalid">無効なアクティベーションコード</string>
+
+    <string name="activation_code_used">アクティベーションコードは既に使用されています</string>
+    <string name="activation_code_unpay">アクティベーションコードが未払い</string>
+    <string name="calculate_ram_fail">メモリ数の計算に失敗しました</string>
+    <string name="update_status_fail">更新ステータスが失敗しました</string>
+
+    <string name="vote_rank">No. %1$d</string>
+    <string name="votes_">%1$s チケット</string>
+    <string name="create_block_node">ブロックノード</string>
+    <string name="partner_node">パートナーノード</string>
+
+    <string name="add_account">アカウントを追加</string>
+
+    <string name="team_id_empty">グループIDが空です</string>
+    <string name="team_id_">グループID: %1$s</string>
+    <string name="login_im_first">最初にWalletのチャットページでログインを承認してください</string>
+
+    <string name="no_system_browser">システムブラウザなし</string>
+
+    <string name="tp_code">TPパスワード</string>
+    <string name="tp_command_copied">TPのパスワードがコピーされました。移動して共有してください〜</string>
+    <string name="tp_code_text">%1$s段落全体 %2$s をコピーしてTokenPocketに開きます【 TPパスワード 】</string>
+    <string name="tp_code_copied_hint">私はあなたがTPパスワードをコピーしたことを検出しました</string>
+    <string name="tp_code_open_now">今すぐ開く</string>
+
+    <string name="tidy_asset_cancel">操作はキャンセルされました</string>
+    <string name="fail_to_get_teaminfo">グループ情報の取得に失敗しました</string>
+    <string name="fail_to_startchat">チャットに参加できませんでした</string>
+    <string name="blockchain_error">基礎情報エラー</string>string
+
+    <string name="session_type_error">タイプエラー</string>
+
+    <string name="scan_qrcode">QRコードをスキャン</string>
+    <string name="old_version">古いバージョンに戻る</string>
+
+    <string name="random_name">ランダムアカウント</string>
+    <string name="random_name_generated">ランダムアカウントが生成されました</string>
+    <string name="no_text_paste">貼り付けるテキストがありません</string>
+    <string name="filter_paste_hint">不適合な文字はフィルタリングされています</string>
+    <string name="middle">中</string>
+
+    <string name="unplege_too_much">償還数が住宅ローンの数を超えています</string>
+    <string name="iost_time_error">時間エラー、設定ページにジャンプするかどうか</string>
+
+    <string name="node_speed">ノード速度</string>
+    <string name="eos_authority_source_hint">EOSAuthorityからのデータ</string>
+
+    <string name="node_existed_hint">ノードは既に存在します,繰り返し追加しないでください。</string>
+    <string name="article">記事</string>
+
+    <string name="current_blockchain">現在のブロックチェーン</string>
+    <string name="click_to_switch">スイッチ</string>
+    <string name="error">間違っている</string>
+
+    <string name="selected_bp">選択したノード: %1$d</string>
+    <string name="voted_proxy">はキャストされました: %1$s</string>
+
+    <string name="vote_proxy_btn">彼をキャストします</string>
+    <string name="selected">選択された</string>
+
+    <string name="be_proxy">代理人になる</string>
+    <string name="memo_too_large">memo 長すぎる</string>
+    <string name="invalid_amount">番号エラー</string>
+    <string name="ram_amount_error">最小トランザクションRAM単位は10 bytes</string>
+    <string name="sell_ram_not_enough">使用可能なメモリの数が不足しています</string>
+    <string name="iost_stake_no_resource">あなたのアカウントリソース（iGAS）は不十分です。入手するにはリソース管理ページにアクセスしてください</string>
+    <string name="invalid_account">アカウントエラー</string>
+    <string name="refunding_">引き換え</string>
+    <string name="frozen_balance_">凍結量</string>
+    <string name="switch_webview">ブラウザの切り替え</string>
+    <string name="clear_transfer_record">ローカル転送履歴を消去</string>
+
+    <string name="vote_title_">%1$s投票する</string>
+
+    <string name="third_parties_create">第三者</string>
+    <string name="third_parties_desc">サードパーティのサービスを使用してアカウントを作成します</string>
+    <string name="join_now">今すぐ加入</string>
+
+    <string name="tp_code_join_team_prefix_hint">【[グループチャットに参加：%1$s]</string>
+    <string name="team_share">グループの共有</string>
+    <string name="save_local">ローカルに保存</string>
+    <string name="generate_join_group_code">グループパスワードを生成します。</string>
+
+    <string name="batch_creation">バッチ作成</string>
+    <string name="new_account_">新しいアカウント</string>
+    <string name="batch_random">バッチランダム</string>
+    <string name="add_">追加</string>
+    <string name="new_account_publickey">新しいアカウントの公開鍵</string>
+    <string name="key_generator">秘密鍵ジェネレータ</string>
+    <string name="resource_setting">リソース設定</string>
+    <string name="key_tips_1">新しく登録されたアカウント公開鍵は%1$sと同じです</string>
+    <string name="click_here">ここをクリック</string>
+    <string name="modify">変更</string>
+    <string name="consume_token">予想費用</string>
+    <string name="resource_tips_1">新しく登録されたアカウントのリソース割り当てはRAM 4 KB、CPU 0.05 %1$s、NET 0.01 %2$s、可能です</string>
+    <string name="reset_default_publickey">デフォルトの公開鍵を返します</string>
+    <string name="reset_default_resource">デフォルトのリソース設定を返します</string>
+    <string name="start_create">作成を開始します</string>
+    <string name="account_useful">は、アカウントが利用可能であることを示します</string>
+    <string name="account_unuseful">は、アカウントが利用できないことを示します。</string>
+    <string name="setting_pwd_for_account">アカウントのパスワードを設定します</string>
+    <string name="import_pwd_tips">*作成後、アカウントはパスワード変更を使用してインポートされます。</string>
+    <string name="account_hint">あなたのアカウントを入力するか（左をクリックしてランダムなアカウントを作成してください）</string>
+    <string name="account_count">口座番号の作成</string>
+    <string name="confirm_and_close">確認して閉じます</string>
+    <string name="custom_account">カスタムアカウント</string>
+    <string name="random_batch_account">ランダムバッチアカウント</string>
+    <string name="batch_import_tips">正常に作成された後にアカウントを自動的にインポートしますか？？</string>
+    <string name="account_upgrade">アカウントのアップグレード</string>
+    <string name="account_upgrade_title">バックアップに成功しました。このページでパートナーアカウントを個人用アカウントにアップグレードするお手伝いをします。</string>
+    <string name="account_upgrade_title_tips">アップグレードする前に注意事項をよくお読みください:</string>
+    <string name="account_upgrade_tips_one">今回のアップグレードではTPの回復権限が削除されます。削除した後は、携帯電話番号を使用して再度ログインすることはできません</string>
+    <string name="account_upgrade_tips_two">TPの回復権限を削除した後は、バックアップしたばかりの秘密鍵を使用してのみアカウントをインポートできます。秘密鍵が保存されていることを確認してください。</string>
+    <string name="account_upgrade_tips_three">今回アカウントをアップグレードしていない場合は、次回携帯電話番号でログインしたときに、バックアップしたばかりの秘密鍵は無効になります。 </string>
+    <string name="read_tips">上記をよく読み、アカウントのアップグレードについて理解しました。</string>
+    <string name="remind_nexttime">次回</string>
+    <string name="partner_account_upgrade_tips">現在の資産割り当て量が%1$d %2$sを超えているため、TP Walletでは、パートナーアカウントから個人アカウントにアップグレードすることをお勧めします。</string>
+    <string name="transfer_risk">契約処理に譲渡が含まれています。金額は%1$sです。リスクに注意してください</string>
+    <string name="no_confirm_before_exit">この契約処理では、ウォレットを終了する前に手動で確認する必要がなくなりました。</string>
+    <string name="search_node_account">検索ノードまたはアカウント</string>
+    <string name="create_success_">成功(%1$d)</string>
+    <string name="create_fail_">失敗(%1$d)</string>
+
+    <string name="block_chain_not_support">この操作はサポートされていません</string>
+
+    <string name="tap_here">ここをクリック</string>
+    <string name="to_modify">変更</string>
+
+</resources>

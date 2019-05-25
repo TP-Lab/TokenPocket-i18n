@@ -1,0 +1,1774 @@
+<resources>
+    <string name="app_name">TokenPocket</string>
+
+    <string name="str_create_wallet">Create Wallet</string>
+    <string name="str_tips">Hint</string>
+    <string name="str_block">Chain Type</string>
+    <string name="str_choose_block">Please select wallet type</string>
+    <string name="str_wallet_name">Name</string>
+    <string name="str_input_wallet_name">Please input wallet name</string>
+    <string name="str_input_pwd">Enter the password, at least 8</string>
+    <string name="str_repeat_pwd">Repeat Password</string>
+    <string name="str_input_repeat_pwd">Repeat password</string>
+    <string name="str_tip_cannull">Optional</string>
+
+    <string name="finish">Finish</string>
+    <string name="address_list">Address List</string>
+    <string name="wallet_address">Wallet Address</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="comment">Comment</string>
+
+    <string name="save">Save</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="please_input_name">Please input name</string>
+    <string name="please_input_phone_num">Please input phone number</string>
+
+    <string name="wallet_type">Wallet Type</string>
+    <string name="select_wallet_type">Select wallet type</string>
+    <string name="scan_or_paste_wallet_address">Scan or paste the wallet address</string>
+    <string name="please_input_wallet_address">Please input wallet address</string>
+    <string name="please_select_wallet_type">Please select wallet type</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <string name="ask_to_save_contact">The contact is not saved yet, is it sure to keep it</string>
+
+    <!-- createwallet-->
+    <string name="select_block_system">Select block system</string>
+    <string name="pwd_null_tips">Password cannot empty</string>
+    <string name="confirmpwd_null_tips">Confirm password cannot empty</string>
+    <string name="pwd_not_same_tips">The two password is different, please retype</string>
+    <string name="pwd_too_short_tips">The length of the password should not be less than 8 bits</string>
+    <string name="service_term_confirm_tips">You have not read and agree on the terms of service and privacy</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="creating_wallet">Creating Wallet…</string>
+    <string name="service_term_start">I have read and understood </string>
+    <string name="service_term_end">Terms of Service and Privacy Policy</string>
+    <string name="create_wallet_success">Create wallet successfully</string>
+
+    <!--error-->
+
+    <!-- share-->
+    <string name="share">Share</string>
+    <string name="wechat">Wechat</string>
+    <string name="wechat_moments">Moments</string>
+    <string name="qq">QQ</string>
+    <string name="share_success">Share Successfully</string>
+    <string name="share_cancel">Share Canceled</string>
+    <string name="please_install_wechat">Please install Wechat first</string>
+    <string name="open_token_pocket_to_scan">Open TokenPocket to scan</string>
+
+    <string name="wrong_phone_format">Wrong phone number format</string>
+    <string name="wrong_email_format">Wrong Email format</string>
+    <string name="wrong_wallet_address">Wrong wallet address format</string>
+
+    <string name="public_key">Public Key</string>
+    <string name="private_key">Private Key</string>
+
+    <string name="wrong_eos_public_key">Wrong public key of %1$s</string>
+
+    <string name="amount">amount</string>
+    <string name="input_amount">Please input amount</string>
+
+    <string name="select">Select</string>
+
+    <!-- 错误信息-->
+    <string name="pwd_error">Error password</string>
+    <string name="swt_sequence_error">swt transaction error sequence illegal</string>
+    <string name="swt_funds_error">not sufficient funds</string>
+    <string name="swtsigned_error">swt signed error</string>
+    <string name="transaction_error">transaction error</string>
+    <string name="createwallet_error">create wallet error</string>
+    <string name="createwallet_error_illegal">create wallet error info illegal</string>
+
+
+    <string name="about_us">About us</string>
+    <string name="current_version">Current version: %1$s</string>
+    <string name="use_protocol">Terms of Service</string>
+    <string name="privacy_clause">Privacy Policy</string>
+    <string name="the_latest_version">The latest version</string>
+    <string name="data_exception">Data Exception</string>
+    <string name="data_exception_">Data Exception: %1$s</string>
+    <string name="backup_wallet">Backup Wallet</string>
+    <string name="backup_private_key_title">Back up your private key immediately</string>
+    <string name="backup_private_key_content">Backup Wallet: copy the private key and keep it in a safe place. Don\'t keep it on the Internet. Then try to transfer to small assets and start using.</string>
+    <string name="backup_memorizing_words_title">Back up your memorizing word immediately</string>
+    <string name="backup_memorizing_words_content">Backup Wallet: transcribing memorizing words and keeping them in a safe place. Don\'t keep it on the Internet. Then try to transfer to small assets and start using.</string>
+    <string name="switch_account">Switch Account</string>
+    <string name="help">Help</string>
+    <string name="private_key_input_error">Private key input error, please confirm</string>
+    <string name="memorizing_words_order_error">Memorizing word order error, please confirm</string>
+    <string name="confirm_backup_info">Confirm backup information</string>
+    <string name="confirm_wallet_private_key">Confirm your private key for your wallet</string>
+    <string name="confirm_wallet_private_key_content">Please fill in the input box according to the transcribed private key, confirm that the private key of your backup is correct.</string>
+    <string name="confirm_wallet_memorizing_words">Confirm your wallet memorizing word</string>
+    <string name="confirm_wallet_memorizing_words_content">Please click the word in the transcribing order to confirm your backup mnemonic word correctly.</string>
+    <string name="import_wallet">Import Wallet</string>
+    <string name="manager_wallet">Manage Wallets</string>
+    <string name="delete_success">Delete successfully</string>
+    <string name="edit_quotation">Edit Quotation</string>
+    <string name="old_password_cannot_empty">Old password cannot be empty</string>
+    <string name="new_password_cannot_empty">New password cannot be empty</string>
+    <string name="new_password_confirm_cannot_empty">New confirm password cannot be empty</string>
+    <string name="different_password_for_two_input">The new password for the two input is different. Please confirm</string>
+    <string name="password_length_cannot_less_than_8">The length of the password should not be less than 8 bits</string>
+    <string name="new_password_cannot_same_as_old">New and old ciphers can not be the same, please fill it out again</string>
+    <string name="wrong_old_password">The old password is wrong, please retype the old password</string>
+    <string name="update_password">Update password</string>
+    <string name="wallet_address_has_copied">The wallet address has been copied to the clipboard</string>
+    <string name="wrong_password">Wrong password</string>
+    <string name="wallet_name_cannot_empty">The name of the wallet can not be empty</string>
+    <string name="ok">OK</string>
+    <string name="wallet_not_backup">The wallet is not backed up, and the wallet will be deleted.</string>
+    <string name="continue_to_delete">Continue to delete</string>
+    <string name="message_center">Message center</string>
+    <string name="backup_private_key">Backup private up</string>
+    <string name="verify_error_check_private_key">Verify the error. Please confirm whether the input of the private key is correct</string>
+    <string name="network_disconnect_please_check">The network is not connected, please check</string>
+    <string name="receivables">Receive</string>
+    <string name="please_enter_correct_number">Please enter the correct number</string>
+    <string name="fail_to_generate_receipt_code_and_check">To generate a receipt code error, please check</string>
+    <string name="fail_to_generate_receipt_code">Generating receivable code error</string>
+    <string name="transfer_accounts">Transfer</string>
+    <string name="submit_transfer_request_success">Submission of a transfer request successfully</string>
+    <string name="please_select_token">Please select token</string>
+    <string name="enter_paste_wallet_address">Enter or paste the wallet address</string>
+    <string name="receipt_address_cannot_same_transfer_address">The address of the collecting wallet cannot be the same as the address of the transfer wallet.</string>
+    <string name="enter_correct_number_of_out">Enter the correct number of out</string>
+    <string name="the_transfer_being">Being transferred…</string>
+    <string name="next_step">Next Step</string>
+    <string name="total_assets">Total Assets</string>
+    <string name="my_assets">My Assets(%1$s)</string>
+    <string name="wallet">Wallet</string>
+    <string name="unknown">Unknown</string>
+    <string name="wrong_params">Wrong params</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="transaction_success">Transaction success</string>
+    <string name="transaction_packing">Transaction packing</string>
+    <string name="transaction_fail">Fail to transaction</string>
+    <string name="unknown_status">Unknown status</string>
+    <string name="receipt_address_copied">The receivable address has been copied to the clipboard</string>
+    <string name="query_transaction">Query Transaction</string>
+    <string name="private_key_copied">The private key has been copied to the clipboard</string>
+    <string name="quotation">Markets</string>
+    <string name="helper_center">Help Center</string>
+    <string name="scan_error">unknow qrcode please upgrade your app then try again</string>
+    <string name="no_wallet_create_import">No %1$s wallet is currently available. Please create or import wallet and scan it.</string>
+    <string name="prompt">Prompt</string>
+    <string name="input_wallet_name">Please input wallet name</string>
+    <string name="private_key_cannot_empty">Private key cannot be empty</string>
+    <string name="wrong_private_key_format">Wrong private key format</string>
+    <string name="not_read_agree_privacy">You have not read and agree on the terms of service and privacy</string>
+    <string name="wallet_existed">%1$s wallet already exists and does not need to be imported</string>
+    <string name="fail_to_import_wallet">Import wallet failed</string>
+    <string name="receipt_code">Receipt Code</string>
+    <string name="user_server_protocol">User server protocol</string>
+    <string name="go_to_setting">Go to set</string>
+    <string name="need_permissions_">The following permissions are required:</string>
+    <string name="sd_card">SD Card</string>
+    <string name="phone_state">Phone State</string>
+    <string name="wallet_safe_backup_wallet">For your Wallet’s safety, please create a back-up</string>
+    <string name="backup_immediately">Backup</string>
+    <string name="scan">Scan</string>
+    <string name="scanning">Scanning…</string>
+    <string name="token_pocket_desc">TokenPocket is a safe, simple and powerful digital assets Wallet. We aim to intergrate blockchain in the lives of average users.</string>
+    <string name="detect_new_version">Detection new version</string>
+    <string name="copyright_token_pocket">Copyright 2018 TokenPocket Team</string>
+    <string name="copy_down_memorizing_word">Copy down your memorizing words of wallet</string>
+    <string name="memorizing_word_use_and_copy_down">Mnemonics are used to recover the passwords of wallet and reset, copy them on paper accurately, and store them in places that only you know is safe.</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="password_tips">Password prompt information (options)</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="repeat_new_password">Repeat new password</string>
+    <string name="export_private_key">Export private key</string>
+    <string name="delete_wallet">Delete Wallet</string>
+    <string name="backup_memorizing_words">Backup memorizing words</string>
+    <string name="input_wallet_private_key">Please enter the wallet\'s private key to verify whether the private key is correct.</string>
+    <string name="search_token_contract_hint">Enter token name or contract address search</string>
+    <string name="popular_recommendation">Recommended</string>
+    <string name="transfer_amount">Transfer amount</string>
+    <string name="cost_of_miner">gas</string>
+    <string name="slow">Slow</string>
+    <string name="fast">Fast</string>
+    <string name="payer">Payer</string>
+    <string name="payee">Payee</string>
+    <string name="trade_number">Trade Number</string>
+    <string name="block_number">Block number</string>
+    <string name="trading_time">Trading Time</string>
+    <string name="asset">Assets</string>
+    <string name="latest_price">Price</string>
+    <string name="rise_and_fall">Amplitude</string>
+    <string name="no_current_market">There is no current market</string>
+    <string name="add_market_quotation">Adding Quotes</string>
+    <string name="overview_of_assets">Asset Overview</string>
+    <string name="transaction_record">Transaction Records</string>
+    <string name="contact">Contact</string>
+    <string name="express_private_key">Express private key</string>
+    <string name="wallet_name">Name</string>
+    <string name="what_is_private_key">What is the private key</string>
+    <string name="copy_receipt_address">copy address</string>
+    <string name="memorizing_words_with_space">Memorizing words, separated by space</string>
+    <string name="select_format">Select Format</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="confirm_payment">Confirm payment</string>
+    <string name="private_key_warn">Security warning, after the export of private key, please keep it safe, do not divulge it. Once leaked, it may lead to asset loss.</string>
+    <string name="copy_private_key">Copy private key</string>
+    <string name="setting_cost_of_miner">Miner\'s cost setting</string>
+    <string name="recommend">Recommend</string>
+    <string name="update_hint">Update hint</string>
+    <string name="new_version_is_detected">New version is detected, apk package size：%1$s, %2$s</string>
+    <string name="upgrade_now">Upgrade Now</string>
+    <string name="empty">Empty</string>
+    <string name="non_backup">Not backed up</string>
+    <string name="add">Add</string>
+    <string name="discover">Discover</string>
+    <string name="me">Me</string>
+    <string name="all_wallet">All wallet</string>
+    <string name="amount_collected">Amount</string>
+    <string name="set_amount_collected">set the amount</string>
+
+    <string name="version_log">Version Release</string>
+
+    <string name="copy_paste_scan_keystore">Copy and paste the Keystore file content to the input box directly. Or by producing two-dimensional code of Keystore content, scan and input.</string>
+    <string name="keystore_content_hint">Keystore content</string>
+    <string name="keystore_password">Keystore password</string>
+    <string name="what_is_keystore">What is Keystore ?</string>
+    <string name="keystore_cannot_empty">Keystore cannot be empty</string>
+    <string name="export_keystore">Export Keystore</string>
+    <string name="keystore_file">Keystore File</string>
+    <string name="qr_code">QR Code</string>
+    <string name="only_scan">Direct scanning only</string>
+    <string name="qr_code_forbid">Two dimensional codes are forbidden to be saved, captured, and photographed. It is only for users to scan directly in security environment to conveniently import wallet.</string>
+    <string name="use_in_safe">Use in a safe environment</string>
+    <string name="use_in_safe_content">Please make sure you use it without any cameras. Once the two-dimensional code is acquired by others, it will cause irreparable asset loss.</string>
+    <string name="confirm_no_people_camera">It has been confirmed that the surrounding unmanned and the camera</string>
+    <string name="show_qr_code">Show QR Code</string>
+    <string name="hide_qr_code">Hide QR Code</string>
+    <string name="offline_save">Off-line preservation</string>
+    <string name="offline_save_content">Please copy and paste Keystore files to secure and offline places. Do not save it to the email, Notepad, SkyDrive, chat tools, etc., which is very dangerous.</string>
+    <string name="not_use_network_tran">Do not use network transmission</string>
+    <string name="not_use_network_tran_content">Do not transmit Keystore files through network tools. Once acquired by hackers, it will cause irreparable assets loss. It is suggested that the offline device be transmitted through a sweep of two-dimensional code</string>
+    <string name="password_safe_storage">Password safe storage</string>
+    <string name="password_safe_storage_content">If you need to save online, it is recommended to use the password store software like 1Password, which has higher security level, to save Keystore.</string>
+    <string name="copy_keystore">Copy Keystore</string>
+    <string name="copied">Copied</string>
+    <string name="no_screenshot">Do not have a screenshot</string>
+    <string name="dialog_no_people_camera">Please make sure there are no cameras around and no cameras! Do not use screenshots or pictures of the way to save the Keystore file or the corresponding two-dimensional code</string>
+    <string name="i_got_it">I got it</string>
+    <string name="export_keystore_error">export keystore error</string>
+
+    <string name="select_wallet_transaction">select wallet transaction</string>
+    <string name="wallet_number_limit">wallet number limit</string>
+
+    <string name="buy">buy</string>
+    <string name="sell">sell</string>
+    <string name="price">price</string>
+    <string name="current_delegation">Current delegation</string>
+    <string name="filter">filter</string>
+    <string name="deal">deal</string>
+
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="h_24">24H</string>
+    <string name="cny">≈%1$sCNY</string>
+
+    <string name="one_hour">1Hour</string>
+    <string name="one_day">1Day</string>
+    <string name="one_week">1Week</string>
+    <string name="one_month">1Month</string>
+
+    <string name="chart_buy">Buy</string>
+    <string name="chart_sell">Sell</string>
+    <string name="chart_depth">Depth</string>
+    <string name="chart_deal">Deal</string>
+    <string name="chart_intro">Introduction</string>
+
+    <string name="deal_time">Time</string>
+    <string name="deal_direction">Direction</string>
+    <string name="deal_price">Price(USDT)</string>
+    <string name="deal_amount">Amount(ETC)</string>
+    <string name="depth_bid">Bid</string>
+    <string name="depth_selling">Selling</string>
+
+    <string name="chart_ma5_">MA5: %1$s</string>
+    <string name="chart_ma10_">MA10: %1$s</string>
+    <string name="chart_ma30_">MA30: %1$s</string>
+    <string name="chart_volume_">Volume: %1$s</string>
+
+    <string name="settings">Settings</string>
+    <string name="gesture_password">Gesture Password</string>
+    <string name="draw_unlock_pattern">Draw unlock pattern</string>
+    <string name="repaint">Repaint</string>
+    <string name="gesture_wrong">Connect at least four points, please re-try</string>
+    <string name="draw_unlock_pattern_again">Draw the unlock pattern again</string>
+    <string name="draw_unlock_pattern_different">The pattern drawn twice is not the same, please re-try</string>
+    <string name="gesture_setting_success">Gesture login settings are successful</string>
+    <string name="confirm_close_gesture">Confirm closing gesture sign</string>
+    <string name="gesture_closed">Gesture login is closed</string>
+    <string name="please_input_gesture_password">Please input gesture password</string>
+    <string name="wrong_gesture_input_again">Gesture password error, please re-try</string>
+    <string name="use_wallet_password_to_login">Login with wallet password</string>
+    <string name="use_gesture_password_to_login">Login with gesture password</string>
+    <string name="please_input_wallet_password">Please enter your wallet password</string>
+
+    <string name="click_again_to_exit">Click again to exit</string>
+    <string name="language">Language</string>
+
+    <string name="download_tips">download tips</string>
+    <string name="download_progress">download progress：</string>
+    <string name="install">Install</string>
+    <string name="recommended_upgrade">Recommend upgrade</string>
+    <string name="strongly_recommended_upgrade">Upgrade right now</string>
+    <string name="can_be_upgraded_later">Upgrade later</string>
+
+    <string name="tx_info">TxInfo</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="gas">Gas</string>
+    <string name="contract_amount">Amount</string>
+
+
+    <string name="token_info_title">ContractAddress</string>
+    <string name="copy">Copy</string>
+
+    <string name="ask_install_app_permission">To install the application, you need to open the unknown source permissions. Please set up the open access.</string>
+    <string name="upgrade_content">Change log:</string>
+
+
+    <string name="eos_account_name">Account Name</string>
+    <string name="eos_short_account_hint">Account number is 1~12 characters</string>
+
+    <string name="transfer_to_account">To</string>
+    <string name="payment_account">From</string>
+    <string name="copy_receipt_account">Copy receipt account</string>
+
+    <string name="vote">Vote</string>
+    <string name="vote_title">%1$s Voting</string>
+    <string name="voted">Voted</string>
+    <string name="delegate_symbol">Delegate(%1$s)</string>
+    <string name="refunding_symbol">Refunding(%1$s)</string>
+    <string name="delegate">Delegate</string>
+    <string name="refund">Refund</string>
+    <string name="input_delegate_amount">Input delegate amount</string>
+    <string name="input_undelegate_amount">Input undelegate amount</string>
+
+    <string name="delegate_successfully">Delegate success</string>
+    <string name="delegate_failure">Delegate failure</string>
+    <string name="undelegate_successfully">Undelegate success</string>
+    <string name="undelegate_failure">Undelegate failure</string>
+
+    <string name="please_select_first">Please select first</string>
+    <string name="vote_30_at_most">Vote 30 Bps at most</string>
+    <string name="vote_success">Vote success</string>
+    <string name="vote_failed">Vote failed, please try again</string>
+    <string name="super_producer">BP</string>
+    <string name="super_proxy">Proxy</string>
+
+    <string name="set_delegated_votes">Set delegated votes </string>
+    <string name="proxy_name">Name</string>
+    <string name="input_proxy_name">Enter your proxy name</string>
+    <string name="proxy_account">Account</string>
+    <string name="input_proxy_official_address">It\'s better to a website.</string>
+    <string name="submit_application">Submit</string>
+    <string name="more_contact_us">Contact us</string>
+    <string name="website">Website</string>
+    <string name="un_vote">UnVote</string>
+    <string name="apply_proxy_success">Upload successfully, will be shown in a few minutes.</string>
+    <string name="apply_proxy_fail">Apply proxy fail</string>
+    <string name="no_available_email_app">No available email applications</string>
+    <string name="un_vote_success">UnVote success</string>
+    <string name="un_vote_failed">UnVote failed, please try again</string>
+
+    <string name="eos_rule_vote">Voting Rule</string>
+
+    <string name="search_transaction_tips">transaction timeout please go to blockchain check this transaction</string>
+    <string name="fail_to_get_account">Get account fail</string>
+    <string name="cannot_transfer_to_self">Cannot transfer to self</string>
+
+    <string name="area_and_weight">Area: %1$s | Weight: %2$s</string>
+    <string name="no_vote_to_delegate">There is no vote to be made. Is it necessary to delegate first and confirm the delegate?</string>
+    <string name="go_to_delegate">Go to delegate</string>
+    <string name="eos_main_net_not_enough">Not enough has been staked for users to unstake</string>
+    <string name="pwd_tips">at last 8 characters</string>
+
+    <string name="create_wallet_tip_zero">· I have read and agreed</string>
+    <string name="create_wallet_tip_one">· Password strength is critical to protect your Wallet</string>
+    <string name="create_wallet_tip_two">· TokenPocket does not save your password, please make sure you keep it somewhere safe!</string>
+
+    <string name="password_weak">weak</string>
+    <string name="password_normal">normal</string>
+    <string name="password_good">good</string>
+    <string name="password_perfect">perfect</string>
+
+    <string name="mnemmoic_error">mnemmoic error</string>
+
+    <string name="canceling">Canceling</string>
+
+    <string name="cancel_proxy_fail">Fail to cancel proxy</string>
+
+    <!-- EOS错误信息 -->
+    <string name="eos_producer_vote_unique_sorted">Producer votes must be unique and sorted</string>
+    <string name="eos_user_must_stake_before_vote">User must stake before they can vote</string>
+    <string name="eos_proxy_not_allowed_proxy">Account registered as a proxy is not allowed to use a proxy</string>
+    <string name="eos_action_has_no_effect">Action has no effect</string>
+    <string name="eos_no_balance_found">No balance object found</string>
+    <string name="eos_overdrawn_balance">Overdrawn balance</string>
+    <string name="eos_to_account_not_exist">To account does not exist</string>
+    <string name="eos_unable_find_key">Unable to find key</string>
+    <string name="eos_name_not_normalized">Name not properly normalized</string>
+    <string name="eos_account_already_existed">The account has already existed</string>
+    <string name="eos_stake_no_resource">Sorry, no enough resource (CPU or NET) for this action, go Resource Manage</string>
+    <string name="eos_stake_cpu_no_resource">Sorry, no enough CPU resource for this action, go Resource Manage</string>
+    <string name="eos_stake_net_no_resource">Sorry, no enough NET resource for this action, go Resource Manage</string>
+    <string name="eos_no_ram_to_buy">Insufficient RAM, go Resource Manage</string>
+    <string name="eos_have_no_signatures">Transaction declares authority, but does not have signatures for it</string>
+    <string name="unsatisfied_authorization">Unsatisfied authorization</string>
+    <string name="transaction_unable_complete_deadline">The transaction is not completed, please check your resource.</string>
+    <string name="must_stake_before_vote">User must stake before they can vote</string>
+    <!-- EOS错误信息 -->
+
+    <string name="resource_manage">Resource Management</string>
+    <string name="buy_ram_symbol">Buy Ram(%1$s)</string>
+    <string name="sell_ram_symbol">Sell Ram(%1$s)</string>
+    <string name="input_buy_amount">Input buy amount</string>
+    <string name="input_sell_amount">input sell amount</string>
+    <string name="buy_successfully">Submitted, waiting for block confirmation</string>
+    <string name="buy_failure">Submit failure</string>
+    <string name="sell_successfully">Submitted, waiting for block confirmation</string>
+    <string name="sell_failure">Submit failure</string>
+
+    <string name="balance_">Balance: %1$s</string>
+    <string name="go_to_for_more_details">Go to %1$s for details</string>
+    <string name="success">success</string>
+
+    <string name="search_name_or_account">Search name or account</string>
+    <string name="home_delegated_amount">Delegated %1$s</string>
+    <string name="area_">Area: %1$s</string>
+    <string name="tips">Tips</string>
+    <string name="account_name_not_exist">Account name does not exist</string>
+    <string name="contact_us">Contact us</string>
+    <string name="eos_transfer_to_address_invalid">Invalid Account, please check.</string>
+
+    <string name="create_wallet_retry">create wallet error, please try again</string>
+    <string name="retry">retry</string>
+
+    <string name="not_sufficient_funds">Not sufficient funds</string>
+    <string name="insufficient_memory">Insufficient memory</string>
+
+    <string name="no_account_name">No account name</string>
+    <string name="already_imported">Already imported</string>
+
+    <string name="please_select_wallet">Please select wallet</string>
+    <string name="checking">Checking</string>
+
+    <string name="eos_creator">Creator</string>
+    <string name="please_select_creator">Please select creator</string>
+    <string name="owner_public_key_tip">Owner key(Default current public key)</string>
+    <string name="input_owner_key_scan">Input owner key of the account or scan</string>
+    <string name="advanced_mode">Advanced mode</string>
+    <string name="manager_public_key">Manager key</string>
+    <string name="input_manager_key_scan">Input manager key of the account or scan</string>
+    <string name="allocation_ram_bytes">Allocation ram(Bytes)</string>
+    <string name="eos_cpu_delegate_symbol">Delegate CPU(%1$s)</string>
+    <string name="eos_net_delegate_symbol">Delegate NET(%1$s)</string>
+    <string name="simple_mode">Simple mode</string>
+    <string name="register_now">Register now</string>
+    <string name="ram">RAM</string>
+    <string name="bytes">Bytes</string>
+    <string name="please_allocation_ram">Please allocation ram</string>
+    <string name="please_delegate_cpu">Please delegate CPU</string>
+    <string name="please_delegate_net">Please delegate NET</string>
+    <string name="create_account">Create Account</string>
+    <string name="owner_key">Owner key</string>
+    <string name="manager_key">Manager key</string>
+    <string name="allocation_ram">Allocation ram</string>
+    <string name="eos_cpu_delegate">Delegate CPU</string>
+    <string name="eos_net_delegate">Delegate NET</string>
+    <string name="eos_create_account_success">Create account success</string>
+    <string name="eos_create_account_fail">Create account fail</string>
+    <string name="creating">Creating</string>
+
+    <string name="dapp_relief_title">You will be redirected to a third party DApp "%1$s"</string>
+    <string name="dapp_relief_content">Note:You will be redirected to a third party DApp "%1$s".Please go through the User Agreement and Privacy Policy of the third party DApp carefully, "%1$s" will resume full responsibility for all actions and usage on the DApp</string>
+
+    <string name="buyram">buyram</string>
+    <string name="sellram">sellram</string>
+    <string name="copy_success">%1$s copied</string>
+    <string name="copy_fail">Copy failed, please try again</string>
+
+    <string name="album">Album</string>
+    <string name="permission_manage">Permission</string>
+
+    <string name="what_owner_permission">What is Owner ?</string>
+    <string name="owner_permission_desc">The Owner represents the ownership of the account and can set permissions to manage Active and other roles.</string>
+    <string name="what_active_permission">What is Active ?</string>
+    <string name="active_permission_desc">Active is used for daily usage such as transfer, voting, etc.</string>
+    <string name="what_weight">What is Threshold ?</string>
+    <string name="weight_desc">Threshold is the lowest weight required while operating.</string>
+    <string name="input_modify_public_key">Please input the public key of the modify</string>
+    <string name="modify_owner_permission">Modify owner\'s authority</string>
+    <string name="modify_active_permission">Modify active\'s authority</string>
+    <string name="modify_account_success">Modify success</string>
+    <string name="modify_account">Modify account</string>
+    <string name="modify_authority">Modify authority</string>
+    <string name="new_public_key">New public key</string>
+    <string name="eos_owner">Owner</string>
+    <string name="eos_active">Active</string>
+
+    <string name="eos_token_info">token</string>
+
+    <string name="proxy_title">Proxy Introduction</string>
+
+    <string name="contact_way">Contacts</string>
+
+    <string name="transfer_precision_limit">%1$s transfers only support%2$s bit decimal</string>
+    <string name="create_eos_token">create eos token</string>
+
+    <string name="countdown_refund">Refund</string>
+    <string name="refunding">Refunding</string>
+    <string name="refund_success">Refund success</string>
+    <string name="refund_fail">Refund fail</string>
+    <string name="mine">Me</string>
+
+    <string name="more">More</string>
+
+    <string name="notice_title_warning">Warning</string>
+    <string name="notice_account_permission_tips">・Confirm that the PublicKey is correct before you change.\n・You should change the permission from Active to Owner in range.\n・Make sure your assets are safe.</string>
+    <string name="not_eos_base_wallet_and_switch">Current wallet is not EOS/ENU wallet. Please switch to EOS/ENU wallet.</string>
+    <string name="pretty_assistant">Pretty Assistant</string>
+
+    <string name="memo">Memo</string>
+
+    <string name="eos_key_generate">Key Generator</string>
+    <string name="go_to_use">Go to use</string>
+    <string name="eos_tips_of_use_private_key">Warm hint: please backup the private key before using the key</string>
+    <string name="eos_generate_key_success">Private key has been generated</string>
+    <string name="eos_generate_key_fail">Failure to generate private keys</string>
+    <string name="eos_confirm_backup_private_key">Confirm that the private key has been backed up?</string>
+
+    <string name="cpu">CPU</string>
+    <string name="net">NET</string>
+
+    <string name="to_self">To Self</string>
+    <string name="to_others">To Others</string>
+    <string name="receiver_label">Receiver</string>
+    <string name="lease">Lease</string>
+    <string name="receiver_transfer">Transfer</string>
+
+    <string name="invalid_private_key">Invalid Private Key, Please check your key</string>
+    <string name="resource">Resource</string>
+
+    <string name="create_eos_account">create %1$s account</string>
+
+    <string name="my_bid">我的竞拍</string>
+    <string name="bid_ranking">竞价排名</string>
+    <string name="input_short_bid">输入竞拍短名</string>
+    <string name="bid_auction">加价竞拍</string>
+    <string name="eos_bid_account_name">账号名</string>
+    <string name="highest_bidder">竞价者</string>
+    <string name="bidding_information">竞价信息</string>
+
+    <string name="bidname_title">Bid</string>
+    <string name="price_higer_tips">your bid price must be 10% higher than the current highest</string>
+    <string name="bid_price">Price</string>
+    <string name="bid_name">Name</string>
+    <string name="do_bidname">Bid</string>
+
+
+    <string name="add_contact">Add contact</string>
+    <string name="remarks_options">Remarks(options)</string>
+    <string name="please_input_remarks">Please input remarks</string>
+    <string name="add_wallet_address">Add wallet address</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="confirm_delete_">Confirm to delete %1$s ?</string>
+    <string name="saved">Saved</string>
+    <string name="select_address">Select address</string>
+    <string name="select_account">Select account</string>
+    <string name="contact_has_no_address">The contact has no wallet address</string>
+    <string name="contact_has_no_match_address">The contact has no corresponding wallet address</string>
+
+    <string name="check_private_key">Check private key</string>
+    <string name="eos_check_account">Detection accounts</string>
+    <string name="generate_public_key_first">Please generate public key first</string>
+    <string name="eos_no_account_name_tips">The current private key has no account name and whether it enters the test page to detect.</string>
+    <string name="ram_transaction">ram transaction</string>
+    <string name="in_the_transaction">In trading</string>
+    <string name="eos_ram_open">Open</string>
+    <string name="eos_ram_amount">Capital</string>
+    <string name="eos_ram_rate">Occupancy</string>
+    <string name="record_of_sale">Orders</string>
+    <string name="large_single_record">Large Orders</string>
+    <string name="large_holder">Huge Holds</string>
+    <string name="inflow_outflow">Distribution</string>
+    <string name="eos_ram_sales_tips"><![CDATA[Small  %1$s     Medium %2$s     Large  %3$s]]></string>
+    <string name="input_eos_amount">input eos amount</string>
+    <string name="input_sell_ram">input ram amount</string>
+
+    <string name="eos_symbol">EOS</string>
+    <string name="buying">Buying</string>
+    <string name="selling">Selling</string>
+    <string name="waiting">Waiting</string>
+    <string name="ram_transaction_record">Ram record</string>
+    <string name="ram_my_record">My record</string>
+
+    <string name="rammark_pie_deals">distributions</string>
+    <string name="rammark_pie_in">Buy:</string>
+    <string name="rammark_pie_out">Sell:</string>
+
+    <string name="rammark_pie_big">Large</string>
+    <string name="rammark_pie_med">Medium</string>
+    <string name="rammark_pie_small">Small</string>
+
+    <string name="ram_left_tip">Please ensure that 1KB RAM remaining, otherwise it may cause other operations on the account to fail due to insufficient resources</string>
+    <string name="buy_ram_precision_error">The number of inputs can only be up to 4 decimal places</string>
+    <string name="too_few">tow few</string>
+    <string name="byte_no_dot">Memory sell can only be an integer</string>
+
+
+    <string name="eos_account_not_exit">Account does not exist</string>
+    <string name="eos_multi_owner_active">Multiple private keys have owner and active permissions for the account,extremely risky.。</string>
+    <string name="eos_multi_owner">Multiple private keys have owner permissions to the account, extremely risky.</string>
+    <string name="eos_multi_active">Multiple private keys have active permissions on the account, which is extremely risky</string>
+    <string name="eos_only_owner">You only have the owner permission for this account, which is extremely risky.</string>
+    <string name="eos_only_active">You only have the active permission for this account, which is extremely risky.</string>
+    <string name="eos_account_have_exit">The account is squatted by others, please delete it and regenerate a new one</string>
+    <string name="eos_create_tip">Create %1$s Account need consume %2$s token.
+        Please find a trusted account with %3$s balance to help you pay for this creation.</string>
+    <string name="eos_owner_authority">Owner authority</string>
+    <string name="eos_active_authority">Active authority</string>
+    <string name="eos_delete_order">delete order</string>
+    <string name="eos_request_create">request create</string>
+    <string name="eos_unfinished_order">There are currently outstanding %1$s orders, whether to go to activate</string>
+    <string name="eos_delete_unfinished_order">delete this outstanding %1$s order?</string>
+    <string name="eos_order_deleted">order has been deleted</string>
+    <string name="create_account_consume_eos">create EosAccount take ≈ %1$s %2$s</string>
+    <string name="eos_active_account">Active account</string>
+
+    <string name="eos_confirm_account">If you confirm that all the permissions under the account are your own key, you can import your wallet with the private key.</string>
+    <string name="eos_resource_tips">Trading operations will consume resources. Please pay attention to your memory computing network resources. We recommend that the network and computing resources be at least 0.5 EOS,
+        if your resources are insufficient, your transaction will be rolled back by the block.</string>
+    <string name="check_eos_account_course">click check eos account course >></string>
+    <string name="help_create_eos_account">help other create eos account</string>
+
+
+    <string name="help_create_account_fail">The status is unknown, you can click the view button to view the account creation block confirmation result</string>
+    <string name="query">query account</string>
+
+    <string name="sms_warn">SMS early-warning</string>
+    <string name="ram_warn">Memory early-warning</string>
+    <string name="ram_warn_type_tips">TokenPocket price early-warning is divided into two forms:</string>
+    <string name="ram_price_warn">Price early-warning</string>
+    <string name="price_warn_desc">The price warning is divided into upper price and lower price. \n. When the price reaches a certain location, the system will issue an alarm. The same price will be at most 4 alerts per time, and the daily pushing 12 messages will be the upper limit. \n and price warning are divided into upper price and lower price.</string>
+    <string name="top_account_warn">Top early-warning</string>
+    <string name="top_account_desc">The tracking behavior is divided into buy tracking and sell tracking. \n. When the buying and selling reached the set value or exceeded the set value, it was sent by short message. Each set value was alerts 4 times a day, and the number of messages was 12 each time. \n and price warning are divided into upper price and lower price.</string>
+    <string name="ram_warn_tips">Note: because there are certain deviations in the network environment in different regions, this service is restricted to tracking and is not applicable to the implementation of the list. This service belongs to TokenPocket value-added service, the cost of the service is%1$s EOS, which is valid for one month,and the final interpretation right belongs to TokenPocket. Once subscription is not allowed, a refund will be made.</string>
+    <string name="open_now">Open now</string>
+    <string name="phone_num">Phone num</string>
+    <string name="sms_warn_dialog_tips">Warning is only a price alert, because there is a certain deviation in the network environment, which is not suitable for real-time bills.</string>
+    <string name="cost">Cost</string>
+    <string name="price_warn_order_preview">Price early-warning order Preview</string>
+    <string name="sms_warn_open_success">Short message warning function has been successfully opened</string>
+    <string name="sms_warn_open_fail">Open short message warning failure</string>
+    <string name="sms_renew">Renew</string>
+    <string name="add_warn">Add early-warning</string>
+    <string name="current_price">Price</string>
+    <string name="current_price_rate">Rate</string>
+
+    <string name="top_account_name">Top account name</string>
+    <string name="warn_amount">Early warning number</string>
+    <string name="price_top">Price upper</string>
+    <string name="price_low">Price lower</string>
+    <string name="warning_num">Early-warning number</string>
+    <string name="warning_direction">Warning direction</string>
+    <string name="warning_buy">Buy</string>
+    <string name="warning_sell">Sell</string>
+    <string name="submit_success">Submitted successfully</string>
+    <string name="input_warn_num">Please input the early-warning number</string>
+    <string name="price_top_unit">Price upper (EOS/KB)</string>
+    <string name="price_low_unit">Price lower (EOS/KB)</string>
+    <string name="input_warn_price">Please input price</string>
+    <string name="price_top_small_than_low">The upper price should not be lower than the lower price</string>
+    <string name="confirm_delete_warn_info">Is it sure to delete the current warning information?</string>
+    <string name="deleting">Deleting</string>
+    <string name="fail_to_delete">Fail to delete</string>
+    <string name="update_success">Update successfully</string>
+    <string name="warning_service_deadline">Early-warning service expiration time: %1$s</string>
+
+    <string name="contract_create_eos_tips_start">Transfer </string>
+    <string name="contract_create_eos_tips_middle"> 2 %1$s </string>
+    <string name="contract_create_eos_tips_end">  to the following address by the way of the exchange coin with memo or wallet transfer with memo to complete create account. 0.2 %1$s  is used to computing and network resources, and the rest will help users purchase  memory.</string>
+    <string name="contract_create_eos_tips_two">Now the support ways include exchange such as OTCBTC, Gate.io Binance, Bitfinex, or wallet support transfer with memo</string>
+    <string name="transfer_to_account_necessary">To(necessary)</string>
+    <string name="steps">Steps:</string>
+    <string name="memo_necessary">Memo(necessary)</string>
+    <string name="notice">Cautions</string>
+
+    <string name="notice_content">The creation is developed by %1$s using smart contract without manual operation, if you lost assets because of your own mistakes, we are sorry but cant not help.</string>
+    <string name="exchange_create_delete_order">Delete order</string>
+    <string name="type_title_exchange">Exchange coin/Wallet token transfer</string>
+    <string name="create_way">Create way</string>
+
+    <string name="no_refund">No refund</string>
+
+
+    <string name="eos_account_create_state_create">Account creating..</string>
+    <string name="eos_account_create_state_required">Account Status Confirming..</string>
+    <string name="eos_account_create_state_safe">Account Security Detecting..</string>
+    <string name="eos_account_create_wrong_owner">Wrong owner</string>
+    <string name="eos_account_create_wrong_active">Wrong active</string>
+    <string name="eos_transfer_memo_tips">The current transfer account is an exchange account. Please ensure that Memo is correct.</string>
+    <!-- action类型-->
+    <string name="transfer">transfer</string>
+    <string name="delegatebw">delegatebw</string>
+    <string name="undelegatebw">undelegatebw</string>
+
+    <string name="update_auth">updateauth</string>
+    <string name="new_account">newaccount </string>
+    <string name="vote_producer">voteproducer</string>
+    <string name="fail">Fail</string>
+    <string name="action_details">ActionDetails</string>
+
+    <!-- 和IOS同步key -->
+    <string name="setting_color_switch">Red rise and green fall</string>
+    <string name="invite_code_title">Your exclusive code</string>
+    <string name="invite_now">Invite Now</string>
+    <string name="invitation_record">You invited %1$s friends，gain %2$s bonus</string>
+    <string name="invite_rule">Invitation Rules:</string>
+    <string name="invite_rules_desc">1. During the activity, bind the phone number will gain 100 bonus, each the inviter and invitee will gain 100 bonus, the more you invite, the more you will gain.\n2. Each user can be invite once, you can confirm the invitation while importing or creating the wallet.\n3.Bonus can be exchanged to candies according to rules.\n4.Invite code bind with phone number.\n5.Follow our official telegram group （https://t.me/tokenPocket_en） to follow the exchange rules.\n6.All rights reserved by TokenPocket</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="title_gain_bonus">Take Bonus</string>
+    <string name="invite_code_where_input">Code can be verified on Invitation Page</string>
+    <string name="invite_code_scan_download">Scan To Download</string>
+    <string name="invite_inviter_desc_title">Input code to gain bonus</string>
+    <string name="invite_inviter_code_pl">Input invite code</string>
+    <string name="invite_inviter_detail">Code cannot be modified once confirmed, both inviter and invitee will gain bonus.</string>
+    <string name="invite_code_empty">Code cannot be empty</string>
+    <string name="submitting">Submitting</string>
+    <string name="invite_code_error">Incorrect code, check it.</string>
+    <string name="invite_code_mine">My exclusive code</string>
+    <string name="invite_get_code">Get Invitation Code</string>
+    <string name="invite_bind_phone_get">Bind your phone to gain bonus</string>
+    <string name="invite_bind_phone_desc">Bind your phone to get invitation code</string>
+    <string name="invite_bind_phone_detail">Code will be binded with phone number, you can change your code through modifying phone.</string>
+
+    <string name="take_bonus_success">Take Bonus successfully</string>
+    <string name="bonus_has_token">The bonus has been taken, please do not repeat it</string>
+
+    <string name="no_wallet">No %1$s wallet</string>
+
+    <string name="bind_phone_tips">bind phone number then get bonus</string>
+
+    <string name="threshold">%1$s(threshold:%2$s)</string>
+    <string name="owner">Owner</string>
+    <string name="active">Active</string>
+    <string name="permission_weight">Weight:%1$s</string>
+
+    <string name="delete_permission_key_tips">Are u sure to delete this key?</string>
+    <string name="delete_permission_account_tips">Are u sure to delete this account?</string>
+
+    <string name="add_owner_tips">Add owner permission</string>
+    <string name="add_active_tips">Add active permission</string>
+
+    <string name="add_authority">Add authority</string>
+
+    <string name="notice_account_add_permission_tips">・Confirm that the PublicKey is correct before you add.\n・You should change the permission from Active to Owner in range.\n・Make sure your assets are safe.</string>
+    <string name="add_permission_hint">input public key</string>
+    <string name="modify_auth_label">Modify %1s authority</string>
+
+    <string name="search">Search</string>
+    <string name="eos_ram_trade_panel">Ram Panel</string>
+
+    <string name="debug_mode_open_tip">Quickly click on the icon 8 times to enter developer mode</string>
+    <string name="debug_mode_opened">You have entered developer mode</string>
+    <string name="debug_mode_closed">You have turned off developer mode</string>
+    <string name="debug_mode">Developer mode</string>
+    <string name="eos_developer_mode_desc">Developer Mode is used to debug the DApps based on wallet, you can define the URL after turn on the developer mode.\nThis mode is made for developers to debug only, don’t use any untrusted links, you should be responsible for your assets if you use the third-party or self-defined URL.</string>
+    <string name="eos_developer_mode_check">I understood the Usage and Responsibility of Developer Mode.</string>
+
+    <string name="use_contract_create_account">create account by contract</string>
+
+    <string name="nodes_setting">Nodes Setting</string>
+    <string name="add_custom_node">Add custom nodes</string>
+    <string name="default_node">Default node</string>
+    <string name="custom_node">Custom node</string>
+    <string name="input_dapp_address">Input DApp address</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="reset">Reset</string>
+
+    <string name="vote_desc_proxy">＊ Proxies will bring a much healthier ecosystem to the community.\n＊ A proxy can represent you to vote producers. You can revoke your votes at anytime.</string>
+    <string name="vote_desc_producer">＊ Before you can vote, you need to stake your %1$s.\n＊ You can get your %2$s back in 72 hours after unstake.</string>
+    <string name="contract_create_enu_tips_two">create account by exchange or wallet token transfer with memo</string>
+    <string name="auth_error_tips">The permissions of the current account have been changed, please confirm whether the account permissions are normal</string>
+    <string name="goto_check_permission">Check it</string>
+
+    <string name="cover">Cover</string>
+    <string name="vote_add">Add</string>
+    <string name="vote_again_tips">Detecting that the current account has voted, clicking "Overlay" will overwrite the previous vote; clicking "New" is the new vote.</string>
+    <string name="vote_him">Vote Him</string>
+    <string name="vote_proxy_staked">Proxy staked</string>
+    <string name="vote_proxy_staked_voters">Proxy staked(%1$s voters)</string>
+    <string name="detail">Detail »</string>
+    <string name="voted_producers">Voted Producers</string>
+    <string name="voted_producers_">Voted Producers(%1$s)</string>
+    <string name="philosophy">Philosophy</string>
+    <string name="background">Background</string>
+    <string name="vote_telegram">Telegram</string>
+    <string name="proxy_staked_voters_tips">Proxy Staked: %1$s,  voters: %2$s</string>
+    <string name="producers_voting">Nodes Voting</string>
+    <string name="staked_manager"><![CDATA[Staked Manager >]]></string>
+    <string name="proxy_manager"><![CDATA[Proxy Manager >]]></string>
+    <string name="vote_staked_">Staked:</string>
+    <string name="vote_staked_proxy_">Proxy Staked:</string>
+    <string name="partner">partner</string>
+    <string name="proxies_voting">Proxies Voting</string>
+    <string name="proxy_wechat">WeChat</string>
+    <string name="proxy_twitter">Twitter</string>
+    <string name="proxy_steemit">Steemit</string>
+    <string name="proxy_cannot_vote_for_proxy">The proxy cannot vote for the proxy</string>
+    <string name="click_to_add_logo">Add Logo</string>
+    <string name="uploading">Uploading</string>
+
+    <string name="proxy_official_website">Website</string>
+    <string name="proxy_slogan">Slogan</string>
+    <string name="input_proxy_slogan">Input slogan</string>
+    <string name="proxy_telegram">Telegram(Option)</string>
+    <string name="input_proxy_telegram">Input telegram</string>
+    <string name="proxy_steemit_option">Steemit(Option)</string>
+    <string name="input_steemit_address">Input steemit</string>
+    <string name="proxy_twitter_option">Twitter(Option)</string>
+    <string name="input_twitter_address">Input twitter</string>
+    <string name="proxy_wechat_option">WeChat(Option)</string>
+    <string name="input_wechat_address">Input WeChat</string>
+    <string name="proxy_philosophy_option">Philosophy</string>
+    <string name="input_proxy_philosophy">Input philosophy</string>
+    <string name="proxy_background_option">Background</string>
+    <string name="input_proxy_background">Input background</string>
+    <string name="please_add_logo">Please add logo</string>
+
+    <string name="proxy_name_max_length">The name is not more than 64 characters</string>
+    <string name="proxy_slogan_max_length">The slogan can\'t exceed 64 characters</string>
+    <string name="proxy_website_max_length">Website is not more than 256 characters</string>
+    <string name="proxy_telegram_max_length">Telegram can\'t exceed 64 characters</string>
+    <string name="proxy_steemit_max_length">Steemit can\'t exceed 64 characters</string>
+    <string name="proxy_twitter_max_length">Twitter can\'t exceed 64 characters</string>
+    <string name="proxy_wechat_max_length">WeChat can\'t exceed 64 characters</string>
+    <string name="proxy_philosophy_max_length">philosophy can\'t exceed 64 characters</string>
+    <string name="proxy_background_max_length">Background can\'t exceed 64 characters</string>
+    <string name="new_flash_source">Source: %1$s</string>
+    <string name="news_flash">News</string>
+    <string name="contact_remark_fill_tips">Open the right side, transfer and other operations will fill in the remarks by default.</string>
+
+    <string name="proxy_item_staked_voters">Staked: %1$s %2$s , Voters: %3$s </string>
+    <string name="proxy_register_fee_tips">In the process of applying for agents, it is necessary to consume at least 1KB of ram and whether to continue.</string>
+    <string name="browser_refresh">Refresh</string>
+    <string name="browser_copy">Copy url</string>
+    <string name="browser_share">Share</string>
+    <string name="browser_open">System browser</string>
+
+    <string name="currency_unit">Currency Unit</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="multiple">Multiple</string>
+    <string name="unstake_resource">Refund Resource</string>
+
+    <string name="stake_total_num">Stake Num：%1$s</string>
+    <string name="stake_total_cpu">Stake Cpu：%1$s  %2$s</string>
+    <string name="stake_total_net">Stake Net：%1$s  %2$s</string>
+    <string name="unstake_preview">Refund Preview</string>
+    <string name="stake_preview_cpu_net">Cpu: %1$s ,  Net:%2$s </string>
+
+    <string name="multi_unstake">Refund(%1$s)</string>
+    <string name="multi_unstake_empty">Please tick first</string>
+
+    <string name="cpu_net">CPU/NET</string>
+    <string name="delegate_list">Delegate list</string>
+    <string name="buy_ram">Buy RAM</string>
+    <string name="sell_ram">Sell RAM</string>
+    <string name="buy_switch_label">Buy</string>
+    <string name="sell_switch_label">Sell</string>
+    <string name="cpu_delegate">Delegate CPU</string>
+    <string name="net_delegate">Delegate NET</string>
+    <string name="cpu_refund">Refund CPU</string>
+    <string name="net_refund">Refund NET</string>
+
+    <string name="input_token_amount">Input %1$s amount</string>
+    <string name="reclaimable_amount">Reclaimable: %1$s</string>
+
+    <string name="iq_transfer_tips">The IQ smart contract need 1/1000 fee when transfer token</string>
+    <string name="select_wallet">Select wallet</string>
+    <string name="dapp_select_wallet_content">Current DApp only supports %1$s</string>
+    <string name="confirming">confirming</string>
+
+    <string name="input_sell_ram_kb">input ram amount(KB)</string>
+    <string name="retrieve_account">Retrieve Account</string>
+
+    <string name="please_home_page_create_account">Please go to the home page to create an account</string>
+    <string name="loading">Loading…</string>
+    <string name="refund_account">Refund account: %1$s</string>
+    <string name="refund_delegate">Refund delegate</string>
+    <string name="multi_refund_total">Refund num: %1$s , CPU: %2$s , NET: %3$s</string>
+
+
+    <string name="account">Account</string>
+    <string name="auth_title">Auth</string>
+
+    <string name="auth_account_info">Need your wallt info</string>
+    <string name="auth_permission">After auth, the DApp will get the follow info:</string>
+    <string name="trust_dapp">Trust the DApp</string>
+    <string name="auth_not_share_pk">Note: Account authorization does not provide your private key to DApp.</string>
+    <string name="auth_account">Authorized account:</string>
+    <string name="change_wallet">Change</string>
+    <string name="auth">Confirm</string>
+    <string name="auth_login">Authorized login</string>
+
+    <string name="please_create_import_wallet_first">Please create or import wallet first</string>
+    <string name="order_pay">Order pay</string>
+    <string name="confirm_pay">Confirm pay</string>
+    <string name="pay_account">from</string>
+    <string name="receive_account">to</string>
+    <string name="order_id">OrderId</string>
+    <string name="token_contract">Account</string>
+    <string name="pay_memo">Memo</string>
+    <string name="unknown_data">Unknown data, please upgrade your app then try again</string>
+    <string name="data_expired">Data expired</string>
+
+
+    <string name="contract_security_tips">Permission operation risk</string>
+
+    <string name="dapp_browser">DApp Browser</string>
+
+    <string name="import_account">Import Account</string>
+    <string name="choose_account">Choose Account</string>
+
+    <string name="wallet_import_fail">Import wallet %s fail</string>
+
+    <string name="account_balance">Account balance</string>
+    <string name="set_time">Set up timed transactions</string>
+    <string name="contract_tips">The payment account is a contract account, the contract content can be modified, please pay attention to the risk</string>
+    <string name="account_not_exist">Account does not exist</string>
+    <string name="wallet_balance">Wallet balance</string>
+    <string name="receive_address">Receive address</string>
+    <string name="execute_contract">Execute contract</string>string
+    <string name="choose_time">Choose time</string>
+    <string name="year">Y</string>
+    <string name="month">M</string>
+    <string name="time_day">D</string>
+    <string name="time_hour">H</string>
+    <string name="time_min">M</string>
+    <string name="time_sec">S</string>
+    <string name="time_error">Transaction time cannot be earlier than current time</string>
+    <string name="time_tips">Timed transactions may be biased due to network reasons.
+        Please confirm sufficient network verification before using this function to ensure the correct transaction time.
+Please note that so far scheduled transactions do not support cancellation</string>
+
+    <string name="point_content">・%1$s</string>
+    <string name="search_enter_dapp">Search DApp or enter a link </string>
+    <string name="my_dapps">My DApps</string>
+    <string name="cancel_favor">Cancel pin</string>
+    <string name="favor">Pin</string>
+    <string name="collected">Pined</string>
+    <string name="collection_cancelled">Unpin</string>
+    <string name="popular_searches">Popular search</string>
+    <string name="history_record">History record</string>
+
+    <string name="my_favor">My Favor</string>
+    <string name="confirm_delete">Confirm to delete?</string>
+
+    <string name="ask_opt">Request to do the following</string>
+    <string name="opt_list">Operation list</string>
+    <string name="opt_details">View operation details</string>
+    <string name="execute">Confirm execution</string>
+    <string name="do_opt_account">Execution account name</string>string
+    <string name="transfer_receive_account">To</string>
+    <string name="clear_time">Clear time</string>
+
+    <string name="default_dapp_desc">Go to TokenPocket play %s</string>
+
+    <string name="go_to_dapp">Go to DApp:</string>
+
+    <string name="dapp_whitelist">DApp whitelist</string>
+    <string name="select_all">Select all</string>
+    <string name="cancel_all_selection">Cancel all selection</string>
+    <string name="cancel_contract">Cancel contract</string>
+
+    <string name="edit">Edit</string>
+    <string name="deleted">Deleted</string>
+    <string name="cancelled">Cancelled</string>
+
+    <string name="action_count">Operation(%1$d)</string>
+
+    <string name="sign_request">Signing request</string>
+    <string name="properties">Properties</string>
+    <string name="contract">Contract</string>
+    <string name="add_whitelist_tips">Do you want to add this contract operation to the white list?</string>
+    <string name="add_whitelist_tips_content">You can whitelist this action and do not have to authorize it next time. Checking the radio button next to the attribute means that the property that allows this action can be changed,
+        and will not be whitelisted only if other properties change.</string>
+
+    <string name="open_whitelist">Enter a password to enable whitelisting</string>
+    <string name="open_whitelist_tips">The whitelist authorization is valid only for a certain period of time during the DApp running. Exiting the DApp or exiting the App will invalidate the authorization. The next time you use the whitelist, you need to enter a password to enable the white name.</string>
+    <string name="white_list_title">Whitelist</string>
+
+    <string name="time_error_too_long">The delay time cannot be greater than 3888000 seconds (45 days)</string>
+    <string name="whitelist">whitelist</string>
+
+    <string name="server_support_by">This service is provided by %1$s</string>
+
+    <string name="forget_password_">Forget password？</string>
+    <string name="reset_password">Reset password</string>
+    <string name="set_password">Set password</string>
+    <string name="public_key_not_match">Public key does not match</string>
+    <string name="account_not_match">Account name does not match</string>
+    <string name="password_reset_successfully">Password successfully reset</string>
+
+    <string name="observe">Observe</string>
+    <string name="observe_mode">Observe mode</string>
+    <string name="observe_wallet_import_tips">Observing the wallet does not require importing a private key. It only imports the account name or public key, and performs daily viewing of accounts, transaction records, and receiving notifications.</string>
+    <string name="invalid_public_key">Invalid public key address, please confirm whether the copy is correct</string>
+    <string name="observe_not_support">Observing the wallet does not support this operation</string>
+
+    <string name="observe_wallet">Observe wallet</string>
+    <string name="observe_transfer_tips">Currently observing the wallet, please confirm whether you want to transfer money to this wallet.</string>
+
+    <string name="wrong_node_url">Node link error, please check if the node is wrong</string>
+
+    <string name="add_wallet">Add Wallet</string>
+    <string name="wallet_empty_tips">No wallet</string>
+
+    <string name="eos_public_key_no_account_name_tips">Public key does not have an account name. Please check if the public Key is right.</string>
+    <string name="useful_before_exit_app">Authorization is valid before exiting the wallet</string>
+
+    <string name="skip_ads">skip %1$s</string>
+    <string name="import_observe_eos_tips">Input account or public key</string>
+    <string name="any_value">Arbitrary value</string>
+
+    <string name="friend_create">Create by friend</string>
+    <string name="friend_create_desc">Ask your friend who has an account to pay the fee</string>
+    <string name="activation_code_create">Activation Code</string>
+    <string name="activation_code_desc">Purchase activation through PayPal to create an account</string>
+    <string name="contract_create">Smart Contract</string>
+    <string name="contract_desc">Transfer the fee to a contract account to create an account</string>
+    <string name="do_you_have_account">Do you have an account?</string>
+    <string name="have_account">I have an account</string>
+    <string name="not_have_account">No accounts</string>
+    <string name="input_activation_code">Please enter the activation code</string>
+    <string name="account_creation_submitted">The account has already been submitted to mainnet, we suggest extra wait (3 minutes) to ensure the creation is successful.</string>
+    <string name="input_pwd">Enter password</string>
+    <string name="open_fingerprint">Open fingerprint payment</string>
+    <string name="close_fingerprint">Close fingerprint payment</string>
+    <string name="input_fingerprint">Check fingerprint</string>
+    <string name="fingerprint_fail">Check fingerprint failed</string>
+    <string name="fingerprint_payment">Fingerprint Payment</string>
+    <string name="verify_pwd">Verify password</string>
+
+    <string name="do_you_have_wallet">Do you have a wallet?</string>
+    <string name="not_have_wallet">I have no wallet</string>
+    <string name="have_wallet">I have a wallet</string>
+
+    <string name="current_account_tag">Current account</string>
+
+    <string name="current_wallet_tag">Current wallet</string>
+    <string name="create_wallet_tips">Create a wallet for free</string>
+
+    <string name="forbid_screenshot">Do not take a screenshot</string>
+    <string name="bakup_tipsone">If anyone get your %1$s he(she) can get your asset</string>
+    <string name="bakup_tipstwo">Please write %1$s on paper and store it in a safe place</string>
+
+    <string name="pk">private key</string>
+    <string name="words">mnemonic</string>
+
+    <string name="creation_active_code">Activation code to create an account</string>
+    <string name="start_using">Start Using</string>
+    <string name="my_active_code">My activation code</string>
+
+    <string name="input_receive_account">Input receiver account</string>
+
+    <string name="add_perm">Add</string>
+    <string name="modify_perm">Modify</string>
+    <string name="input_new_publickey">Please input new public key or account</string>
+
+    <string name="action_inwhitelist_tips">The operation is already in the whitelist and you do not need to enter the password again.</string>
+    <string name="open_advance_tips">You don’t need to confirm the pop up information next time until you turn the advanced setting off</string>
+    <string name="whitelist_advance_tips">The current operation has been added to the whitelist, and the confirmation-free operation is set. After the authorization, the operation will be executed immediately. Continue?</string>
+    <string name="enable_whitelist">Enable DApp Whitelist</string>
+    <string name="closed">Closed</string>
+    <string name="advance_setting">Advance setting</string>
+    <string name="close">Close</string>
+
+    <string name="refund_day_hour_min">End of:%1$sD %2$sH %3$sM</string>
+
+    <string name="no_write_storage_tips">Please enable read and write permissions first.</string>
+
+    <string name="facebook">Facebook</string>
+
+    <string name="eos_no_any_permission">You do not have any permission want to delete it?</string>
+    <string name="resource_helper">Resource widget</string>
+    <string name="click_refresh">Click refresh</string>
+
+    <string name="tool_list">Tool list</string>
+
+    <string name="total_delegate">Total Delegate</string>
+    <string name="self_delegate_">Self: %1$s</string>
+    <string name="other_delegate_">Other: %1$s</string>
+    <string name="cpu_">CPU: %1$s</string>
+    <string name="net_">NET: %1$s</string>
+    <string name="cpu_price">Price: %1$s %2$s/ms/Day</string>
+    <string name="net_price">Price: %1$s %2$s/KB/Day</string>
+    <string name="ram_price">Price: %1$s %2$s/KB</string>
+    <string name="remain_">Remaining: %1$s</string>
+
+    <string name="ram_trend">RAM Trend</string>
+    <string name="my_remain_">My remain: %1$s</string>
+    <string name="cpu_rent_tips">Select a service provider to get more CPU resources</string>
+    <string name="fixed_display">Fixed Display</string>
+
+    <string name="no_wallet_select">No account selected</string>
+    <string name="progressing">Progressing $%1s</string>
+    <string name="asset_collect_finish">Collection finish</string>
+    <string name="asset_collect_title">Token collect</string>
+    <string name="asset_input_account">Receive account</string>
+    <string name="asset_output_account">Transfer account</string>
+    <string name="start_asset_collect">Start collect</string>
+
+    <string name="view_more">View More</string>
+    <string name="drag_sort_tips">(Hold down and drag to sort)</string>
+
+    <string name="show_recource">Show resource widget</string>
+    <string name="applock_verify_success">Verify success</string>
+    <string name="applock_fingerprint_error">Fingerprint veirify fail，Please use wallet password</string>
+    <string name="fingerprint_error_gesture">Fingerprint verify，use pattern unlock wallet？</string>
+    <string name="try_it_later">Try it later</string>
+
+    <string name="publickey">Publickey</string>
+    <string name="no_remind">No remind</string>
+
+    <string name="transfer_all">Transfer all</string>
+    <string name="no_pwd_tips">This operation does not password again</string>
+
+    <string name="query_details">Query details</string>
+
+    <string name="transfer_dir">Transfer</string>
+    <string name="transfer_contact">Contact</string>
+    <string name="transfer_scan">Scan qrcode</string>
+    <string name="transfer_record_title">Transfer history</string>
+
+    <string name="no_pwd_exit_app">No need to enter password again before exiting the app.</string>
+
+    <string name="token_details">Token details ></string>
+    <string name="tidy_asset_page_title">Token collection</string>
+
+    <string name="no_pwd_content">If this option is checked, password does not need to be entered again before exiting the App.</string>
+
+    <string name="more_tools">More</string>
+
+    <string name="dapp_details">DApp details</string>
+
+    <string name="precsion_error">Precision error</string>
+    <string name="pwd_custom_title">Input %1$s password</string>
+    <string name="asset_tidy_tips">Transfer the %1$s in selected wallet to %2$s</string>
+
+    <string name="home_resource_desc">RAM CPU NET</string>
+    <string name="home_vote_desc">BP and agent management</string>
+    <string name="home_permission_desc">Account permissions</string>
+    <string name="on_more_page_tips">Currently on more pages</string>
+    <string name="rent">Rent</string>
+
+    <string name="data_">Data</string>
+    <string name="network_unavailable">Network is not available, please check the network or try again later</string>
+
+
+    <string name="push_notification">Push Notification</string>
+    <string name="receive_push_notification">Receive push notifications</string>
+    <string name="push_transfer">Transfer Notice</string>
+    <string name="push_transfer_normal">Ordinary wallet transfer notice</string>
+    <string name="push_transfer_observe">Observe the wallet transfer notice</string>
+    <string name="developer_mode">Developer mode</string>
+    <string name="open_screen_rotation">Open screen rotation</string>
+
+
+    <string name="add_market_tokens">Add market tokens</string>
+
+    <string name="visitor_mode">Visitor Mode</string>
+    <string name="preview_fixed_account">Preview with a fixed account</string>
+    <string name="eos_beginner_tutorial">EOS novice tutorial</string>
+    <string name="entered_visitor_mode">Has entered visitor mode</string>
+    <string name="visitor_wallet">Visitor wallet</string>
+    <string name="visitor_transfer_tips">Currently visitor mode, please confirm whether you want to transfer money to this wallet.</string>
+    <string name="visitor_not_support">Visitor mode does not support this operation</string>
+    <string name="visitor">Visitor</string>
+
+    <string name="cold_wallet">cold wallet</string>
+    <string name="publickey_title">Please select a public key </string> 
+    <string name="observe_wallet_scan_tips">In the import wallet interface, scan the code to import the observation wallet corresponding to the cold wallet.</string>
+        
+    <string name="online">Device is connected to the network</string>    
+    <string name="coldwallet_help_tips">Cold wallet knowledge </string>    
+    <string name="coldwallet_help_tips_one">Cold wallet is also called offline wallet. Import the keys into cold wallet and keep offline to ensure the security of the assets.</string>
+        
+    <string name="coldwallet_help_tips_two">Cold wallet communicate with observe wallet through QR Code, keys never connect to the net, which can effectively prevent hackers from stealing </string>
+        
+    <string name="use_coldwallet_scan_sign">Use the corresponding cold wallet scan code to sign</string>
+        
+    <string name="sign_fail">Sign failed</string>    
+    <string name="sign_info">Signature information</string>    
+    <string name="use_observewallet_scan">Use the corresponding observation wallet scan code to complete the operation </string>
+    <string name="scan_sign">Scan to sign </string>
+
+    <string name="restart_app_tips">Reopen TokenPocket</string>
+    <string name="repair_tips">Execute the app grooming operation, this operation will not affect the data </string>
+    <string name="memo_tips">The memo is automatically filled based on the record, please check it </string>
+    <string name="operation_cancel">Operation canceled </string>
+    <string name="cold_wallet_onlinewarn">Device is connected to the network, confirm the import  cold wallet?</string>
+    <string name="use_cold_wallet_scan">Use cold wallet to scan the QR code</string>
+
+    <string name="search_token_hint">Search for token name/contract/project name</string>
+
+    <string name="token_price">Current price:</string>
+    <string name="fingerprint_setting">Fingerprint setting</string>
+    <string name="close_persist_fingerprint">Please turn off permanent fingerprint first</string>
+    <string name="persist_fingerprint">Permanent Fingerprint</string>
+    <string name="temp_fingerprint">Temporary fingerprint</string>
+    <string name="persist_title">Permanent confidentiality precautions</string>
+    <string name="persist_des">Permanently and confidentially use device biometric technology to confirm whether it is for the device owner and use biometrics for encrypted storage. No one except the device owner can retrieve the password.</string>
+    <string name="persist_fingerprint_1">Use permanent confidentiality, please ensure the following considerations:</string>
+    <string name="persist_fingerprint_2">Don\'t use this feature on the root device</string>
+    <string name="persist_fingerprint_3">Don\'t  add someone else\'s fingerprint or face recognition to your phone</string>
+    <string name="persist_fingerprint_4">Don\'t tell others about your phone\'s password</string>
+    <string name="persist_fingerprint_5">Don\'t give your phone to someone else</string>
+    <string name="exchange_list">Exchange list</string>
+    <string name="go_to_trade">trade</string>
+
+    <string name="all_assets">All Assets</string>
+    <string name="non_zero_assets">Amount > 0</string>
+
+    <string name="opened">Opened</string>
+    <string name="unopened">Unopened</string>
+    <string name="permanently_open">Permanently Open</string>
+
+    <string name="token_exchange_support_content">Current token only supports %1$s</string>
+
+    <string name="persist_fingerprint_6">App needs to reopen fingerprint if phone fingerprint changed </string>
+
+    <string name="sign_not_share_pk">Note: Sign message will not provide your private key to DApp</string>
+        
+    <string name="sign_account">Sign account: </string>    
+    <string name="start_sign">Sign</string>
+    <string name="sign_message">Sign message</string>    
+    <string name="sign_content">Sign message>></string>
+    <string name="sign_content_title">Sign message</string>
+
+    <string name="send">Send</string>
+    <string name="input_content_first">Input content first</string>
+    <string name="im_album">Album</string>
+    <string name="im_camera">Camera</string>
+    <string name="im_transfer">Transfer</string>
+    <string name="main_tag_chat">Chat</string>
+    <string name="create_group">Create Team</string>
+    <string name="tp_red_desc">TP RedPacket</string>
+    <string name="im_open">開</string>
+    <string name="see_detail">See Detail</string>
+    <string name="best_luck">Best Luck</string>
+    <string name="please_input_amount">Input amount</string>
+    <string name="send_num">Num</string>
+
+    <string name="group_member_tip">%1$s members</string>
+    <string name="amount_too_small">The amount is too small</string>
+
+    <string name="red_packet_received_num">Received %1$s/%2$s</string>
+    <string name="red_packet_received_amount">%1$s/%2$s %3$s</string>
+    <string name="tag_news">News</string>
+    <string name="red_packet_not_exit">RedPacket not exit</string>
+    <string name="red_packet_time_out">Red Packet timeout </string>
+    <string name="red_packet_receive_by_other">The red packet has been taken over</string>
+
+    <!-- 创建群组-->
+    <string name="create_fail">Create Fail：%1$s</string>
+    <string name="team_name_hint">Set the team name (up to 20 characters)</string>
+    <string name="team_desc">Team introduction</string>
+    <string name="team_desc_hint">Brief introduction to the Team (up to 250 words)</string>
+    <string name="create_now">Create now</string>
+
+    <!-- team -->
+    <string name="team_need_authentication">Need authentication</string>
+    <string name="team_allow_anyone_join">Allow anyone to join</string>
+    <string name="team_not_allow_anyone_join">No one is allowed to apply to join</string>
+    <string name="team_manager">Administrator</string>
+    <string name="team_owner">Team Owner</string>
+    <string name="team_name">Team name</string>
+    <string name="create_team">Create Team</string>
+    <string name="transfer_team">Transfer team</string>
+    <string name="team_qrcode">Team QR code</string>
+    <string name="team_member_count">Team size</string>
+    <string name="mute_team_notifications">Message avoidance</string>
+    <string name="join_verify">Add team verification</string>
+    <string name="report">Report</string>
+    <string name="exit_team">Exit team chat</string>
+    <string name="join_team">Join a team chat</string>
+    <string name="team_info">Team chat information</string>
+    <!-- 消息搜索 -->
+
+    <!-- contact入口-->
+    <string name="follow_user">My follows</string>
+    <string name="my_team">My Team</string>
+    <string name="recommend_team">Recommended Team chat</string>
+
+    <!--用户信息-->
+
+    <string name="nickname">Nickname</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="im_account">Account:%1$s</string>
+    <string name="user_not_exist">Failed to get user information</string>
+    <string name="user_dapp_title">The DApp playing</string>
+    <string name="creator_cannot_exit">You are the owner and can\'t leave the team chat.</string>
+    <string name="team_name_empty_tips">Team name cannot be empty</string>
+    <string name="search_follow">Search my attention</string>
+    <string name="search_team">Search my team</string>
+    <string name="team_members">Team member list(%1$d)</string>
+    <string name="chat">Chat</string>
+    <string name="apply_join_success">Successful application</string>
+    <string name="use_tp_scan">Join the team chat with the TP wallet scan code</string>
+    <string name="share_qrcode">Share QR code</string>
+    <string name="save_info">Save</string>
+    <string name="info_empty">Information cannot be empty</string>
+    <string name="mute_user_message">Message avoidance</string>
+    <string name="user_details">Details</string>
+    <string name="follow_list">Friends List</string>
+    <string name="confirm_count">Confirm(%1$d)</string>
+    <string name="auth_tips">Chat is closely tied to your account and requires authentication before you use it for the first time.</string>
+    <string name="start_auth">Start verification</string>
+    <string name="please_auth">Please login in the Chat tab of the wallet first</string>
+    <string name="join_chat">Enter chat</string>
+
+    <string name="recent_red_content">[TP Red Packet] %1$s</string>
+    <string name="red_packet_chain_wrong">The current red envelope belongs to the bottom red envelope of %1$s, you cannot receive it.</string>
+    <string name="received_red_packet_tip">%1$s received a red packet</string>
+    <string name="im_pin">Pin</string>
+    <string name="im_unpin">Unpin</string>
+    <string name="im_unknown_message">[Unknown message]</string>
+    <string name="team_message_update">[Team message update]</string>
+    <string name="p2p_message_update">[Session message update]</string>
+    <string name="red_packet_receive_finish_tip">The red packet has been received</string>
+    <string name="claim_red_packet_fail">Claim fail</string>
+
+
+    <string name="bos_sync_title">BOS account synchronization </string>
+    <string name="no_eos_wallet">No Eos account </string>    
+    <string name="sync_result">Successful synchronize %1$d wallets</string>    
+    <string name="sync_des_header">Snapshot took on EOS Mainnet at 2019-Jan-01, 09:50 UTC+0, about block height #35072000, so those accounts not created before this time, will not have related accounts in BOS</string>
+        
+    <string name="sync_rule_title">Strategy: </string>    
+    <string name="sync_rule_one">For non-msig accounts, calculate the balance of an EOS Mainnet account on BOS Mainnet, 20.0000 EOS on EOS Mainnet can get 1.0000 BOS on BOS Mainnet and the accounts whose balance is smaller than 0.5000 BOS will be given at least 0.5000 BOS;</string>
+        
+    <string name="sync_rule_two">For msig accounts, the balances are calculated as the same as non-msig accounts, and we do an auth mapping of the permissions.</string>
+        
+    <string name="sync_rule_three">Generate a random name for EOS Mainnet accounts;</string>    
+    <string name="sync_rule_four">Accounts are created with: 0.3000 BOS ram, 0.1000 BOS NET and 0.1000 BOS CPU on BOS Mainnet;</string>
+        
+    <string name="start_sync">Synchronize</string>
+    <string name="bos_sync_tips">Sync Bos account according to Eos account </string>
+
+    <string name="bos_fans">BOS community fans</string>
+
+    <string name="receiving_account_not_own">Receiving account cannot be yourself </string>
+
+    <string name="sync_progress">Synchronize %1$d accounts</string>
+
+
+    <string name="no_follow_user">No data</string>
+    <string name="follow_user_error">Loading failed </string>
+
+    <string name="kick_memeber">Kick out</string>
+    <string name="team_name_member">%1$s(%2$d)</string>
+    <string name="userinfo_title">User Profile</string>
+    <string name="authing">authorizing…</string>
+    <string name="report_one">Porn violence</string>
+    <string name="report_two">Violation of the law</string>
+    <string name="report_three">Other</string>
+    <string name="report_success">Success</string>
+    <string name="need_join_team">Are you sure to join the group? </string>
+    <string name="confirm_join">Confirm join </string>
+    <string name="team_member_total_count">%1$d person </string>
+
+    <string name="red_packet_amount_each">Amount each</string>
+    <string name="chat_message_notification">Chat message notification </string>
+    <string name="receive_chat_notification">Receive chat message notifications</string>
+    <string name="vibrate">Vibrate </string>
+    <string name="ring">Ring</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="save_picture">Save picture </string>
+    <string name="identify_code">Scan QR code </string>
+    <string name="red_packet_num_too_large">The number of red packets is too large </string>
+    <string name="send_red_packet_not_support">The current chain not support red packet</string>
+
+    <string name="im_kickout_tips">Logged on other device, check your security</string>
+
+
+    <string name="im_red_packet">Red packet</string>
+    <string name="send_red_packet">Send red packet</string>
+    <string name="red_pa​​cket_total_amount">Total amount</string>
+    <string name="red_pa​​cket_hint">Best wishes</string>
+    <string name="enter_red_pa​​cket_num">Enter the number of red packets</string>
+    <string name="red_packet_fighting"> Spelling red packets </string>
+    <string name="red_packet_fighting_switch">Switch to the spell red packet</string>
+    <string name="red_packet_normal">Normal red packet </string>
+    <string name="red_packet_normal_switch">Switch to normal red packet</string>
+
+    <string name="red_packet_rain_blessing">Best wish</string>
+    <string name="red_packet_rain_next">Next</string>
+    <string name="remaining_min">%1$d min</string>
+    <string name="remaining_second">%1$d s</string>
+    <string name="red_packet_preparing">Red packet is in preparation</string>
+    <string name="get_packet_rain_fail">Get red packet info error</string>
+
+    <string name="pic_saved_success">Image has been saved to tp directory </string><![CDATA[
+        
+    ]]><string name="clear_message">Clear message </string>    
+    <string name="apply_join_team_">Apply to join group: %1$s</string>    
+    <string name="agree">Pass</string>    
+    <string name="agreeed">Passed</string>    
+    <string name="decline">Reject </string>    
+    <string name="declined">Rejected</string>
+
+    <string name="wallet_not_support_im">The wallet does not support chat</string>
+    <string name="reference">reference </string>
+    <string name="revoke">Recall </string>
+    <string name="revoke_time_out">The message has exceeded the specified time and cannot be recall</string>
+    <string name="you_revoke_message">You have recall a message </string>
+    <string name="other_revoke_message">The other party recall a message</string>
+    <string name="someone_revoke_message">%1$s recall a message</string>
+    <string name="someone_at_me_tip">[someone\@me]</string>
+    <string name="at_all">All</string>
+    <string name="apply_join_team_success">Additional group application has been submitted, waiting for the group owner to pass </string>
+    <string name="team_full">The group is full </string>
+    <string name="res_invalid">Application has expired </string>
+    <string name="tp_chat">TPChat</string>
+    <string name="add_team_managers">Add Group Management</string>
+    <string name="team_manager_title">group administrator </string>
+    <string name="manager_count_limit">Up to five administrators</string>
+    <string name="manager_permission_title">The Team administrator has the following permissions </string>
+    <string name="manager_permission_one">1. Open the group verification </string>
+    <string name="manager_permission_two">2. Agree or reject new members into the group </string>
+    <string name="manager_permission_three">3. Actively add or remove members </string>
+    <string name="manager_title">Administrator list (left slide to delete) </string>
+    <string name="add_managers">Add administrator </string>
+    <string name="in_team">User is already in the team</string>
+
+    <string name="add_manager_title">Add Manager(%1$d)</string>
+    <string name="at_title">\@Someone</string>
+    <string name="forward">Forward</string>
+    <string name="message_forwarded">Message forwarded</string>
+    <string name="multi_chains">Multi Chains</string>
+    <string name="message_link_tip">[Link] %1$s</string>
+
+    <string name="share_to">Share to</string>
+    <string name="forward_to">Send to</string>
+    <string name="change_wallet_to">Please switch to %1$s wallet</string>
+    <string name="kick_out">Kick out</string>
+    <string name="transfer_team_tips">Transfer team owner to %1$s ?</string>
+
+    <string name="create_team_tips">You created a team: %1$s</string>
+
+    <string name="draft">[Draft]</string>
+
+    <string name="gas_delegate_symbol">iGAS delegate (%1$s)</string>
+
+    <string name="remain_gas">Remain:%1$s</string>
+
+    <string name="refund_list">Redeem list</string>
+    <string name="gas_delegate_label">iGAS delegate</string>
+    <string name="gas_refund_label">iGAS refund</string>
+    <string name="min_ram">At least 500 Byte Ram</string>
+    <string name="iost_short_account_hint">Account number is 5~11 characters</string>
+    <string name="refund_amount_title">Quantity</string>
+    <string name="refund_time_title">Time</string>
+
+    <string name="import_way">Import way</string>
+    <string name="create_phone_email_title">Email/Phone</string>
+    <string name="create_phone_email_desc">Register with the email or phone number</string>
+    <string name="import_phone_email_title">Email/Phone</string>
+    <string name="import_phone_email_desc">Sign in with the email or phone number</string>
+    <string name="import_pk_title">Private Key</string>
+    <string name="import_pk_desc">Import the account with the private key</string>
+    <string name="import_observe_title">Observing mode</string>
+    <string name="import_observe_desc">Enter an account with the account name or public key</string>
+    <string name="import_cold_title">Cold Wallet</string>
+    <string name="import_cold_desc">Import the account with the private key as an offline wallet</string>
+    <string name="import_mnemonic_title">Mnemonic import</string>
+    <string name="import_mnemonic_desc">Import by entering a mnemonic or scanning a QR code</string>
+    <string name="import_keystore_title">Keystore import</string>
+    <string name="import_keystore_desc">Enter the contents of the keystore file or scan the QR code for import</string>
+
+    <string name="log_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="input_phone_num_hint">Your phone number</string>
+    <string name="input_email_hint">Your email address</string>
+    <string name="get_captcha">Get Captcha</string>
+    <string name="input_captcha_hint">Please enter captcha</string>
+    <string name="phone_register_terms">Sign up and agree %1$s and %2$s</string>
+    <string name="your_account_title">Your account</string>
+    <string name="your_phone_title">Your phone number</string>
+    <string name="your_email_title">Your email</string>
+    <string name="create_code_register">Activation code registration</string>
+    <string name="click_to_get">Click to get</string>
+    <string name="activate_now">Activate</string>
+    <string name="payment_contact_tips">For payment, please contact us</string>
+    <string name="about_phone_email_wallet">About mobile phone number / email wallet</string>
+
+    <string name="select_country_region">Select country and region</string>
+    <string name="use_email">Use Email</string>
+    <string name="use_phone">Use Phone number</string>
+    <string name="countdown_">%1$s Seconds</string>
+    <string name="captcha_send">Captcha sent</string>
+    <string name="captcha_used">The captcha has expired or incorrect, please request it again.</string>
+    <string name="pay_complete_creation">Paid completion creation</string>
+    <string name="update_auth_tip">The login operation will replace the old public key. The previous private key will be reset. Are you sure to log in?</string>
+
+    <string name="captcha">Captcha</string>
+    <string name="link">Link</string>
+
+    <string name="iost_polling_timeout"> Query timeout, please go to the browser to confirm results </string>
+    <string name="min_iost_delegate">At least 1 IOST</string>
+
+    <string name="tp_recover_permission">TP Recover</string>
+
+    <string name="what_tp_permission">What is TP recovery permission?</string>
+    <string name="tp_permission_desc">The registered user of the mobile phone number will have the TP recovery right, and the TP recovery right belongs to the owner authority. The user can recover the private key by means of mobile phone authentication if the user forgets or loses the private key. \nIf the user deletes the privilege or makes the privilege threshold of the privilege lower than the owner privilege threshold, the TP will not help the user to perform private key recovery. When you use your mobile phone number to log in or restore your account, the old public key will be replaced. The new public key will be uploaded locally by the user.</string>
+    <string name="igas_title">iGAS</string>
+    <string name="iram_title">iRAM</string>
+    <string name="buy_iram">Buy iRAM</string>
+    <string name="sell_iram">Sell iRAM</string>
+    <string name="input_sell_iram_kb">Input iRAM amount(KB)</string>
+
+    <string name="iost_resource_tips">Buy and sell operations will consume resources, please pay attention to your iGAS and iRAM resources is sufficient </string>
+    <string name="contract_action"> Contract Operation </string>
+
+    <string name="delete_tp_permission_tips_not_backup">You have not backed up your private key. Please delete it before deleting this permission.</string>
+    <string name="delete_tp_permission_tips">If you delete this permission, TP will not be able to help you recover your private key according to the way of mobile/mail authentication. Are you sure to delete it?</string>
+    <string name="account_permission_wrong">Account permissions are incorrect</string>
+
+    <string name="message_transfer_tip">[Transfer] %1$s</string>
+    <string name="tp_transfer_desc">TP Transfer</string>
+    <string name="message_transfer_send">Transfer to %1$s</string>
+    <string name="message_transfer_receive">Received a transfer</string>
+
+    <string name="team_symbol_setting_title">Token settings </string>
+    <string name="show_team_token">Show token </string>
+    <string name="click_goto_setting">Click to go to settings</string>
+
+    <string name="add_members">Add group members </string>
+    <string name="team_members_title">Group member list </string>
+
+    <string name="unvote">Withdraw</string>
+    <string name="input_amount_tips">Please enter amount</string>
+    <string name="vote_available">Votes available %1$s</string>
+    <string name="unvote_available">Withdraw available %1$s</string>
+    <string name="bp_rank_title">Nodes rank</string>
+    <string name="voted_bp_count">Voted: %1$d</string>
+    <string name="bonus_withdraw">Bonus withdraw (%1$s %2$s)</string>
+    <string name="fail_to_get_account_info">Failed to get account information</string>
+    <string name="frozen_balance">Frozen balance %1$s</string>
+
+    <string name="set_account_name">Set account name(%1$s)</string>
+    <string name="set_wallet_name">Set wallet name(%1$s)</string>
+    <string name="account_name_null_tips">Account name cannot be empty</string>
+    <string name="account_length_insufficient">Insufficient account length </string>
+    <string name="account_available">This account is available</string>
+    <string name="account_not_available">This account is not available</string>
+    <string name="password_label">Password is not less than 8 digits </string>
+    <string name="know_following_things">I am familiar with the following: </string>
+    <string name="pwd_week">Weak</string>
+    <string name="pwd_medium">Medium</string>
+    <string name="pwd_strong">Strong</string>
+    <string name="activation_code_error">Activation code error </string>
+    <string name="activation_code_inconsistent">The activation code is inconsistent with the underlying layer</string>
+
+    <string name="account_length_hint_iost">5–11 account name </string>
+    <string name="account_length_hint_eos">12 bit account name </string>
+    <string name="account_length_hint_eos_short">3–12 bit account name </string>
+
+    <string name="no_match_token_tips">The token is not in the result? Tap to request it.</string>
+    <string name="submit">Submit</string>
+
+    <string name="use_fingerprint_unlock">Use fingerprint verification to unlock</string>
+    <string name="activation_code_invalid">Invalid activation code</string>
+
+    <string name="activation_code_used">Activation code is already in use</string>
+    <string name="activation_code_unpay">Activation code not paid</string>
+    <string name="calculate_ram_fail">Failed to calculate memory count</string>
+    <string name="update_status_fail">Update status failed</string>
+
+    <string name="vote_rank">No. %1$d</string>
+    <string name="votes_">%1$s votes</string>
+    <string name="create_block_node">Block node</string>
+    <string name="partner_node">Partner node</string>
+
+    <string name="add_account">Add Account</string>
+
+    <string name="team_id_empty">Team ID empty</string>
+    <string name="team_id_">Team ID: %1$s</string>
+    <string name="login_im_first">Please login in the Chat tab of the wallet first</string>
+
+    <string name="no_system_browser">Cannot find available browser</string>
+
+    <string name="tp_code">TP Code</string>
+    <string name="tp_command_copied">The TP Code has been copied. Go and share it~</string>
+    <string name="tp_code_text">%1$sCopy the entire paragraph %2$s and open it to TokenPocket【TP Code】</string>
+    <string name="tp_code_copied_hint">Detected that you copied TP Code</string>
+    <string name="tp_code_open_now">Open Now</string>
+
+    <string name="tidy_asset_cancel">Operation canceled</string>
+    <string name="fail_to_get_teaminfo">Failed to get group information</string>
+    <string name="fail_to_startchat">Entering chat failed</string>
+    <string name="blockchain_error">Blockchain information error</string>
+    <string name="session_type_error">Session type error</string>
+
+    <string name="scan_qrcode">Download</string>
+    <string name="old_version">Back to old</string>
+
+    <string name="random_name">Random account</string>
+    <string name="random_name_generated">Random account has been generated</string>
+    <string name="no_text_paste">No text to paste</string>
+    <string name="filter_paste_hint">Non-conforming characters have been filtered</string>
+    <string name="middle">Middle</string>
+
+    <string name="unplege_too_much">Unpledge too much</string>
+    <string name="iost_time_error">Time error, go to setting?</string>
+
+    <string name="node_speed">Node Speed</string>
+    <string name="eos_authority_source_hint">Data Powered By EOSAuthority</string>
+
+    <string name="node_existed_hint">The node already exists. Do not add it repeatedly.</string>
+    <string name="article">Article</string>
+
+    <string name="current_blockchain">Current Blockchain</string>
+    <string name="click_to_switch">Click to switch</string>
+    <string name="error">Error</string>
+
+    <string name="selected_bp">Selected producer: %1$d</string>
+    <string name="voted_proxy">Voted proxy: %1$s</string>
+
+    <string name="vote_proxy_btn">Vote him</string>
+    <string name="selected">Selected</string>
+
+    <string name="be_proxy">To be proxy</string>
+    <string name="memo_too_large">Memo too large</string>
+    <string name="invalid_amount">Invalid amount</string>
+    <string name="ram_amount_error">The minimum transaction ram unit is 10 bytes</string>
+    <string name="sell_ram_not_enough">Insufficient number of available memory</string>
+    <string name="iost_stake_no_resource">iGAS is insufficient. Please go to the resource management page to delegate</string>
+    <string name="invalid_account">Invalid account</string>
+    <string name="refunding_">Refunding</string>
+    <string name="frozen_balance_">Frozen balance</string>
+    <string name="switch_webview">Switch browser</string>
+    <string name="clear_transfer_record">Clear transfer record</string>
+
+    <string name="vote_title_">%1$s vote</string>
+
+    <string name="third_parties_create">Third-Parties</string>
+    <string name="third_parties_desc">Create your account through popular third-parties</string>
+    <string name="join_now">Join now</string>
+
+    <string name="tp_code_join_team_prefix_hint">【Join team: %1$s】</string>
+    <string name="team_share">Team share</string>
+    <string name="save_local">Save</string>
+    <string name="generate_join_group_code">Generate TP Code</string>
+
+    <string name="batch_creation">Batch Creation</string>
+    <string name="new_account_">Account Quantity</string>
+    <string name="batch_random">Batch random</string>
+    <string name="add_">Add</string>
+    <string name="new_account_publickey">New publickey</string>
+    <string name="key_generator">Key generator</string>
+    <string name="resource_setting">Setting resource</string>
+    <string name="key_tips_1">The new accounts will share the same public key as %1$s, you can</string>
+    <string name="click_here">click here</string>
+    <string name="modify">Modify</string>
+    <string name="consume_token">Expected cost</string>
+    <string name="resource_tips_1">Each new account contains:  RAM 4 KB CPU 0.05 %1$s NET 0.01 %2$s you can </string>
+    <string name="reset_default_publickey">reset to default publickey </string>
+    <string name="reset_default_resource">reset to default resource</string>
+    <string name="start_create">Confirm</string>
+    <string name="account_useful">Account available</string>
+    <string name="account_unuseful">Acount unavailable</string>
+    <string name="setting_pwd_for_account">Setting password for account</string>
+    <string name="import_pwd_tips">* After the creation, the account will be imported with this password</string>
+    <string name="account_hint">Enter your account or (click on the left to generate a random account)</string>
+    <string name="account_count">Account amount</string>
+    <string name="confirm_and_close">Confirm</string>
+    <string name="custom_account">Custom account</string>
+    <string name="random_batch_account">Random batch account</string>
+    <string name="batch_import_tips">Do you automatically import accounts after successful creation?</string>
+    <string name="account_upgrade">Account upgrade</string>
+    <string name="account_upgrade_title">You have successfully backed up, we will help you upgrade your account from a partnership one to an individual one</string>
+    <string name="account_upgrade_title_tips">Please read the following carefully</string>
+    <string name="account_upgrade_tips_one">This upgrade will remove the TP recovery permission. After that, you won’t be able to log in through mobile number nor email</string>
+    <string name="account_upgrade_tips_two">After removing, you can only use the private key just backed up to recover, please keep your keys safe</string>
+    <string name="account_upgrade_tips_three">If you don’t upgrade your account this time, the key you just backed up will be invalid when you log in through email or mobile number next time</string>
+    <string name="read_tips">I have read and understand the above</string>
+    <string name="remind_nexttime">Next time</string>
+    <string name="partner_account_upgrade_tips">Because your current asset quota exceeds %1$d %2$s, TP Wallet recommends that you upgrade from a partner account to a personal account</string>
+    <string name="transfer_risk">The contract operation includes a transfer, the amount is %1$s Please pay attention to the risk </string>
+    <string name="no_confirm_before_exit">This contract operation no longer requires manual confirmation before exiting the wallet</string>
+    <string name="search_node_account">Search node or account</string>
+    <string name="create_success_">Success(%1$d)</string>
+    <string name="create_fail_">Fail(%1$d)</string>
+
+    <string name="block_chain_not_support">Current blockchain not support</string>
+
+    <string name="tap_here">tap here</string>
+    <string name="to_modify">to modify</string>
+
+    <string name="message_sticker_tip">[表情]</string>
+
+    <string name="emoticon">表情</string>
+    <string name="emoticon_store">表情商店</string>
+    <string name="emoticon_mine">我的</string>
+    <string name="my_emoticon">我的表情</string>
+    <string name="sale_list">出售列表</string>
+    <string name="add_new_emoticon">添加新表情</string>
+    <string name="package_token_name">代币名称</string>
+    <string name="set_package_token_name">设置1–12位的表情包代币名称</string>
+    <string name="emoticon_name">表情包名称</string>
+    <string name="set_emoticon_name">设置表情包名称</string>
+    <string name="emoticon_desc">表情包描述</string>
+    <string name="set_emoticon_desc">给你的表情包添加一段描述吧</string>
+    <string name="emoticon_number">发行总数</string>
+    <string name="set_emoticon_number">设置发行总数</string>
+    <string name="related_instructions">相关说明</string>
+    <string name="emoticon_create_tips_1">表情包中的每个表情为1个token</string>
+    <string name="emoticon_create_tips_2">当前最大发行总数为240000</string>
+
+    <string name="manager">管理</string>
+    <string name="emoticon_token_info">表情信息</string>
+    <string name="emoticon_token_name">表情名称</string>
+    <string name="set_emoticon_token_name">设置表情名称</string>
+    <string name="emoticon_token_number">创建总数</string>
+    <string name="emoticon_token_number_hint">当前最多可以创建1000份</string>
+    <string name="emoticon_token_create_tips_1">每创建一个表情会消耗一份内存（RAM），如果您创建的总数过大，将会消耗大量的内存（RAM）</string>
+    <string name="emoticon_token_create_tips_2">创建的表情在销毁时，内存可以回收到账号</string>
+
+    <string name="creator_">创作者：%1$s</string>
+    <string name="create_time">创建时间</string>
+    <string name="remaining_num">剩余个数</string>
+    <string name="new_add">新增</string>
+    <string name="add_emoticon">新增表情</string>
+    <string name="delete_emoticon">删除表情</string>
+    <string name="current_num_">当前数量: %1$s</string>
+    <string name="input_num_hint">请输入数量</string>
+    <string name="sale_setting">设置出售</string>
+    <string name="sale_price">出售价格</string>
+    <string name="sale_price_hint">设置出售价格</string>
+    <string name="sale_num">出售份数</string>
+    <string name="set_sale_num">设置出售份数</string>
+    <string name="sale_num_hint">当前最多可以出售%1$s份</string>
+    <string name="emoticon_sell">出售</string>
+    <string name="search_emoticon">搜索表情包</string>
+    <string name="try_again">Please try again</string>
+
+
+</resources>
