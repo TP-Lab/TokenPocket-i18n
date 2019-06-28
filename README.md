@@ -20,12 +20,12 @@ Please follow the process to participate in the translation:
 
 
 ## iOS
-- [en](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/en/Localizable.strings) 
-- [es](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/es/Localizable.strings)
-- [ko](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/ko/Localizable.strings)
-- [ja](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/ja/Localizable.strings)
-- [zh-Hans](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/zh-Hans/Localizable.strings)
-- [zh-Hant](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/zh-Hant/Localizable.strings)
+- [en](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/en/Localizable.txt) 
+- [es](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/es/Localizable.txt)
+- [ko](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/ko/Localizable.txt)
+- [ja](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/ja/Localizable.txt)
+- [zh-Hans](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/zh-Hans/Localizable.txt)
+- [zh-Hant](https://github.com/TP-Lab/TokenPocket-i18n/blob/master/iOS/zh-Hant/Localizable.txt)
 
 
 ## Android
