@@ -1,52 +1,52 @@
-<resources>
+개인 정보 약관<resources>
     <string name="app_name">TokenPocket</string>
 
     <string name="str_create_wallet">계정 만들기</string>
     <string name="str_tips">비밀번호 힌트</string>
-    <string name="str_block">지갑 종류</string>
-    <string name="str_choose_block">지갑 종류를 선택하십시오</string>
+    <string name="str_block">블록 체인</string>
+    <string name="str_choose_block">블록 체인을 선택하십시오</string>
     <string name="str_wallet_name">계정명</string>
     <string name="str_input_wallet_name">계정명을 입력하십시오</string>
-    <string name="str_input_pwd">최소 문자 8자 이상의 비밀번호를 입력하십시오.</string>
+    <string name="str_input_pwd">최소 8자 이상의 비밀번호를 입력하십시오</string>
     <string name="str_repeat_pwd">비밀번호 확인</string>
     <string name="str_input_repeat_pwd">비밀번호 확인</string>
-    <string name="str_tip_cannull">선택사항</string>
+    <string name="str_tip_cannull">선택</string>
 
     <string name="finish">완료</string>
     <string name="address_list">연락처</string>
     <string name="wallet_address">계정 주소</string>
     <string name="name">이름</string>
-    <string name="phone_number">휴대전화 번호</string>
+    <string name="phone_number">핸드폰 번호</string>
     <string name="comment">메모</string>
 
     <string name="save">저장</string>
     <string name="confirm">확인</string>
 
     <string name="please_input_name">이름 입력</string>
-    <string name="please_input_phone_num">휴대전화 번호 입력</string>
+    <string name="please_input_phone_num">핸드폰 번호 입력</string>
 
-    <string name="wallet_type">계정 타입</string>
-    <string name="select_wallet_type">계정 타입 선택</string>
-    <string name="scan_or_paste_wallet_address">계정 주소를 스캔하거나 붙임</string>
+    <string name="wallet_type">계정 종류</string>
+    <string name="select_wallet_type">계정 종류 선택</string>
+    <string name="scan_or_paste_wallet_address">계정 주소를 스캔하거나 붙여넣어 주세요</string>
     <string name="please_input_wallet_address">계정 주소 입력</string>
-    <string name="please_select_wallet_type">계정 타입 선택</string>
+    <string name="please_select_wallet_type">계정 종류 선택</string>
 
     <string name="cancel">취소</string>
     <string name="delete">삭제</string>
 
-    <string name="ask_to_save_contact">연락처가 아직 저장되지 않았습니다.x 저장 하시겠습니까?</string>
+    <string name="ask_to_save_contact">연락처가 아직 저장되지 않았습니다. 저장 하시겠습니까?</string>
 
     <!-- createwallet-->
     <string name="select_block_system">블록 시스템을 선택해주십시오</string>
-    <string name="pwd_null_tips">비밀번호가 비어 있으면 안됩니다.</string>
-    <string name="confirmpwd_null_tips">비밀번호 비어 있으니 다시 확인 해주십시오.</string>
-    <string name="pwd_not_same_tips">비밀번호 불일치 다시 입력 해주십시오. </string>
+    <string name="pwd_null_tips">비밀번호가 입력되지 않았습니다</string>
+    <string name="confirmpwd_null_tips">비밀번호가 입력되지 않았습니다. 다시 확인 해주십시오.</string>
+    <string name="pwd_not_same_tips">비밀번호가 일치하지 않습니다 </string>
     <string name="pwd_too_short_tips">비밀번호는 최소 8자리입니다 </string>
-    <string name="service_term_confirm_tips">서비스약관과 개인정보보호정책 조항에 대해 아직 읽고 동의하지 않습니다</string>
+    <string name="service_term_confirm_tips">서비스 및 개인 정보 약관에 대해 아직 읽고 동의하지 않습니다</string>
     <string name="create_wallet">계정 만들기</string>
     <string name="creating_wallet">생성중</string>
     <string name="service_term_start">약관을 자세히 읽었으며 동의합니다.</string>
-    <string name="service_term_end">서비스약관과 개인정보보호정책 조항</string>
+    <string name="service_term_end">서비스 및 개인 정보 약관</string>
     <string name="create_wallet_success">계정 생성 완료</string>
     <string name="createwallet_error">계정 생성 오류</string>
     <string name="createwallet_error_illegal">계정 생성 오류, 잘못된 정보를 확인해주십시오</string>
@@ -63,7 +63,7 @@
     <string name="please_install_wechat">먼저 위챗을 설치하십시오.</string>
     <string name="open_token_pocket_to_scan">TokenPocket 열고 스캔</string>
 
-    <string name="wrong_phone_format">휴대전화 번호 포맷 오류</string>
+    <string name="wrong_phone_format">핸드폰 번호 포맷 오류</string>
     <string name="wrong_email_format">이메일 포맷 오류</string>
     <string name="wrong_wallet_address">계정 주소 포맷 오류</string>
 
@@ -80,130 +80,130 @@
     <!-- 오류 메세지-->
     <string name="pwd_error">비밀번호 오류</string>
     <string name="swt_sequence_error">swt 거래 오류</string>
-    <string name="swt_funds_error">자금 부족</string>
-    <string name="swtsigned_error">swt 서명 오류</string>
+    <string name="swt_funds_error">잔액 부족</string>
+    <string name="swtsigned_error">서명 오류</string>
     <string name="transaction_error">거래 오류</string>
 
     <string name="about_us">소개</string>
     <string name="current_version">현재 버전: %1$s</string>
     <string name="use_protocol">사용 합의</string>
-    <string name="privacy_clause">개인정보보호 조항</string>
+    <string name="privacy_clause">개인정보약관</string>
     <string name="the_latest_version">최신 버전입니다</string>
     <string name="data_exception">데이터 이상</string>
     <string name="data_exception_">데이터 이상: %1$s</string>
     <string name="backup_wallet">계정 백업</string>
-    <string name="backup_private_key_title">즉시 프라이빗 키를 백업</string>
-    <string name="backup_private_key_content">계정 백업: 프라이빗 키를 복사하여 안전한 곳에 보관하십시오. 인터넷에 저장하면 위험합니다. 이후 필요시 소액 지갑으로 전송하여 이용하기를 권장합니다.</string>
+    <string name="backup_private_key_title">프라이빗 키 백업</string>
+    <string name="backup_private_key_content">계정 백업: 프라이빗 키를 안전한곳에 보관해주세요. 이메일, 메모장, 클라우드, 메신저 등은 권장하지 않습니다</string>
     <string name="backup_memorizing_words_title">니모닉 백업</string>
-    <string name="backup_memorizing_words_ncontent">계정 백업:니모닉을 복사하여 쓰고 잘 보관하십시오. 인터넷에 저장하면 위험합니다. 이후 필요시 소액 지갑으로 전송하여 이용하기를 권장합니다.</string>
+    <string name="backup_memorizing_words_ncontent">계정 백업: 니모닉을 안전한곳에 보관해주세요. 이메일, 메모장, 클라우드, 메신저 등은 권장하지 않습니다</string>
     <string name="switch_account">계정 변경</string>
     <string name="help">고객 센터</string>
     <string name="private_key_input_error">잘못된 프라이빗 키가 입력되었습니다.</string>
     <string name="memorizing_words_order_error">니모닉 순서가 잘못되었습니다.</string>
-    <string name="confirm_backup_info">백업한 메세지 확인</string>
-    <string name="confirm_wallet_private_key">계정 프라이빗 키를 확인하십시오.</string>
-    <string name="confirm_wallet_private_key_content">쓴 프라이빗 키를 입력창에 입력하고 맞는지 확인하십시오.</string>
-    <string name="confirm_wallet_memorizing_words">계정 프라이빗 키를 확인하십시오.</string>
-    <string name="confirm_wallet_memorizing_words_content">복사하여 쓴 순서대로 니모닉을 클릭하여 백업한 니모닉이 맞는지 확인하십시오.</string>
+    <string name="confirm_backup_info">백업 메세지 확인</string>
+    <string name="confirm_wallet_private_key">프라이빗 키를 확인하십시오.</string>
+    <string name="confirm_wallet_private_key_content">프라이빗 키를 입력 후 올바른지 확인하십시오</string>
+    <string name="confirm_wallet_memorizing_words">프라이빗 키를 확인하십시오</string>
+    <string name="confirm_wallet_memorizing_words_content">순서대로 니모닉을 클릭하여 니모닉 백업이 올바른지 확인하십시오.</string>
     <string name="import_wallet">계정 가져오기</string>
     <string name="manager_wallet">계정 관리</string>
     <string name="delete_success">삭제 성공</string>
     <string name="edit_quotation">시세 편집</string>
-    <string name="old_password_cannot_empty">기존 비밀번호가 비어있습니다</string>
-    <string name="new_password_cannot_empty">새로운 비밀번호 비어있습니다</string>
-    <string name="new_password_confirm_cannot_empty">비밀번호 확인 비어 있으면 안된다.</string>
+    <string name="old_password_cannot_empty">기존 비밀번호가 입력되지 않았습니다</string>
+    <string name="new_password_cannot_empty">새로운 비밀번호가 입력되지 않았습니다</string>
+    <string name="new_password_confirm_cannot_empty">비밀번호가 입력되지 않았습니다</string>
     <string name="different_password_for_two_input">비밀번호가 일치하지 않습니다</string>
-    <string name="password_length_cannot_less_than_8">비밀번호는 8자리 이상</string>
+    <string name="password_length_cannot_less_than_8">비밀번호는 최소 8자리입니다</string>
     <string name="new_password_cannot_same_as_old">새 비밀번호가 기존 비밀번호와 일치합니다. 다른 비밀번호를 입력하십시오.</string>
     <string name="wrong_old_password">기존 비밀번호가 맞지 않습니다</string>
     <string name="update_password">비밀번호 변경</string>
     <string name="wallet_address_has_copied">계정 주소가 클립보드에 복사되었습니다.</string>
     <string name="wrong_password">비밀번호 오류</string>
-    <string name="wallet_name_cannot_empty">계정명은 필수 항목입니다</string>
+    <string name="wallet_name_cannot_empty">계정명은 필수항목 입니다</string>
     <string name="ok">OK</string>
-    <string name="wallet_not_backup">계정을 백업하지 않으면 삭제시 다시 찾을 수 없습니다.</string>
+    <string name="wallet_not_backup">백업을 하지 않을 경우 프라이빗키 분실 시 복원이 불가능합니다</string>
     <string name="continue_to_delete">삭제 계속하기</string>
     <string name="message_center">메세지 센터</string>
     <string name="backup_private_key">프라이빗 키 백업</string>
-    <string name="verify_error_check_private_key">검증 오류. 프라이빗 키가 맞는지 확인하십시오.</string>
-    <string name="network_disconnect_please_check">인터넷이 연결되지 않았으니 확인하시기 바랍니다.</string>
+    <string name="verify_error_check_private_key">검증 실패. 프라이빗 키가 맞는지 확인하십시오</string>
+    <string name="network_disconnect_please_check">접속 실패. 인터넷 연결을 확인하십시오</string>
     <string name="receivables">입금</string>
     <string name="please_enter_correct_number">정확한 숫자를 입력하십시오.</string>
-    <string name="fail_to_generate_receipt_code_and_check">수령 코드를 생성 실패,다시 체크하십시오.</string>
+    <string name="fail_to_generate_receipt_code_and_check">수령 코드 생성 실패,다시 확인하십시오.</string>
     <string name="fail_to_generate_receipt_code">수령 코드 생성 실패</string>
     <string name="transfer_accounts">송금</string>
     <string name="submit_transfer_request_success">송금 요청 성공</string>
     <string name="please_select_token">토큰 선택</string>
     <string name="enter_paste_wallet_address">계정 주소 입력/붙임</string>
-    <string name="receipt_address_cannot_same_transfer_address">받는 계정이 보내는 계정과 같습니다.</string>
+    <string name="receipt_address_cannot_same_transfer_address">입금계정과 송금계정은 같을 수 없습니다.</string>
     <string name="enter_correct_number_of_out">송금액 입력</string>
     <string name="the_transfer_being">송금 중</string>
     <string name="next_step">다음</string>
     <string name="total_assets">총 자산</string>
     <string name="my_assets">나의 자산(%1$s)</string>
     <string name="wallet">계정</string>
-    <string name="unknown">미지</string>
+    <string name="unknown">알수없음</string>
     <string name="wrong_params">파라미터 오류</string>
     <string name="transaction_details">거래 상세</string>
     <string name="transaction_success">송금 완료</string>
-    <string name="transaction_packing">패키징 중</string>
+    <string name="transaction_packing">처리중</string>
     <string name="transaction_fail">송금 실패</string>
     <string name="unknown_status">알 수 없는 상태</string>
-    <string name="receipt_address_copied">받는계정 주소 복사 완료</string>
+    <string name="receipt_address_copied">입금계정주소가 복사되었습니다</string>
     <string name="query_transaction">거래 조회</string>
     <string name="private_key_copied">프라이빗 키 복사 완료</string>
-    <string name="quotation">시세</string>
+    <string name="quotation">가격정보</string>
     <string name="helper_center">고객 센터</string>
     <string name="scan_error">QR코드 인식에 실패했습니다. 최신APP 다운로드후 스캔하십시오.</string>
     <string name="no_wallet_create_import">현재 %1$s 계정이 없습니다. 계정을 생성하거나 불러와서 다시 스캔하십시오</string>
     <string name="prompt">힌트</string>
     <string name="input_wallet_name">계정명 입력</string>
-    <string name="private_key_cannot_empty">프라이빗 키는 필수 항목입니다.</string>
+    <string name="private_key_cannot_empty">프라이빗 키가 입력되지 않았습니다.</string>
     <string name="wrong_private_key_format">프라이빗 키의 형식이 잘못되었습니다</string>
-    <string name="not_read_agree_privacy">서비스 및 개인정보보호 조항에 대해서 아직 읽고 동의하지 않았습니다. </string>
-    <string name="wallet_existed">%1$s 계정이 이미 있으므로 가져올 필요가 없습니다. </string>
+    <string name="not_read_agree_privacy">서비스 및 개인 정보 약관을 읽고 동의해주세요 </string>
+    <string name="wallet_existed">%1$s 계정이 이미 존재합니다 </string>
     <string name="fail_to_import_wallet">계정 가져오기 실패</string>
     <string name="receipt_code">수령 코드</string>
     <string name="user_server_protocol">사용자 계약</string>
     <string name="go_to_setting">설정하기</string>
     <string name="need_permissions_">다음 권한이 필요합니다：</string>
     <string name="sd_card">SD카드</string>
-    <string name="phone_state">휴대전화 상태</string>
-    <string name="wallet_safe_backup_wallet">당신의 계정 안전을 위해 계정을 백업하십시오.</string>
+    <string name="phone_state">핸드폰 상태</string>
+    <string name="wallet_safe_backup_wallet">이후 복원을 위해 계정을 백업하십시오.</string>
     <string name="backup_immediately">즉시 백업</string>
     <string name="scan">스캔</string>
     <string name="scanning">스캔중…</string>
-    <string name="token_pocket_desc">Token Pocket은 일반 사용자들을 위한 간단하지만 안전하고 강력한 암호화폐 지갑 어플리케이션 입니다.</string>
+    <string name="token_pocket_desc">Token Pocket은 쉽고 간편하며 가벼운 디지털 자산 지갑입니다</string>
     <string name="detect_new_version">새로운 버전 확인</string>
     <string name="copyright_token_pocket">Copyright 2018 TokenPocket Team</string>
-    <string name="copy_down_memorizing_word">당신의 계정 니모닉을 복사하여 보관하십시오.</string>
-    <string name="memorizing_word_use_and_copy_down">니모닉은 계정 복원하거나 계정의 비밀번호를 초기화할 때 이용됩니다. 종이에 정확히 쓰고 남들이 모르는 안전한 장소에 보관하십시오.</string>
+    <string name="copy_down_memorizing_word">니모닉을 복사하여 보관하십시오.</string>
+    <string name="memorizing_word_use_and_copy_down">니모닉은 계정 복원 또는 비밀번호를 초기화 시 사용됩니다. 니모닉을 오프라인의 안전한 곳에 보관하세요.</string>
     <string name="password">계정 비밀번호</string>
     <string name="repeat_password">비밀번호 확인</string>
-    <string name="password_tips">비밀번호 힌트(선택사항)</string>
+    <string name="password_tips">비밀번호 힌트(선택)</string>
     <string name="current_password">현재 비밀번호</string>
     <string name="new_password">새로운 비밀번호</string>
     <string name="repeat_new_password">새로운 비밀번호 확인</string>
     <string name="export_private_key">프라이빗 키 내보내기</string>
     <string name="delete_wallet">계정 삭제</string>
     <string name="backup_memorizing_words">니모닉 백업</string>
-    <string name="input_wallet_private_key">계정의 프라이빗 키를 입력하여 백업한 프라이빗 키가 맞는지 확인해주십시오</string>
-    <string name="search_token_contract_hint">토큰 이름이나 컨트랙트 주소로 검색</string>
+    <string name="input_wallet_private_key">프라이빗 키를 입력하여 백업한 프라이빗 키가 맞는지 확인해주십시오</string>
+    <string name="search_token_contract_hint">토큰 이름 또는 컨트랙트 주소로 검색</string>
     <string name="popular_recommendation">인기 추천</string>
     <string name="transfer_amount">송금액</string>
     <string name="cost_of_miner">수수료(Gas)</string>
-    <string name="slow">느리다</string>
-    <string name="fast">빠르다</string>
-    <string name="payer">지급인</string>
-    <string name="payee">수령인</string>
+    <string name="slow">느림</string>
+    <string name="fast">빠름</string>
+    <string name="payer">송금계정</string>
+    <string name="payee">입금계정</string>
     <string name="trade_number">거래 번호</string>
     <string name="block_number">블록 번호</string>
     <string name="trading_time">거래 시간</string>
     <string name="asset">자산</string>
     <string name="latest_price">가격</string>
     <string name="rise_and_fall">등락폭</string>
-    <string name="no_current_market">지금은 시세가 없습니다</string>
-    <string name="add_market_quotation">시세 추가</string>
+    <string name="no_current_market">지금은 거래정보가 존재하지 않습니다</string>
+    <string name="add_market_quotation">거래정보 추가</string>
     <string name="overview_of_assets">자산 총액</string>
     <string name="transaction_record">거래 기록</string>
     <string name="contact">연락처</string>
@@ -215,41 +215,41 @@
     <string name="select_format">포맷 선택</string>
     <string name="order_detail">주문 상세</string>
     <string name="confirm_payment">지불 확인</string>
-    <string name="private_key_warn">프라이빗 키 내보내기 이후 안전하게 보관하고 타인에게 누설 하지 마십시오. 노출 시 자산 손실이 발생할 수 있습니다.</string>
+    <string name="private_key_warn">프라이빗 키가 노출되면 자산을 모두 잃게 됩니다. 프라이빗 키를 복사하여 안전한 곳에 보관하십시오</string>
     <string name="copy_private_key">프라이빗 키 복사</string>
     <string name="setting_cost_of_miner">수수료(Gas) 설정</string>
     <string name="recommend">추천</string>
-    <string name="update_hint">업그레이드 힌트</string>
-    <string name="new_version_is_detected">새로운 버전이 출시되었습니다. 설치 패키지 용량: %1$s, %2$s</string>
-    <string name="upgrade_now">업그레이드하기</string>
+    <string name="update_hint">업데이트 팁</string>
+    <string name="new_version_is_detected">새로운 버전이 출시되었습니다. 설치 용량: %1$s, %2$s</string>
+    <string name="upgrade_now">업데이트하기</string>
     <string name="empty">기록 없음</string>
     <string name="non_backup">백업되지 않음.</string>
     <string name="add">추가</string>
     <string name="discover">Dapps</string>
-    <string name="me">마이페이지</string>
-    <string name="all_wallet">전부 계정</string>
+    <string name="me">마이 페이지</string>
+    <string name="all_wallet">모든 계정</string>
     <string name="amount_collected">수령액</string>
     <string name="set_amount_collected">수령액 설정</string>
 
     <string name="version_log">버전 기록</string>
 
-    <string name="copy_paste_scan_keystore">계정  Keystore 파일 내용 복사하여 입력창에 붙이거나 Keystore내용 QR코드를 스캔하여 입력해주십시오</string>
-    <string name="keystore_content_hint">Keystor파일내용</string>
+    <string name="copy_paste_scan_keystore">Keystore 내용을 복사 후 입력창에 붙이거나 QR코드를 스캔하여 입력해주십시오</string>
+    <string name="keystore_content_hint">Keystore 내용</string>
     <string name="keystore_password">Keystore 비밀번호</string>
     <string name="what_is_keystore">Keystore란?</string>
-    <string name="keystore_cannot_empty">Keystore는 필수 항목입니다.</string>
+    <string name="keystore_cannot_empty">Keystore가 입력되지 않았습니다</string>
     <string name="export_keystore">Keystore 내보내기</string>
     <string name="keystore_file">Keystore파일</string>
     <string name="qr_code">QR코드</string>
-    <string name="only_scan">스캔만 하시면 됩니다.</string>
+    <string name="only_scan">스캔만 허용됩니다</string>
     <string name="qr_code_forbid">QR코드 저장, 캡처, 촬영금지. QR코드는 안전한 환경내에서만 스캔을 편리하게 계정을 불러오기 위한 것입니다. </string>
-    <string name="use_in_safe">안전한 환경에서 사용</string>
-    <string name="use_in_safe_content">주변에 사람 혹은 카메라가 없는 상태에서 사용하십시오. 다른 사람에게 노출되면 자산 손실을 초래할 수 있습니다.</string>
-    <string name="confirm_no_people_camera">주변 사람 및 카메라가 없는 것을 확인했습니다.</string>
+    <string name="use_in_safe">안전한 상황에서만 사용해주세요</string>
+    <string name="use_in_safe_content">사방에 CCTV 또는 카메라가 없는 상태에서 사용해주세요. 다른 사람이 QR코드를 통해 자산을 모두 탈취할 수 있습니다</string>
+    <string name="confirm_no_people_camera">주변에 사람 및 카메라가 없음을 확인함</string>
     <string name="show_qr_code">QR코드 표시</string>
     <string name="hide_qr_code">QR코드 숨기기</string>
     <string name="offline_save">오프라인 저장</string>
-    <string name="offline_save_content">Keystore 파일을 복사하여 안전한 곳에 붙이고 저장해주십시오.절대 이메일, 메모지, 클라우드, 메신저등에 저장하지 마십시오, 위헙합니다.</string>
+    <string name="offline_save_content">키스토어 파일을 복사하고 안전한 곳에 저장하세요. 이메일, 메모장, 클라우드, 메신저 등은 권장하지 않습니다</string>
     <string name="not_use_network_tran">인터넷으로 전송하지 마시오</string>
     <string name="not_use_network_tran_content">인터넷으로 Keystore파일 전송하지 마십시오.해킹을 당하면 돌이킬 수 없는 자산 손실이 생길 수 있습니다. 오프라인 장치로 QR코드 스캔을 통해 전송하는 것을 추천합니다.</string>
     <string name="password_safe_storage">암호박스 저장</string>
@@ -273,24 +273,24 @@
     <string name="filter">필터</string>
     <string name="deal">거래</string>
 
-    <string name="high">높다</string>
-    <string name="low">낮다</string>
+    <string name="high">고가</string>
+    <string name="low">저가</string>
     <string name="h_24">24H</string>
     <string name="cny">≈%1$sCNY</string>
 
     <string name="one_hour">한시간</string>
     <string name="one_day">하루</string>
     <string name="one_week">일주일</string>
-    <string name="one_month">일월</string>
+    <string name="one_month">한달</string>
 
     <string name="chart_buy">매수</string>
     <string name="chart_sell">매도</string>
-    <string name="chart_depth">깊이</string>
+    <string name="chart_depth">호가창</string>
     <string name="chart_deal">거래 성공</string>
     <string name="chart_intro">소개</string>
 
     <string name="deal_time">시간</string>
-    <string name="deal_direction">방향</string>
+    <string name="deal_direction">매매 종류</string>
     <string name="deal_price">가격(USDT)</string>
     <string name="deal_amount">수량(ETC)</string>
     <string name="depth_bid">주문</string>
@@ -302,19 +302,19 @@
     <string name="chart_volume_">거래량: %1$s</string>
 
     <string name="settings">설정</string>
-    <string name="gesture_password">제스쳐 비밀번호</string>
+    <string name="gesture_password">패턴 비밀번호</string>
     <string name="draw_unlock_pattern">패턴 입력</string>
     <string name="repaint">다시 그리기</string>
     <string name="gesture_wrong">최소 4개의 점을 연결해야 합니다.</string>
     <string name="draw_unlock_pattern_again">패턴 다시 입력</string>
     <string name="draw_unlock_pattern_different">입력하신 패턴이 다르니 다시 입력하십시오.</string>
-    <string name="gesture_setting_success">제스쳐 등록 성공</string>
-    <string name="confirm_close_gesture">패턴등록 끈다</string>
-    <string name="gesture_closed">패턴등록 껐다</string>
+    <string name="gesture_setting_success">패턴 등록 성공</string>
+    <string name="confirm_close_gesture">닫기</string>
+    <string name="gesture_closed">패턴 등록 완료</string>
     <string name="please_input_gesture_password">패턴 입력</string>
-    <string name="wrong_gesture_input_again">제스쳐가 틀렸습니다. 다시 입력하십시오.</string>
+    <string name="wrong_gesture_input_again">패턴이 다릅니다. 다시 입력하십시오.</string>
     <string name="use_wallet_password_to_login">계정 비밀번호로 로그인</string>
-    <string name="use_gesture_password_to_login">제스쳐로 로그인</string>
+    <string name="use_gesture_password_to_login">패턴으로 로그인</string>
     <string name="please_input_wallet_password">계정 비밀번호를 입력하십시오.</string>
 
     <string name="click_again_to_exit">종료하려면 다시 클릭 하십시오.</string>
@@ -323,10 +323,10 @@
     <string name="download_tips">다운로드 팁</string>
     <string name="download_progress">다운로드 진행률:</string>
     <string name="install">설치</string>
-    <string name="recommended_upgrade">업그레이드 추천</string>
-    <string name="strongly_recommended_upgrade">지금 바로 업그레이드</string>
-    <string name="can_be_upgraded_later">나중에 업그레이드</string>
-    <string name="tx_info">타입</string>
+    <string name="recommended_upgrade">권장 업데이트</string>
+    <string name="strongly_recommended_upgrade">지금 바로 업데이트</string>
+    <string name="can_be_upgraded_later">나중에 업데이트</string>
+    <string name="tx_info">형식</string>
     <string name="to">받는 주소</string>
     <string name="from">보내는 주소</string>
     <string name="gas">수수료(Gas)</string>
@@ -335,15 +335,15 @@
     <string name="token_info_title">컨트랙트 주소</string>
     <string name="copy">복사</string>
 
-    <string name="ask_install_app_permission">프로그램을 설치 하려면 지정 권한을 열어야 합니다.설정을 실행 하십시오.</string>
+    <string name="ask_install_app_permission">프로그램을 설치 하려면 일부 권한이 필요합니다. 설정에서 권한을 부여해주세요.</string>
     <string name="upgrade_content">변경 로그:</string>
 
     <string name="eos_account_name">계정명</string>
-    <string name="eos_short_account_hint">계정명은 1 ~ 12 자리입니다.</string>
+    <string name="eos_short_account_hint">계정명은 1 - 12 자리입니다.</string>
 
-    <string name="transfer_to_account">받는 계정</string>
-    <string name="payment_account">보내는 계정</string>
-    <string name="copy_receipt_account">받는 주소 복사</string>
+    <string name="transfer_to_account">입금계정</string>
+    <string name="payment_account">송금계정</string>
+    <string name="copy_receipt_account">입금계정복사</string>
 
     <string name="vote">투표</string>
     <string name="vote_title">%1$s투표</string>
@@ -361,11 +361,11 @@
     <string name="undelegate_failure">위임 철회 실패</string>
 
     <string name="please_select_first">먼저 선택하십시오.</string>
-    <string name="vote_30_at_most">최대 30개 투표</string>
+    <string name="vote_30_at_most">최대 30명 까지 투표할 수 있습니다</string>
     <string name="vote_success">투표 성공</string>
-    <string name="vote_failed">투표 실패하니 다시 시도해보십시오.</string>
+    <string name="vote_failed">투표 실패. 다시 시도하십시오</string>
     <string name="super_producer">순위</string>
-    <string name="super_proxy">슈퍼 대리</string>
+    <string name="super_proxy">슈퍼 프록시</string>
 
     <string name="apply_proxy_success">프록시 정보 제출 완료. 잠시후 적용됩니다.</string>
     <string name="apply_proxy_fail">프록시 신청 실패</string>
@@ -378,31 +378,31 @@
     <string name="more_contact_us">문의하기</string>
     <string name="website">웹사이트</string>
     <string name="un_vote">투표 취소</string>
-    <string name="no_available_email_app">사용가능한 이메일 어플리케이션이 없습니다.</string>
+    <string name="no_available_email_app">사용가능한 이메일 앱이 없습니다.</string>
     <string name="un_vote_success">투표 취소 성공</string>
     <string name="un_vote_failed">투표 취소 실패. 다시 시도하십시오.</string>
 
     <string name="eos_rule_vote">투표 규칙</string>
 
     <string name="search_transaction_tips">작업 시간 초과. 거래 기록을 확인하십시오.</string>
-    <string name="fail_to_get_account">계정을 가져오는데 실패했습니다 </string>
+    <string name="fail_to_get_account">계정을 불러오기 실패 </string>
     <string name="cannot_transfer_to_self">자신에게 송금 할 수 없습니다</string>
 
     <string name="area_and_weight">지역：%1$s | 가중치：%2$s</string>
-    <string name="no_vote_to_delegate">현재 투표수가 없으니 먼저 스테이킹해야 합니다.가서 스테이킹할까요?</string>
+    <string name="no_vote_to_delegate">투표 전 EOS를 스테이킹 해야합니다. 스테이킹을 하시겠습니까?</string>
     <string name="go_to_delegate">위임하기</string>
     <string name="eos_main_net_not_enough">스테이킹 자원이 부족합니다</string>
 
     <string name="pwd_tips">알파벳, 숫자, 특수부호를 혼합한 최소 8자리</string>
 
-    <string name="create_wallet_tip_zero">· 충분히 읽었으며 동의합니다</string>
+    <string name="create_wallet_tip_zero">· 충분히 숙지하였으며 동의합니다</string>
     <string name="create_wallet_tip_one">· 비밀번호는 지갑 보안에 매우 중요합니다.</string>
     <string name="create_wallet_tip_two">· TokenPocket는 비밀번호를 보관하지 않습니다. 분실 시 다시 찾을 수 없으니, 안전한 곳에 보관하십시오.</string>
 
     <string name="password_weak">약함</string>
     <string name="password_normal">보통</string>
     <string name="password_good">좋음</string>
-    <string name="password_perfect">완벽함</string>
+    <string name="password_perfect">안전</string>
     <string name="mnemmoic_error">니모닉 오류</string>
 
     <string name="canceling">취소중</string>
@@ -410,22 +410,22 @@
     <string name="cancel_proxy_fail">프록시 취소 실패</string>
 
     <!-- EOS错误信息 -->
-    <string name="eos_producer_vote_unique_sorted">BP 투표는 고유 해야 하며 정렬되어 있어야 합니다.</string>
-    <string name="eos_user_must_stake_before_vote">투표하기 전에 스테이킹해야 합니다.</string>
+    <string name="eos_producer_vote_unique_sorted">BP 투표 시 정렬되어야 합니다.</string>
+    <string name="eos_user_must_stake_before_vote">투표 전 EOS가 스테이킹되어야 합니다.</string>
     <string name="eos_proxy_not_allowed_proxy">프록시로 등록 된 계정이 프록시를 사용할 수 없습니다.</string>
     <string name="eos_action_has_no_effect">무효 작업</string>
     <string name="eos_no_balance_found">잔액 정보 확인 불가</string>
     <string name="eos_overdrawn_balance">잔액 부족</string>
-    <string name="eos_to_account_not_exist">받는 계정이 존재하지 않습니다.</string>
+    <string name="eos_to_account_not_exist">입금계정이 존재하지 않습니다.</string>
     <string name="eos_unable_find_key">키를 찾을 수 없습니다.</string>
-    <string name="eos_name_not_normalized">계정명이 규칙에 맞지 않습니다.</string>
+    <string name="eos_name_not_normalized">계정명이 규칙에 부합하지 않습니다.</string>
     <string name="eos_account_already_existed">계정명이 이미 존재합니다.</string>
-    <string name="eos_stake_no_resource">계정 자원(CPU / NET)이 부족합니다. 자원관리로 이동하여 스테이킹 하십시오</string>
-    <string name="eos_stake_cpu_no_resource">계정 CPU 리소스가 부족합니다. 자원관리로 이동하여 스테이킹 하십시오.</string>
+    <string name="eos_stake_no_resource">계정 자원(CPU / NET)이 부족합니다. 자원 관리로 이동하여 스테이킹 하십시오</string>
+    <string name="eos_stake_cpu_no_resource">계정 CPU 리소스가 부족합니다. 자원 관리로 이동하여 스테이킹 하십시오.</string>
     <string name="eos_stake_net_no_resource">계정의 NET 리소스가 충분하지 않습니다. 리소스 관리로 이동하여 스테이킹 하십시오</string>
-    <string name="eos_no_ram_to_buy">계정의 RAM이 부족합니다. 자원관리로 이동하여 스테이킹 하십시오</string>
-    <string name="eos_have_no_signatures">거래에 필요한 서명이 되지 않았습니다.</string>
-    <string name="unsatisfied_authorization">권한이 맞지 않습니다.</string>
+    <string name="eos_no_ram_to_buy">계정의 RAM이 부족합니다. 자원 관리로 이동하여 구입하십시오</string>
+    <string name="eos_have_no_signatures">서명이 유효하지 않습니다</string>
+    <string name="unsatisfied_authorization">권한이 유효하지 않습니다</string>
     <string name="transaction_unable_complete_deadline">거래가 완료되지 않았습니다. 자원이 충분한지 확인하십시오.</string>
     <!-- EOS错误信息 -->
 
@@ -434,9 +434,9 @@
     <string name="sell_ram_symbol">RAM 판매(%1$s)</string>
     <string name="input_buy_amount">구매 금액 입력</string>
     <string name="input_sell_amount">판매 금액 입력</string>
-    <string name="buy_successfully">요청 완료, 블록에 확인 대기 중</string>
+    <string name="buy_successfully">요청 완료, 블록 확인 대기 중</string>
     <string name="buy_failure">요청 실패</string>
-    <string name="sell_successfully">요청 완료, 블록에 확인 대기 중</string>
+    <string name="sell_successfully">요청 완료, 블록 확인 대기 중</string>
     <string name="sell_failure">요청 실패</string>
 
     <string name="balance_">잔액: %1$s</string>
@@ -458,32 +458,32 @@
     <string name="insufficient_memory">RAM 부족</string>
 
     <string name="no_account_name">계정명</string>
-    <string name="already_imported">이미 불러온 계정입니다</string>
+    <string name="already_imported">이미 존재하는 계정입니다</string>
 
     <string name="please_select_wallet">계정 선택</string>
     <string name="checking">확인 중</string>
 
     <string name="eos_creator"> 생성자</string>
     <string name="please_select_creator"> 생성자 선택</string>
-    <string name="owner_public_key_tip">소유자 퍼블릭 키 (현 퍼블릭 키로 묵인)</string>
+    <string name="owner_public_key_tip">소유자 퍼블릭 키 (현 퍼블릭 키로 변경)</string>
     <string name="input_owner_key_scan">소유자 개인키 입력하거나 스캔</string>
     <string name="advanced_mode">고급 모드</string>
     <string name="manager_public_key">관리자 퍼블릭 키</string>
     <string name="input_manager_key_scan">관리자 퍼블릭 키 입력하거나 스캔</string>
-    <string name="allocation_ram_bytes">RAM 분배 (바이트)</string>
+    <string name="allocation_ram_bytes">RAM 할당 (Bytes)</string>
     <string name="eos_cpu_delegate_symbol">CPU 스테이킹(%1$s)</string>
     <string name="eos_net_delegate_symbol">NET 스테이킹(%1$s)</string>
     <string name="simple_mode">간편 모드</string>
     <string name="register_now">바로 가입</string>
     <string name="ram">RAM</string>
-    <string name="bytes">바이트</string>
-    <string name="please_allocation_ram">RAM을 분배하십시오.</string>
+    <string name="bytes">Bytes</string>
+    <string name="please_allocation_ram">RAM을 할당하십시오.</string>
     <string name="please_delegate_cpu">CPU 스테이킹하십시오.</string>
     <string name="please_delegate_net">NET 스테이킹하십시오.</string>
     <string name="create_account">계정 생성</string>
     <string name="owner_key">소유자 퍼블릭 키</string>
     <string name="manager_key">관리자 퍼블릭 키</string>
-    <string name="allocation_ram">RAM 분배</string>
+    <string name="allocation_ram">RAM 할당</string>
     <string name="eos_cpu_delegate">CPU 스테이킹</string>
     <string name="eos_net_delegate">NET 스테이킹</string>
     <string name="eos_create_account_success">계정 생성 성공</string>
@@ -491,7 +491,7 @@
     <string name="creating">생성중</string>
 
     <string name="dapp_relief_title">타사 DApp ("%1$s") 으로 이동할 예정입니다.</string>
-    <string name="dapp_relief_content">참고: 타사 DApp ("%1$s") 으로 이동할 예정입니다. 해당 DApp의 사용자 계약 및 개인정보보호 정책을 확인하십시오. DApp 이용과 관련한 모든 책임은 "%1$s"에게 있습니다.</string>
+    <string name="dapp_relief_content">참고: 타사 DApp ("%1$s") 으로 이동할 예정입니다. 해당 DApp의 서비스 및 개인 정보 약관을 확인하십시오. DApp 이용과 관련한 모든 책임은 "%1$s"에게 있습니다.</string>
 
     <string name="buyram">RAM 구매</string>
     <string name="sellram">RAM 판매</string>
@@ -502,11 +502,11 @@
     <string name="permission_manage">권한 관리</string>
 
     <string name="what_owner_permission">소유자 권한은 무엇입니까?</string>
-    <string name="owner_permission_desc">소유자는 계정의 소유권을 대표 하여 권한을 설정 할 수 있고, 관리자 및 다른 권한을 관리 할 수 있습니다.</string>
+    <string name="owner_permission_desc">소유자는 계정의 소유권을 대표 합니다. 관리자 및 다른 권한을 관리 할 수 있습니다.</string>
     <string name="what_active_permission">관리자 권한 무엇입니까?</string>
     <string name="active_permission_desc">일반적인 트랜젝션은 관리자 권한을 필요로 합니다. 예를 들면 송금, 투표 등.</string>
-    <string name="what_weight">역치는 무엇입니까？</string>
-    <string name="weight_desc">자격은 권한 가중치가 역치를 넘으면 얻을 수 있습니다.</string>
+    <string name="what_weight">권한값은 무엇입니까？</string>
+    <string name="weight_desc">자격은 권한 자격값이 권한값을 넘으면 얻을 수 있습니다.</string>
     <string name="input_modify_public_key">변경할 퍼블릭 키를 입력</string>
     <string name="modify_owner_permission">소유자 권한 변경</string>
     <string name="modify_active_permission">관리자 권한 변경</string>
@@ -523,7 +523,7 @@
 
     <string name="contact_way">연락처</string>
 
-    <string name="transfer_precision_limit">%1$s송금는 %2$s위 소수만 지원한다.</string>
+    <string name="transfer_precision_limit">%1$s송금는 %2$s위 소수만 지원합니다</string>
 
     <string name="countdown_refund">환불</string>
     <string name="refunding">환불중</string>
@@ -531,7 +531,7 @@
     <string name="refund_fail">환불 실패</string>
 
     <string name="notice_title_warning">주의 사항</string>
-    <string name="notice_account_permission_tips">・권한 변경시에는 반드시 상대방의 퍼블릭 키가 정확한 지 확인하십시오.\n・권한 변경시 작은 권한부터 변경하시는 것을 권장합니다. 예를 들어 Active > Owner.\n・변경 전 자산이 안전한지 확인하십시오!</string>
+    <string name="notice_account_permission_tips">・퍼블릭키가 확실한지 확인해주세요.\n-작은 권한부터 변경되어야 합니다. 예) Active > Owner.\n・변경 전 자산이 안전한지 확인하십시오!</string>
     <string name="not_eos_base_wallet_and_switch">현재 계정은 EOS/ENU계정이 아닙니다. EOS/ENU계정으로 변경하십시오.</string>
     <string name="create_eos_token">EOS토큰 생성</string>
 
@@ -556,7 +556,7 @@
 
     <string name="to_self">본인</string>
     <string name="to_others">타인</string>
-    <string name="receiver_label">수신자</string>
+    <string name="receiver_label">수신인</string>
     <string name="lease">대여</string>
     <string name="receiver_transfer">송금</string>
 
@@ -565,15 +565,15 @@
 
 
     <string name="create_eos_account">%1$s 계정 생성</string>
-    <string name="bidname_title">입찰 경매</string>
-    <string name="do_bidname">현입찰 이름</string>
-    <string name="price_higer_tips">입찰 가격은 현재의 가격보다 10% 높아야 한다.</string>
-    <string name="bid_price">경매 가격</string>
-    <string name="bid_name">입찰 이름</string>
+    <string name="bidname_title">계정 경매</string>
+    <string name="do_bidname">경매 참여 계정명</string>
+    <string name="price_higer_tips">입찰 가격은 현재의 가격보다 10% 높아야 합니다</string>
+    <string name="bid_price">입찰 가격</string>
+    <string name="bid_name">입찰 계정명</string>
 
 
     <string name="add_contact">연락처 추가</string>
-    <string name="remarks_options">메모 (선택사항)</string>
+    <string name="remarks_options">메모 (선택)</string>
     <string name="please_input_remarks">메모 입력</string>
     <string name="add_wallet_address">계정 주소 추가</string>
     <string name="edit_contact">연락처 편집</string>
@@ -581,25 +581,25 @@
     <string name="saved">저장 완료</string>
     <string name="select_address">주소 선택</string>
     <string name="select_account">계정 선택</string>
-    <string name="contact_has_no_address">이 연락처에는 계정 주소가 없습니다.</string>
-    <string name="contact_has_no_match_address">이 연락처에 대응되는 계정 주소가 없습니다.</string>
+    <string name="contact_has_no_address">이 연락처의 계정 주소가 존재하지 않습니다</string>
+    <string name="contact_has_no_match_address">이 연락처의 계정 주소가 존재하지 않습니다</string>
 
     <string name="check_private_key">프라이빗 키 확인</string>
     <string name="eos_check_account">계정 검색</string>
     <string name="generate_public_key_first">먼저 퍼블릭 키를 생성하십시오.</string>
-    <string name="eos_no_account_name_tips">현재 프라이빗 키는 계정명이 없으니 테스트 페이지에 가서 테스트 하시겠습니까?</string>
+    <string name="eos_no_account_name_tips">프라이빗 키에 해당하는 계정이 존재하지 않습니다. 테스트 페이지에서 테스트 하시겠습니까?</string>
 
     <string name="my_bid">나의 입찰</string>
-    <string name="bid_ranking">입찰 가격 랭킹</string>
-    <string name="input_short_bid">입찰할 짧은 이름 입력</string>
-    <string name="bid_auction">가격 올리고 경매한다. </string>
-    <string name="eos_bid_account_name">계정명</string>
-    <string name="highest_bidder">경매자</string>
+    <string name="bid_ranking">입찰 순위</string>
+    <string name="input_short_bid">입찰 참여 계정명 입력</string>
+    <string name="bid_auction">입찰 참여 </string>
+    <string name="eos_bid_account_name">입찰 참여 계정명</string>
+    <string name="highest_bidder">최고 입찰자</string>
     <string name="bidding_information">경매 정보</string>
 
     <string name="ram_transaction">RAM 거래</string>
     <string name="in_the_transaction">거래중</string>
-    <string name="eos_ram_open">시작가</string>
+    <string name="eos_ram_open">시초가</string>
     <string name="eos_ram_amount">총액</string>
     <string name="eos_ram_rate">점유율</string>
     <string name="record_of_sale">주문 목록</string>
@@ -620,94 +620,94 @@
     <string name="rammark_pie_in">매수:</string>
     <string name="rammark_pie_out">매도:</string>
 
-    <string name="rammark_pie_big">큰 거래</string>
-    <string name="rammark_pie_med">중간</string>
-    <string name="rammark_pie_small">작은 거래</string>
+    <string name="rammark_pie_big">대규모 거래</string>
+    <string name="rammark_pie_med">중간 거래</string>
+    <string name="rammark_pie_small">소규모 거래</string>
 
-    <string name="ram_left_tip">자원 부족으로 인해 계정에 대한 다른 작업이 실패할 수 있으므로 최소 1kb RAM이 남아 있어야 합니다.</string>
+    <string name="ram_left_tip">자원 부족으로 인해 계정 관련 작업이 불가능 할 수 있습니다. 최소 1kb RAM이 남아 있어야 합니다.</string>
     <string name="buy_ram_precision_error">입력 값은 최대 소숫점 4번째 자리 까지만 가능합니다.</string>
 
     <string name="too_few">입력한 수량이 너무 적습니다.</string>
     <string name="byte_no_dot">RAM 판매는 소숫점을 지원하지 않습니다.</string>
-    <string name="create_account_consume_eos">계정 개설은 ≈ %1$s %2$s 소모합니다.</string>
+    <string name="create_account_consume_eos">계정 개설시 ≈ %1$s %2$s를 소모합니다.</string>
 
-    <string name="eos_create_tip">%1$s계정 개설은 %2$s소모합니다. 개설 비용%1$s를 지불할 수 있는 %3$s 잔액을 가진 계정을 찾으십시오.</string>
+    <string name="eos_create_tip">%1$s계정 개설시 %2$s를 소모합니다. %3$s 이상의 잔액을 가진 계정으로 개설 비용%2$s를 부담하여 계정을 생성할 수 있습니다.</string>
     <string name="eos_owner_authority">소유자 권한</string>
     <string name="eos_active_authority">관리자 권한</string>
     <string name="eos_delete_order">주문 삭제</string>
     <string name="eos_uest_create">친구 요청하여 개설 진행</string>
-    <string name="eos_unfinished_order">현재 미완료된 %1$s 주문이 있으니 가서 활성화하시겠습니까?</string>
-    <string name="eos_delete_unfinished_order">미완료한 %1$s 주문을 삭제하시겠습니까?</string>
+    <string name="eos_unfinished_order">현재 완료되지 않은 %1$s 주문이 있습니다. 주문을 완료하시겠습니까?</string>
+    <string name="eos_delete_unfinished_order">완료되지 않은 %1$s 주문을 삭제하시겠습니까?</string>
     <string name="eos_order_deleted">주문 삭제 완료</string>
 
     <string name="eos_account_not_exit">계정이 존재하지 않습니다</string>
-    <string name="eos_multi_owner_active">여러 개의 프라이빗 키가 이 계정 소유자 권한과 관리자 권한을 갖고 있어 위험합니다.</string>
-    <string name="eos_multi_owner">여러 개의 프라이빗 키가 이 계정 소유자 권한을 갖고 있어 위험합니다.</string>
-    <string name="eos_multi_active">여러 개의 프라이빗 키가 이 계정 관리자 권한을 갖고 있어 위험합니다.</string>
-    <string name="eos_only_owner">이 계정의 소유자 권한만 갖고 있어 위험합니다.</string>
-    <string name="eos_only_active">이 계정의 관리자 권한만 갖고 있어 위험합니다.</string>
-    <string name="eos_account_have_exit">계정가 다른 사람에게 등록되어 있어 보안상 문제가 있을 수 있으니 새로운 키를 등록하시기를 권장합니다.</string>
+    <string name="eos_multi_owner_active">이 계정의 owner권한과 active권한에 다수의 프라이빗키가 할당되어 있어 보안적으로 취약합니다.</string>
+    <string name="eos_multi_owner">이 계정의 owner권한에 다수의 프라이빗키가 할당되어 있어 보안적으로 취약합니다.</string>
+    <string name="eos_multi_active">이 계정의 active권한에 다수의 프라이빗키가 할당되어 있어 보안적으로 취약합니다.</string>
+    <string name="eos_only_owner">이 계정의 owner권한만 소유하고 있으므로 보안적으로 취약합니다.</string>
+    <string name="eos_only_active">이 계정의 active권한만 소유하고 있으므로 보안적으로 취약합니다..</string>
+    <string name="eos_account_have_exit">계정이 다른 사람에게 등록되어 있어 보안적으로 취약합니다.</string>
     <string name="eos_active_account">계정 활성화</string>
 
-    <string name="eos_confirm_account">이 계정의 모든 권한이 자신의 프라이빗 키가 맞으면 프라이빗 키로 계정을 가져올 수 있습니다.</string>
-    <string name="eos_resource_tips">매매 작업은 자원이 소모되므로 당신의 RAM CPU NET 자원이 충분한지 확인하시길 바랍니다. NET과 CPU자원에 각각 최소 0.5 EOS를 스테이킹 하는 것을 권장합니다. 자원이 부족할 경우 요청이 취소될 수 있습니다.</string>
-    <string name="check_eos_account_course">교정을 클릭하여 본다</string>
-    <string name="help_create_eos_account">어떻게 친구의 도움 받아서 EOS 가입합니까?</string>
+    <string name="eos_confirm_account">해당 계정의 모든 권한이 정확한지 확인한 후 당신의 프라이빗 키로 계정을 불러올 수 있습니다.</string>
+    <string name="eos_resource_tips">거래시 RAM, CPU 및 네트워크 자원을 확인하십시오. 네트워크 및 CPU는 최소 0.5 EOS를 스테이킹 하시길 권장합니다. 만약 자원이 부족하다면 거래가 취소될 수 있습니다.</string>
+    <string name="check_eos_account_course">EOS계정 생성 교육 확인</string>
+    <string name="help_create_eos_account">친구계정을 통한 계정 생성방법</string>
 
-    <string name="help_create_account_fail">상태를 알 수 없습니다. 보기 버튼을 클릭하여 계정 생성 블록을 보고 결과를 확인할 수 있습니다.</string>
+    <string name="help_create_account_fail">상태를 알 수 없습니다. 보기 버튼을 클릭시 계정 생성 결과를 확인할 수 있습니다.</string>
     <string name="query">확인하기</string>
 
     <string name="sms_warn">SMS 알림</string>
     <string name="ram_warn">RAM 알림</string>
-    <string name="ram_warn_type_tips">TokenPocket 알림은 두 가지 형태로 나누어집니다.</string>
+    <string name="ram_warn_type_tips">TokenPocket알림은 두가지 방식을 지원합니다.</string>
     <string name="ram_price_warn">RAM 가격 알림</string>
-    <string name="price_warn_desc">가격 알림은 상한 가격과 하한 가격으로 나누어집니다. \n・가격이 특정 위치에 도달하면 시스템이 경보를 발행합니다. 동일한 가격에 대해서는 최대 4시간 당 1번 알림을 보내고 매일 최대 12개까지의 메시지가 발송됩니다.\n・가격 알림을 최대 3개까지 동시에 설정할 수 있습니다.</string>
-    <string name="top_account_warn">고액 계정 알림 경보</string>
-    <string name="top_account_desc">고액 계정 알림은 매수 알림과 매도 알림으로 나뉩니다.\n・매수와 매도는 설정치에 도달하거나 넘으면 메시지를 발송합니다. 설정치마다 매일 최대 4번 경보하고 메세지를 12개까지 발송합니다.\n・최대한 3개 고액 경보를 동시에 설정할 수 있습니다. </string>
-    <string name="ram_warn_tips">참고: 지역에 따라 네트워크 환경 편차가 있기 때문에 이 서비스는 알림 기능으로 제한 되며 실시간 주문에는 적용 되지 않습니다. 이 서비스는 TokenPocket의 부가 가치 서비스에 속하며, 서비스 비용은 월 %1$s EOS이고, 최종 해석 권리는 TokenPocket에 속하며 구독 신청 후에는 환불이 되지 않습니다.</string>
+    <string name="price_warn_desc">상한 가격 알림, 하한 가격알림이 존재합니다. \n・가격이 특정 값에 도달하면, 시스템은 해당 가격에 대해 최대 4번(일) 알람을 알려줍니다, 총 한도는 12번(일) 입니다..\n・최대 3개 가격 알림을 설정할 수 있습니다.</string>
+    <string name="top_account_warn">고액 계정 거래 알림</string>
+    <string name="top_account_desc">매수 알림, 매도 알림이 있습니다.\n・매수, 매도 모두 특정 값에 도달하면 SMS가 발송됩니다.시스템은 해당 가격에 대해 최대 4번(일) 알람을 알려줍니다, 총 한도는 12번(일) 입니다.\n・최대 3개의 고액 계정에 대한 알림을 받을 수 있습니다. </string>
+    <string name="ram_warn_tips">참고 : 접속 지역에 따라 서비스 품질에 차이가 있을 수 있습니다. 이 서비스는 주문 관전에 한정되며 체결되지 않은 주문에는 적용되지 않습니다. 이 부가 가치 서비스는 토큰포켓의 소유이며 최종 권리 해석 또한 TokenPocket의 소유입니다. 구독 후 환불은 불가합니다.</string>
     <string name="open_now">바로 개설</string>
-    <string name="phone_num">휴대전화 번호</string>
-    <string name="sms_warn_dialog_tips">알림은 가격 경보만 하고 네트워크 환경 편차로 인해 실시간 주문에는 적용되지 않습니다.</string>
+    <string name="phone_num">핸드폰 번호</string>
+    <string name="sms_warn_dialog_tips">알림은 가격 알림만 지원하며 네트워크 지연 및 불안정성등의 이슈로 체결되지 않은 실시간 주문은 처리하지 않습니다.</string>
     <string name="cost">비용</string>
     <string name="price_warn_order_preview">가격 알림 미리 보기</string>
-    <string name="sms_warn_open_success">SMS 알림 기능 개통 성공</string>
-    <string name="sms_warn_open_fail">SMS 알림 기능 개통 실패</string>
+    <string name="sms_warn_open_success">SMS 알림 기능 설정 성공</string>
+    <string name="sms_warn_open_fail">SMS 알림 기능 설정 실패</string>
     <string name="sms_renew">충전</string>
     <string name="add_warn">알림 추가</string>
     <string name="current_price">현재 가격</string>
-    <string name="current_price_rate">현재 등락폭</string>
+    <string name="current_price_rate">변동</string>
 
     <string name="top_account_name">고액 계정</string>
     <string name="warn_amount">설정액</string>
-    <string name="price_top">가격 상한</string>
-    <string name="price_low">가격 하한</string>
-    <string name="warning_num">알림 번호</string>
-    <string name="warning_direction">방향</string>
+    <string name="price_top">상한 가격</string>
+    <string name="price_low">하한 가격</string>
+    <string name="warning_num">알림 개수</string>
+    <string name="warning_direction">매매 종류</string>
     <string name="warning_buy">매수</string>
     <string name="warning_sell">매도</string>
     <string name="submit_success">등록 성공</string>
     <string name="input_warn_num">설정액 입력</string>
-    <string name="price_top_unit">가격 상한(EOS/KB)</string>
-    <string name="price_low_unit">가격 하한(EOS/KB)</string>
+    <string name="price_top_unit">상한 가격(EOS/KB)</string>
+    <string name="price_low_unit">하한 가격(EOS/KB)</string>
     <string name="input_warn_price">가격 입력</string>
-    <string name="price_top_small_than_low">가격 상한은 가격 하한보다 낮을 수 없습니다.</string>
+    <string name="price_top_small_than_low">상한 가격은 하한 가격보다 낮을 수 없습니다.</string>
     <string name="confirm_delete_warn_info">현재 알림 메세지를 삭제할까요?</string>
     <string name="deleting">삭제중</string>
     <string name="fail_to_delete">삭제 실패</string>
     <string name="update_success">업데이트 성공</string>
-    <string name="warning_service_deadline">조기 경보 서비스 만료 시간:%1$s</string>
+    <string name="warning_service_deadline">서비스 만료 시간:%1$s</string>
 
     <string name="contract_create_eos_tips_start">거래소에서 아래 주소와 메모를 입력하여 출금.</string>
     <string name="contract_create_eos_tips_middle">%1$s 2개</string>
-    <string name="contract_create_eos_tips_end">계정 개설 완료. 0.2 %1$s는 CPU과 NET 자원 스테이킹에 사용하고 나머지는 사용자의 RAM를 구입하는 데 사용됩니다. </string>
-    <string name="contract_create_eos_tips_two">현재 해당 방식을 지원하는 거래소는 OTCBTC, Gate.io Binance, Bitfinex 등이 있습니다. 출금 시 메모를 지원하지 않는 다른 거래소에서 코인을 출금하지 마십시오.</string>
-    <string name="transfer_to_account_necessary">수신 계정(필수 입력)</string>
+    <string name="contract_create_eos_tips_end">계정 개설 완료. 0.2 %1$s는 CPU과 NET 자원 스테이킹, 나머지는 사용자의 RAM를 구입하는 데 사용됩니다. </string>
+    <string name="contract_create_eos_tips_two">현재 지원하는 거래소는 OTCBTC, Gate.io, Coin Security 및 Bitfinex 입니다. 다른 거래소로는 계정을 생성할 수 없습니다.</string>
+    <string name="transfer_to_account_necessary">수신 계정(필수)</string>
     <string name="steps">단계</string>
-    <string name="memo_necessary">메모 (필수 입력)</string>
+    <string name="memo_necessary">메모 (필수)</string>
     <string name="notice">주의</string>
-    <string name="notice_content">이 생성 방식은 %1$s팀이 개발한 스마트 컨트랙트를 통해 자동으로 계정을 방식입니다. 만약 사용자의 부주의로 손해를 입은 경우에는 도와드릴 수 없는 점 양해부탁드립니다.</string>
-    <string name="exchange_create_delete_order">주문 삭제</string>
-    <string name="type_title_exchange">거래소 코인/지갑 송금 진행</string>
+    <string name="notice_content">이 생성 방식은 %1$s팀이 운영하는 스마트컨트렉트로 계정을 생성합니다. 외부 개입이 불가능한 스마트컨트렉트의 특성상 사용자의 과실로 인한 손해에 대해 저희는 어떠한 도움도 드릴 수 없습니다.</string>
+    <string name="exchange_create_delete_order">생성 취소</string>
+    <string name="type_title_exchange">거래소로 계정 생성</string>
     <string name="create_way">개설 방식 선택</string>
 
     <string name="no_refund">환불 불가</string>
@@ -722,7 +722,7 @@
     <!-- action类型-->
     <string name="transfer">송금</string>
     <string name="delegatebw">위임</string>
-    <string name="undelegatebw">위임 철회</string>
+    <string name="undelegatebw">스테이킹 해제</string>
     <string name="update_auth">권한 수정</string>
     <string name="new_account">신규계정 생성</string>
     <string name="vote_producer">투표</string>
@@ -730,39 +730,39 @@
     <string name="action_details">Action 상세</string>
 
     <!-- 和IOS同步key -->
-    <string name="setting_color_switch">빨간색 상승과 녹색 하락</string>
-    <string name="invite_code_title">귀하의 독점 코드</string>
-    <string name="invite_now">바로 초대하기</string>
+    <string name="setting_color_switch">캔들 색상 변경</string>
+    <string name="invite_code_title">귀하의 추천 코드</string>
+    <string name="invite_now">지금 초대하세요</string>
     <string name="invitation_record">%1$s 친구를 초대하여 %2$s 보너스 얻습니다.</string>
     <string name="invite_rule">초대 규칙:</string>
-    <string name="invite_rules_desc">1. 전화 번호를 등록하면 100개의 보너스를 얻을 수 있습니다. 초대자와 피초대자 모두 각각 100 개의 보너스를 받으며 더 많이 초대할수록 더 많은 이익을 얻습니다. \n2. 각 사용자는 한 번씩만 초대 할 수 있습니다. 계정을 가져 오거나 만들 때 초대장을 확인할 수 있습니다. \n3. 보너스는 규칙에 따라 사탕으로 바꿀 수 있습니다. \n4.초대 코드를 전화 번호에 할당하십시오. \n5. 공식 텔레그램 그룹을 팔로우 하시고 (https://t.me/tokenPocket_en) 교환 규칙을 준수하십시오. \n6. TokenPocket이 모든 권리를 소유합니다</string>
+    <string name="invite_rules_desc">1. 초대받은 친구가 핸드폰 번호를 연동하면 추천인 피추천인 모두 100개의 보너스를 받게됩니다. 초대 횟수엔 제한이 없습니다. \n2, 사용자는 한번만 초대받을 수 있으며 계정을 생성하거나 들여올 때 초대를 확정할 수 있습니다; \n3, 보너스는 경우에 따라 캔디로 전환될 수 있습니다. \n4, 추천 코드는 핸드폰 번호와 연동이 되어있습니다. \n5, 더 자세한 정보는 저희의 공식 텔레그램 그룹 （https://t.me/tokenPocket_en）에서 확인하십시오. \n6, TokenPocket은 이벤트의 최종 해석권리를 지닙니다.</string>
     <string name="invite_friends">친구 초대</string>
     <string name="title_gain_bonus">보너스 받기</string>
-    <string name="invite_code_where_input">초대장 페이지에서 코드를 확인할 수 있습니다</string>
-    <string name="invite_code_scan_download">스캔하여 다운로드</string>
-    <string name="invite_inviter_desc_title">보너스를 받기위해 코드 입력</string>
-    <string name="invite_inviter_code_pl">초대 코드 입력</string>
-    <string name="invite_inviter_detail">초대 코드 등록 후에는 수정이 불가능하며 초대자와 피초대자 모두 보너스를 받을 수 있습니다.</string>
-    <string name="invite_code_empty">초대 코드는 필수항목입니다</string>
+    <string name="invite_code_where_input">추천 코드는 추천 페이지에서 확인할 수 있습니다/string>
+    <string name="invite_code_scan_download">스캔으로 다운로드</string>
+    <string name="invite_inviter_desc_title">보너스를 얻기 위해 추천 코드를 입력하십시오.</string>
+    <string name="invite_inviter_code_pl">추천 코드를 입력하십시오.</string>
+    <string name="invite_inviter_detail">추천 코드는 추후 수정할 수 없으니 유의하세요. 추천인 피추천인 모두 보너스를 받게됩니다.</string>
+    <string name="invite_code_empty">추천 코드가 입력되지 않았습니다</string>
     <string name="submitting">제출중</string>
-    <string name="invite_code_error">제출 코드가 잘못되었습니다.</string>
-    <string name="invite_code_mine">나의 초대 코드</string>
-    <string name="invite_get_code">초대 코드 받기</string>
-    <string name="invite_bind_phone_get">휴대전화 번호를 바코딩하면 보너스를 얻을 것이다.</string>
-    <string name="invite_bind_phone_desc">휴대전화 번호를 할당하여 초대 코드 받기</string>
-    <string name="invite_bind_phone_detail">휴대전화 번호와 초대 코드가 대응되어있어 휴대전화 번호 수정을 통해 초대 번호를 변경 할 수 있습니다</string>
+    <string name="invite_code_error">올바르지 않은 추천 코드 입니다.</string>
+    <string name="invite_code_mine">나의 추천 코드</string>
+    <string name="invite_get_code">추천 코드 받기</string>
+    <string name="invite_bind_phone_get">계정에 핸드폰 번호를 연동하여, 보너스 획득.</string>
+    <string name="invite_bind_phone_desc">계정에 핸드폰 번호를 연동하여 추천 코드 받기</string>
+    <string name="invite_bind_phone_detail">핸드폰 번호와 추천 코드는 연동되어 있어야 합니다. 보상을 받기 위해선 계정에 핸드폰 번호를 연동해야합니다.</string>
 
     <string name="take_bonus_success">보너스 수령 완료.</string>
     <string name="bonus_has_token">보너스를 이미 수령했습니다.</string>
 
     <string name="no_wallet"> %1$s 계정 없음</string>
 
-    <string name="bind_phone_tips">보너스 받기 전에 꼭 휴대전화를 할당하십시오</string>
+    <string name="bind_phone_tips">보너스 수령 전 꼭 핸드폰 번호를 연동하십시오</string>
 
-    <string name="threshold">%1$s(역치:%2$s)</string>
+    <string name="threshold">%1$s(권한값:%2$s)</string>
     <string name="owner">소유자</string>
     <string name="active">관리자</string>
-    <string name="permission_weight">가중치:%1$s</string>
+    <string name="permission_weight">자격값:%1$s</string>
 
     <string name="delete_permission_key_tips">이 키를 삭제 하시겠습니까?</string>
     <string name="delete_permission_account_tips">이 계정을 삭제 하시겠습니까?</string>
@@ -772,22 +772,22 @@
 
     <string name="add_authority">권한 추가</string>
 
-    <string name="notice_account_add_permission_tips">권한 변경시에는 반드시 퍼블릭 키가 정확한지 확인하십시오.n-권한 변경시 작은 권한부터 변경하시는 것을 권장합니다. 예를 들어 Active > Owner.n-자산이 안전한지 확인하십시오</string>
+    <string name="notice_account_add_permission_tips">퍼블릭키가 확실한지 확인해주세요.\n-작은 권한부터 변경되어야 합니다. 예) Active > Owner.</string>
     <string name="add_permission_hint">추가할 퍼블릭 키를 입력하십시오.</string>
     <string name="modify_auth_label">%1s 권한 수정</string>
 
     <string name="search">검색</string>
-    <string name="eos_ram_trade_panel">RAM 패널</string>
+    <string name="eos_ram_trade_panel">RAM</string>
 
     <string name="debug_mode_open_tip">아이콘을 빠르게 8번 클릭하여 개발자 모드로 진입</string>
     <string name="debug_mode_opened">개발자 모드 열림</string>
     <string name="debug_mode_closed">개발자 모드 닫힘</string>
     <string name="debug_mode">개발자 모드</string>
 
-    <string name="eos_developer_mode_desc">개발자 모드는 지갑을 기반으로 DApp을 디버깅하는 데 사용 됩니다. 당신은 개발자 모드를 켠 후 URL을 정의 할 수 있습니다. \n개발자에 한해 디버깅목적으로만 제공되는 기능이며 신뢰할 수 없는 링크를 열지 마십시오. 제 3자 또는 자체정의 URL의 DApp 사용으로 인한 자산 손실의 책임은 사용자에게 있습니다.</string>
-    <string name="eos_developer_mode_check">개발자 모드의 사용 및 책임에 대해 이해했습니다.</string>
+    <string name="eos_developer_mode_desc">지갑을 사용하는 Dapp의 디버깅 시 개발자 모드를 사용할 수 있습니다. 개발자 모드를 활성화 한 후 댑 브라우저에 URL을 입력하여 Dapp의 디버깅을 하실 수 있습니다. \n이 모드는 개발자 테스트로만 사용하셔야 합니다. 신뢰할 수 없는 URL에 접근하는 것은 위험합니다. 써드파티 혹은 임의로 입력한 URL을 사용하는 도중 사용자 과실로 인해 손실이 발생할 경우 책임은 전적으로 사용자에게 있습니다.</string>
+    <string name="eos_developer_mode_check">개발자 모드 사용과 관련한 책임에 대해 충분히 숙지하였습니다.</string>
 
-    <string name="use_contract_create_account">컨트랙트를 이용하여 계정 생성</string>
+    <string name="use_contract_create_account">스마트 컨트랙트로 계정 생성</string>
 
     <string name="nodes_setting">노드 설정</string>
     <string name="add_custom_node">사용자 지정 노드 추가</string>
@@ -797,10 +797,10 @@
     <string name="invalid_url">무효한 URL</string>
     <string name="reset">재설정</string>
 
-    <string name="vote_desc_proxy">＊프록시는 커뮤니티의 더 건강한 생태계 형성에 이바지합니다. \n＊프록시는 의뢰인을 대표하여 투표합니다. 의뢰인은 언제든지 위임을 해지할 수 있습니다.</string>
-    <string name="vote_desc_producer">투표하기 전에 %1$s를 스테이킹 해야합니다. 필요시 스테이킹을 취소할 수 있고 72시간 이내에 %2$s를 환불받을 수 있습니다.</string>
-    <string name="contract_create_enu_tips_two">거래소 또는 지갑에서 메모와 함께 토큰 전송하여 계정 만들기</string>
-    <string name="auth_error_tips">현재 계정의 사용 권한이 변경되었습니다. 계정 권한이 정상적 인지 확인 하십시오.</string>
+    <string name="vote_desc_proxy">＊프록시는 커뮤니티 생태계를 건강하게 합니다. \n * 프록시는 당신을 대변하여 투표를 하며 당신은 언제든지 투표를 철회할 수 있습니다.</string>
+    <string name="vote_desc_producer">투표하기 전에 사용자는 %1$s를 스테이킹 하셔야 합니다.\n * 언제든지 스테이킹을 해제 할 수 있으며 72 시간 내에 스테이킹한 %2$s 전환됩니다.</string>
+    <string name="contract_create_enu_tips_two">거래소 또는 지갑에서 토큰 전송시 메모를 사용하여 계정 만들기</string>
+    <string name="auth_error_tips">현재 계정의 사용 권한이 변경되었습니다. 계정 권한이 정상인지 확인 하십시오.</string>
     <string name="goto_check_permission">확인하기</string>
 
     <string name="cover">덮어쓰기</string>
@@ -826,7 +826,7 @@
     <string name="proxy_wechat">위챗</string>
     <string name="proxy_twitter">Twitter</string>
     <string name="proxy_steemit">Steemit</string>
-    <string name="proxy_cannot_vote_for_proxy">프록시는 프록시에 투표할 수 없다.</string>
+    <string name="proxy_cannot_vote_for_proxy">프록시는 프록시에 투표할 수 없습니다</string>
     <string name="click_to_add_logo">클릭하여 Logo 추가</string>
     <string name="uploading">업로드중</string>
 
@@ -841,10 +841,10 @@
     <string name="input_twitter_address">Twitter입력</string>
     <string name="proxy_wechat_option">위챗(옵션)</string>
     <string name="input_wechat_address">위챗 입력</string>
-    <string name="proxy_philosophy_option">이념</string>
-    <string name="input_proxy_philosophy">이념 입력</string>
-    <string name="proxy_background_option">배경</string>
-    <string name="input_proxy_background">배경 입력</string>
+    <string name="proxy_philosophy_option">공약</string>
+    <string name="input_proxy_philosophy">공약 입력</string>
+    <string name="proxy_background_option">자기 소개</string>
+    <string name="input_proxy_background">자기 소개 입력</string>
     <string name="please_add_logo">로고 추가</string>
 
     <string name="proxy_name_max_length">이름은 64 자 이하입니다.</string>
@@ -854,8 +854,8 @@
     <string name="proxy_steemit_max_length">Steemit는 64자 이하입니다.</string>
     <string name="proxy_twitter_max_length">Twitter는 64자 이하입니다.</string>
     <string name="proxy_wechat_max_length">위챗은 64자 이하입니다.</string>
-    <string name="proxy_philosophy_max_length">이념은 1024자 이하입니다.</string>
-    <string name="proxy_background_max_length">배경은 1024자 이하입니다.</string>
+    <string name="proxy_philosophy_max_length">공약은 1024자 이하입니다.</string>
+    <string name="proxy_background_max_length">자기소개는 1024자 이하입니다.</string>
     <string name="new_flash_source">소스：%1$s</string>
     <string name="news_flash">뉴스</string>
     <string name="contact_remark_fill_tipns">오른쪽을 열면 송금 및 기타 작업은 이 비고를 기본적으로 채웁니다.</string>
@@ -873,7 +873,7 @@
     <string name="multiple">다중 선택</string>
     <string name="unstake_resource">리소스 사용</string>
 
-    <string name="stake_total_num">스테이킹 번호：%1$s</string>
+    <string name="stake_total_num">전체 스테이킹：%1$s</string>
     <string name="stake_total_cpu">스테이킹 CPU：%1$s  %2$s</string>
     <string name="stake_total_net">스테이킹 NET：%1$s  %2$s</string>
     <string name="unstake_preview">환불 미리보기</string>
@@ -882,22 +882,22 @@
     <string name="multi_unstake_empty">먼저 확인해주십시오.</string>
 
     <string name="cpu_net">CPU/NET</string>
-    <string name="delegate_list">위임 목록</string>
+    <string name="delegate_list">스테이킹 목록</string>
     <string name="buy_ram">RAM 구매</string>
     <string name="sell_ram">RAM 판매</string>
     <string name="buy_switch_label">구매</string>
     <string name="sell_switch_label">판매용</string>
-    <string name="cpu_delegate">CPU 위임</string>
-    <string name="net_delegate">NET 위임</string>
-    <string name="cpu_refund">CPU 위임 철회</string>
-    <string name="net_refund">NET 위임 철회</string>
+    <string name="cpu_delegate">CPU 스테이킹</string>
+    <string name="net_delegate">NET 스테이킹</string>
+    <string name="cpu_refund">CPU 스테이킹 해제</string>
+    <string name="net_refund">NET 스테이킹 해제</string>
 
     <string name="input_token_amount">%1$s 수를 입력하십시오.</string>
     <string name="reclaimable_amount">사용 가능 : %1$s</string>
 
     <string name="confirming">확인</string>
     <string name="iq_transfer_tips">IQ 스마트 컨트랙트는 계정에 관계없이 0.1%의 송금 수수료를 부과합니다.</string>
-    <!-- ----------------------------- -->
+
     <string name="select_wallet">계정 선택</string>
     <string name="dapp_select_wallet_content">현재 DApp은 %1$s만 지원합니다</string>
 
@@ -907,8 +907,8 @@
     <string name="please_home_page_create_account">계정을 만들려면 홈페이지로 이동하십시오</string>
     <string name="loading">로드 중…</string>
     <string name="refund_account">대상 계정: %1$s</string>
-    <string name="refund_delegate">스테이킹 해지</string>
-    <string name="multi_refund_total">해지 번호 : %1$s , CPU: %2$s , NET: %3$s</string>
+    <string name="refund_delegate">스테이킹 해제</string>
+    <string name="multi_refund_total">해제 정보 : %1$s , CPU: %2$s , NET: %3$s</string>
 
     <string name="account">계정</string>
     <string name="auth_title">승인</string>
@@ -920,17 +920,17 @@
     <string name="auth_account">승인 된 계정:</string>
     <string name="change_wallet">계정 전환</string>
     <string name="auth">확인</string>
-    <string name="auth_login">승인 된 로그인</string>
+    <string name="auth_login">로그인 승인</string>
 
-    <string name="please_create_import_wallet_first">먼저 계정을 만들거나 가져 오십시오.</string>
+    <string name="please_create_import_wallet_first">먼저 계정을 만들거나 불러오십시오.</string>
     <string name="order_pay">결제</string>
     <string name="confirm_pay">확인</string>
     <string name="pay_account">지불 계정</string>
-    <string name="receive_account">수금 계정</string>
+    <string name="receive_account">수신 계정</string>
     <string name="order_id">주문 번호</string>
     <string name="token_contract">토큰 컨트랙트</string>
     <string name="pay_memo">메모</string>
-    <string name="unknown_data">정보를 알 수 없습니다. 앱을 업그레이드하고 다시 시도하십시오.</string>
+    <string name="unknown_data">알 수없는 정보입니다. 앱을 업데이트하고 다시 시도하십시오.</string>
     <string name="data_expired">데이터가 만료되었습니다.</string>
 
     <string name="contract_security_tips">허가 조작 위험</string>
@@ -945,25 +945,25 @@
 
     <string name="account_balance">계정 잔고</string>
     <string name="set_time">예약 트랜잭션 설정</string>
-    <string name="contract_tips">지불 계정은 스마트 컨트랙트이며, 내용 수정 될 수 있습니다. 주의하십시오.</string>
+    <string name="contract_tips">입금 계정이 스마트 컨트렉트 계정입니다. 스마트 컨트렉트는 수정이 가능하므로 전송 전 스마트 컨트렉트가 유효한 지 확인하십시오".</string>
     <string name="account_not_exist">계정이 존재하지 않습니다.</string>
     <string name="wallet_balance">계정 잔고</string>
-    <string name="receive_address">수금 계정</string>
+    <string name="receive_address">입금 계정</string>
 
     <string name="point_content">・%1$s</string>
     <string name="search_enter_dapp">DApp 검색 또는 링크 입력</string>
     <string name="my_dapps">내 DApps</string>
     <string name="cancel_favor">즐겨찾기 취소</string>
     <string name="favor">즐겨찾기</string>
-    <string name="collected">즐겨찾기 추가됨</string>
-    <string name="collection_cancelled">즐겨찾기 취소됨</string>
+    <string name="collected">즐겨찾기 추가</string>
+    <string name="collection_cancelled">즐겨찾기 취소</string>
     <string name="popular_searches">인기 검색</string>
     <string name="history_record">히스토리</string>
     <string name="execute_contract">컨트랙트 실행</string>
     <string name="choose_time">시간 선택</string>
     <string name="year">년</string>
     <string name="month">월</string>
-    <string name="time_day">주</string>
+    <string name="time_day">일</string>
     <string name="time_hour">시</string>
     <string name="time_min">분</string>
     <string name="time_sec">초</string>
@@ -978,7 +978,7 @@
     <string name="opt_details">작업 세부 정보보기</string>
     <string name="execute">실행</string>
     <string name="do_opt_account">실행 계정명</string>
-    <string name="transfer_receive_account">수금 계정</string>
+    <string name="transfer_receive_account">입금 계정</string>
     <string name="clear_time">시간 삭제</string>
 
     <string name="default_dapp_desc">TokenPocket에서 %s 실행</string>
@@ -996,20 +996,20 @@
     <string name="properties">속성</string>
     <string name="contract">컨트랙트</string>
     <string name="add_whitelist_tips">해당 컨트랙트 액션을 화이트리스트에 추가 하시겠습니까?</string>
-    <string name="add_whitelist_tips_content">액션을 허용 목록에 추가하면 이후에 해당 액션을 실행할 때 마다 승인 과정을 거치지 않아도 됩니다.
-    각각의 속성 옆에있는 체크 버튼을 통해 값이 변경 되어도 허용할 속성을 선택할 수 있으며 체크되지 않은 속성이 변경된 경우에는 별도의 승인 과정을 거치게 됩니다.</string>
+    <string name="add_whitelist_tips_content">액션을 화이트리스트에 추가하면 이 액션을 실행할 때 마다 승인 과정을 거치지 않아도 됩니다.
+    각각의 속성의 체크박스를 통해 값이 변경 되어도 되는 속성을 선택할 수 있습니다. 체크되지 않은 속성의 값이 변경된 경우에는 승인 과정을 거치게 됩니다.</string>
 
 
     <string name="open_whitelist">화이트리스트를 사용하려면 비밀번호를 입력하십시오</string>
-    <string name="open_whitelist_tips">화이트리스트 권한은 DApp 작업 중 일정 기간 동안 만 유효합니다. DApp를 종료하거나 응용 프로그램을 종료하면 권한이 무효화됩니다. 다음에 화이트리스트를 사용할 때 암호를 입력하여 화이트리스트 이름을 활성화해야합니다.</string>
+    <string name="open_whitelist_tips">화이트리스트 권한은 DApp 작업 중 일정 기간 동안 만 유효합니다. DApp를 종료하거나 응용 프로그램을 종료하면 권한이 사라집니다. 다음 화이트리스트 사용시 암호를 입력해야 합니다.</string>
     <string name="white_list_title">화이트리스트</string>
 
     <string name="time_error_too_long">지연 시간은 3888000 초 (45 일)를 초과 할 수 없습니다</string>
     <string name="whitelist">화이트리스트</string>
 
     <string name="edit">수정</string>
-    <string name="deleted">삭제됨</string>
-    <string name="cancelled">취소됨</string>
+    <string name="deleted">삭제 완료</string>
+    <string name="cancelled">취소 완료</string>
 
     <string name="server_support_by">이 서비스는 %1$s에서 제공합니다.</string>
 
@@ -1020,22 +1020,22 @@
     <string name="account_not_match">계정명이 일치하지 않습니다.</string>
     <string name="password_reset_successfully">비밀번호가 재설정되었습니다.</string>
 
-    <string name="observe">관측</string>
-    <string name="observe_mode">관측 모드</string>
-    <string name="observe_wallet_import_tips">관측 모드에서는 개인 키가 필요하지 않으며 계정명이나 퍼블릭 키만 가져오고 계정, 트랜잭션 레코드 및 알림 수신을 매일 확인합니다.</string>
+    <string name="observe">관전</string>
+    <string name="observe_mode">관전 모드</string>
+    <string name="observe_wallet_import_tips">관전 모드에서는 프라이빗 키가 사용되지 않습니다. 계정 이름 또는 퍼블릭 키만 불러옵니다. 계정, 거래기록 조회 및 알림 기능을 사용하실 수 있습니다..</string>
     <string name="invalid_public_key">유효하지 않은 퍼블릭 키 주소입니다. 다시 확인해 주세요.</string>
-    <string name="observe_not_support">관측 모드에서는 이 작업을 지원하지 않습니다.</string>
+    <string name="observe_not_support">관전 모드에서는 이 작업을 지원하지 않습니다.</string>
 
-    <string name="observe_wallet">관측 계정</string>
+    <string name="observe_wallet">관전 계정</string>
     <string name="observe_transfer_tips">현재 계정을 살펴보고,이 계정에 돈을 송금 할 것인지 확인하십시오.</string>
 
-    <string name="wrong_node_url">노드 링크 오류입니다. 노드가 잘못되었는지 확인하십시오.</string>
+    <string name="wrong_node_url">노드 Url 오류입니다. 노드가 정보가 정확한지 확인해주세요.</string>
 
-    <string name="eos_public_key_no_account_name_tips">현재 퍼블릭 키에 계정명이 없습니다. 퍼블릭 키가 올바르게 입력되었는지 확인하십시오.</string>
+    <string name="eos_public_key_no_account_name_tips">이 퍼블릭 키에 해당하는 계정이 존재하지 않습니다. 퍼블릭 키가 올바르게 입력되었는지 확인하십시오.</string>
     <string name="add_wallet">계정 추가</string>
     <string name="wallet_empty_tips">계정 없음</string>
 
-    <string name="useful_before_exit_app">승인은 계정을 종료하기 전까지 유효합니다</string>
+    <string name="useful_before_exit_app">승인은 지갑을 종료하기 전까지 유효합니다</string>
 
     <string name="skip_ads">%1$s 건너 뛰기</string>
 
@@ -1045,13 +1045,13 @@
     <string name="friend_create">친구 생성</string>
     <string name="friend_create_desc">계정을 만드는 친구 스캔 코드</string>
     <string name="activation_code_create">정품 인증 코드 생성</string>
-    <string name="activation_code_desc">Alipay 작성, WeChat 구매 활성화 코드</string>
+    <string name="activation_code_desc">Alipay 작성, WeChat 구매 활성 코드</string>
     <string name="contract_create">전송 생성</string>
-    <string name="contract_desc">계정 생성을위한 고정 계정으로 이전</string>
+    <string name="contract_desc">계정 생성을 위한 고정 계정으로 이전</string>
     <string name="do_you_have_account">계정이 있으십니까?</string>
     <string name="have_account">계정이 있습니다.</string>
     <string name="not_have_account">계정이 없습니다.</string>
-    <string name="input_activation_code">활성화 코드를 입력하십시오.</string>
+    <string name="input_activation_code">활성 코드를 입력하십시오.</string>
     <string name="account_creation_submitted">계정 생성 신청이 완료되었습니다. 약 3 분 후 확인 된 후 계정 생성이 성공적으로 완료되었는지 확인하세요.</string>
 
     <string name="input_pwd">비밀번호 입력</string>
@@ -1070,11 +1070,11 @@
     <string name="current_account_tag">현재 계정</string>
 
     <string name="current_wallet_tag">현재 계정</string>
-    <string name="create_wallet_tips">무료로 계정 만들기</string>
+    <string name="create_wallet_tips">무료 계정 만들기</string>
 
-    <string name="forbid_screenshot">스크린 샷을 찍지 마십시오.</string>
-    <string name="bakup_tipsone">%1$s 노출 시 자산이 탈취될 수 있습니다.</string>
-    <string name="bakup_tipstwo">%1$s 를 종이에 적어 안전한 장소에 보관하십시오</string>
+    <string name="forbid_screenshot">스크린 샷을 허용되지 않습니다</string>
+    <string name="bakup_tipsone">%1$s 노출 시 다른사람이 자산을 탈취할 수 있습니다.</string>
+    <string name="bakup_tipstwo">%1$s 를 오프라인의 안전한 장소에 보관하십시오</string>
 
     <string name="pk">개인 키</string>
     <string name="words">니모닉</string>
@@ -1083,15 +1083,15 @@
     <string name="start_using">시작</string>
     <string name="my_active_code">내 인증 코드</string>
 
-    <string name="input_receive_account">수신 계정 입력</string>
+    <string name="input_receive_account">입금계정입력</string>
 
     <string name="add_perm">추가</string>
     <string name="modify_perm">수정</string>
     <string name="input_new_publickey">새로운 퍼블릭 키 또는 계정을 입력하십시오.</string>
 
-    <string name="action_inwhitelist_tips">작업이 이미 화이트리스트에 있으므로 암호를 다시 입력 할 필요가 없습니다.</string>
-    <string name="open_advance_tips">고급 설정에서 매번 확인 받지 않게 설정할 수 있습니다. 이 설정은 오른쪽 상단 모서리에서 수정할 수 있습니다.</string>
-    <string name="whitelist_advance_tips">현재 작업이 화이트리스트에 추가되고 별도 확인 없이 작업이 즉시 실행됩니다. 계속 하시겠습니까?</string>
+    <string name="action_inwhitelist_tips">액션이 이미 화이트리스트에 있습니다. 암호를 다시 입력 할 필요가 없습니다.</string>
+    <string name="open_advance_tips">고급 설정에서 상위 화이트리스트를 설정하실 수 있습니다. 이 설정은 오른쪽 상단에서 수정할 수 있습니다상위/string>
+    <string name="whitelist_advance_tips">상위 화이트리스트에 액션을 추가합니다. 이후 액션 실행은 승인 없이 실행됩니다. 계속 하시겠습니까?</string>
     <string name="enable_whitelist">DApp 화이트리스트 활성화</string>
     <string name="closed">닫힘</string>
     <string name="advance_setting">고급 설정</string>
@@ -1102,7 +1102,7 @@
     <string name="facebook">Facebook</string>
 
     <string name="eos_no_any_permission">이 계정에 대한 권한이 없습니다. 삭제하시겠습니까?</string>
-    <string name="resource_helper">자원 위젯</string>
+    <string name="resource_helper">자원 설정</string>
     <string name="click_refresh">새로고침 클릭</string>
 
     <string name="tool_list">툴 목록</string>
@@ -1124,23 +1124,23 @@
     <string name="view_more">더보기</string>
 
 
-    <string name="no_wallet_select">선택한 계정이 없습니다.</string>
+    <string name="no_wallet_select">선택한 계정이 존재하지 않습니다</string>
     <string name="progressing">진행 $%1s</string>
     <string name="asset_collect_finish">작업 완료</string>
-    <string name="asset_collect_title">자산 컬렉션</string>
-    <string name="asset_input_account">수령 계정</string>
+    <string name="asset_collect_title">자산 목록</string>
+    <string name="asset_input_account">입금 계정</string>
     <string name="asset_output_account">송금 계정</string>
     <string name="start_asset_collect">작동 시작</string>
 
     <string name="drag_sort_tips">(정렬하려면 누르고 드래그하십시오.)</string>
 
-    <string name="show_recource">리소스 위젯 보기</string>
+    <string name="show_recource">자원 설정 보기</string>
     <string name="applock_verify_success">검증 성공</string>
     <string name="applock_fingerprint_error">지문 확인에 실패했습니다. 계정 비밀번호를 사용하여 잠금을 해제하십시오.</string>
     <string name="fingerprint_error_gesture">지문 확인에 실패했습니다. 패턴으로 잠금을 해지하시겠습니까?</string>
     <string name="try_it_later">나중에 다시 시도하십시오.</string>
 
-    <string name="publickey">계정 퍼블릭 키</string>
+    <string name="publickey">퍼블릭 키</string>
     <string name="no_remind">기억이 나지 않습니다.</string>
 
     <string name="transfer_all">모두 전송</string>
@@ -1151,16 +1151,16 @@
     <string name="transfer_scan">스캔 코드 전송</string>
     <string name="transfer_record_title">이전 기록</string>
 
-    <string name="no_pwd_exit_app">앱에서 나가기 전까지 암호를 입력할 필요가 없습니다.</string>
+    <string name="no_pwd_exit_app">앱을 종료할 때까지 암호를 입력할 필요가 없습니다.</string>
 
     <string name="must_stake_before_vote">스테이킹을 하고 다시 투표하십시오.</string>
 
-    <string name="token_details">프로젝트 세부 정보 ></string>
-    <string name="tidy_asset_page_title">Token 컬랙션</string>
+    <string name="token_details">프로젝트 상제 정보 ></string>
+    <string name="tidy_asset_page_title">Token 목록</string>
     <string name="more_tools">도구 더보기</string>
     <string name="query_details">상세 정보 조회</string>
 
-    <string name="no_pwd_content">이 옵션을 선택하면 앱 종료 전까지 비밀번호를 입력할 필요가 없습니다.</string>
+    <string name="no_pwd_content">이 옵션을 선택하면 앱을 종료할 때까지 비밀번호를 입력할 필요가 없습니다.</string>
     <string name="dapp_details">DApp 세부 정보</string>
     <string name="precsion_error">정확도 오류</string>
     <string name="pwd_custom_title">%1$s 비밀번호를 입력하세요</string>
@@ -1175,11 +1175,11 @@
 
     <string name="push_notification">푸시 알림</string>
     <string name="receive_push_notification">푸시 알림 수신</string>
-    <string name="push_transfer">송금 푸시</string>
-    <string name="push_transfer_normal">일반 계정 송금 푸시</string>
-    <string name="push_transfer_observe">관측 계정 송금 푸시</string>
+    <string name="push_transfer">송금 알림</string>
+    <string name="push_transfer_normal">일반 계정 송금 알림</string>
+    <string name="push_transfer_observe">관전 계정 송금 알림</string>
     <string name="developer_mode">개발자 모드</string>
-    <string name="open_screen_rotation">화면 회전 열기</string>
+    <string name="open_screen_rotation">화면 회전 활성화</string>
 
     <string name="add_market_tokens">토큰 추가</string>
 
@@ -1188,25 +1188,25 @@
     <string name="eos_beginner_tutorial">EOS 초보자 안내서</string>
     <string name="entered_visitor_mode">게스트 모드를 시작했습니다.</string>
     <string name="visitor_wallet">방문자 계정</string>
-    <string name="visitor_transfer_tips">현재 게스트 모드 입니다.이 계정으로 돈을 송금 할 것인지 여부를 확인해 주세요.</string>
+    <string name="visitor_transfer_tips">현재 게스트 모드 입니다.이 계정으로 돈을 송금 할 것인지 확인해 주세요.</string>
     <string name="visitor_not_support">게스트 모드에서는 이 작업을 지원하지 않습니다.</string>
     <string name="visitor">게스트</string>
 
-    <string name="cold_wallet">콜드 계정</string>
+    <string name="cold_wallet">콜드 월렛</string>
     <string name="publickey_title">퍼블릭 키를 선택하십시오. </string>
-    <string name="observe_wallet_scan_tips">계정 가져 오기 인터페이스에서 콜드 계정에 해당하는 관찰 계정을 가져 오기 위해 코드를 스캔하십시오.</string>
+    <string name="observe_wallet_scan_tips">계정 가져 오기 인터페이스에서 월렛 계정에 해당하는 관찰 계정을 가져 오기 위해 코드를 스캔하십시오.</string>
     <string name="online">현재 장치가 네트워크에 연결되어 있습니다.</string>
     <string name="coldwallet_help_tips">콜드 계정 팁 </string>
-    <string name="coldwallet_help_tips_one">콜드 계정은 오프라인 계정이라고도하며 콜드 계정에 개인 키를 저장하고 자산 보안을 위해 인터넷에 접속하지 않습니다. </string>
-    <string name="coldwallet_help_tips_two">콜드 계정은 QR 코드로 통신하며, 개인 키는 네트워크에 연결되지 않아 해커의 도용을 효과적으로 차단할 수 있습니다. </string>
-    <string name="use_coldwallet_scan_sign">해당 콜드 계정 검색 코드 서명 사용 </string>
+    <string name="coldwallet_help_tips_one">콜드 월렛은 오프라인 지갑입니다. 프라이빗 키를 콜드 월렛에 보관하면 인터넷과 분리되어 있어 자산을 안전하게 보관할 수 있습니다. </string>
+    <string name="coldwallet_help_tips_two">QR코드를 통해 관전 모드로 연결된 콜드월렛은 프라이빗 키가 절대 인터넷에 노출될 수가 없기 때문에 해킹으로 부터 안전합니다 </string>
+    <string name="use_coldwallet_scan_sign">콜드 월렛 검색 코드 서명 사용 </string>
     <string name="sign_fail">서명 실패 </string>
     <string name="sign_info">서명 정보 </string>
-    <string name="use_observewallet_scan"> 관측 계정 스캔 코드를 사용하여 작업을 완료하십시오. </string>
+    <string name="use_observewallet_scan"> 관전 계정 스캔 코드를 사용하여 작업을 완료하십시오. </string>
     <string name="scan_sign">서명 스캔 </string>
     <string name="restart_app_tips"> TokenPocket 다시 열기 </string>
-    <string name="repair_tips"> 앱 정리 작업을 실행하면 이 작업이 데이터에 영향을 미치지 않습니다 </string>
-    <string name="memo_tips"> 메모는 자동으로 레코드에 따라 채워집니다. 올바른지 확인하십시오. </string>
+    <string name="repair_tips"> 데이터를 옮기는 도중 오류가 발생한다면 다시 시도해주세요. 오류가 발생하더라도 데이터에 영향을 미치지 않습니다. </string>
+    <string name="memo_tips"> 레코드 기준 메모는 자동으로 입력됩니다. 올바른지 확인하십시오. </string>
     <string name="operation_cancel">취소 </string>
     <string name="cold_wallet_onlinewarn">현재 장치가 네트워크에 연결되어 있습니다. 콜드 계정을 가져 왔는지 확인하십시오. </string>
     <string name="use_cold_wallet_scan"> 콜드 계정을 사용하여 서명 QR 코드를 스캔하십시오. </string>
@@ -1215,12 +1215,12 @@
 
     <string name="token_price">현재 가격 :</string>
     <string name="fingerprint_setting">지문 설정</string>
-    <string name="close_persist_fingerprint">먼저 영구 지문을 끄십시오.</string>
-    <string name="persist_fingerprint">영구 지문</string>
-    <string name="temp_fingerprint">임시 지문</string>
-    <string name="persist_title">영구 기밀 유지를 위한 주의 사항</string>
+    <string name="close_persist_fingerprint">우선 항상 지문 인증 설정을 해제하십시오</string>
+    <string name="persist_fingerprint">지문 (항상)</string>
+    <string name="temp_fingerprint">지문 (이번 한번만)</string>
+    <string name="persist_title">사용을 허용하기 전에 다음 사항을 인지하십시오:</string>
     <string name="persist_des">기기의 생체 인식 기술을 사용하여 장치 소유자인지 여부를 확인하고 암호화 된 저장소에 생체 인식을 사용합니다. 장치 소유자를 제외한 누구도 암호를 검색 할 수 없습니다.</string>
-    <string name="persist_fingerprint_1">영구 기밀 유지를 사용하려면 다음 사항을 고려하십시오:</string>
+    <string name="persist_fingerprint_1">사용을 허용하기 전에 다음 사항을 인지하십시오:</string>
     <string name="persist_fingerprint_2">기기의 루트 권한에서 이 기능을 사용하지 마십시오</string>
     <string name="persist_fingerprint_3">다른 사람의 지문이나 얼굴 인식을 휴대 전화에 추가하지 마십시오</string>
     <string name="persist_fingerprint_4">다른 사람에게 기기 암호를 말하지 마십시오</string>
@@ -1229,10 +1229,10 @@
     <string name="go_to_trade">거래</string>
 
     <string name="all_assets">모든 자산</string>
-    <string name="non_zero_assets">0이 아닌 자산</string>
+    <string name="non_zero_assets">보유 자산</string>
     <string name="opened">열림</string>
     <string name="unopened">열리지 않음</string>
-    <string name="permanently_open">영구적 열림</string>
+    <string name="permanently_open">열림 (항상)</string>
     <string name="token_exchange_support_content">현재 토큰은 %1$s 만 지원합니다</string>
     <string name="persist_fingerprint_6">지문이 변경되면 앱을 다시 실행해야 합니다.</string>
 
@@ -1265,10 +1265,10 @@
     <string name="red_packet_receive_by_other">랜덤 보상이 모두 지급되었습니다. 분발하세요! </string>
 
     <!-- 创建群组-->
-    <string name="create_fail">만들기 실패 : %1$s </string>
-    <string name="team_name_hint">그룹 이름을 설정합니다 (최대 20자) </string>
+    <string name="create_fail">생성 실패 : %1$s </string>
+    <string name="team_name_hint">그룹 이름 최대 20자 입니다 </string>
     <string name="team_desc">그룹 소개</string>
-    <string name="team_desc_hint">그룹에 대한 간략한 소개 (최대 250단어)</string>
+    <string name="team_desc_hint">그룹 소개는 최대 250자 입니다</string>
     <string name="create_now">지금 생성</string>
 
     <!-- team -->
@@ -1312,17 +1312,17 @@
     <string name="use_tp_scan">코드를 스캔하여 그룹 채팅에 참여하기 </string>
     <string name="share_qrcode"> QR 코드 공유 </string>
     <string name="save_info"> 저장 </string>
-    <string name="info_empty"> 정보는 비워 둘 수 없습니다. </string>
-    <string name="mute_user_message"> 메시지 방해 금지 </string>
+    <string name="info_empty"> 정보가 입력되지 않았습니다 </string>
+    <string name="mute_user_message"> 무음 </string>
     <string name="user_details"> 세부 정보 </string>
     <string name="follow_list"> 내 관심사 </string>
     <string name="confirm_count"> 확인 (%1$d) </string>
-    <string name="auth_tips"> 채팅은 계정에 밀접하게 연결되어 있으므로 처음 사용하기 전에 인증해야합니다. </string>
+    <string name="auth_tips"> 채팅을 사용하기 위해선 인증을 하셔야 합니다 </string>
     <string name="start_auth"> 검증 시작 </string>
     <string name="please_auth"> 먼저 지갑의 채팅 페이지에서 로그인을 승인하십시오</string>
     <string name="join_chat"> 채팅 참여 </string>
     <string name="recent_red_content"> [TP 랜덤 보상] %1$s </string>
-    <string name="red_packet_chain_wrong"> 현재의 랜덤 보상은 %1$s 의 바닥이어서 받을 수 없습니다 </string>
+    <string name="red_packet_chain_wrong"> 현재의 랜덤 보상은 %1$s 로 수령이 불가합니다 </string>
     <string name="received_red_packet_tip"> %1$s 님이 랜덤 보상을 받았습니다 </string>
     <string name="im_pin"> 고정 </string>
     <string name="im_unpin"> 고정 해제 </string>
@@ -1454,7 +1454,7 @@
     <string name="import_phone_email_desc">전화 번호 / 이메일 인증 통해 계정 로그인</string>
     <string name="import_pk_title">프라이빗 키 불러 오기</string>
     <string name="import_pk_desc">프라이빗 키를 입력하거나 QR 코드를 스캔하여 블러 오기 </string>
-    <string name="import_observe_title">관측 계정 모드 </string>
+    <string name="import_observe_title">관전 계정 모드 </string>
     <string name="import_observe_desc">계정 또는 퍼블릭 키를 입력하고 불러올 수 있습니다. 프라이빗 키를 입력 할 필요가 없습니다</string>
     <string name="import_cold_title">콜드 계정</string>
     <string name="import_cold_desc">프라이빗 키가 네트워크에 연결되지 않게 계정 불러오기 </string>
@@ -1471,9 +1471,9 @@
     <string name="input_captcha_hint">인증 코드를 입력하십시오</string>
     <string name="phone_register_terms">%1$s 과 %2$s 에 동의하며 가입합니다.</string>
     <string name="your_account_title">계정명 </string>
-    <string name="your_phone_title">휴대전화 번호</string>
+    <string name="your_phone_title">핸드폰 번호</string>
     <string name="your_email_title">이메일</string>
-    <string name="create_code_register">활성화 코드로 등록</string>
+    <string name="create_code_register">활성 코드로 등록</string>
     <string name="click_to_get"> 클릭하여 받기</string>
     <string name="activate_now">활성화하기</string>
     <string name="payment_contact_tips">문제 발생시 저희에게 연락해 주십시오</string>
@@ -1481,7 +1481,7 @@
 
     <string name="select_country_region">국가 및 지역 선택</string>
     <string name="use_email">이메일 사용</string>
-    <string name="use_phone">휴대전화 번호 사용</string>
+    <string name="use_phone">핸드폰 번호 사용</string>
     <string name="countdown_">%1$s 초</string>
     <string name="captcha_send">인증 코드 전송 완료</string>
     <string name="captcha_used">인증 코드가 만료되었거나 잘못되었습니다. 다시 확인하십시오.</string>
@@ -1494,10 +1494,10 @@
     <string name="captcha">인증 코드</string>
     <string name="link">링크</string>
 
-    <string name="tp_recover_permission">TP 회복 권한</string>
+    <string name="tp_recover_permission">TP 복구</string>
 
-    <string name="what_tp_permission">TP 회복 권한이란 무엇입니까?</string>
-    <string name="tp_permission_desc">휴대 전화 번호를 등록한 사용자는 TP 희복 권한 갖고 있습니다. TP 희복 권한은 소유자 권한에 속합니다. 만약 사용자가 프라이빗 키를 잃어버려도 휴대인증 방식으로 복구할 수 있습니다. \n단 사용자가 이 권한을 삭제했거나 이 권한의 순위 이하가 되면, 프라이빗 키 복구가 불가능 합니다. 휴대 전화로 로그인 또는 회복할 때, 기존 퍼블릭 키는 교체됩니다. 신규 퍼블릭 키는 사용자에 의해 업로드 됩니다.</string>
+    <string name="what_tp_permission">TP 복구란 무엇입니까?</string>
+    <string name="tp_permission_desc">핸드폰 번호를 통해 가입한 유저는 TP 복구를 이용하실 수 있습니다. 소유자 권한으로 TP 복구가 가능합니다. 프라이빗 키를 잃어버린 경우 사용자는 핸드폰 인증을 통해 프라이빗 키를 복구할 수 있습니다. 만약 유저가 권한을 삭제하거나 권한을 가지고 있지 않은 경우 TP는 프라이빗 키 복구가 불가능합니다. 핸드폰으로 로그인하거나 계정을 복구한 경우 새로운 퍼블릭 키로 변경됩니다.</string>
     <string name="igas_title">iGAS</string>
     <string name="iram_title">iRAM</string>
     <string name="buy_iram">iRAM 구입</string>
@@ -1506,8 +1506,8 @@
     <string name="iost_resource_tips"> 구매 및 판매 작업은 리소스를 소비하므로 iGAS 및 iRAM 리소스가 충분한지 주의하십시오 </string>
     <string name="contract_action"> 컨트랙트 액션 </string>
 
-    <string name="delete_tp_permission_tips_not_backup">프라이빗 키를 백업하지 않았습니다.이 권한을 삭제하기 전에 백업 하십시오.</string>
-    <string name="delete_tp_permission_tips">이 권한을 삭제하면 TP는 모바일 / 메일 인증 방식에 통해 프라이빗 키를 회복하는 것을 도와 드릴 수 없습니다. 삭제 하시겠습니까?</string>
+    <string name="delete_tp_permission_tips_not_backup">프라이빗 키가 백업되지 않았습니다.이 권한을 삭제하기 전에 백업 하십시오.</string>
+    <string name="delete_tp_permission_tips">이 권한을 삭제하면 TP복구를 이용하여 모바일 / 메일 인증 방식에 통해 프라이빗 키를 복구할 수 없습니다. 삭제 하시겠습니까?</string>
     <string name="account_permission_wrong">계정 권한이 잘못되었습니다.</string>
 
     <string name="message_transfer_tip">[송금] %1$s</string>
@@ -1543,8 +1543,8 @@
     <string name="pwd_week">약함</string>
     <string name="pwd_medium">보통</string>
     <string name="pwd_strong">강함</string>
-    <string name="activation_code_error">활성화 코드 오류</string>
-    <string name="activation_code_inconsistent">활성화 코드가 기본 코드와 일치하지 않습니다.</string>
+    <string name="activation_code_error">활성 코드 오류</string>
+    <string name="activation_code_inconsistent">활성 코드가 기본 코드와 일치하지 않습니다.</string>
 
     <string name="account_length_hint_iost">5–11자리의 계정명</string>
     <string name="account_length_hint_eos">12 자리의 계정명</string>
@@ -1554,10 +1554,10 @@
     <string name="submit">제출</string>
 
     <string name="use_fingerprint_unlock">지문을 사용하여 잠금 해제</string>
-    <string name="activation_code_invalid">활성화 코드 불유효</string>
+    <string name="activation_code_invalid">활성 코드 불유효</string>
 
-    <string name="activation_code_used">활성화 코드가 이미 사용 중입니다.</string>
-    <string name="activation_code_unpay">활성화 코드가 지불되지 않았습니다.</string>
+    <string name="activation_code_used">활성 코드가 이미 사용 중입니다.</string>
+    <string name="activation_code_unpay">활성 코드가 지불되지 않았습니다.</string>
     <string name="calculate_ram_fail">RAM 수를 계산하지 못했습니다.</string>
     <string name="update_status_fail">상태 업데이트 실패</string>
 
@@ -1585,7 +1585,7 @@
     <string name="fail_to_startchat">채팅 들어가기 실패했습니다</string>
     <string name="blockchain_error">기본 정보 오류</string>
 
-    <string name="session_type_error">타입 오류</string>
+    <string name="session_type_error">세션 종류 오류</string>
 
     <string name="scan_qrcode">스캔 QR 코드</string>
     <string name="old_version">이전 버전으로 돌아 가기</string>
@@ -1602,7 +1602,7 @@
     <string name="node_speed">노드 속도</string>
     <string name="eos_authority_source_hint">EOS Authority의 데이터</string>
 
-    <string name="node_existed_hint">노드가 이미 있습니다. 반복해서 추가하지 마십시오.</string>
+    <string name="node_existed_hint">노드가 이미 존재합니다.</string>
     <string name="article">기사</string>
 
     <string name="current_blockchain">현재 블록 체인</string>
@@ -1616,7 +1616,7 @@
     <string name="selected">선택됨</string>
 
     <string name="be_proxy">프록시가 됩니다</string>
-    <string name="memo_too_large">memo 너무 깁니다.</string>
+    <string name="memo_too_large">메모의 길이가 기준을 넘었습니다</string>
     <string name="invalid_amount">수량 오류</string>
     <string name="ram_amount_error">최소 트랜잭션 RAM 단위는 10 bytes 입니다.</string>
     <string name="sell_ram_not_enough"> 사용 가능한 RAM 수가 부족합니다</string>
@@ -1662,16 +1662,16 @@
     <string name="confirm_and_close">확인</string>
     <string name="custom_account">맞춤 계정</string>
     <string name="random_batch_account">무작위 배치 계정</string>
-    <string name="batch_import_tips">생성 생성 후 자동으로 입력 하시겠습니까？</string>
-    <string name="account_upgrade">계정 업그레이드</string>
-    <string name="account_upgrade_title">성공적으로 백업 했으므로 파트너 계정을 페이지의 개인 계정으로 업그레이드하는 데 도움을 줍니다</string>
-    <string name="account_upgrade_title_tips">업그레이드하기 전에 주의 사항을 주의 깊게 읽으십시오 ：</string>
-    <string name="account_upgrade_tips_one">이 업그레이드는 TP 복구 권한을 제거합니다. 제거한 후에는 휴대 전화 번호를 사용하여 다시 로그인 할 수 없습니다.</string>
+    <string name="batch_import_tips">계성 생성 후 자동으로 입력 하시겠습니까？</string>
+    <string name="account_upgrade">계정 업데이트</string>
+    <string name="account_upgrade_title">성공적으로 백업 했으므로 파트너 계정을 페이지의 개인 계정으로 업데이트하는 데 도움을 줍니다</string>
+    <string name="account_upgrade_title_tips">업데이트하기 전에 주의 사항을 주의 깊게 읽으십시오 ：</string>
+    <string name="account_upgrade_tips_one">이 업데이트는 TP 복구 권한을 제거합니다. 제거한 후에는 휴대 전화 번호를 사용하여 다시 로그인 할 수 없습니다.</string>
     <string name="account_upgrade_tips_two">TP 복구 권한을 제거한 후에는 방금 백업 한 개인 키를 사용하여 계정을 가져올 수 있습니다. 개인 키가 저장되었는지 확인하십시오</string>
-    <string name="account_upgrade_tips_three">이번에 계정을 업그레이드하지 않은 경우 다음에 휴대 전화 번호로 로그인하면 방금 백업 한 개인 키가 유효하지 않게됩니다。</string>
-    <string name="read_tips">위의 내용을주의 깊게 읽고 계정 업그레이드를 이해했습니다</string>
+    <string name="account_upgrade_tips_three">이번에 계정을 업데이트하지 않은 경우 다음에 휴대 전화 번호로 로그인하면 방금 백업 한 개인 키가 유효하지 않게됩니다。</string>
+    <string name="read_tips">위의 내용을주의 깊게 읽고 계정 업데이트를 이해했습니다</string>
     <string name="remind_nexttime">다음에</string>
-    <string name="partner_account_upgrade_tips">현재 자산 할당량이 %1$d %2$s 초과이므로 TP 월렛은 파트너 계정에서 개인 계정으로 업그레이드 할 것을 권장합니다</string>
+    <string name="partner_account_upgrade_tips">현재 자산 할당량이 %1$d %2$s 초과이므로 TP 월렛은 파트너 계정에서 개인 계정으로 업데이트 할 것을 권장합니다</string>
     <string name="transfer_risk">계약 업무에는 송금이 포함되며, 금액은 %1$s입니다. 위험에 주의하십시오</string>
     <string name="no_confirm_before_exit">이 계약 작업은 지갑을 나가기 전에 더 이상 수동으로 확인하지 않아도됩니다</string>
     <string name="search_node_account">노드 또는 계정 검색</string>
